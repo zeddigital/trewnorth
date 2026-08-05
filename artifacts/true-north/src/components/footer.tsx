@@ -130,9 +130,11 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-secondary-foreground/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-secondary-foreground/60">
+        {/* Stacks until xl so both iPad orientations (768 and 1024) get one
+            item per line; only true desktop widths use the single row. */}
+        <div className="border-t border-secondary-foreground/10 mt-12 pt-8 flex flex-col xl:flex-row justify-between items-center gap-4 text-center xl:text-left text-sm text-secondary-foreground/60">
           <p>&copy; {currentYear} Trew North Accounting. All rights reserved.</p>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-col xl:flex-row items-center gap-4">
             <p>Proudly serving Melbourne small businesses since 2015</p>
             <a
               href="https://7marketing.com.au/"
