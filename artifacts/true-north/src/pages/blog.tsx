@@ -18,6 +18,14 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/victoria-payroll-tax',
+    category: 'Payroll',
+    title: 'Victorian Payroll Tax: A 2026 Guide for Melbourne Small Business',
+    excerpt: 'When payroll tax applies, the current $1,000,000 threshold and 4.85% rate, grouping rules, exemptions, and worked examples.',
+    date: '5 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/property-investment-using-superannuation',
     category: 'Superannuation',
     title: 'Your Guide to Property Investment Using Superannuation',
@@ -224,6 +232,7 @@ const posts: Post[] = [
 
 const categoryColors: Record<string, string> = {
   'Tax Planning':      'bg-primary/10 text-primary',
+  'Payroll':           'bg-primary/10 text-primary',
   'Bookkeeping':       'bg-cta/10 text-cta',
   'Business Planning': 'bg-primary/10 text-primary',
   'Small Business':    'bg-primary/10 text-primary',

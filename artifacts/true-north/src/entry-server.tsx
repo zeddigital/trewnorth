@@ -41,6 +41,7 @@ import BlogPostInvestmentPropertyTaxDeductions from '@/pages/blog-post-investmen
 import BlogPostHowToSalarySacrificeSuper from '@/pages/blog-post-how-to-salary-sacrifice-super';
 import BlogPostPaydaySuper2026 from '@/pages/blog-post-payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow';
 import BlogPostAtoSuperClearingHouseClosing from '@/pages/blog-post-the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026';
+import BlogPostVictoriaPayrollTax from '@/pages/blog-post-victoria-payroll-tax';
 import Suburbs from '@/pages/suburbs';
 import SuburbBrighton from '@/pages/suburb-brighton';
 import SuburbCheltenham from '@/pages/suburb-cheltenham';
@@ -136,6 +137,7 @@ export function render(path: string): {
             path="/blog/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
+          <Route path="/blog/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
           <Route path="/blog/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
           <Route path="/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026" component={BlogPostAtoSuperClearingHouseClosing} />
           <Route path="/blog/tax-deductions-sole-trader" component={BlogPostTaxDeductionsSoleTrader} />
