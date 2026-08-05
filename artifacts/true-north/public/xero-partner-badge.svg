@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" fill="none">
+  <!-- Xero Partner badge -->
+  <rect width="160" height="60" rx="4" fill="#13B5EA"/>
+  <!-- Xero wordmark -->
+  <text x="14" y="36" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">xero</text>
+  <!-- Divider -->
+  <rect x="82" y="12" width="1.5" height="36" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Right text -->
+  <text x="92" y="26" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">CERTIFIED</text>
+  <text x="92" y="39" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">PARTNER</text>
+  <text x="92" y="51" font-family="Arial, sans-serif" font-size="7" fill="#FFFFFF" opacity="0.8" letter-spacing="0.3">ADVISOR</text>
+</svg>

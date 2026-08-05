@@ -1,0 +1,37 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "RBI-01tOpRhfzQE8DgvVM"
+uri = "file://artifacts/true-north/public/personal-tax-bentleigh.jpg"
+type = "image"
+title = "Bentleigh"
+description = "Personal tax section photo – Bentleigh"
+
+[[outputs]]
+id = "15bWAm1_1EWoFgcdvJ99f"
+uri = "file://artifacts/true-north/public/personal-tax-braeside.jpg"
+type = "image"
+title = "Braeside"
+description = "Personal tax section photo – Braeside"
+
+[[outputs]]
+id = "FaIkL9mpWAuE1sqfzTSpt"
+uri = "file://artifacts/true-north/public/personal-tax-brighton.jpg"
+type = "image"
+title = "Brighton"
+description = "Personal tax section photo – Brighton"
+
+[[outputs]]
+id = "2C-qBUnwqvZBEcJOIgNIy"
+uri = "file://artifacts/true-north/public/personal-tax-moorabbin.jpg"
+type = "image"
+title = "Moorabbin"
+description = "Personal tax section photo – Moorabbin"
+
+[[outputs]]
+id = "Mgwnb25PuaOf9686-sMuB"
+uri = "file://artifacts/true-north/public/personal-tax-mordialloc.jpg"
+type = "image"
+title = "Mordialloc"
+description = "Personal tax section photo – Mordialloc"

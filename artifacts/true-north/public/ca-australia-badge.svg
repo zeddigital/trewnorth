@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 60" fill="none">
+  <!-- CA Australia / Chartered Accountants ANZ badge -->
+  <rect width="160" height="60" rx="4" fill="#003087"/>
+  <!-- CA monogram -->
+  <text x="12" y="38" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#FFFFFF">CA</text>
+  <!-- Divider -->
+  <rect x="58" y="12" width="1.5" height="36" fill="#FFFFFF" opacity="0.4"/>
+  <!-- Right text -->
+  <text x="68" y="24" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">CHARTERED</text>
+  <text x="68" y="35" font-family="Arial, sans-serif" font-size="8" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">ACCOUNTANTS</text>
+  <text x="68" y="46" font-family="Arial, sans-serif" font-size="7.5" fill="#FFFFFF" opacity="0.85" letter-spacing="0.3">AUSTRALIA &amp; NEW ZEALAND</text>
+</svg>

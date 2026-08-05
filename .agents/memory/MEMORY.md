@@ -1,0 +1,2 @@
+- [Font setup](font-setup.md) — original vs current font pairing; user may want to revert to Cormorant Garamond + DM Sans
+- [Accessibility revert values](accessibility-revert-values.md) — original CSS variable values before WCAG 2.2 AA fix; exact revert instructions per change

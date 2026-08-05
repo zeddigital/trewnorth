@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "True North Accounting"
+version = "1.0.0"
+id = "artifacts/true-north"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25318
+
+[services.development]
+run = "pnpm --filter @workspace/true-north run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/true-north", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/true-north/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25318"
+BASE_PATH = "/"

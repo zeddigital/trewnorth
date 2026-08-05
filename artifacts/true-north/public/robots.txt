@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Beneficial AI retrieval agents — welcome
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Sitemap
+Sitemap: https://tnaccounting.com.au/sitemap.xml
