@@ -75,8 +75,6 @@ export default function ServicePersonalTaxAndFinance() {
         ]}
       />
       <Navbar />
-      <ServiceBreadcrumb serviceName="Personal Tax and Finance" />
-
       {/* ── HERO ── */}
       <section className="relative min-h-[72vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -95,6 +93,7 @@ export default function ServicePersonalTaxAndFinance() {
         <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-40 w-full">
           <div className="max-w-xl">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.9, ease: 'easeOut' }}>
+              <ServiceBreadcrumb serviceName="Personal Tax and Finance" />
               <p className="text-primary font-medium tracking-widest text-sm uppercase mb-5">Our Services</p>
               <h1 className="font-serif font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.08] text-white mb-6">
                 Personal Tax<br />& Finance

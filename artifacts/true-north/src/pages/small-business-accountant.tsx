@@ -273,8 +273,6 @@ export default function SmallBusinessAccountant() {
         ]}
       />
       <Navbar />
-      <ServiceBreadcrumb serviceName="Small Business Accountant" />
-
       {/* ── HERO ── */}
       <section className="relative min-h-[75vh] flex items-center overflow-hidden">
         {/* Left dark panel */}
@@ -301,6 +299,7 @@ export default function SmallBusinessAccountant() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.9, ease: 'easeOut' }}
             >
+              <ServiceBreadcrumb serviceName="Small Business Accountant" />
               <p className="text-primary font-medium tracking-widest text-sm uppercase mb-5">
                 Melbourne Small Business
               </p>
