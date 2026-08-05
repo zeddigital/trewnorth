@@ -22,7 +22,37 @@ import BlogPostTradies from '@/pages/blog-post-tradies';
 import BlogPostBookkeepingTips from '@/pages/blog-post-bookkeeping-tips';
 import BlogPostAISmallBusiness from '@/pages/blog-post-ai-small-business';
 import BlogPostGrants2025 from '@/pages/blog-post-grants-2025';
+import BlogPostSuccessionPlanningForSmallBusinesses from '@/pages/blog-post-succession-planning-for-small-businesses';
+import BlogPost10WaysToReduceYourBusinessTaxBill from '@/pages/blog-post-10-ways-to-reduce-your-business-tax-bill';
+import BlogPostNavigatingThe2025TaxChanges from '@/pages/blog-post-navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know';
+import BlogPostHowToPayYourselfAsABusinessOwner from '@/pages/blog-post-how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags';
+import BlogPostStrategicPlanForSmallBusiness from '@/pages/blog-post-strategic-plan-for-small-business';
+import BlogPostBusinessStructuresProsCons from '@/pages/blog-post-business-structures-pros-cons';
+import BlogPostBestMelbourneAccountants2024 from '@/pages/blog-post-your-guide-to-the-best-melbourne-accountants-in-2024';
+import BlogPostHowToHandleAtoAuditLetter from '@/pages/blog-post-how-to-handle-an-ato-audit-letter-step-by-step-guide';
+import BlogPostCashFlowProblems from '@/pages/blog-post-cash-flow-problems-in-small-business';
+import BlogPostBestAccountingSoftware from '@/pages/blog-post-best-accounting-software-for-small-business-australia';
+import BlogPostTaxDeductionsSoleTrader from '@/pages/blog-post-tax-deductions-sole-trader';
+import BlogPostTaxReturnDeadline from '@/pages/blog-post-tax-return-deadline';
+import BlogPostSalarySacrificeIsItWorthIt from '@/pages/blog-post-salary-sacrifice-is-it-worth-it';
+import BlogPostPropertyInvestmentSuperannuation from '@/pages/blog-post-property-investment-using-superannuation';
+import BlogPostDiscretionaryTrustVsFamilyTrust from '@/pages/blog-post-discretionary-trust-vs-family-trust';
+import BlogPostInvestmentPropertyTaxDeductions from '@/pages/blog-post-investment-property-tax-deductions-australia';
+import BlogPostHowToSalarySacrificeSuper from '@/pages/blog-post-how-to-salary-sacrifice-super';
+import BlogPostPaydaySuper2026 from '@/pages/blog-post-payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow';
+import BlogPostAtoSuperClearingHouseClosing from '@/pages/blog-post-the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026';
 import Suburbs from '@/pages/suburbs';
+import SuburbBrighton from '@/pages/suburb-brighton';
+import SuburbCheltenham from '@/pages/suburb-cheltenham';
+import SuburbMoorabbin from '@/pages/suburb-moorabbin';
+import SuburbBentleigh from '@/pages/suburb-bentleigh';
+import SuburbMordialloc from '@/pages/suburb-mordialloc';
+import SuburbParkdale from '@/pages/suburb-parkdale';
+import SuburbBraeside from '@/pages/suburb-braeside';
+import SuburbSandringham from '@/pages/suburb-sandringham';
+import ServiceAreas from '@/pages/service-areas';
+import PrivacyPolicy from '@/pages/privacy-policy';
+import TermsConditions from '@/pages/terms-conditions';
 
 /**
  * Create a static wouter location hook that works in React 18 SSR.
@@ -106,6 +136,38 @@ export function render(path: string): {
             path="/blog/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
+          <Route path="/blog/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
+          <Route path="/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026" component={BlogPostAtoSuperClearingHouseClosing} />
+          <Route path="/blog/tax-deductions-sole-trader" component={BlogPostTaxDeductionsSoleTrader} />
+          <Route path="/blog/how-to-salary-sacrifice-super" component={BlogPostHowToSalarySacrificeSuper} />
+          <Route path="/blog/tax-return-deadline" component={BlogPostTaxReturnDeadline} />
+          <Route path="/blog/discretionary-trust-vs-family-trust" component={BlogPostDiscretionaryTrustVsFamilyTrust} />
+          <Route path="/blog/investment-property-tax-deductions-australia" component={BlogPostInvestmentPropertyTaxDeductions} />
+          <Route path="/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow" component={BlogPostPaydaySuper2026} />
+          <Route path="/blog/salary-sacrifice-is-it-worth-it" component={BlogPostSalarySacrificeIsItWorthIt} />
+          <Route path="/blog/cash-flow-problems-in-small-business" component={BlogPostCashFlowProblems} />
+          <Route path="/blog/best-accounting-software-for-small-business-australia" component={BlogPostBestAccountingSoftware} />
+          <Route path="/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags" component={BlogPostHowToPayYourselfAsABusinessOwner} />
+          <Route path="/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know" component={BlogPostNavigatingThe2025TaxChanges} />
+          <Route path="/blog/10-ways-to-reduce-your-business-tax-bill" component={BlogPost10WaysToReduceYourBusinessTaxBill} />
+          <Route path="/blog/succession-planning-for-small-businesses" component={BlogPostSuccessionPlanningForSmallBusinesses} />
+          <Route path="/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide" component={BlogPostHowToHandleAtoAuditLetter} />
+          <Route path="/blog/your-guide-to-the-best-melbourne-accountants-in-2024" component={BlogPostBestMelbourneAccountants2024} />
+          <Route path="/blog/strategic-plan-for-small-business" component={BlogPostStrategicPlanForSmallBusiness} />
+          <Route path="/blog/business-structures-pros-cons" component={BlogPostBusinessStructuresProsCons} />
+
+          <Route path="/accountant-in-brighton" component={SuburbBrighton} />
+          <Route path="/accountant-in-cheltenham" component={SuburbCheltenham} />
+          <Route path="/accountant-in-moorabbin" component={SuburbMoorabbin} />
+          <Route path="/accountant-in-bentleigh" component={SuburbBentleigh} />
+          <Route path="/accountant-in-mordialloc" component={SuburbMordialloc} />
+          <Route path="/accountant-in-parkdale" component={SuburbParkdale} />
+          <Route path="/accountant-in-braeside" component={SuburbBraeside} />
+          <Route path="/accountant-in-sandringham" component={SuburbSandringham} />
+          <Route path="/service-areas" component={ServiceAreas} />
+
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-conditions" component={TermsConditions} />
         </Switch>
       </WouterRouter>
     </HelmetProvider>,
