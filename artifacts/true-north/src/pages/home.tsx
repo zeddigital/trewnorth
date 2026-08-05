@@ -97,7 +97,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="Small Business Accountant Melbourne | Trew North Accounting"
+        title="Trew North Accounting | Chartered Accountants, Bayside Melbourne"
         description="Trew North Accounting is Melbourne's trusted small business accountant in Beaumaris. Tax planning, bookkeeping, SMSF and strategic advice for ambitious business owners."
         canonical="/"
         schema={[localBusinessSchema, websiteSchema]}
