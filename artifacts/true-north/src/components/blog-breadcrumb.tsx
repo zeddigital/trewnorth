@@ -12,42 +12,37 @@ interface BlogBreadcrumbProps {
  */
 export function BlogBreadcrumb({ postTitle }: BlogBreadcrumbProps) {
   return (
-    <nav
-      aria-label="Breadcrumb"
-      className="mt-20 bg-muted/40 border-b border-border"
-    >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        <ol className="flex items-center gap-1.5 text-sm flex-wrap">
+    <nav aria-label="Breadcrumb" className="mb-5">
+      <ol className="flex items-center gap-1 sm:gap-1.5 text-xs sm:text-sm flex-wrap text-foreground/60">
           <li>
             <Link
               href="/"
-              className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
+              className="flex items-center gap-1 hover:text-primary transition-colors"
             >
-              <Home className="h-3.5 w-3.5" />
+              <Home className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
               <span>Home</span>
             </Link>
           </li>
           <li aria-hidden="true">
-            <ChevronRight className="h-3.5 w-3.5 text-muted-foreground/50" />
+            <ChevronRight className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-foreground/30" />
           </li>
           <li>
             <Link
               href="/blog"
-              className="text-muted-foreground hover:text-foreground transition-colors"
+              className="hover:text-primary transition-colors"
             >
               Blog
             </Link>
           </li>
           <li aria-hidden="true">
-            <ChevronRight className="h-3.5 w-3.5 text-muted-foreground/50" />
+            <ChevronRight className="h-3 w-3 sm:h-3.5 sm:w-3.5 text-foreground/30" />
           </li>
           <li>
-            <span className="text-foreground font-medium" aria-current="page">
+            <span className="text-foreground/85 font-medium" aria-current="page">
               {postTitle}
             </span>
           </li>
-        </ol>
-      </div>
+      </ol>
     </nav>
   );
 }

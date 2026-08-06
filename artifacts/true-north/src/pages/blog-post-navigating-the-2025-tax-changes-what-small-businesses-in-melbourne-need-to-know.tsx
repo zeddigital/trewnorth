@@ -210,8 +210,6 @@ export default function BlogPostNavigatingThe2025TaxChangesWhatSmallBusinessesIn
         ]}
       />
       <Navbar />
-      <BlogBreadcrumb postTitle="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know" />
-
       {/* Hero */}
       <section className="pt-32 pb-12 sm:pt-40 sm:pb-16 bg-muted/40 border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -221,6 +219,7 @@ export default function BlogPostNavigatingThe2025TaxChangesWhatSmallBusinessesIn
             transition={{ duration: 0.7 }}
             className="max-w-3xl"
           >
+            <BlogBreadcrumb postTitle="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know" />
             <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline mb-6">
               <ArrowLeft className="h-4 w-4" /> Back to articles
             </Link>

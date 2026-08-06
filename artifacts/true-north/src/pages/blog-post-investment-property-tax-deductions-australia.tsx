@@ -45,8 +45,6 @@ export default function BlogPostInvestmentPropertyTaxDeductionsAustralia() {
         ]}
       />
       <Navbar />
-      <BlogBreadcrumb postTitle="Your Guide to Investment Property Tax Deductions in Australia" />
-
       {/* Hero */}
       <section className="pt-32 pb-12 sm:pt-40 sm:pb-16 bg-muted/40 border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -56,6 +54,7 @@ export default function BlogPostInvestmentPropertyTaxDeductionsAustralia() {
             transition={{ duration: 0.7 }}
             className="max-w-3xl"
           >
+            <BlogBreadcrumb postTitle="Your Guide to Investment Property Tax Deductions in Australia" />
             <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm text-primary hover:underline mb-6">
               <ArrowLeft className="h-4 w-4" /> Back to articles
             </Link>

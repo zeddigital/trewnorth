@@ -73,8 +73,6 @@ export default function BlogPostInterestRates() {
         ]}
       />
       <Navbar />
-      <BlogBreadcrumb postTitle="The Impact of Rising Interest Rates on Small Businesses" />
-
       {/* ── Hero ── */}
       <section className="pt-32 pb-12 sm:pt-40 sm:pb-16 bg-muted/40 border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -286,6 +284,7 @@ export default function BlogPostInterestRates() {
 
               {/* Bottom nav */}
               <div className="mt-14 pt-8 border-t border-border flex items-center justify-between">
+                <BlogBreadcrumb postTitle="The Impact of Rising Interest Rates on Small Businesses" />
                 <Link href="/blog" className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground/60 hover:text-primary transition-colors">
                   <ArrowLeft className="h-4 w-4" /> All articles
                 </Link>

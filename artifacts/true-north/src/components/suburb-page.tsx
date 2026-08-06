@@ -121,8 +121,6 @@ export default function SuburbPage({
       />
       <Navbar />
 
-      <SuburbBreadcrumb suburbName={suburb} />
-
       {/* ── HERO ── */}
       <section className="relative min-h-[72vh] flex items-center overflow-hidden">
         {/* Left dark pane */}
@@ -164,6 +162,7 @@ export default function SuburbPage({
             transition={{ duration: 0.9, ease: 'easeOut' }}
             className="max-w-xl"
           >
+            <SuburbBreadcrumb suburbName={suburb} />
             <div className="flex items-center gap-2 mb-5">
               <MapPin className="h-4 w-4 text-primary" />
               <p className="text-primary font-medium tracking-widest text-sm uppercase">
