@@ -132,13 +132,15 @@ export default function ServiceSelfManagedSuperFunds() {
         <div className="absolute inset-0 z-0">
           <div className="h-full w-full lg:w-1/2 bg-secondary" />
         </div>
+        {/* Hero image. Scoped to the right half rather than spanning the
+            section and being clipped, so `cover` is measured against this
+            box and the 1024px source is not upscaled to the full width. */}
         <div
-          className="absolute inset-0 z-0 hidden lg:block"
+          className="absolute inset-y-0 right-0 w-1/2 z-0 hidden lg:block"
           style={{
             backgroundImage: `url(/hero-self-managed-super-funds.jpg)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            clipPath: 'inset(0 0 0 50%)',
           }}
         />
         <div className="absolute inset-0 z-10 hidden lg:block bg-gradient-to-r from-secondary via-secondary/85 to-transparent" style={{ width: '65%' }} />

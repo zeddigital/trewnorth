@@ -280,13 +280,15 @@ export default function SmallBusinessAccountant() {
           <div className="h-full w-full lg:w-1/2 bg-secondary" />
         </div>
         {/* Right image panel */}
+        {/* Hero image. Scoped to the right half rather than spanning the
+            section and being clipped, so `cover` is measured against this
+            box and the 1024px source is not upscaled to the full width. */}
         <div
-          className="absolute inset-0 z-0 hidden lg:block"
+          className="absolute inset-y-0 right-0 w-1/2 z-0 hidden lg:block"
           style={{
             backgroundImage: `url(${import.meta.env.BASE_URL}hero-compass.jpg)`,
             backgroundSize: 'cover',
             backgroundPosition: 'center 35%',
-            clipPath: 'inset(0 0 0 50%)',
           }}
         />
         {/* Blend overlay at the midpoint */}
