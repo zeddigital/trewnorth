@@ -32,7 +32,9 @@ const contactDetails = [
   {
     icon: MapPin,
     label: 'Office',
-    value: '14 Keys Street, Beaumaris VIC 3193',
+    // Non-breaking space keeps the postcode with the state, so the four-column
+    // layout breaks after "Beaumaris" rather than orphaning "3193".
+    value: '14 Keys Street, Beaumaris VIC\u00A03193',
     href: 'https://maps.app.goo.gl/Ue9ZC41Q5Z2ZiF2B8',
   },
   {
@@ -127,10 +129,22 @@ export default function Contact() {
       <section className="bg-primary">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Dark navy text on cyan — ~7.2:1 contrast. Original used white/white-70 which was ~2.4:1 (WCAG fail). */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-secondary/20">
+          {/* One column on phones, two on tablets, four on desktop.
+              Rules are drawn per cell rather than with divide-x, which follows
+              DOM order and so hangs a stray vertical line at the start of the
+              second row once the grid wraps. Here the top border separates
+              stacked rows and the left border separates columns, each turned
+              off at the breakpoint where it would sit on an outside edge. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {contactDetails.map(({ icon: Icon, label, value, href }) => (
-              <div key={label} className="px-6 py-5 flex items-center gap-3">
-                <Icon className="h-5 w-5 text-secondary/60 flex-shrink-0" aria-hidden="true" />
+              <div
+                key={label}
+                className="px-6 py-5 flex items-start gap-3 border-secondary/20
+                           border-t first:border-t-0
+                           sm:[&:nth-child(-n+2)]:border-t-0 sm:[&:nth-child(even)]:border-l
+                           lg:border-t-0 lg:[&:not(:first-child)]:border-l"
+              >
+                <Icon className="h-5 w-5 text-secondary/60 flex-shrink-0 mt-0.5" aria-hidden="true" />
                 <div className="min-w-0">
                   <p className="text-secondary/60 text-xs uppercase tracking-wider mb-0.5">{label}</p>
                   {href ? (
@@ -138,12 +152,12 @@ export default function Contact() {
                       href={href}
                       target={href.startsWith('http') ? '_blank' : undefined}
                       rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      className="text-secondary text-sm font-medium hover:text-secondary/70 transition-colors truncate block"
+                      className="text-secondary text-sm font-medium hover:text-secondary/70 transition-colors block break-words"
                     >
                       {value}
                     </a>
                   ) : (
-                    <p className="text-secondary text-sm font-medium truncate">{value}</p>
+                    <p className="text-secondary text-sm font-medium break-words">{value}</p>
                   )}
                 </div>
               </div>
