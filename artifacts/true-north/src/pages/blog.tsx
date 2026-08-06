@@ -231,6 +231,7 @@ const posts: Post[] = [
   // ── Older ──
   {
     href: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
+    image: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes.webp',
     category: 'Tax Planning',
     title: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid',
     excerpt: 'Maximise your tax benefits and steer clear of common bookkeeping pitfalls with these essential tips for Melbourne tradies.',
