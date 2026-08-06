@@ -99,7 +99,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
               className={`text-sm font-medium transition-colors ${
                 !isLight
                   ? location === '/' ? 'text-white' : 'text-white/70 hover:text-white'
-                  : location === '/' ? 'text-foreground' : 'text-muted-foreground hover:text-primary'
+                  : location === '/' ? 'text-foreground' : 'text-foreground/75 hover:text-primary'
               }`}
               data-testid="link-nav-home"
             >
@@ -121,7 +121,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
                   className={`text-sm font-medium transition-colors ${
                     !isLight
                       ? isServicesActive ? 'text-white' : 'text-white/70 hover:text-white'
-                      : isServicesActive ? 'text-foreground' : 'text-muted-foreground hover:text-primary'
+                      : isServicesActive ? 'text-foreground' : 'text-foreground/75 hover:text-primary'
                   }`}
                   data-testid="link-nav-services"
                 >
@@ -135,7 +135,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
                   aria-label="Toggle services submenu"
                   onClick={() => servicesDropdownOpen ? setServicesDropdownOpen(false) : openDropdown()}
                   className={`p-1 rounded transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring ${
-                    !isLight ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-primary'
+                    !isLight ? 'text-white/70 hover:text-white' : 'text-foreground/75 hover:text-primary'
                   }`}
                 >
                   <ChevronDown
@@ -209,7 +209,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
                 className={`text-sm font-medium transition-colors ${
                   !isLight
                     ? location === item.href ? 'text-white' : 'text-white/70 hover:text-white'
-                    : location === item.href ? 'text-foreground' : 'text-muted-foreground hover:text-primary'
+                    : location === item.href ? 'text-foreground' : 'text-foreground/75 hover:text-primary'
                 }`}
                 data-testid={`link-nav-${item.name.toLowerCase()}`}
               >
@@ -217,7 +217,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
               </Link>
             ))}
 
-            <Button asChild size="sm" className="btn-cta" data-testid="button-cta-consultation">
+            <Button asChild size="sm" className={isLight ? 'btn-cta-invert' : 'btn-cta'} data-testid="button-cta-consultation">
               <Link href="/contact">Book a Consultation</Link>
             </Button>
           </div>
@@ -305,7 +305,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="block px-3 py-2.5 rounded-lg text-base font-medium text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+                  className="block px-3 py-2.5 rounded-lg text-base font-medium text-foreground/75 hover:text-foreground hover:bg-muted transition-colors"
                   data-testid={`link-mobile-${item.name.toLowerCase()}`}
                 >
                   {item.name}
@@ -313,7 +313,7 @@ export function Navbar({ darkHero = false }: NavbarProps) {
               ))}
 
               <div className="pt-3">
-                <Button asChild className="w-full btn-cta" data-testid="button-mobile-cta">
+                <Button asChild className="w-full btn-cta-invert" data-testid="button-mobile-cta">
                   <Link href="/contact">Book a Consultation</Link>
                 </Button>
               </div>

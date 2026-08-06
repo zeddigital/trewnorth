@@ -551,3 +551,26 @@
 .btn-cta:hover svg {
   transform: translateX(5px);
 }
+
+/**
+ * Inverted CTA, for use on the light header and any other pale surface where
+ * an orange fill sits too quietly. Navy by default, orange on hover, white
+ * label throughout — the reverse of .btn-cta, which starts orange.
+ */
+.btn-cta-invert {
+  background-color: hsl(var(--secondary)) !important;
+  color: #ffffff !important;
+  border: none !important;
+  transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease !important;
+}
+.btn-cta-invert:hover {
+  background-color: hsl(var(--cta)) !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+.btn-cta-invert svg {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.btn-cta-invert:hover svg {
+  transform: translateX(5px);
+}
