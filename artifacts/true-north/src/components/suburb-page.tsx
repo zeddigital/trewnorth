@@ -127,15 +127,18 @@ export default function SuburbPage({
         <div className="absolute inset-0 z-0">
           <div className="h-full w-full lg:w-1/2 bg-secondary" />
         </div>
-        {/* Right photo pane (desktop only) */}
+        {/* Right photo pane (desktop only). The box is the right half rather
+            than the full section clipped down to it, so `cover` is measured
+            against roughly half the width and the 1024px source is not
+            upscaled. Stays a CSS background: below lg the box is display:none
+            and the file is never fetched, which an img element would not do. */}
         {heroImage && (
           <div
-            className="absolute inset-0 z-0 hidden lg:block"
+            className="absolute inset-y-0 right-0 w-1/2 z-0 hidden lg:block"
             style={{
               backgroundImage: `url(${heroImage})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
-              clipPath: 'inset(0 0 0 50%)',
             }}
           />
         )}
