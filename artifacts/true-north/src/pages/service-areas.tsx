@@ -193,7 +193,7 @@ export default function ServiceAreas() {
             Just get in touch. Darren works with businesses and individuals from all over
             Melbourne's Bayside and south-east corridor.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-6 sm:flex-row sm:gap-4 justify-center">
             <BookConsultation><Button size="lg" className="btn-cta">Book a Free Consultation</Button></BookConsultation>
             <Button asChild size="lg" variant="outline" className="border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10">
               <a href="tel:0411732966">Call 0411 732 966</a>

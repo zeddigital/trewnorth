@@ -179,7 +179,7 @@ export default function SuburbPage({
             <p className="text-lg text-white/75 leading-relaxed mb-10 max-w-xl">
               If you're searching for an Accountant in {suburb} that blends technical expertise, strong interpersonal skills, and a deep understanding of financial regulations — the search is over.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
               <BookConsultation><Button size="lg" className="text-base btn-cta">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -443,7 +443,7 @@ export default function SuburbPage({
             <p className="text-lg text-white/70 leading-relaxed mb-10">
               Join hundreds of business owners across Bayside Melbourne who trust Trew North Accounting for their tax, bookkeeping, and super needs.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col gap-6 sm:flex-row sm:gap-4 justify-center">
               <BookConsultation><Button size="lg" className="text-base btn-cta">
                   Schedule My Free Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />

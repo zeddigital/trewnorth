@@ -22,7 +22,7 @@ export function BlogCTA() {
           <p className="text-white/65 text-lg leading-relaxed mb-10 max-w-xl mx-auto">
             Book a free 30-minute consultation with Darren. No obligation, no jargon — just clear, practical advice tailored to your situation.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-6 sm:flex-row sm:gap-4 justify-center">
             <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Book a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
               </Button></BookConsultation>

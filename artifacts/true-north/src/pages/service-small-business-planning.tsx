@@ -101,7 +101,7 @@ export default function ServiceSmallBusinessPlanning() {
               <p className="text-lg text-white/75 leading-relaxed mb-10">
                 Every small business needs help along the way. The old saying is true — "If you fail to plan then you plan to fail." We prepare quarterly cash flow statements, strategic plans, and 12–24 month forecasts to help your business prosper.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Button></BookConsultation>

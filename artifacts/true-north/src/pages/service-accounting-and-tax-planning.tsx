@@ -93,7 +93,7 @@ export default function ServiceAccountingTaxPlanning() {
               <p className="text-lg text-white/75 leading-relaxed mb-10">
                 Save more on taxes, spend less on accounting. As Melbourne based small business accountants, we'll cover what income is taxed, what your business can write off, and how to make smarter financial decisions all year round.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
                   </Button></BookConsultation>
@@ -203,7 +203,7 @@ export default function ServiceAccountingTaxPlanning() {
             <p className="text-lg text-white/70 mb-10">
               Join hundreds of business owners who trust Trew North Accounting
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col gap-6 sm:flex-row sm:gap-4 justify-center">
               {steps.map((s, i) => (
                 <div key={s} className="flex items-center gap-2 text-white/80 text-sm">
                   <span className="w-9 h-9 rounded-full bg-cta flex items-center justify-center text-sm font-bold text-secondary flex-shrink-0">{i + 1}</span>

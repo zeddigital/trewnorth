@@ -132,7 +132,7 @@ export default function Suburbs() {
             Darren works with businesses and individuals from all over Melbourne's Bayside and
             south-east corridor. Get in touch to discuss how we can help you.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col gap-6 sm:flex-row sm:gap-4 justify-center">
             <BookConsultation><Button size="lg" className="btn-cta">Book a Free Consultation</Button></BookConsultation>
             <Button
               asChild
