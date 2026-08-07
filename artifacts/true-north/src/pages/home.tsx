@@ -131,7 +131,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.1 }}
-                className="text-primary font-medium tracking-widest text-sm uppercase mb-6"
+                className="text-primary font-medium tracking-widest text-sm uppercase mb-6 2xl:mb-8"
               >
                 Melbourne Small Business Accountants
               </motion.p>
@@ -140,7 +140,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.9, delay: 0.2 }}
-                className="font-serif font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.08] text-white mb-7"
+                className="font-serif font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.08] text-white mb-7 2xl:mb-12"
               >
                 Find your business's<br />
                 <span className="text-primary">true direction.</span>
@@ -150,7 +150,7 @@ export default function Home() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.35 }}
-                className="text-xl sm:text-2xl text-white/75 leading-relaxed mb-10 max-w-xl"
+                className="text-xl sm:text-2xl text-white/75 leading-relaxed mb-10 2xl:mb-16 max-w-xl"
               >
                 The accounting firm Melbourne's sharpest small business owners choose when they are ready for strategic partnership, not just compliance.
               </motion.p>
@@ -161,10 +161,12 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.5 }}
                 className="flex flex-col sm:flex-row gap-4"
               >
-                <BookConsultation><Button size="lg" className="text-base btn-cta shadow-lg shadow-cta/20" data-testid="button-hero-consultation">
+                <BookConsultation>
+                  <Button size="lg" className="text-base btn-cta shadow-lg shadow-cta/20" data-testid="button-hero-consultation">
                     Book a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button></BookConsultation>
+                  </Button>
+                </BookConsultation>
                 <Button
                   asChild
                   variant="outline"
