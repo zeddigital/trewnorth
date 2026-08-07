@@ -7,6 +7,7 @@ import { Footer } from '@/components/footer';
 import { BlogCTA } from '@/components/blog-cta';
 import { SEOHead, blogPostingSchema, breadcrumbSchema } from '@/components/seo-head';
 import { BlogBreadcrumb } from '@/components/blog-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 const toc = [
   { id: 'h-what-victorian-payroll-tax-actually-is', label: 'What Victorian Payroll Tax Actually Is' },
@@ -177,7 +178,7 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 
 <hr>
 <p>Payroll tax is a milestone worth planning for rather than reacting to. If your wage bill is approaching $1,000,000, or you run multiple entities and are unsure whether grouping applies, that is the right moment to get advice — not after an assessment arrives.</p>
-<p>Trew North Accounting works with growing Melbourne businesses on exactly this. See our <a href="/services/bookkeeping">bookkeeping</a> and <a href="/services/small-business-accountant">small business accounting</a> services, or <a href="/contact">book a free consultation</a> to talk it through.</p>`;
+<p>Trew North Accounting works with growing Melbourne businesses on exactly this. See our <a href="/services/bookkeeping">bookkeeping</a> and <a href="/services/small-business-accountant">small business accounting</a> services, or <a href="/contact">get in touch</a> to talk it through.</p>`;
 
 const TITLE = 'Victorian Payroll Tax: A 2026 Guide for Melbourne Small Business';
 const DESCRIPTION =
@@ -281,12 +282,10 @@ export default function BlogPostVictoriaPayrollTax() {
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
                     Get specific advice for your business — not generic answers.
                   </p>
-                  <Button asChild size="sm" className="w-full btn-cta">
-                    <Link href="/contact">
+                  <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation
                       <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                    </Link>
-                  </Button>
+                    </Button></BookConsultation>
                 </div>
               </div>
             </aside>

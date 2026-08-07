@@ -13,6 +13,7 @@ import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema } from '@/components/seo-head';
+import { BookConsultation } from '@/components/book-consultation';
 
 const services = [
   {
@@ -191,12 +192,10 @@ export default function Services() {
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Every business is different. Book a free consultation and we'll build a service package that fits your exact situation.
             </p>
-            <Button asChild size="lg" className="text-base btn-cta" data-testid="button-services-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta" data-testid="button-services-cta">
                 Book a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

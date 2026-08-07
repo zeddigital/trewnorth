@@ -45,24 +45,6 @@ const contactDetails = [
   },
 ];
 
-const expectations = [
-  {
-    step: '01',
-    title: 'Free 30-minute consultation',
-    body: 'No cost, no obligation. We listen to your situation and tell you exactly where we can help.',
-  },
-  {
-    step: '02',
-    title: 'Clear proposal',
-    body: 'You receive a plain-English proposal outlining scope and fixed fees — no surprises.',
-  },
-  {
-    step: '03',
-    title: 'Seamless onboarding',
-    body: 'We handle the transition from your previous accountant. You barely lift a finger.',
-  },
-];
-
 export default function Contact() {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [formData, setFormData] = useState({
@@ -86,8 +68,8 @@ export default function Contact() {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title="Contact Trew North Accounting | Book a Free Consultation"
-        description="Book a free consultation with Trew North Accounting in Beaumaris, Melbourne. Call 0411 732 966 or email darren@tnaccounting.com.au. We respond within one business day."
+        title="Contact Trew North Accounting | Beaumaris, Melbourne"
+        description="Get in touch with Trew North Accounting in Beaumaris, Melbourne. Call 0411 732 966, email darren@tnaccounting.com.au, or send us a message. We respond within one business day."
         canonical="/contact"
         schema={[
           localBusinessSchema,
@@ -178,10 +160,10 @@ export default function Contact() {
               transition={{ duration: 0.7 }}
             >
               <h2 className="font-serif font-semibold text-3xl sm:text-4xl text-foreground mb-2">
-                Book a free consultation
+                Send us a message
               </h2>
               <p className="text-muted-foreground mb-8">
-                Tell us a little about your situation and we'll be in touch to arrange a time.
+                Tell us a little about your situation and we'll come back to you with the right next step.
               </p>
 
               {!formSubmitted ? (
@@ -300,7 +282,7 @@ export default function Contact() {
               )}
             </motion.div>
 
-            {/* Map + What to expect */}
+            {/* Map */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -330,25 +312,6 @@ export default function Contact() {
                 <MapPin className="h-4 w-4" /> 14 Keys Street, Beaumaris VIC 3193 — Get directions →
               </a>
 
-              {/* What to expect */}
-              <div>
-                <h3 className="font-serif font-semibold text-2xl text-foreground mb-6">
-                  What to expect
-                </h3>
-                <div className="space-y-6">
-                  {expectations.map((item) => (
-                    <div key={item.step} className="flex gap-5">
-                      <span className="font-serif font-semibold text-3xl leading-none text-primary/50 flex-shrink-0 w-10 text-right">
-                        {item.step}
-                      </span>
-                      <div>
-                        <h4 className="font-semibold text-foreground mb-1">{item.title}</h4>
-                        <p className="text-sm text-muted-foreground leading-relaxed">{item.body}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </motion.div>
 
           </div>

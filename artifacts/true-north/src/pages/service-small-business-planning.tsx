@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Link } from 'wouter';
 import {
   TrendingUp, Cpu, DollarSign, Target, BarChart3, Shield,
   Users, ArrowRight, CheckCircle2, Phone,
@@ -9,6 +8,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema, serviceSchema } from '@/components/seo-head';
 import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 const features = [
   { icon: TrendingUp,  title: 'Experienced Specialists',  body: 'Over 20 years in small business. We have seen every challenge — and we help you navigate them with confidence.' },
@@ -102,11 +102,9 @@ export default function ServiceSmallBusinessPlanning() {
                 Every small business needs help along the way. The old saying is true — "If you fail to plan then you plan to fail." We prepare quarterly cash flow statements, strategic plans, and 12–24 month forecasts to help your business prosper.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base btn-cta">
-                  <Link href="/contact">
+                <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                  </Button></BookConsultation>
                 <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15">
                   <a href="tel:0411732966"><Phone className="mr-2 h-4 w-4" />0411 732 966</a>
                 </Button>
@@ -218,11 +216,9 @@ export default function ServiceSmallBusinessPlanning() {
                 </div>
               ))}
             </div>
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Schedule My First Consultation <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

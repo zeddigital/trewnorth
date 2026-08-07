@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import { Link } from 'wouter';
 import { ArrowRight, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { BookConsultation } from '@/components/book-consultation';
 
 export function BlogCTA() {
   return (
@@ -23,11 +23,9 @@ export function BlogCTA() {
             Book a free 30-minute consultation with Darren. No obligation, no jargon — just clear, practical advice tailored to your situation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Book a Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
             <Button
               asChild
               variant="outline"

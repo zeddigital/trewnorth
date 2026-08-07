@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { Link } from 'wouter';
 import { Award, ArrowRight, BadgeCheck, PhoneCall, Clock3, Lightbulb, Target, Heart, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema, personSchema } from '@/components/seo-head';
+import { BookConsultation } from '@/components/book-consultation';
 
 const values = [
   {
@@ -325,17 +325,14 @@ export default function About() {
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
               Book a free 30-minute consultation with Darren. No obligation, no hard sell — just an honest conversation about your situation and how Trew North can help.
             </p>
-            <Button
-              asChild
+            <BookConsultation><Button
               size="lg"
               className="text-base btn-cta"
               data-testid="button-about-cta"
             >
-              <Link href="/contact">
                 Book a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" aria-hidden="true" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

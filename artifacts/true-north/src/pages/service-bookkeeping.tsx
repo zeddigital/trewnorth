@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { Link } from 'wouter';
 import {
   BookOpen, DollarSign, Calculator, CheckCircle2, ArrowRight, Phone,
   FileText, Clock, Shield,
@@ -9,6 +8,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema, serviceSchema } from '@/components/seo-head';
 import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 const features = [
   {
@@ -98,11 +98,9 @@ export default function ServiceBookkeeping() {
                 Get your books organised. Accuracy guaranteed. Let's face it — when you get home after a long day at work, doing your books is the last thing on your mind. Let us handle it all.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base btn-cta">
-                  <Link href="/contact">
+                <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                  </Button></BookConsultation>
                 <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15">
                   <a href="tel:0411732966"><Phone className="mr-2 h-4 w-4" />0411 732 966</a>
                 </Button>
@@ -207,11 +205,9 @@ export default function ServiceBookkeeping() {
                 </div>
               ))}
             </div>
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Schedule My First Consultation <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

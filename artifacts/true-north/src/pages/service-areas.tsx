@@ -5,6 +5,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead } from '@/components/seo-head';
 import { Button } from '@/components/ui/button';
+import { BookConsultation } from '@/components/book-consultation';
 import { suburbs } from '@/data/suburbs-data';
 
 const schemaData = {
@@ -161,11 +162,9 @@ export default function ServiceAreas() {
                 advising small businesses across the Bayside corridor — which means faster,
                 sharper advice with no learning curve about your local market.
               </p>
-              <Button asChild className="btn-cta">
-                <Link href="/contact">
+              <BookConsultation><Button className="btn-cta">
                   Book a free consultation <ArrowRight className="h-4 w-4 ml-1.5" aria-hidden="true" />
-                </Link>
-              </Button>
+                </Button></BookConsultation>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
@@ -195,9 +194,7 @@ export default function ServiceAreas() {
             Melbourne's Bayside and south-east corridor.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="btn-cta">
-              <Link href="/contact">Book a Free Consultation</Link>
-            </Button>
+            <BookConsultation><Button size="lg" className="btn-cta">Book a Free Consultation</Button></BookConsultation>
             <Button asChild size="lg" variant="outline" className="border-secondary-foreground/30 text-secondary-foreground hover:bg-secondary-foreground/10">
               <a href="tel:0411732966">Call 0411 732 966</a>
             </Button>

@@ -7,6 +7,7 @@ import { Footer } from '@/components/footer';
 import { BlogCTA } from '@/components/blog-cta';
 import { SEOHead, blogPostingSchema, breadcrumbSchema, faqSchema } from '@/components/seo-head';
 import { BlogBreadcrumb } from '@/components/blog-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 const toc = [
   { id: 'introduction',        label: 'Introduction to rising interest rates' },
@@ -326,9 +327,7 @@ export default function BlogPostInterestRates() {
                   <p className="text-secondary-foreground/75 text-sm leading-relaxed mb-5">
                     We can review your loan structure and cash flow to help you navigate higher interest costs. Book a free consultation with Darren.
                   </p>
-                  <Button asChild size="sm" className="w-full btn-cta">
-                    <Link href="/contact">Book a free consultation</Link>
-                  </Button>
+                  <BookConsultation><Button size="sm" className="w-full btn-cta">Book a free consultation</Button></BookConsultation>
                 </div>
 
               </div>

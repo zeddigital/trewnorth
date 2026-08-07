@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'wouter';
 import {
   Shield, ShieldCheck, SlidersHorizontal, DollarSign, Leaf, Users2, Lock,
   Star, ArrowRight, Phone, Plus, Minus, TrendingUp, Receipt, Settings2, PiggyBank,
@@ -10,6 +9,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, faqSchema, breadcrumbSchema, serviceSchema } from '@/components/seo-head';
 import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 const benefits = [
   {
@@ -156,11 +156,9 @@ export default function ServiceSelfManagedSuperFunds() {
                 Take control of your financial future with an SMSF. We specialise in helping Melbourne small business owners establish and manage their super funds efficiently — with full compliance and maximum flexibility.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base btn-cta">
-                  <Link href="/contact">
+                <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                  </Button></BookConsultation>
                 <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15">
                   <a href="tel:0411732966"><Phone className="mr-2 h-4 w-4" />0411 732 966</a>
                 </Button>
@@ -300,11 +298,9 @@ export default function ServiceSelfManagedSuperFunds() {
               Join hundreds of business owners who trust Trew North Accounting with their SMSF
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base btn-cta">
-                <Link href="/contact">
+              <BookConsultation><Button size="lg" className="text-base btn-cta">
                   Schedule My Consultation <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+                </Button></BookConsultation>
               <Button asChild variant="outline" size="lg" className="text-base">
                 <a href="tel:0411732966"><Phone className="mr-2 h-4 w-4" />0411 732 966</a>
               </Button>

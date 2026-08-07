@@ -14,6 +14,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { BlogCTA } from '@/components/blog-cta';
 import { BlogBreadcrumb } from '@/components/blog-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 export interface DraftBlogPostProps {
   slug: string;
@@ -134,12 +135,10 @@ export default function DraftBlogPost({
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
                     Get specific advice for your business — not generic answers.
                   </p>
-                  <Button asChild size="sm" className="w-full btn-cta">
-                    <Link href="/contact">
+                  <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation
                       <ArrowRight className="ml-2 h-4 w-4" aria-hidden="true" />
-                    </Link>
-                  </Button>
+                    </Button></BookConsultation>
                 </div>
               </div>
             </aside>

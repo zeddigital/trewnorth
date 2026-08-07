@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema } from '@/components/seo-head';
+import { BookConsultation } from '@/components/book-consultation';
 
 type Post = {
   href: string;
@@ -480,12 +481,10 @@ export default function Blog() {
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Every business is different. Book a free consultation and get specific answers for your exact situation.
             </p>
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Book a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

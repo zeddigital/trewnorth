@@ -16,6 +16,7 @@ import { Footer } from '@/components/footer';
 import { SEOHead, localBusinessSchema, websiteSchema } from '@/components/seo-head';
 import { ServiceCard } from '@/components/service-card';
 import { TestimonialCard } from '@/components/testimonial-card';
+import { BookConsultation } from '@/components/book-consultation';
 
 const services = [
   {
@@ -160,12 +161,10 @@ export default function Home() {
                 transition={{ duration: 0.8, delay: 0.5 }}
                 className="flex flex-col sm:flex-row gap-4"
               >
-                <Button asChild size="lg" className="text-base btn-cta shadow-lg shadow-cta/20" data-testid="button-hero-consultation">
-                  <Link href="/contact">
+                <BookConsultation><Button size="lg" className="text-base btn-cta shadow-lg shadow-cta/20" data-testid="button-hero-consultation">
                     Book a Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                  </Button></BookConsultation>
                 <Button
                   asChild
                   variant="outline"
@@ -305,12 +304,10 @@ export default function Home() {
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
               Book a free consultation with our team. We'll review your current situation and show you what's possible when you have the right accounting partner.
             </p>
-            <Button asChild size="lg" className="text-base btn-cta" data-testid="button-cta-book">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta" data-testid="button-cta-book">
                 Book Your Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

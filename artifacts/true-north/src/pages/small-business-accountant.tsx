@@ -30,6 +30,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, faqSchema, breadcrumbSchema, serviceSchema } from '@/components/seo-head';
 import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 /* ─── Service mini-grid ─── */
 const relatedServices = [
@@ -312,12 +313,10 @@ export default function SmallBusinessAccountant() {
                 If you're searching for a Small Business Accountant in Melbourne that possesses a blend of technical expertise, strong interpersonal skills, and a deep understanding of financial regulations and business practices — the search is over.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="text-base btn-cta">
-                  <Link href="/contact">
+                <BookConsultation><Button size="lg" className="text-base btn-cta">
                     Schedule Free Consultation
                     <ArrowRight className="ml-2 h-5 w-5" />
-                  </Link>
-                </Button>
+                  </Button></BookConsultation>
                 <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15 hover:border-white/50">
                   <Link href="/about">More About Us →</Link>
                 </Button>
@@ -468,12 +467,10 @@ export default function SmallBusinessAccountant() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="flex-shrink-0"
             >
-              <Button asChild size="lg" className="text-base btn-cta whitespace-nowrap">
-                <Link href="/contact">
+              <BookConsultation><Button size="lg" className="text-base btn-cta whitespace-nowrap">
                   Schedule My First Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+                </Button></BookConsultation>
             </motion.div>
           </div>
         </div>
@@ -650,12 +647,10 @@ export default function SmallBusinessAccountant() {
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Join hundreds of business owners who trust Trew North Accounting. Book your free consultation and let's talk through what's possible.
             </p>
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Schedule My First Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>

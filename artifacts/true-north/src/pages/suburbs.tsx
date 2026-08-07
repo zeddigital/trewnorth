@@ -5,6 +5,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema } from '@/components/seo-head';
 import { Button } from '@/components/ui/button';
+import { BookConsultation } from '@/components/book-consultation';
 import { suburbs } from '@/data/suburbs-data';
 
 const cardVariants = {
@@ -132,9 +133,7 @@ export default function Suburbs() {
             south-east corridor. Get in touch to discuss how we can help you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="btn-cta">
-              <Link href="/contact">Book a Free Consultation</Link>
-            </Button>
+            <BookConsultation><Button size="lg" className="btn-cta">Book a Free Consultation</Button></BookConsultation>
             <Button
               asChild
               size="lg"

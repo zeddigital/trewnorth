@@ -11,6 +11,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { SEOHead, breadcrumbSchema, serviceSchema, localBusinessSchemaForSuburb } from '@/components/seo-head';
 import { SuburbBreadcrumb } from '@/components/suburb-breadcrumb';
+import { BookConsultation } from '@/components/book-consultation';
 
 export interface SuburbPageProps {
   suburb: string;           // e.g. "Mordialloc"
@@ -179,12 +180,10 @@ export default function SuburbPage({
               If you're searching for an Accountant in {suburb} that blends technical expertise, strong interpersonal skills, and a deep understanding of financial regulations — the search is over.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button asChild size="lg" className="text-base btn-cta">
-                <Link href="/contact">
+              <BookConsultation><Button size="lg" className="text-base btn-cta">
                   Schedule Free Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+                </Button></BookConsultation>
               <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15 hover:border-white/50">
                 <a href="tel:0411732966">
                   <Phone className="mr-2 h-4 w-4" />
@@ -445,12 +444,10 @@ export default function SuburbPage({
               Join hundreds of business owners across Bayside Melbourne who trust Trew North Accounting for their tax, bookkeeping, and super needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="text-base btn-cta">
-                <Link href="/contact">
+              <BookConsultation><Button size="lg" className="text-base btn-cta">
                   Schedule My Free Consultation
                   <ArrowRight className="ml-2 h-5 w-5" />
-                </Link>
-              </Button>
+                </Button></BookConsultation>
               <Button asChild variant="outline" size="lg" className="text-base border-white/30 text-white bg-white/5 hover:bg-white/15 hover:border-white/50">
                 <a href="tel:0411732966">
                   <Phone className="mr-2 h-4 w-4" />

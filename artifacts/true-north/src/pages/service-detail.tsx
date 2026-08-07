@@ -16,6 +16,7 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { LucideIcon } from 'lucide-react';
 import { SEOHead, breadcrumbSchema, serviceSchema } from '@/components/seo-head';
+import { BookConsultation } from '@/components/book-consultation';
 
 interface ServiceData {
   icon: LucideIcon;
@@ -374,12 +375,10 @@ export default function ServiceDetail() {
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
               Book a free consultation and let's talk through your situation. No obligation, no jargon — just a straight conversation about what's possible.
             </p>
-            <Button asChild size="lg" className="text-base btn-cta">
-              <Link href="/contact">
+            <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Book a Free Consultation
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
+              </Button></BookConsultation>
           </motion.div>
         </div>
       </section>
