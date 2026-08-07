@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'wouter';
 import { Menu, X, ChevronDown, Calculator, TrendingUp, Wallet, FileText, Shield, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { BookConsultation } from '@/components/book-consultation';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const serviceLinks = [
@@ -217,9 +218,11 @@ export function Navbar({ darkHero = false }: NavbarProps) {
               </Link>
             ))}
 
-            <Button asChild size="sm" className={isLight ? 'btn-cta-invert' : 'btn-cta'} data-testid="button-cta-consultation">
-              <Link href="/contact">Book a Consultation</Link>
-            </Button>
+            <BookConsultation>
+              <Button size="sm" className={isLight ? 'btn-cta-invert' : 'btn-cta'} data-testid="button-cta-consultation">
+                Book a Consultation
+              </Button>
+            </BookConsultation>
           </div>
 
           {/* Mobile menu button — labelled for screen readers */}
@@ -313,9 +316,11 @@ export function Navbar({ darkHero = false }: NavbarProps) {
               ))}
 
               <div className="pt-3">
-                <Button asChild className="w-full btn-cta-invert" data-testid="button-mobile-cta">
-                  <Link href="/contact">Book a Consultation</Link>
-                </Button>
+                <BookConsultation>
+                  <Button className="w-full btn-cta-invert" data-testid="button-mobile-cta">
+                    Book a Consultation
+                  </Button>
+                </BookConsultation>
               </div>
             </div>
           </motion.div>
