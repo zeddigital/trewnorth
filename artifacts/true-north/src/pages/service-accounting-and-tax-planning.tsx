@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { Link } from 'wouter';
 import {
-  Calculator, MessageCircle, UserCheck, Layers, ArrowRight, Phone,
+  MessageCircle, UserCheck, Layers, ArrowRight, Phone,
+  FileText, Wallet, Shield, TrendingUp,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/navbar';
@@ -29,6 +30,14 @@ const keys = [
     title: 'Superannuation and Retirement Planning',
     body: "Superannuation is a mandatory retirement savings scheme in Australia. Both employers and employees need to contribute correctly and on time. Effective superannuation planning offers tax benefits through concessional and non-concessional contributions. Understanding the tax implications of accessing super at retirement is crucial for long-term financial security.",
   },
+];
+
+/** Icons match the canonical set used in the navigation. */
+const relatedServices = [
+  { label: 'Bookkeeping',       href: '/services/bookkeeping',              icon: FileText },
+  { label: 'Personal Tax',      href: '/services/personal-tax-and-finance', icon: Wallet },
+  { label: 'Self-Managed Super',href: '/services/self-managed-super-funds', icon: Shield },
+  { label: 'Business Planning', href: '/services/small-business-planning',  icon: TrendingUp },
 ];
 
 const steps = [
@@ -183,16 +192,11 @@ export default function ServiceAccountingTaxPlanning() {
             Related Services
           </motion.h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              { label: 'Bookkeeping',          href: '/services/bookkeeping' },
-              { label: 'Personal Tax',          href: '/services/personal-tax-and-finance' },
-              { label: 'Self-Managed Super',    href: '/services/self-managed-super-funds' },
-              { label: 'Business Planning',     href: '/services/small-business-planning' },
-            ].map((s) => (
-              <Link key={s.href} href={s.href}>
+            {relatedServices.map(({ label, href, icon: Icon }) => (
+              <Link key={href} href={href}>
                 <div className="group bg-background border border-border rounded-xl p-4 text-center hover:border-primary/40 hover:shadow-md transition-all duration-300 cursor-pointer">
-                  <Calculator className="h-5 w-5 text-primary mx-auto mb-2" />
-                  <span className="font-medium text-foreground text-sm">{s.label}</span>
+                  <Icon className="h-5 w-5 text-primary mx-auto mb-2" aria-hidden="true" />
+                  <span className="font-medium text-foreground text-sm">{label}</span>
                 </div>
               </Link>
             ))}

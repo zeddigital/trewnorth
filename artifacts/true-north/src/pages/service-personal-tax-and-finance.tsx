@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import {
   MessageCircle, UserCheck, Layers, ArrowRight, Phone,
   ReceiptText, PiggyBank, CreditCard, CheckCircle2,
+  FileText, Home, TrendingUp, Wallet, CalendarDays, Percent, LineChart,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Navbar } from '@/components/navbar';
@@ -39,6 +40,18 @@ const keys = [
     body: "Debt management is a crucial aspect of personal finance. Whether it's a mortgage, credit card, or personal loan — understanding the interest rates, repayment terms, and potential tax implications is important. In Australia, interest on a home loan for your primary residence is not tax-deductible, but interest on loans for investment properties or business purposes may be. We help you manage debt wisely and consider consolidation options where appropriate.",
     checklist: [],
   },
+];
+
+/** Each tile carries an icon that describes its own service. */
+const covered = [
+  { label: 'Personal Tax Returns',    icon: FileText },
+  { label: 'Investment Property Tax', icon: Home },
+  { label: 'Capital Gains Tax',       icon: TrendingUp },
+  { label: 'Salary Packaging',        icon: Wallet },
+  { label: 'Superannuation Advice',   icon: PiggyBank },
+  { label: 'Retirement Planning',     icon: CalendarDays },
+  { label: 'Deductions Maximised',    icon: Percent },
+  { label: 'Wealth Management',       icon: LineChart },
 ];
 
 const steps = [
@@ -206,21 +219,17 @@ export default function ServicePersonalTaxAndFinance() {
             Personal Tax Services We Cover
           </motion.h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              'Personal Tax Returns', 'Investment Property Tax', 'Capital Gains Tax',
-              'Salary Packaging', 'Superannuation Advice', 'Retirement Planning',
-              'Deductions Maximised', 'Wealth Management',
-            ].map((s, i) => (
+            {covered.map(({ label, icon: Icon }, i) => (
               <motion.div
-                key={s}
+                key={label}
                 initial={{ opacity: 0, scale: 0.96 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.05 }}
                 className="bg-background rounded-xl border border-border p-4 text-center"
               >
-                <CheckCircle2 className="h-5 w-5 text-primary mx-auto mb-2" />
-                <p className="font-medium text-foreground text-sm">{s}</p>
+                <Icon className="h-5 w-5 text-primary mx-auto mb-2" aria-hidden="true" />
+                <p className="font-medium text-foreground text-sm">{label}</p>
               </motion.div>
             ))}
           </div>
