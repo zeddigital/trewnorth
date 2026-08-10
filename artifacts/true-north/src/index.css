@@ -340,6 +340,17 @@
     font-family: var(--app-font-serif);
     font-weight: 600;
     letter-spacing: -0.03em;
+    /* Even out the line lengths so a heading never drops one word onto a
+       line of its own. Browsers cap this at a few lines, so long headings
+       are unaffected. */
+    text-wrap: balance;
+  }
+
+  /* Body copy keeps its normal line breaking; `pretty` only adjusts the last
+     lines to avoid stranding a single word. Unsupported browsers fall back to
+     normal wrapping. */
+  p, li, blockquote, figcaption {
+    text-wrap: pretty;
   }
 
   button, [role="button"] {
