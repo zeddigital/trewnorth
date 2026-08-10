@@ -189,7 +189,7 @@ export default function Services() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl mb-6">
               Let's discuss your needs
             </h2>
-            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Every business is different. Book a free consultation and we'll build a service package that fits your exact situation.
             </p>
             <BookConsultation><Button size="lg" className="text-base btn-cta" data-testid="button-services-cta">

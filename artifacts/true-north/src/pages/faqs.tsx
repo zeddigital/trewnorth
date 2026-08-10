@@ -214,7 +214,7 @@ export default function FAQs() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl mb-6">
               Still have questions?
             </h2>
-            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Book a free 30-minute consultation and we'll answer anything you need — no obligation, no jargon.
             </p>
             <Button asChild size="lg" className="text-base btn-cta">

@@ -195,7 +195,7 @@ export default function Home() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl text-foreground mb-4">
               Why Trew North
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
               We are different because we believe accountants should be growth partners, not just tax lodgers.
             </p>
           </motion.div>
@@ -237,7 +237,7 @@ export default function Home() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl text-foreground mb-4">
               How We Help
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
               Comprehensive accounting services designed for ambitious Melbourne small businesses.
             </p>
           </motion.div>
@@ -278,7 +278,7 @@ export default function Home() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl mb-4">
               What Our Clients Say
             </h2>
-            <p className="text-lg text-secondary-foreground/80 max-w-2xl mx-auto">
+            <p className="text-lg text-secondary-foreground/80 max-w-2xl mx-auto text-balance">
               Melbourne business owners who've made the switch to Trew North.
             </p>
           </motion.div>
@@ -303,7 +303,7 @@ export default function Home() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl text-foreground mb-6">
               Ready to find clarity?
             </h2>
-            <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Book a free consultation with our team. We'll review your current situation and show you what's possible when you have the right accounting partner.
             </p>
             <BookConsultation><Button size="lg" className="text-base btn-cta" data-testid="button-cta-book">

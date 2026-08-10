@@ -331,7 +331,7 @@ export default function ServiceDetail() {
             >
               {service.extras.map((extra, i) => (
                 <div key={i} className="bg-card border border-card-border rounded-lg p-8">
-                  <h3 className="font-semibold text-lg text-foreground mb-3">{extra.heading}</h3>
+                  <h3 className="font-serif font-semibold text-xl text-foreground mb-3">{extra.heading}</h3>
                   <p className="text-muted-foreground leading-relaxed">{extra.body}</p>
                 </div>
               ))}
@@ -372,7 +372,7 @@ export default function ServiceDetail() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl mb-6">
               Ready to get started?
             </h2>
-            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Book a free consultation and let's talk through your situation. No obligation, no jargon — just a straight conversation about what's possible.
             </p>
             <BookConsultation><Button size="lg" className="text-base btn-cta">

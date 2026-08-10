@@ -644,7 +644,7 @@ export default function SmallBusinessAccountant() {
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl mb-6">
               Ready to find clarity?
             </h2>
-            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Join hundreds of business owners who trust Trew North Accounting. Book your free consultation and let's talk through what's possible.
             </p>
             <BookConsultation><Button size="lg" className="text-base btn-cta">

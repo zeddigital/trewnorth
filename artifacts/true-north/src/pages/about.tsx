@@ -253,8 +253,8 @@ export default function About() {
                   <div className="w-11 h-11 rounded-lg bg-primary/10 flex items-center justify-center mb-6">
                     <Icon className="h-5 w-5 text-primary" aria-hidden="true" />
                   </div>
-                  <h3 className="font-semibold text-lg text-foreground mb-3">{point.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed text-sm">{point.body}</p>
+                  <h3 className="font-serif font-semibold text-xl text-foreground mb-3">{point.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{point.body}</p>
                 </motion.div>
               );
             })}
@@ -278,7 +278,7 @@ export default function About() {
             <h2 className="font-serif font-bold text-4xl sm:text-5xl text-foreground mb-4" style={{ letterSpacing: '-0.02em' }}>
               The principles behind Trew North
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
               Every client engagement, every piece of advice, every conversation is guided by these.
             </p>
           </motion.div>
@@ -299,8 +299,8 @@ export default function About() {
                     <Icon className="h-5 w-5 text-primary" aria-hidden="true" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg text-foreground mb-2">{value.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed text-sm">{value.description}</p>
+                    <h3 className="font-serif font-semibold text-xl text-foreground mb-2">{value.title}</h3>
+                    <p className="text-muted-foreground leading-relaxed">{value.description}</p>
                   </div>
                 </motion.div>
               );
@@ -322,7 +322,7 @@ export default function About() {
             <h2 className="font-serif font-bold text-4xl sm:text-5xl text-foreground mb-5" style={{ letterSpacing: '-0.02em' }}>
               Ready to work directly with your accountant?
             </h2>
-            <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
               Book a free 30-minute consultation with Darren. No obligation, no hard sell — just an honest conversation about your situation and how Trew North can help.
             </p>
             <BookConsultation><Button
