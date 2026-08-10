@@ -33,7 +33,9 @@ const buttonVariants = cva(
         // @replit changed sizes
         default: 'min-h-9 px-4 py-2',
         sm: 'min-h-8 rounded-md px-3 text-xs',
-        lg: 'min-h-10 rounded-md px-8',
+        // 48px on phones to clear the tap-target guidance, back to 40px from
+        // sm up where a pointer is doing the aiming.
+        lg: 'min-h-12 sm:min-h-10 rounded-md px-8',
         icon: 'h-9 w-9',
       },
     },
