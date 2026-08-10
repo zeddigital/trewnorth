@@ -146,7 +146,7 @@ export default function ServiceAccountingTaxPlanning() {
             Our dynamic and flexible approach helps you make better financial decisions. While working hard to minimise your tax, we provide the best proactive advice that aligns with your business and personal goals. You will gain a better understanding of your financial position and how your decisions impact the tax you pay.
           </motion.p>
 
-          <div className="space-y-8">
+          <div className="divide-y divide-border/60">
             {keys.map((k, i) => (
               <motion.div
                 key={k.title}

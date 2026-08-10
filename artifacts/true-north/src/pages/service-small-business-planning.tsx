@@ -153,7 +153,7 @@ export default function ServiceSmallBusinessPlanning() {
               Effective small business planning is essential for long-term success. Here are the five key elements we focus on with every client.
             </p>
           </motion.div>
-          <div className="space-y-8">
+          <div className="divide-y divide-border/60">
             {keys.map((k, i) => (
               <motion.div
                 key={k.title}
