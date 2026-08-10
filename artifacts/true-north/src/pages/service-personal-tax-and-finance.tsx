@@ -171,7 +171,12 @@ export default function ServicePersonalTaxAndFinance() {
                     <Icon className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground text-lg mb-3"><span className="text-primary">{i + 1}.</span> {k.title}</h3>
+                    {/* The numeral is set a step above the heading so it reads
+                        as a deliberate marker rather than punctuation. */}
+                    <h3 className="font-semibold text-foreground text-xl mb-3">
+                      <span className="text-primary text-2xl mr-1.5">{i + 1}.</span>
+                      {k.title}
+                    </h3>
                     <p className="text-muted-foreground leading-relaxed mb-4">{k.body}</p>
                     {k.checklist.length > 0 && (
                       <ul className="space-y-1">
