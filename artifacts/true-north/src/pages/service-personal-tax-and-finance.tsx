@@ -155,9 +155,8 @@ export default function ServicePersonalTaxAndFinance() {
               When managing personal tax and finance in Australia, here are the three most important things to keep in mind.
             </p>
           </motion.div>
-          <div className="space-y-12">
+          <div className="divide-y divide-border/60">
             {keys.map((k, i) => {
-              const Icon = k.icon;
               return (
                 <motion.div
                   key={k.title}
@@ -165,19 +164,23 @@ export default function ServicePersonalTaxAndFinance() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className="flex gap-6"
+                  className="grid grid-cols-[auto_1fr] gap-8 sm:gap-16 py-12 items-start group"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                    <Icon className="h-6 w-6 text-primary" />
+                  {/* Oversized number — matches the "Top 5 Reasons" treatment
+                      on the small business accountant page. */}
+                  <div className="w-20 sm:w-32 pt-1 flex-shrink-0">
+                    <span
+                      className="font-serif font-semibold leading-none select-none text-primary/20 group-hover:text-primary/40 transition-colors duration-500"
+                      style={{ fontSize: 'clamp(4rem, 7vw, 6.5rem)' }}
+                    >
+                      {String(i + 1).padStart(2, '0')}
+                    </span>
                   </div>
-                  <div>
-                    {/* The numeral is set a step above the heading so it reads
-                        as a deliberate marker rather than punctuation. */}
-                    <h3 className="font-semibold text-foreground text-xl mb-3">
-                      <span className="text-primary text-2xl mr-1.5">{i + 1}.</span>
+                  <div className="py-2">
+                    <h3 className="font-serif font-semibold text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4 leading-tight">
                       {k.title}
                     </h3>
-                    <p className="text-muted-foreground leading-relaxed mb-4">{k.body}</p>
+                    <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl mb-5">{k.body}</p>
                     {k.checklist.length > 0 && (
                       <ul className="space-y-1">
                         {k.checklist.map((item) => (

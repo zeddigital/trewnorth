@@ -154,14 +154,21 @@ export default function ServiceAccountingTaxPlanning() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.55, delay: i * 0.08 }}
-                className="flex gap-6"
+                className="grid grid-cols-[auto_1fr] gap-8 sm:gap-16 py-12 items-start group"
               >
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-bold">
-                  {i + 1}
+                {/* Oversized number — matches the "Top 5 Reasons" treatment
+                    on the small business accountant page. */}
+                <div className="w-20 sm:w-32 pt-1 flex-shrink-0">
+                  <span
+                    className="font-serif font-semibold leading-none select-none text-primary/20 group-hover:text-primary/40 transition-colors duration-500"
+                    style={{ fontSize: 'clamp(4rem, 7vw, 6.5rem)' }}
+                  >
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
                 </div>
-                <div>
-                  <h3 className="font-semibold text-foreground text-lg mb-2">{k.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{k.body}</p>
+                <div className="py-2">
+                  <h3 className="font-serif font-semibold text-2xl sm:text-3xl lg:text-4xl text-foreground mb-4 leading-tight">{k.title}</h3>
+                  <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">{k.body}</p>
                 </div>
               </motion.div>
             ))}
