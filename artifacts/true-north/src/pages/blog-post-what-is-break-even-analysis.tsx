@@ -155,7 +155,7 @@ const TITLE = 'What Is Break-Even Analysis? A Guide for Small Business';
 const DESCRIPTION =
   'How to work out the point where sales cover costs — fixed and variable costs, contribution margin, both formulas, and a worked example for a Melbourne store.';
 const SLUG = '/blog/what-is-break-even-analysis';
-const PUBLISHED = '2026-08-11';
+const PUBLISHED = '2026-08-12';
 
 export default function BlogPostWhatIsBreakEvenAnalysis() {
   return (
@@ -206,7 +206,7 @@ export default function BlogPostWhatIsBreakEvenAnalysis() {
             </h1>
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/70">
               <span className="flex items-center gap-1.5"><User className="h-4 w-4" aria-hidden="true" /> Darren Trew, CA</span>
-              <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4" aria-hidden="true" /> 11 August 2026</span>
+              <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4" aria-hidden="true" /> 12 August 2026</span>
               <span className="flex items-center gap-1.5"><Clock className="h-4 w-4" aria-hidden="true" /> 11 min read</span>
             </div>
           </motion.div>

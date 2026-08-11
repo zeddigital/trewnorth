@@ -26,7 +26,7 @@ const posts: Post[] = [
     category: 'Accounting',
     title: 'What Is Break-Even Analysis? A Guide for Small Business',
     excerpt: 'Fixed and variable costs, contribution margin, both formulas, and a worked example — the number that turns pricing and hiring calls into arithmetic.',
-    date: '11 August 2026',
+    date: '12 August 2026',
     internal: true,
   },
   {
