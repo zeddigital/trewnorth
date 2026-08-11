@@ -33,7 +33,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
 <h3>What This Guide Covers</h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>This is a comprehensive breakdown designed to give you a clear, practical understanding of what you can and can't claim. For many sole traders, the yearly task of claiming deductions is directly tied to using professional <a href="https://www.myaifrontdesk.com/other-industries/plant-nursery" target="_blank" rel="noopener noreferrer">tax preparation services</a> to get it right.</p>
+<p>This is a comprehensive breakdown designed to give you a clear, practical understanding of what you can and can't claim. For many sole traders, the yearly task of claiming deductions is directly tied to using professional tax preparation services to get it right.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Here’s a sneak peek at what you’ll learn:</p>
 <!-- /wp:paragraph --><!-- wp:list -->
@@ -209,7 +209,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li><strong>Calculate Your Business-Use Percentage:</strong> Once the 12 weeks are up, you use that data to calculate the percentage of your car's total travel that was for business. The great part is this percentage is then valid for up to five years, as long as your driving habits don't drastically change.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><strong>Track All Car Expenses:</strong> This is where the diligence comes in. You need to keep receipts for <em>all</em> vehicle costs for the entire year. We’re talking fuel, oil, registration, insurance, servicing, and even car washes. For bigger jobs like maintenance, using a professional <a href="https://www.receiptgen.com/blog/automotive-repair-receipt-template" target="_blank" rel="noopener noreferrer">automotive repair receipt template</a> can ensure you capture all the necessary details the ATO looks for.</li>
+<li><strong>Track All Car Expenses:</strong> This is where the diligence comes in. You need to keep receipts for <em>all</em> vehicle costs for the entire year. We’re talking fuel, oil, registration, insurance, servicing, and even car washes. For bigger jobs like maintenance, using a professional automotive repair receipt template can ensure you capture all the necessary details the ATO looks for.</li>
 <!-- /wp:list-item --></ol>
 <!-- /wp:list --><!-- wp:paragraph -->
 <p>With this method, you claim your calculated business-use percentage of <em>all</em> your car expenses, including depreciation on the vehicle's purchase price.</p>

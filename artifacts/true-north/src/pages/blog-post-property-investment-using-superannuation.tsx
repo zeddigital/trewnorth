@@ -187,7 +187,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:list --><!-- wp:heading {"level":3} -->
 <h3>The Buy To Let Mortgage</h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>Getting your head around how interest rates impact your ability to service the loan is also vital. You can explore our article on how small businesses can adapt to rising interest rates to get a better feel for this. Similarly, understanding the mechanics of investment lending is helpful, and a good resource on this is <a href="https://www.huntergalloway.com.au/buy-to-let-mortgage/" target="_blank" rel="noopener">Buy To Let Mortgages Explained.</a></p>
+<p>Getting your head around how interest rates impact your ability to service the loan is also vital. You can explore our article on how small businesses can adapt to rising interest rates to get a better feel for this. Similarly, understanding the mechanics of investment lending is helpful, and a good resource on this is Buy To Let Mortgages Explained.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>While the idea of using your super to buy an investment property is certainly appealing, it comes with a very strict set of rules from the Australian Taxation Office (ATO). Staying compliant isn’t just a good idea; it's a legal requirement, and the penalties for getting it wrong can be severe.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
