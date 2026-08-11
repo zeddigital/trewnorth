@@ -45,6 +45,7 @@ const BlogPostSalarySacrificeIsItWorthIt = lazy(() => import('@/pages/blog-post-
 const BlogPostPropertyInvestmentSuperannuation = lazy(() => import('@/pages/blog-post-property-investment-using-superannuation'));
 const BlogPostVictoriaPayrollTax = lazy(() => import('@/pages/blog-post-victoria-payroll-tax'));
 const BlogPostHowToReadABalanceSheet = lazy(() => import('@/pages/blog-post-how-to-read-a-balance-sheet'));
+const BlogPostWhatIsBreakEvenAnalysis = lazy(() => import('@/pages/blog-post-what-is-break-even-analysis'));
 const BlogPostDiscretionaryTrustVsFamilyTrust = lazy(() => import('@/pages/blog-post-discretionary-trust-vs-family-trust'));
 const BlogPostInvestmentPropertyTaxDeductions = lazy(() => import('@/pages/blog-post-investment-property-tax-deductions-australia'));
 const BlogPostHowToSalarySacrificeSuper = lazy(() => import('@/pages/blog-post-how-to-salary-sacrifice-super'));
@@ -193,6 +194,7 @@ function Router() {
         <Route path="/blog/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
         <Route path="/blog/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
         <Route path="/blog/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
+        <Route path="/blog/what-is-break-even-analysis" component={BlogPostWhatIsBreakEvenAnalysis} />
         <Route path="/blog/discretionary-trust-vs-family-trust" component={BlogPostDiscretionaryTrustVsFamilyTrust} />
         <Route path="/blog/investment-property-tax-deductions-australia" component={BlogPostInvestmentPropertyTaxDeductions} />
         <Route path="/blog/how-to-salary-sacrifice-super" component={BlogPostHowToSalarySacrificeSuper} />

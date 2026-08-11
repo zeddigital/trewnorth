@@ -43,6 +43,7 @@ import BlogPostPaydaySuper2026 from '@/pages/blog-post-payday-super-for-2026-the
 import BlogPostAtoSuperClearingHouseClosing from '@/pages/blog-post-the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026';
 import BlogPostVictoriaPayrollTax from '@/pages/blog-post-victoria-payroll-tax';
 import BlogPostHowToReadABalanceSheet from '@/pages/blog-post-how-to-read-a-balance-sheet';
+import BlogPostWhatIsBreakEvenAnalysis from '@/pages/blog-post-what-is-break-even-analysis';
 import Suburbs from '@/pages/suburbs';
 import SuburbBrighton from '@/pages/suburb-brighton';
 import SuburbCheltenham from '@/pages/suburb-cheltenham';
@@ -138,6 +139,7 @@ export function render(path: string): {
             path="/blog/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
+          <Route path="/blog/what-is-break-even-analysis" component={BlogPostWhatIsBreakEvenAnalysis} />
           <Route path="/blog/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
           <Route path="/blog/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
           <Route path="/blog/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />

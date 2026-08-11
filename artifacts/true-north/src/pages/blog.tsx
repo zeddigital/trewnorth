@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/what-is-break-even-analysis',
+    image: '/blog/what-is-break-even-analysis.webp',
+    category: 'Accounting',
+    title: 'What Is Break-Even Analysis? A Guide for Small Business',
+    excerpt: 'Fixed and variable costs, contribution margin, both formulas, and a worked example — the number that turns pricing and hiring calls into arithmetic.',
+    date: '11 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/how-to-read-a-balance-sheet',
     image: '/blog/how-to-read-a-balance-sheet.webp',
     category: 'Accounting',
