@@ -22,7 +22,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-is-salary-sacrificing-your-super-a-smart-move-for-">Is Salary Sacrificing Your Super a Smart Move for You?</h2>
 <!-- /wp:heading --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://tnaccounting.com.au/wp-content/uploads/2026/03/how-to-salary-sacrifice-super-salary-saving.jpg" alt="A person's hands are placing money into a green piggy bank while reviewing a salary and super document." /></figure>
+<figure><img src="/blog/how-to-salary-sacrifice-super-salary-saving.webp" alt="A person's hands are placing money into a green piggy bank while reviewing a salary and super document." /></figure>
 <!-- /wp:image --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Before you chat with your payroll team, it pays to understand what this arrangement really means for your finances. It’s an official setup where you agree to send some of your future, pre-tax income into your super. This is on top of the compulsory super guarantee contributions your employer already pays.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -64,7 +64,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-calculating-the-impact-on-your-takehome-pay">Calculating the Impact on Your Take-Home Pay</h2>
 <!-- /wp:heading --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://tnaccounting.com.au/wp-content/uploads/2026/03/how-to-salary-sacrifice-super-salary-calculation.jpg" alt="A person calculates finances using a calculator and laptop, showing 'Before' and 'After Take-home pay' spreadsheet." /></figure>
+<figure><img src="/blog/how-to-salary-sacrifice-super-salary-calculation.webp" alt="A person calculates finances using a calculator and laptop, showing 'Before' and 'After Take-home pay' spreadsheet." /></figure>
 <!-- /wp:image --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>It’s one thing to understand the benefits of salary sacrificing in theory. Seeing the real numbers hit your payslip is where it all clicks. So, let's move past the theory and look at a practical ‘before and after’ of your finances when you start salary sacrificing to super.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -131,7 +131,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <h2 id="h-understanding-the-contribution-caps-and-rules-for-">Understanding the Contribution Caps and Rules for 2026</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
 <p>To get salary sacrificing right, you first need to understand the rules of the game. This isn't just about a clever tax-saving move. It’s about making sure you stay on the right side of the Australian Taxation Office (ATO) to avoid some nasty, unexpected penalties.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/05/Contribution-Caps-and-Rules.webp" alt="To get salary sacrificing right, you first need to understand the rules of the game." width="1672" height="941" /></p>
+<p><img src="/blog/contribution-caps-and-rules.webp" alt="To get salary sacrificing right, you first need to understand the rules of the game." width="1672" height="941" /></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Think of these rules as the guardrails that keep the system fair. They prevent anyone from funnelling unlimited cash into the low-tax super environment. For anyone looking to use this strategy, getting your head around the contribution limits, or 'caps', is the most critical first step.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
@@ -231,7 +231,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:quote --><!-- wp:paragraph -->
 <p>This simple process flow shows how your sacrifice amount fits within the overall contribution cap.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://tnaccounting.com.au/wp-content/uploads/2026/03/how-to-salary-sacrifice-super-super-cap.jpg" alt="An infographic showing the super cap space calculation: Total Cap ($30,000) - Employer Pays ($15,000) = Your Space ($15,000)." /></figure>
+<figure><img src="/blog/how-to-salary-sacrifice-super-super-cap.webp" alt="An infographic showing the super cap space calculation: Total Cap ($30,000) - Employer Pays ($15,000) = Your Space ($15,000)." /></figure>
 <!-- /wp:image --><!-- wp:paragraph --><!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>The infographic illustrates that after accounting for your employer's SG contributions, the remaining amount is the 'space' you have available to salary sacrifice.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->

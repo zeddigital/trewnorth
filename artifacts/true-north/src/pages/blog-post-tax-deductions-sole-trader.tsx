@@ -23,7 +23,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <p>As a sole trader, every single dollar you spend to earn an income is a potential tax deduction. Think of it this way: <strong>tax deductions are essentially refunds on your legitimate business costs.</strong> The Australian Taxation Office (ATO) lets you claim this money back because it was necessary to run your business, which in turn lowers your taxable income and keeps more cash in your pocket.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Getting your head around the rules is the key to holding onto more of your hard-earned money.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/05/Sole-Trader-Reviewing-Tax.webp" alt="" width="1672" height="941" /></p>
+<p><img src="/blog/sole-trader-reviewing-tax.webp" alt="" width="1672" height="941" /></p>
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-your-guide-to-sole-trader-tax-deductions">Your Guide to Sole Trader Tax Deductions</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
@@ -96,7 +96,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <h2 id="h-claiming-your-daytoday-business-operating-costs">Claiming Your Day-To-Day Business Operating Costs</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
 <p>It’s the small, everyday expenses that often get missed when sole traders tally up their deductions. While a single purchase might not seem like much, these little costs can add up to a significant tax saving over the financial year. This section is your checklist for these common operating costs, making sure you claim every dollar you're entitled to.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/05/Day-To-Day-Business-Operating-Costs.webp" alt="" width="1672" height="941" /></p>
+<p><img src="/blog/day-to-day-business-operating-costs.webp" alt="" width="1672" height="941" /></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Think of these expenses as the fuel that keeps your business engine ticking over. They aren't about creating a new asset; they're the costs of handling the day-to-day activities that bring in your income. The real key here is to be meticulous with your records for every single transaction, no matter how small.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
@@ -174,7 +174,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 
 <!-- /wp:paragraph --><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://cdn.outrank.so/413aa6a2-4925-4343-93c8-fe8d0c5f2c8d/eac6706a-1a9f-4ce3-9987-bedd9952b907/tax-deductions-sole-trader-cost-decision.jpg" alt="A decision tree flowchart for operating costs. If a cost is day-to-day, claim it; otherwise, see other sections." /></figure>
+<figure><img src="/blog/tax-deductions-sole-trader-cost-decision.webp" alt="A decision tree flowchart for operating costs. If a cost is day-to-day, claim it; otherwise, see other sections." /></figure>
 <!-- /wp:image --><!-- wp:paragraph -->
 
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -252,7 +252,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-claiming-tools-equipment-and-depreciating-assets">Claiming Tools, Equipment, and Depreciating Assets</h2>
 <!-- /wp:heading --><!-- wp:paragraph /--><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://cdn.outrank.so/413aa6a2-4925-4343-93c8-fe8d0c5f2c8d/3ab42f9b-b701-4fcb-adae-8a1f321e4c03/tax-deductions-sole-trader-receipt-calculator.jpg" alt="A white desk with a DSLR camera, laptop, paper receipt, and calculator, suggesting business finances." /></figure>
+<figure><img src="/blog/tax-deductions-sole-trader-receipt-calculator.webp" alt="A white desk with a DSLR camera, laptop, paper receipt, and calculator, suggesting business finances." /></figure>
 <!-- /wp:image --><!-- wp:paragraph /--><!-- wp:paragraph -->
 <p>While day-to-day operating costs are a huge part of your deductions, what about the bigger ticket items? The new laptop, specialised machinery, or professional camera gear you need to get the job done are handled a bit differently by the ATO. These are your business assets, and you claim their cost over time through a process called <strong>depreciation</strong>.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->

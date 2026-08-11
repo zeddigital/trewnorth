@@ -20,7 +20,7 @@ const toc = [
 ];
 
 const htmlContent = `<p>It’s a frustrating and surprisingly common reality for many Australian small business owners. Your profit and loss statement says you’re making money, but your bank account is dangerously empty. This paradox is one of the biggest sources of stress for entrepreneurs, yet it’s a classic sign of underlying cash flow problems.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/02/Small-Business-Cash-Flow.webp" alt="" width="1536" height="1024" /></p>
+<p><img src="/blog/small-business-cash-flow.webp" alt="" width="1536" height="1024" /></p>
 <h2 id="h-why-profit-is-not-the-same-as-cash">Why Profit Is Not the Same as Cash</h2>
 <p>Profit is a measure of your business's performance over time, but cash is the fuel that keeps it running day-to-day. You can be profitable on paper and still run out of money to pay suppliers, staff, or your BAS obligations.</p>
 <p>This gap between recorded income and actual cash in the bank is where most financial trouble begins.</p>
@@ -44,7 +44,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 <p>Many <strong>cash flow problems in small business</strong> are just symptoms of deeper issues. Once you diagnose them properly, you can start making systematic fixes. If you just slap a patch on it without finding the root cause, you'll be dealing with the same headache again in a few months.</p>
 <p>Let's break down the most common culprits that quietly drain cash from service and retail businesses.</p>
 <p>This infographic paints a clear picture of the top three pressures hitting Australian small businesses.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/02/cash-flow-problems-in-small-business-pressures.jpg" alt="" width="1344" height="768" /></p>
+<p><img src="/blog/cash-flow-problems-in-small-business-pressures.webp" alt="" width="1344" height="768" /></p>
 <figure></figure>
 <p>As you can see, things like a drop in revenue are a big deal. But internal factors, like not having enough cash reserves stashed away, are just as crucial in determining how vulnerable your business is.</p>
 <h3>Slow Paying Customers and Lax Invoicing</h3>
@@ -82,7 +82,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 <li><strong>The Solution:</strong> Use an inventory management system to track how quickly things sell. This data is gold. It helps you understand what's flying off the shelves and what isn't, so you can run promotions on slow items and fine-tune your ordering for the winners.</li>
 </ul>
 <h2 id="h-applying-quick-fixes-to-cash-flow-problems">Applying Quick Fixes to Cash Flow Problems</h2>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/02/cash-flow-problems-in-small-business-paid-invoice.jpg" alt="" width="2048" height="1152" /></p>
+<p><img src="/blog/cash-flow-problems-in-small-business-paid-invoice.webp" alt="" width="2048" height="1152" /></p>
 <figure></figure>
 <p>When cash gets tight, you don’t need a long-term wellness plan. You need a first-aid kit, right now. This means taking immediate, decisive action to stop the bleeding and get your finances back on stable ground.</p>
 <p>These are the quick fixes, low-cost, high-impact tactics you can put into play today.</p>
@@ -114,7 +114,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 </ul>
 <p>Even a few small cuts can free up a surprising amount of cash to cover more urgent needs. The key is to be disciplined and track every dollar, making sure your limited funds are going where they matter most.</p>
 <h2 id="h-building-a-financially-resilient-business-for-the-">Building a Financially Resilient Business for the Long Term</h2>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/02/cash-flow-problems-in-small-business.jpg" alt="" width="2048" height="1152" /></p>
+<p><img src="/blog/cash-flow-problems-in-small-business.webp" alt="" width="2048" height="1152" /></p>
 <figure></figure>
 <p>Quick fixes are great for getting out of a tight spot, but lasting stability comes from building a business that can handle whatever comes its way. It’s about moving from frantic, reactive fire-fighting to proactive, long-term strategy.</p>
 <p>This is the shift that lets you build a financial foundation strong enough to weather market swings, surprise bills, and the usual seasonal lulls.</p>
@@ -146,7 +146,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 <p>With revenue growth lagging behind rising costs, a business seeing only a <strong>3%</strong> sales increase can only survive if its financial management is rock-solid. You can <a href="https://www.xero.com/us/media-releases/xero-data-reveals-aussie-small-business-sales-volatile-2025-ahead-other-markets/" target="_blank" rel="noopener">explore the full Xero Small Business Insights report</a> for more on this trend.</p>
 <p>Smart pricing, combined with diligent forecasting and excellent bookkeeping, ensures that even modest growth translates into real financial strength. You can learn more with our <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">top small business bookkeeping tips to simplify your finances</a>.</p>
 <h2 id="h-navigating-finance-options-and-ato-obligations">Navigating Finance Options and ATO Obligations</h2>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/02/Finance-Options-and-ATO-Obligations.webp" alt="" width="1536" height="1024" /></p>
+<p><img src="/blog/finance-options-and-ato-obligations.webp" alt="" width="1536" height="1024" /></p>
 <p>Sometimes, even the best long-term strategies aren’t enough to get you out of an immediate and serious cash gap. When you desperately need funds to cover payroll or a big supplier invoice, looking at external finance can feel like a lifeline.</p>
 <p>But at the same time, you absolutely cannot drop the ball on your compliance obligations, especially with the Australian Taxation Office (ATO).</p>
 <p>Facing a cash shortfall is stressful, no doubt. But burying your head in the sand and ignoring your responsibilities is never the answer. The trick is to understand your options and communicate proactively, turning what feels like a crisis into something you can manage. This approach not only protects your business but also keeps your reputation intact with lenders and the ATO.</p>

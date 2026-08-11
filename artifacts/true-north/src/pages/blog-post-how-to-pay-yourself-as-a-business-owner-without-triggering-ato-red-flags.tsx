@@ -23,7 +23,7 @@ const toc = [
 const htmlContent = `<h1>How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags</h1>				
 		<p><strong>Paying yourself</strong> as a small business owner in Australia requires different approaches depending on your business structure. The Australian Taxation Office (ATO) has specific rules for sole traders, partnerships, companies, and trusts. By following the proper method for your structure, and keeping everything well-documented, you can meet your financial needs <strong>without raising any red flags</strong> with the ATO.</p>		
 		<p>Below we outline <strong><a href="https://www.ato.gov.au/" target="_blank" rel="noopener">ATO</a></strong> recommendations and legal obligations for each business type, and provide guidance on tax withholding, superannuation, and common compliance pitfalls to avoid. Understanding audit risk and common audit triggers is also essential for business owners who want to avoid unnecessary scrutiny from the ATO.</p>		
-															<img width="1344" height="768" src="https://tnaccounting.com.au/wp-content/uploads/2025/07/Business-Owner-Pay-Yourself.webp" alt="How to Pay Yourself as a Sole Trader" />															
+															<img width="1344" height="768" src="/blog/business-owner-pay-yourself.webp" alt="How to Pay Yourself as a Sole Trader" />															
 					<h2 id="h-introduction-to-business-taxation">Introduction to Business Taxation</h2>				
 		<p>Understanding business taxation is fundamental for every business owner in Australia. The Australian Taxation Office (ATO) is responsible for ensuring that all businesses, from sole traders to large companies, meet their tax obligations and operate within the law.</p>		
 		<p>As a small business owner, it’s crucial to be aware of your responsibilities this includes lodging accurate tax returns, making timely tax payments, and claiming only legitimate deductions.</p>		
@@ -60,7 +60,7 @@ const htmlContent = `<h1>How to Pay Yourself as a Business Owner Without Trigger
 		<p><strong>Documentation</strong></p>		
 		<p>It’s good practice for partners to record any drawings and keep the finances transparent. Ensure you have a <strong>partnership agreement</strong> outlining how profits and drawings work. This helps avoid disputes and shows the ATO that distributions of profit are done consistently and according to an agreement (preventing any appearance of arbitrary payments). Poor records can lead to compliance issues and increase the risk of ATO scrutiny.</p>		
 					<h2 id="h-how-to-pay-yourself-from-a-company-pty-ltd">How to Pay Yourself from a Company (Pty Ltd)</h2>				
-															<img width="1344" height="768" src="https://tnaccounting.com.au/wp-content/uploads/2025/07/Company-Payments.webp" alt="How to Pay Yourself from a Company" />															
+															<img width="1344" height="768" src="/blog/company-payments.webp" alt="How to Pay Yourself from a Company" />															
 		<p>Operating your business as a company introduces more complexity in how you can pay yourself. A company is a separate legal entity, so you as a business owner typically wear two hats: <strong>shareholder</strong> (owner) and usually also a <strong>director/employee</strong> of the company. The main ways to take income from a company are <strong>salary/wages</strong>, <strong>dividends</strong>, or <strong>director loans</strong>, each with distinct rules:</p>		
 					<h3>Paying Yourself a Salary or Wage from a Company</h3>				
 		<p><strong>Salary or Wages</strong></p>		
@@ -92,7 +92,7 @@ const htmlContent = `<h1>How to Pay Yourself as a Business Owner Without Trigger
 </ol>		
 		<p>For tax advice and to ensure your claims and deductions are compliant, business owners should consult <strong><a href="/services/small-business-accountant/">accountants</a> </strong>to reduce audit risk and maximise legitimate deductions.</p>		
 					<h2 id="h-how-to-pay-yourself-through-a-trust-structure">How to Pay Yourself Through a Trust Structure</h2>				
-															<img width="1344" height="768" src="https://tnaccounting.com.au/wp-content/uploads/2025/07/Trust-Payments.webp" alt="How to Pay Yourself Through a Trust Structure" />															
+															<img width="1344" height="768" src="/blog/trust-payments.webp" alt="How to Pay Yourself Through a Trust Structure" />															
 		<p>Trust structures (such as family trusts or unit trusts) add another layer of complexity. In a trust, the <strong>trustee</strong> runs the business and holds profits on behalf of the <strong>beneficiaries</strong>. If you operate your business through a trust, you likely wear multiple hats (for example, you might be the trustee or director of a corporate trustee, as well as one of the beneficiaries). Key points on paying yourself from a trust:</p>		
 					<h3>Paying Yourself with Trust Distributions</h3>				
 		<p>Generally, a trust <strong>distributes its profits to beneficiaries</strong> (such as you and your family members) rather than paying the owners a salary. As a beneficiary, you receive a share of the trust’s income – this is often called a trust distribution. The amount might be determined by the trust deed or trustee’s decision.</p>
@@ -157,7 +157,7 @@ const htmlContent = `<h1>How to Pay Yourself as a Business Owner Without Trigger
 		<p>Being aware of these common pitfalls is the first step. The overarching theme is: <strong>keep everything transparent and compliant</strong>. Don’t mix personal and business finances haphazardly, and don’t shirk the ATO obligations that come with whichever pay method you use.</p>		
 					<h2 id="section-9">Best Practices for Documentation and Reporting When You Pay Yourself</h2>				
 		<p>To ensure you’re paying yourself correctly and maintaining a low profile with the ATO, here are <strong>practical steps</strong> business owners can take to avoid ATO red flags and ensure compliance. Follow these best practices for documentation and reporting:</p>		
-															<img width="1536" height="1024" src="https://tnaccounting.com.au/wp-content/uploads/2025/07/Common-Red-Flags.webp" alt="How to avoid ATO Red Flags" />															
+															<img width="1536" height="1024" src="/blog/common-red-flags.webp" alt="How to avoid ATO Red Flags" />															
 					<h3>Keep personal and business finances separate</h3>				
 		<p>Always distinguish between business expenses and the money you take home. Use a dedicated business account and then transfer your “pay” (drawing, salary, etc.) to your personal account. This clear separation makes bookkeeping and audits easier. Avoid paying personal bills directly out of a company or trust account unless you treat it as salary, dividend, or a loan with proper records.</p>		
 		<p><strong>Use proper payroll processes when paying a wage</strong></p>		

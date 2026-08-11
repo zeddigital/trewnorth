@@ -40,7 +40,7 @@ const htmlContent = `<p>A well-crafted <strong>succession plan</strong> is cruci
 					<h3>Business Closure</h3>				
 		<p>In some cases, winding down the business is the best option, especially if there is no viable successor or buyer.</p><p><strong>Pros:</strong><br />✔ Owner has full control over closure<br />✔ Can liquidate assets for financial returns</p><p><strong>Cons:</strong><br />✘ Employees lose jobs<br />✘ Customers may be left without service continuity</p>		
 					<h2 id="h-how-to-create-a-successful-succession-plan">How to Create a Successful Succession Plan</h2>				
-															<img width="1224" height="774" src="https://tnaccounting.com.au/wp-content/uploads/2025/01/Succession-Planning-For-Business-Owners.webp" alt="Succession Planning the right way" />															
+															<img width="1224" height="774" src="/blog/succession-planning-for-business-owners.webp" alt="Succession Planning the right way" />															
 					<h3>1 – Define Your Goals</h3>				
 		<p>Determine what you want to achieve with your <strong><a href="https://business.gov.au/planning/business-plans/develop-your-succession-plan" target="_blank" rel="noopener">succession plan</a></strong>. Do you want to keep the business in the family, maximise your sale price, or ensure a smooth employee transition?</p>		
 					<h3>2 – Identify Potential Successors

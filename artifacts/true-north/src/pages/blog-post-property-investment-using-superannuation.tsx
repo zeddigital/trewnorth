@@ -24,7 +24,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-can-you-buy-property-with-your-super-fund">Can You Buy Property with Your Super Fund</h2>
 <!-- /wp:heading --><!-- wp:image {"className":"wp-block-image size-large"} -->
-<figure><img src="https://tnaccounting.com.au/wp-content/uploads/2026/06/property-investment-using-superannuation-property-investment.jpg" alt="Your Guide to Property Investment Using Superannuation" width="2048" height="1152" /></figure>
+<figure><img src="/blog/property-investment-using-superannuation-property-investment.webp" alt="Your Guide to Property Investment Using Superannuation" width="2048" height="1152" /></figure>
 <!-- /wp:image --><!-- wp:paragraph -->
 
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -75,7 +75,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <h2 id="h-what-is-a-selfmanaged-super-fund-smsf">What Is a Self-Managed Super Fund (SMSF)</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
 <p>So, you’ve heard it’s possible to buy property using your super. The vehicle that unlocks this opportunity is the Self-Managed Super Fund, or SMSF.</p>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2024/10/Small-Business-Self-Managed-Super-1024x1024.webp" alt="Self Manage Super Fund for Small Business Owners" width="1024" height="1024" /></p>
+<p><img src="/blog/small-business-self-managed-super.webp" alt="Self Manage Super Fund for Small Business Owners" width="1024" height="1024" /></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Think of it less like a massive industry fund where your money is pooled with millions of others. It is more like your own private investment company, set up exclusively to grow your retirement nest egg. With an SMSF, you and up to five other members are in the driver's seat.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -167,7 +167,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>The infographic below shows how setting up your fund, defining your strategy, and making the investment all fit together.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph /--><!-- wp:image {"className":"wp-block-image size-large"} /--><!-- wp:paragraph -->
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/06/property-investment-using-superannuation-smsf-process.jpg" alt="" width="1344" height="768" /></p>
+<p><img src="/blog/property-investment-using-superannuation-smsf-process.webp" alt="" width="1344" height="768" /></p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>As you can see, a compliant property purchase is the final step in a carefully planned sequence. It’s never the starting point.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
@@ -296,7 +296,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <p>This kind of data shows just how much a well-chosen property can boost your fund's growth. By carefully weighing the costs and risks against these potential returns, you'll be in a much better position to make an informed decision.</p>
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-a-smart-strategy-for-business-owners">A Smart Strategy for Business Owners</h2>
-<p><img src="https://tnaccounting.com.au/wp-content/uploads/2026/06/property-investment-using-superannuation-property-keys.jpg" alt="" width="2048" height="1152" /></p>
+<p><img src="/blog/property-investment-using-superannuation-property-keys.webp" alt="" width="2048" height="1152" /></p>
 <!-- /wp:heading --><!-- wp:paragraph /--><!-- wp:image {"className":"wp-block-image size-large"} /--><!-- wp:paragraph /--><!-- wp:paragraph -->
 <p>For many Aussie business owners, the strict rules around related-party dealings can make using an SMSF for property feel like a non-starter. But what if there’s a powerful exception built specifically for entrepreneurs? It’s a game-changer that can help you integrate your business premises right into your retirement strategy.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
