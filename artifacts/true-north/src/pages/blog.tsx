@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/how-to-read-a-balance-sheet',
+    image: '/blog/how-to-read-a-balance-sheet.webp',
+    category: 'Accounting',
+    title: 'How to Read a Balance Sheet: A Guide for Australian Businesses',
+    excerpt: 'What assets, liabilities and equity actually mean, the ratios that matter, and how to spot trouble early — with a Melbourne café worked through.',
+    date: '11 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/victoria-payroll-tax',
     image: '/blog/victoria-payroll-tax.webp',
     category: 'Payroll',
@@ -262,6 +271,7 @@ const posts: Post[] = [
 const categoryColors: Record<string, string> = {
   'Tax Planning':      'bg-primary/10 text-primary',
   'Payroll':           'bg-primary/10 text-primary',
+  'Accounting':        'bg-primary/10 text-primary',
   'Bookkeeping':       'bg-cta/10 text-cta',
   'Business Planning': 'bg-primary/10 text-primary',
   'Small Business':    'bg-primary/10 text-primary',

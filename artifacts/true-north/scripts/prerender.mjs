@@ -56,6 +56,7 @@ const routes = [
 
   // ─── Blog ───────────────────────────────────────────────────────────────
   { path: '/blog',                                                     changefreq: 'weekly',  priority: '0.8' },
+  { path: '/blog/how-to-read-a-balance-sheet',                        changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-11' },
   { path: '/blog/victoria-payroll-tax',                                changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-05' },
   { path: '/blog/property-investment-using-superannuation',            changefreq: 'yearly',  priority: '0.7', lastmod: '2026-06-25' },
   { path: '/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026', changefreq: 'yearly', priority: '0.7', lastmod: '2026-06-16' },
