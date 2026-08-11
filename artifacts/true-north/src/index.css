@@ -496,6 +496,28 @@
     color: hsl(var(--foreground));
   }
   .prose-article p { margin-bottom: 1.5rem; }
+
+  /* Article images.
+     Posts carry images in three shapes: <figure><img>, a bare <p><img>, and —
+     in the WordPress imports — <p><figure><img></figure></p>, where the parser
+     hoists the figure out of the paragraph. Only the last of those inherited a
+     paragraph margin, so in the other two the following text ran straight into
+     the image. Margin goes on the figure and on a block-level img so every
+     shape is covered. */
+  .prose-article figure { margin-bottom: 1.5rem; }
+  .prose-article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  .prose-article figure img { margin-bottom: 0; }
+  .prose-article figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: hsl(var(--muted-foreground));
+  }
+
   .prose-article h2 {
     font-family: var(--app-font-serif);
     font-size: 1.6rem;
