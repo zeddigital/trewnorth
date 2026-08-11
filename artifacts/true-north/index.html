@@ -20,14 +20,28 @@
     <!-- Theme colour -->
     <meta name="theme-color" content="#0DB7E1" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4L0L8PZ44Z"></script>
+    <!-- Google tag (gtag.js).
+         Only loaded on the production hostnames. Cloudflare gives every build
+         a pages.dev preview URL, and without this guard each preview deploy —
+         and every check any of us makes on one — reports into GA4 as real
+         traffic. -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      (function () {
+        var HOSTS = ['tnaccounting.com.au', 'www.tnaccounting.com.au'];
+        if (HOSTS.indexOf(location.hostname) === -1) return;
 
-      gtag('config', 'G-4L0L8PZ44Z');
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-4L0L8PZ44Z';
+        document.head.appendChild(s);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+
+        gtag('config', 'G-4L0L8PZ44Z');
+      })();
     </script>
   </head>
   <body>
