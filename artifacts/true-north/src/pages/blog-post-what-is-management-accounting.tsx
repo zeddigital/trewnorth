@@ -173,7 +173,7 @@ const TITLE = 'What Is Management Accounting? A Small Business Guide';
 const DESCRIPTION =
   'How management accounting differs from bookkeeping and financial accounting, the four tools that matter, and a six-step checklist for getting started.';
 const SLUG = '/blog/what-is-management-accounting';
-const PUBLISHED = '2026-08-12';
+const PUBLISHED = '2026-08-13';
 
 export default function BlogPostWhatIsManagementAccounting() {
   return (
@@ -224,7 +224,7 @@ export default function BlogPostWhatIsManagementAccounting() {
             </h1>
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/70">
               <span className="flex items-center gap-1.5"><User className="h-4 w-4" aria-hidden="true" /> Darren Trew, CA</span>
-              <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4" aria-hidden="true" /> 12 August 2026</span>
+              <span className="flex items-center gap-1.5"><Calendar className="h-4 w-4" aria-hidden="true" /> 13 August 2026</span>
               <span className="flex items-center gap-1.5"><Clock className="h-4 w-4" aria-hidden="true" /> 12 min read</span>
             </div>
           </motion.div>

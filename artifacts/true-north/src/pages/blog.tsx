@@ -26,7 +26,7 @@ const posts: Post[] = [
     category: 'Accounting',
     title: 'What Is Management Accounting? A Small Business Guide',
     excerpt: 'How it differs from bookkeeping and financial accounting, the four tools that matter, and a six-step checklist for getting started.',
-    date: '12 August 2026',
+    date: '13 August 2026',
     internal: true,
   },
   {
