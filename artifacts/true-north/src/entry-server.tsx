@@ -44,6 +44,7 @@ import BlogPostAtoSuperClearingHouseClosing from '@/pages/blog-post-the-atos-fre
 import BlogPostVictoriaPayrollTax from '@/pages/blog-post-victoria-payroll-tax';
 import BlogPostHowToReadABalanceSheet from '@/pages/blog-post-how-to-read-a-balance-sheet';
 import BlogPostWhatIsBreakEvenAnalysis from '@/pages/blog-post-what-is-break-even-analysis';
+import BlogPostWhatIsManagementAccounting from '@/pages/blog-post-what-is-management-accounting';
 import Suburbs from '@/pages/suburbs';
 import SuburbBrighton from '@/pages/suburb-brighton';
 import SuburbCheltenham from '@/pages/suburb-cheltenham';
@@ -139,6 +140,7 @@ export function render(path: string): {
             path="/blog/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
+          <Route path="/blog/what-is-management-accounting" component={BlogPostWhatIsManagementAccounting} />
           <Route path="/blog/what-is-break-even-analysis" component={BlogPostWhatIsBreakEvenAnalysis} />
           <Route path="/blog/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
           <Route path="/blog/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />

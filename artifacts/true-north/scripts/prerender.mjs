@@ -56,6 +56,7 @@ const routes = [
 
   // ─── Blog ───────────────────────────────────────────────────────────────
   { path: '/blog',                                                     changefreq: 'weekly',  priority: '0.8' },
+  { path: '/blog/what-is-management-accounting',                       changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-12' },
   { path: '/blog/what-is-break-even-analysis',                        changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-12' },
   { path: '/blog/how-to-read-a-balance-sheet',                        changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-11' },
   { path: '/blog/victoria-payroll-tax',                                changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-05' },

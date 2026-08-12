@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/what-is-management-accounting',
+    image: '/blog/what-is-management-accounting.webp',
+    category: 'Accounting',
+    title: 'What Is Management Accounting? A Small Business Guide',
+    excerpt: 'How it differs from bookkeeping and financial accounting, the four tools that matter, and a six-step checklist for getting started.',
+    date: '12 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/what-is-break-even-analysis',
     image: '/blog/what-is-break-even-analysis.webp',
     category: 'Accounting',
