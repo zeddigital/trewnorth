@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/set-up-super-fund',
+    image: '/blog/set-up-super-fund.webp',
+    category: 'Superannuation',
+    title: 'How to Set Up an SMSF in Australia: A 2026 Guide',
+    excerpt: 'Trustee structure, trust deed, ATO registration and investment strategy — plus the annual obligations you take on for as long as the fund runs.',
+    date: '14 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/what-is-management-accounting',
     image: '/blog/what-is-management-accounting.webp',
     category: 'Accounting',
