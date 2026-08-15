@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/agent-nomination-ato',
+    image: '/blog/agent-nomination-ato.webp',
+    category: 'Business',
+    title: 'ATO Agent Nomination: A Step-by-Step Guide for Business',
+    excerpt: 'How to nominate your tax or BAS agent — myID and RAM setup, the steps, the 28-day window, and the one detail that causes most nominations to expire.',
+    date: '15 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/set-up-super-fund',
     image: '/blog/set-up-super-fund.webp',
     category: 'Superannuation',

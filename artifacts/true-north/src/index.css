@@ -564,8 +564,12 @@
     gap: 1rem;
     margin: 2rem 0;
   }
+  /* auto-fit rather than a fixed 3, so a two-card comparison fills the width
+     instead of leaving an empty third column. */
   @media (min-width: 768px) {
-    .prose-article .compare-cards { grid-template-columns: repeat(3, 1fr); }
+    .prose-article .compare-cards {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
   }
   .prose-article .compare-card {
     background: hsl(var(--muted) / 0.4);
