@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/what-is-payrolling',
+    image: '/blog/what-is-payrolling.webp',
+    category: 'Payroll',
+    title: 'What Is Payrolling? An Australian Employer\u2019s Guide',
+    excerpt: 'PAYG withholding, the 12% super guarantee under payday super, STP and payroll tax — plus the handful of errors that account for most payroll trouble.',
+    date: '16 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/agent-nomination-ato',
     image: '/blog/agent-nomination-ato.webp',
     category: 'Business',
