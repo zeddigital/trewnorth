@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/blog/what-is-a-profit-and-loss-statement',
+    image: '/blog/what-is-a-profit-and-loss-statement.webp',
+    category: 'Accounting',
+    title: 'What Is a Profit and Loss Statement? A Small Business Guide',
+    excerpt: 'Revenue down to net profit with a worked example, the two ways to read the report, and the four errors that make a P&L quietly misleading.',
+    date: '17 August 2026',
+    internal: true,
+  },
+  {
     href: '/blog/what-is-payrolling',
     image: '/blog/what-is-payrolling.webp',
     category: 'Payroll',

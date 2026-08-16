@@ -56,6 +56,7 @@ const routes = [
 
   // ─── Blog ───────────────────────────────────────────────────────────────
   { path: '/blog',                                                     changefreq: 'weekly',  priority: '0.8' },
+  { path: '/blog/what-is-a-profit-and-loss-statement',                 changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-17' },
   { path: '/blog/what-is-payrolling',                                  changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-16' },
   { path: '/blog/agent-nomination-ato',                                changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-15' },
   { path: '/blog/set-up-super-fund',                                   changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-14' },
