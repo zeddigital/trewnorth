@@ -162,6 +162,8 @@ function detailRow(label: string, valueHtml: string): string {
 /* ── The two emails ──────────────────────────────────────────────────────── */
 
 interface Enquiry {
+  firstName: string;
+  lastName: string;
   name: string;
   email: string;
   phone: string;
@@ -176,7 +178,7 @@ function practiceEmail(e: Enquiry): { html: string; text: string } {
     detailRow('Email', `<a href="mailto:${escapeHtml(e.email)}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.email)}</a>`),
     detailRow('Phone', `<a href="tel:${escapeHtml(e.phone.replace(/[^\d+]/g, ''))}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.phone)}</a>`),
     e.company ? detailRow('Business', escapeHtml(e.company)) : '',
-    e.service ? detailRow('Service', escapeHtml(e.service)) : '',
+    detailRow('Service', escapeHtml(e.service)),
   ].join('');
 
   const message = e.message
@@ -188,7 +190,7 @@ function practiceEmail(e: Enquiry): { html: string; text: string } {
 ${message}
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;">
 <tr><td style="background:${ORANGE};border-radius:8px;">
-<a href="mailto:${escapeHtml(e.email)}" style="display:inline-block;padding:13px 26px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:${NAVY};text-decoration:none;">Reply to ${escapeHtml(e.name.split(' ')[0] || 'enquiry')}</a>
+<a href="mailto:${escapeHtml(e.email)}" style="display:inline-block;padding:13px 26px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:${NAVY};text-decoration:none;">Reply to ${escapeHtml(e.firstName)}</a>
 </td></tr></table>`;
 
   const text = [
@@ -218,14 +220,14 @@ function acknowledgementEmail(e: Enquiry): { html: string; text: string } {
 <div style="background:${PAGE_BG};border-left:3px solid ${CYAN};border-radius:0 8px 8px 0;padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</div>`
     : '';
 
-  const inner = `<p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Hi ${escapeHtml(e.name.split(' ')[0] || 'there')},</p>
+  const inner = `<p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Hi ${escapeHtml(e.firstName)},</p>
 <p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Thanks for getting in touch with Trew North Accounting. Your enquiry has come through and Darren will come back to you within one business day.</p>
 <p style="margin:0 0 26px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">If it is urgent, the quickest way to reach us is on <a href="${PHONE_HREF}" style="color:${CYAN};text-decoration:none;font-weight:bold;">${PHONE_DISPLAY}</a>.</p>
 ${summary}
 <p style="margin:26px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.7;color:${MUTED};">Kind regards,<br><span style="color:${TEXT};font-weight:bold;">Darren Trew</span><br>Trew North Accounting</p>`;
 
   const text = [
-    `Hi ${e.name.split(' ')[0] || 'there'},`,
+    `Hi ${e.firstName},`,
     ``,
     `Thanks for getting in touch with Trew North Accounting. Your enquiry has`,
     `come through and Darren will come back to you within one business day.`,
@@ -286,8 +288,13 @@ export const onRequestPost = async (ctx: RequestContext): Promise<Response> => {
     return json({ ok: true }, 200);
   }
 
+  const firstName = clean(body.firstName, 80);
+  const lastName = clean(body.lastName, 80);
+
   const enquiry: Enquiry = {
-    name: clean(body.name, 120),
+    firstName,
+    lastName,
+    name: [firstName, lastName].filter(Boolean).join(' '),
     email: clean(body.email, 254),
     phone: clean(body.phone, 40),
     company: clean(body.company, 160),
@@ -295,8 +302,17 @@ export const onRequestPost = async (ctx: RequestContext): Promise<Response> => {
     message: cleanMultiline(body.message, 5000),
   };
 
-  if (!enquiry.name || !enquiry.phone || !looksLikeEmail(enquiry.email)) {
-    return json({ ok: false, error: 'Please check your name, phone and email.' }, 400);
+  // Mirrors the required fields on the form. The endpoint is public, so it
+  // cannot rely on the client having checked any of this.
+  if (
+    !enquiry.firstName ||
+    !enquiry.lastName ||
+    !enquiry.phone ||
+    !looksLikeEmail(enquiry.email) ||
+    !enquiry.service ||
+    !enquiry.message
+  ) {
+    return json({ ok: false, error: 'Please complete all required fields.' }, 400);
   }
 
   const to = env.CONTACT_TO || DEFAULT_TO;

@@ -47,10 +47,25 @@ const contactDetails = [
 
 type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
 
+/** Red ring on an invalid control, matching the site's focus treatment. */
+const fieldClass = (invalid: boolean) =>
+  invalid ? 'mt-1.5 border-destructive focus-visible:ring-destructive' : 'mt-1.5';
+
+function FieldError({ id, message }: { id: string; message?: string }) {
+  if (!message) return null;
+  return (
+    <p id={id} role="alert" className="mt-1.5 text-sm text-destructive">
+      {message}
+    </p>
+  );
+}
+
 export default function Contact() {
   const [status, setStatus] = useState<SubmitStatus>('idle');
+  const [errors, setErrors] = useState<Record<string, string>>({});
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
     email: '',
     phone: '',
     company: '',
@@ -62,9 +77,39 @@ export default function Contact() {
 
   const formSubmitted = status === 'success';
 
+  /**
+   * Validation runs here rather than through the browser because the service
+   * picker is a Radix listbox, not a native <select> — `required` on it would
+   * never fire. Doing every field the same way keeps one consistent style of
+   * error message instead of mixing native bubbles with inline text.
+   */
+  const validate = () => {
+    const next: Record<string, string> = {};
+    if (!formData.firstName.trim()) next.firstName = 'Please enter your first name.';
+    if (!formData.lastName.trim()) next.lastName = 'Please enter your last name.';
+    if (!formData.phone.trim()) next.phone = 'Please enter a phone number.';
+    if (!formData.email.trim()) next.email = 'Please enter your email address.';
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(formData.email.trim())) {
+      next.email = 'That email address does not look right.';
+    }
+    if (!formData.service) next.service = 'Please choose the area you need help with.';
+    if (!formData.message.trim()) next.message = 'Please tell us a little about what you need.';
+    return next;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (status === 'sending') return;
+
+    const found = validate();
+    setErrors(found);
+    if (Object.keys(found).length > 0) {
+      const first = document.getElementById(Object.keys(found)[0]);
+      first?.focus();
+      first?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      return;
+    }
+
     setStatus('sending');
 
     try {
@@ -82,6 +127,12 @@ export default function Contact() {
 
   const handleChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
+    setErrors(prev => {
+      if (!prev[field]) return prev;
+      const next = { ...prev };
+      delete next[field];
+      return next;
+    });
   };
 
   return (
@@ -186,19 +237,39 @@ export default function Contact() {
               </p>
 
               {!formSubmitted ? (
-                <form onSubmit={handleSubmit} className="space-y-5 relative">
+                <form onSubmit={handleSubmit} noValidate className="space-y-5 relative">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
-                      <Label htmlFor="name">Full Name *</Label>
+                      <Label htmlFor="firstName">First Name *</Label>
                       <Input
-                        id="name"
-                        value={formData.name}
-                        onChange={(e) => handleChange('name', e.target.value)}
-                        required
-                        placeholder="Jane Smith"
-                        className="mt-1.5"
+                        id="firstName"
+                        value={formData.firstName}
+                        onChange={(e) => handleChange('firstName', e.target.value)}
+                        autoComplete="given-name"
+                        aria-invalid={!!errors.firstName}
+                        aria-describedby={errors.firstName ? 'firstName-error' : undefined}
+                        placeholder="Jane"
+                        className={fieldClass(!!errors.firstName)}
                       />
+                      <FieldError id="firstName-error" message={errors.firstName} />
                     </div>
+                    <div>
+                      <Label htmlFor="lastName">Last Name *</Label>
+                      <Input
+                        id="lastName"
+                        value={formData.lastName}
+                        onChange={(e) => handleChange('lastName', e.target.value)}
+                        autoComplete="family-name"
+                        aria-invalid={!!errors.lastName}
+                        aria-describedby={errors.lastName ? 'lastName-error' : undefined}
+                        placeholder="Smith"
+                        className={fieldClass(!!errors.lastName)}
+                      />
+                      <FieldError id="lastName-error" message={errors.lastName} />
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                       <Label htmlFor="phone">Phone *</Label>
                       <Input
@@ -206,8 +277,22 @@ export default function Contact() {
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleChange('phone', e.target.value)}
-                        required
+                        autoComplete="tel"
+                        aria-invalid={!!errors.phone}
+                        aria-describedby={errors.phone ? 'phone-error' : undefined}
                         placeholder="0412 345 678"
+                        className={fieldClass(!!errors.phone)}
+                      />
+                      <FieldError id="phone-error" message={errors.phone} />
+                    </div>
+                    <div>
+                      <Label htmlFor="company">Business / Company Name</Label>
+                      <Input
+                        id="company"
+                        value={formData.company}
+                        onChange={(e) => handleChange('company', e.target.value)}
+                        autoComplete="organization"
+                        placeholder="Acme Pty Ltd"
                         className="mt-1.5"
                       />
                     </div>
@@ -220,30 +305,27 @@ export default function Contact() {
                       type="email"
                       value={formData.email}
                       onChange={(e) => handleChange('email', e.target.value)}
-                      required
+                      autoComplete="email"
+                      aria-invalid={!!errors.email}
+                      aria-describedby={errors.email ? 'email-error' : undefined}
                       placeholder="jane@business.com.au"
-                      className="mt-1.5"
+                      className={fieldClass(!!errors.email)}
                     />
+                    <FieldError id="email-error" message={errors.email} />
                   </div>
 
                   <div>
-                    <Label htmlFor="company">Business / Company Name</Label>
-                    <Input
-                      id="company"
-                      value={formData.company}
-                      onChange={(e) => handleChange('company', e.target.value)}
-                      placeholder="Acme Pty Ltd"
-                      className="mt-1.5"
-                    />
-                  </div>
-
-                  <div>
-                    <Label htmlFor="service">How can we help?</Label>
+                    <Label htmlFor="service">How can we help? *</Label>
                     <Select
                       value={formData.service}
                       onValueChange={(v) => handleChange('service', v)}
                     >
-                      <SelectTrigger id="service" className="mt-1.5">
+                      <SelectTrigger
+                        id="service"
+                        aria-invalid={!!errors.service}
+                        aria-describedby={errors.service ? 'service-error' : undefined}
+                        className={fieldClass(!!errors.service)}
+                      >
                         <SelectValue placeholder="Select a service area" />
                       </SelectTrigger>
                       <SelectContent>
@@ -255,18 +337,22 @@ export default function Contact() {
                         <SelectItem value="other">Other / Not sure yet</SelectItem>
                       </SelectContent>
                     </Select>
+                    <FieldError id="service-error" message={errors.service} />
                   </div>
 
                   <div>
-                    <Label htmlFor="message">Your question or message</Label>
+                    <Label htmlFor="message">Your question or message *</Label>
                     <Textarea
                       id="message"
                       value={formData.message}
                       onChange={(e) => handleChange('message', e.target.value)}
+                      aria-invalid={!!errors.message}
+                      aria-describedby={errors.message ? 'message-error' : undefined}
                       placeholder="Tell us about your business and what you're looking to achieve..."
                       rows={4}
-                      className="mt-1.5"
+                      className={fieldClass(!!errors.message)}
                     />
+                    <FieldError id="message-error" message={errors.message} />
                   </div>
 
                   {/* Honeypot — positioned off-screen rather than display:none,
