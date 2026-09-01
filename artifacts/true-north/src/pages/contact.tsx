@@ -171,7 +171,7 @@ export default function Contact() {
               Professional accounting is right here around the corner.
             </h1>
             <p className="text-white/70 text-lg leading-relaxed">
-              Reach out directly or use the form below — we respond within one business day.
+              Reach out directly or use the form below. We respond within one business day.
             </p>
           </motion.div>
         </div>
@@ -286,32 +286,32 @@ export default function Contact() {
                       <FieldError id="phone-error" message={errors.phone} />
                     </div>
                     <div>
-                      <Label htmlFor="company">Business / Company Name</Label>
+                      <Label htmlFor="email">Email Address *</Label>
                       <Input
-                        id="company"
-                        value={formData.company}
-                        onChange={(e) => handleChange('company', e.target.value)}
-                        autoComplete="organization"
-                        placeholder="Acme Pty Ltd"
-                        className="mt-1.5"
+                        id="email"
+                        type="email"
+                        value={formData.email}
+                        onChange={(e) => handleChange('email', e.target.value)}
+                        autoComplete="email"
+                        aria-invalid={!!errors.email}
+                        aria-describedby={errors.email ? 'email-error' : undefined}
+                        placeholder="jane@business.com.au"
+                        className={fieldClass(!!errors.email)}
                       />
+                      <FieldError id="email-error" message={errors.email} />
                     </div>
                   </div>
 
                   <div>
-                    <Label htmlFor="email">Email Address *</Label>
+                    <Label htmlFor="company">Business / Company Name</Label>
                     <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => handleChange('email', e.target.value)}
-                      autoComplete="email"
-                      aria-invalid={!!errors.email}
-                      aria-describedby={errors.email ? 'email-error' : undefined}
-                      placeholder="jane@business.com.au"
-                      className={fieldClass(!!errors.email)}
+                      id="company"
+                      value={formData.company}
+                      onChange={(e) => handleChange('company', e.target.value)}
+                      autoComplete="organization"
+                      placeholder="Acme Pty Ltd"
+                      className="mt-1.5"
                     />
-                    <FieldError id="email-error" message={errors.email} />
                   </div>
 
                   <div>

@@ -1,4 +1,4 @@
-import { Link } from 'wouter';
+import { Link, useLocation } from 'wouter';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 function LinkedInIcon({ className }: { className?: string }) {
@@ -7,6 +7,16 @@ function LinkedInIcon({ className }: { className?: string }) {
       <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
     </svg>
   );
+}
+
+/**
+ * Cloudflare serves the prerendered pages at both /contact and /contact/, so
+ * the location can arrive either way. Normalise before comparing or the active
+ * link silently never matches.
+ */
+function normalisePath(path: string): string {
+  const [clean] = path.split(/[?#]/);
+  return clean.length > 1 ? clean.replace(/\/+$/, '') : clean;
 }
 
 const navigation = {
@@ -23,10 +33,19 @@ const navigation = {
     { name: 'Services', href: '/services' },
     { name: 'Service Areas', href: '/service-areas' },
     { name: 'Contact', href: '/contact' },
+    { name: 'Privacy Policy', href: '/privacy-policy' },
+    { name: 'Terms & Conditions', href: '/terms-conditions' },
   ],
 };
 
 export function Footer() {
+  const [location] = useLocation();
+  const here = normalisePath(location);
+  const linkClass = (href: string) =>
+    normalisePath(href) === here
+      ? 'text-primary font-semibold text-sm'
+      : 'text-secondary-foreground/80 hover:text-primary transition-colors text-sm';
+
   const currentYear = new Date().getFullYear();
 
   return (
@@ -66,7 +85,8 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors text-sm"
+                    aria-current={normalisePath(item.href) === here ? 'page' : undefined}
+                    className={linkClass(item.href)}
                   >
                     {item.name}
                   </Link>
@@ -83,7 +103,8 @@ export function Footer() {
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors text-sm"
+                    aria-current={normalisePath(item.href) === here ? 'page' : undefined}
+                    className={linkClass(item.href)}
                     data-testid={`link-footer-${item.name.toLowerCase()}`}
                   >
                     {item.name}
