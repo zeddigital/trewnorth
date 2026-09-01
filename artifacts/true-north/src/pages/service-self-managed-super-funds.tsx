@@ -197,8 +197,10 @@ export default function ServiceSelfManagedSuperFunds() {
             </motion.div>
             <motion.div {...fadeUp}>
               <img
-                src="https://tnaccounting.com.au/wp-content/uploads/2024/07/self-managed-super.jpg"
+                src="/self-managed-super.webp"
                 alt="Self Managed Super Fund Melbourne"
+                width={1000}
+                height={1000}
                 className="rounded-2xl w-full object-cover shadow-lg"
                 loading="lazy"
               />

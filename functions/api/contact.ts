@@ -171,14 +171,33 @@ interface Enquiry {
   message: string;
 }
 
-function practiceEmail(e: Enquiry): { html: string; text: string } {
+/**
+ * The submitted details, as a table. Both emails show the same set: the
+ * practice needs it to act on the enquiry, and the sender needs it as a
+ * receipt — so a typo in their own phone or email is visible to them
+ * immediately rather than after a call that never comes.
+ *
+ * `linked` turns the email and phone into mailto:/tel: links. Useful in the
+ * practice copy, pointless in the sender's own copy of their own details.
+ */
+function detailsTable(e: Enquiry, linked: boolean): string {
+  const email = linked
+    ? `<a href="mailto:${escapeHtml(e.email)}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.email)}</a>`
+    : escapeHtml(e.email);
+  const phone = linked
+    ? `<a href="tel:${escapeHtml(e.phone.replace(/[^\d+]/g, ''))}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.phone)}</a>`
+    : escapeHtml(e.phone);
   const rows = [
     detailRow('Name', escapeHtml(e.name)),
-    detailRow('Email', `<a href="mailto:${escapeHtml(e.email)}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.email)}</a>`),
-    detailRow('Phone', `<a href="tel:${escapeHtml(e.phone.replace(/[^\d+]/g, ''))}" style="color:${CYAN};text-decoration:none;">${escapeHtml(e.phone)}</a>`),
+    detailRow('Email', email),
+    detailRow('Phone', phone),
     e.company ? detailRow('Business', escapeHtml(e.company)) : '',
     detailRow('Service', escapeHtml(e.service)),
   ].join('');
+  return `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid ${BORDER};">${rows}</table>`;
+}
+
+function practiceEmail(e: Enquiry): { html: string; text: string } {
 
   // Everything below is laid out with tables and cell padding rather than
   // margins on block elements. Margins on a table are unreliable across mail
@@ -193,7 +212,7 @@ function practiceEmail(e: Enquiry): { html: string; text: string } {
 </td></tr>`
     : `<tr><td style="padding:26px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:${MUTED};font-style:italic;">No message was included.</td></tr>`;
 
-  const inner = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid ${BORDER};">${rows}</table>
+  const inner = `${detailsTable(e, true)}
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 ${message}
 <tr><td style="padding:24px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:${MUTED};">
@@ -224,16 +243,21 @@ Reply to this email to answer ${escapeHtml(e.firstName)} directly, or call
 }
 
 function acknowledgementEmail(e: Enquiry): { html: string; text: string } {
-  const summary = e.message
-    ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-<tr><td style="padding:0 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">What you sent us</td></tr>
+  const summary = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td style="padding:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">What you sent us</td></tr>
+</table>
+${detailsTable(e, false)}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td style="padding:22px 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">Your message</td></tr>
 <tr><td>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${PAGE_BG};border-left:3px solid ${CYAN};">
 <tr><td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</td></tr>
 </table>
 </td></tr>
-</table>`
-    : '';
+<tr><td style="padding:18px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:${MUTED};">
+If any of that is wrong, just reply to this email and we will correct it.
+</td></tr>
+</table>`;
 
   const inner = `<p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Hi ${escapeHtml(e.firstName)},</p>
 <p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Thanks for getting in touch with Trew North Accounting. Your enquiry has come through and Darren will come back to you within one business day.</p>
@@ -249,7 +273,18 @@ ${summary}
     ``,
     `If it is urgent, call us on ${PHONE_DISPLAY}.`,
     ``,
-    e.message ? `What you sent us:\n${e.message}\n` : '',
+    `What you sent us`,
+    `Name:     ${e.name}`,
+    `Email:    ${e.email}`,
+    `Phone:    ${e.phone}`,
+    e.company ? `Business: ${e.company}` : '',
+    `Service:  ${e.service}`,
+    ``,
+    `Your message:`,
+    e.message,
+    ``,
+    `If any of that is wrong, just reply to this email and we will correct it.`,
+    ``,
     `Kind regards,`,
     `Darren Trew`,
     `Trew North Accounting`,

@@ -8,7 +8,7 @@ export default function Bentleigh() {
       seoTitle="Accountant in Bentleigh | Trew North Accounting"
       seoDescription="Looking for an accountant in Bentleigh? Trew North Accounting provides small business tax, bookkeeping, and SMSF services across Bayside Melbourne. Book a free consultation."
       personalTaxImage="/personal-tax-bentleigh.jpg"
-      smsfImage="https://tnaccounting.com.au/wp-content/uploads/2025/01/Self-Managed-Super-Small-Business-Bentleigh.webp"
+      smsfImage="/self-managed-super.webp"
       heroImage="/hero-bentleigh.jpg"
     />
   );
