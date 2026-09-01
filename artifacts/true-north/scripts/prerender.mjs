@@ -56,6 +56,7 @@ const routes = [
 
   // ─── Blog ───────────────────────────────────────────────────────────────
   { path: '/blog',                                                     changefreq: 'weekly',  priority: '0.8' },
+  { path: '/what-is-a-chart-of-accounts',                              changefreq: 'yearly',  priority: '0.7', lastmod: '2026-09-02' },
   { path: '/tax-write-off-for-donations',                              changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-18' },
   { path: '/what-is-a-profit-and-loss-statement',                 changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-17' },
   { path: '/what-is-payrolling',                                  changefreq: 'yearly',  priority: '0.7', lastmod: '2026-08-16' },

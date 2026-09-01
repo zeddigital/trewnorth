@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/what-is-a-chart-of-accounts',
+    image: '/blog/what-is-a-chart-of-accounts.webp',
+    category: 'Bookkeeping',
+    title: 'What Is a Chart of Accounts? A Guide for Australian Business',
+    excerpt: 'The five account types, how the numbering works, the GST accounts that make BAS simple, and the split that decides whether your gross margin is real.',
+    date: '2 September 2026',
+    internal: true,
+  },
+  {
     href: '/tax-write-off-for-donations',
     image: '/blog/tax-write-off-for-donations.webp',
     category: 'Tax Planning',
