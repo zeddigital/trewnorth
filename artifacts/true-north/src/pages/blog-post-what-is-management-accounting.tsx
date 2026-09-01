@@ -66,7 +66,7 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <p>The ground-level work of capturing every transaction: sales, purchases, payments, receipts. The output is a clean <strong>general ledger</strong>. Nothing else in this article is possible without it, which is why "our books are a bit behind" is never a small problem.</p>
 
 <h3>Financial Accounting — The Report</h3>
-<p>Turns that raw data into standardised statements — the <strong>profit and loss</strong>, the <strong>balance sheet</strong>, the <strong>cash flow statement</strong> — prepared in line with Australian Accounting Standards and handed to the ATO, the bank or an investor. Our guides to <a href="/blog/how-to-read-a-balance-sheet">reading a balance sheet</a> and <a href="/blog/top-small-business-bookkeeping-tips">keeping the books straight</a> cover this ground in detail.</p>
+<p>Turns that raw data into standardised statements — the <strong>profit and loss</strong>, the <strong>balance sheet</strong>, the <strong>cash flow statement</strong> — prepared in line with Australian Accounting Standards and handed to the ATO, the bank or an investor. Our guides to <a href="/how-to-read-a-balance-sheet">reading a balance sheet</a> and <a href="/top-small-business-bookkeeping-tips">keeping the books straight</a> cover this ground in detail.</p>
 
 <h3>Management Accounting — The Decision</h3>
 <p>Same underlying data, entirely different purpose. Budgets, cash flow forecasts, cost analyses and performance dashboards, built to answer a specific question you are facing right now. Nobody outside the business ever sees them.</p>
@@ -81,11 +81,11 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <h3>Cost Accounting</h3>
 <p>Working out what things genuinely cost — materials and labour, but also the share of rent, power and insurance that each job or product should carry.</p>
 <p>Without it you are pricing blind, and a bestseller can quietly be your least profitable line. A café that knows a flat white costs it $1.85 to make can price it at $4.50 with confidence rather than by looking at the shop next door.</p>
-<p>The natural companion here is <a href="/blog/what-is-break-even-analysis">break-even analysis</a>, which turns your cost structure into a sales target you can actually act on.</p>
+<p>The natural companion here is <a href="/what-is-break-even-analysis">break-even analysis</a>, which turns your cost structure into a sales target you can actually act on.</p>
 
 <h3>Budgeting and Forecasting</h3>
 <p>A budget is the plan for the period. A forecast is the projection of what will really happen, updated as reality arrives.</p>
-<p>A trade contractor budgets the quarter — revenue, materials, subcontractors, overheads — and runs a cash flow forecast alongside it that shows cash tightening in May. Knowing that in February means arranging a facility or renegotiating terms calmly, rather than in a panic in May. Our guide to <a href="/blog/cash-flow-problems-in-small-business">cash flow problems in small business</a> goes deeper on the forecasting side.</p>
+<p>A trade contractor budgets the quarter — revenue, materials, subcontractors, overheads — and runs a cash flow forecast alongside it that shows cash tightening in May. Knowing that in February means arranging a facility or renegotiating terms calmly, rather than in a panic in May. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> goes deeper on the forecasting side.</p>
 
 <h3>Performance Measurement</h3>
 <p><strong>Key performance indicators</strong> are the handful of numbers that tell you whether the business is doing what you need it to. Total revenue rarely qualifies. For an online retailer, the informative ones might be:</p>
@@ -127,7 +127,7 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <p>Reconcile every bank account, credit card and loan. Categorise expenses properly and confirm all income is recorded. Reports built on messy data are worse than no reports, because they carry false authority.</p>
 
 <h3>2. Learn your software's reporting</h3>
-<p>Platforms such as <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> hold everything you need. Learn to run a profit and loss, a balance sheet and an accounts receivable ageing summary. Our <a href="/blog/best-accounting-software-for-small-business-australia">software comparison</a> covers choosing between them.</p>
+<p>Platforms such as <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> hold everything you need. Learn to run a profit and loss, a balance sheet and an accounts receivable ageing summary. Our <a href="/best-accounting-software-for-small-business-australia">software comparison</a> covers choosing between them.</p>
 
 <h3>3. Write down your goals</h3>
 <p>Pick your top three for the next twelve months and make them measurable. "Lift net profit margin from 10% to 15%" gives you something to analyse. "Make more money" does not.</p>
@@ -172,7 +172,7 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 const TITLE = 'What Is Management Accounting? A Small Business Guide';
 const DESCRIPTION =
   'How management accounting differs from bookkeeping and financial accounting, the four tools that matter, and a six-step checklist for getting started.';
-const SLUG = '/blog/what-is-management-accounting';
+const SLUG = '/what-is-management-accounting';
 const PUBLISHED = '2026-08-13';
 
 export default function BlogPostWhatIsManagementAccounting() {

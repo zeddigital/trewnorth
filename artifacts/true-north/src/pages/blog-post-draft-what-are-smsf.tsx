@@ -158,7 +158,7 @@ const htmlContent = `<p>A Self Managed Super Fund, or SMSF, is a private super f
 <blockquote>
 <p>The biggest mistake is going it alone. An SMSF’s structure is complex and the rules are strict. Getting tailored professional advice will give you the confidence to move forward.</p>
 </blockquote>
-<p>For the self-employed, an SMSF can offer powerful advantages. Explore wider approaches on <a href="https://mypolicyquote.com/2025/11/06/how-to-save-for-retirement-self-employed/">how to save for retirement as self-employed</a>{target=&quot;_blank&quot;}. Also, check out our guide on <a href="/how-to-reduce-taxable-income/">reducing taxable income</a>{target=&quot;_blank&quot;} for practical steps.</p>
+<p>For the self-employed, an SMSF can offer powerful advantages. Explore wider approaches on <a href="https://mypolicyquote.com/2025/11/06/how-to-save-for-retirement-self-employed/">how to save for retirement as self-employed</a>{target=&quot;_blank&quot;}. Also, check out our guide on <a href="/10-ways-to-reduce-your-business-tax-bill">reducing taxable income</a>{target=&quot;_blank&quot;} for practical steps.</p>
 <p>If you’ve nodded “yes” to the checklist, you might be a good fit. Reach out to an SMSF specialist to confirm if an SMSF is the right vehicle for you.</p>
 <h2 id="h-your-top-smsf-questions-answered">Your Top SMSF Questions Answered</h2>
 <p>When considering an SMSF, many practical questions come up. Let&#039;s walk through some of the most common queries.</p>

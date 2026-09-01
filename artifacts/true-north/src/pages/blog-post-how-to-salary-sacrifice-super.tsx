@@ -246,7 +246,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li><strong>STP Reporting:</strong> Good accounting software will automatically handle the reporting of these contributions through Single Touch Payroll (STP). This keeps your ATO reporting clean and compliant.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><strong>Clear Payslips:</strong> The employee’s payslip must clearly show their gross wage, the salary sacrifice deduction, and the final taxable income. This transparency helps them understand their <a href="/payg-withholding-meaning/">PAYG withholding meaning</a> and see the tax benefit in action.</li>
+<li><strong>Clear Payslips:</strong> The employee’s payslip must clearly show their gross wage, the salary sacrifice deduction, and the final taxable income. This transparency helps them understand their <a href="/what-is-payrolling">PAYG withholding meaning</a> and see the tax benefit in action.</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --><!-- wp:paragraph -->
 <p>Getting the setup right from the start saves a world of administrative headaches down the track. It’s also a fantastic perk to offer, showing your team you support their long-term financial goals.</p>
@@ -295,7 +295,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p><strong>Miscalculating Your Cap Space</strong><br />It's surprisingly easy to get this wrong. Your concessional cap includes your SG contributions from <em>all</em> employers within a single financial year, plus all your salary sacrifice amounts. If you change jobs mid-year, you must account for the contributions made by your previous employer.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>Dodging these traps really comes down to good planning and regular reviews. It’s also about understanding how these strategies fit into your wider financial picture. If you're on the lookout for other ways to improve your tax position, have a look at our guide on <a href="/how-to-reduce-taxable-income/">how to reduce taxable income</a>.</p>
+<p>Dodging these traps really comes down to good planning and regular reviews. It’s also about understanding how these strategies fit into your wider financial picture. If you're on the lookout for other ways to improve your tax position, have a look at our guide on <a href="/10-ways-to-reduce-your-business-tax-bill">how to reduce taxable income</a>.</p>
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-your-questions-on-salary-sacrificing-to-super-answ">Your Questions on Salary Sacrificing to Super Answered</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
@@ -355,21 +355,21 @@ export default function BlogPostHowToSalarySacrificeSuper() {
       <SEOHead
         title="How to Salary Sacrifice to Super in Australia | Trew North Accounting"
         description="How to Salary Sacrifice to Super in Australia"
-        canonical="/blog/how-to-salary-sacrifice-super"
+        canonical="/how-to-salary-sacrifice-super"
         ogType="article"
         publishedTime="2026-05-18"
         schema={[
           blogPostingSchema({
             title: "How to Salary Sacrifice to Super in Australia",
             description: "How to Salary Sacrifice to Super in Australia",
-            url: '/blog/how-to-salary-sacrifice-super',
+            url: '/how-to-salary-sacrifice-super',
             datePublished: '2026-05-18',
             readingTime: 'PT20M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'How to Salary Sacrifice to Super in Australia', url: '/blog/how-to-salary-sacrifice-super' },
+            { name: 'How to Salary Sacrifice to Super in Australia', url: '/how-to-salary-sacrifice-super' },
           ]),
         ]}
       />

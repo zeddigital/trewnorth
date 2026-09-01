@@ -38,7 +38,7 @@ const htmlContent = `<p>Trying to get your head around tax deductions for your s
 <li><strong>Proof of Payment:</strong> Your bank or credit card statement showing the transaction is also essential.</li>
 <li><strong>Logbooks:</strong> For expenses that have a mixed-use element, like your car, a logbook is the only way to prove the business-use percentage.</li>
 </ul>
-<p>Without this proof, the ATO can flat-out deny your claim, even if the expense was 100% legitimate. For a great system to stay on top of this, you might find our <a href="/end-of-financial-year-checklist-for-small-business-preparing-for-june-30/">end-of-financial-year checklist for small business owners</a> really helpful.</p>
+<p>Without this proof, the ATO can flat-out deny your claim, even if the expense was 100% legitimate. For a great system to stay on top of this, you might find our <a href="/tax-return-deadline">end-of-financial-year checklist for small business owners</a> really helpful.</p>
 <h3>The Apportionment Rule</h3>
 <p>Finally, we have the &#039;apportionment&#039; rule. This one kicks in whenever an expense is for both business and private use. You can only claim the portion, or percentage, that relates directly to your business.</p>
 <p>Your mobile phone is a classic example. If you use your phone <strong>60%</strong> of the time for work calls and emails and <strong>40%</strong> for personal stuff, you can only claim <strong>60%</strong> of your phone bill as a tax deduction. The same logic applies to your internet bill, home office costs, and vehicle expenses.</p>
@@ -142,7 +142,7 @@ const htmlContent = `<p>Trying to get your head around tax deductions for your s
 <p>Every dollar you invest in growing your brand and reaching new customers directly contributes to your income-earning activities, making it a clear-cut deduction.</p>
 </blockquote>
 <h3>Professional Development and Fees</h3>
-<p>Running a business demands a huge range of skills. Thankfully, the costs of keeping your expertise sharp or paying for professional advice are deductible. If you&#039;re operating as a sole trader, your claims might look a bit different. Our dedicated guide on <a href="/sole-trader-tax-deductions/">sole trader tax deductions</a> dives into those specifics.</p>
+<p>Running a business demands a huge range of skills. Thankfully, the costs of keeping your expertise sharp or paying for professional advice are deductible. If you&#039;re operating as a sole trader, your claims might look a bit different. Our dedicated guide on <a href="/tax-deductions-sole-trader">sole trader tax deductions</a> dives into those specifics.</p>
 <ul>
 <li><strong>Education:</strong> You can claim self-education costs if they are directly tied to your current business activities and help you maintain or improve the skills you need. Think courses, seminars, and subscriptions to trade journals.</li>
 <li><strong>Professional Services:</strong> Fees you pay to your accountant, lawyer, or a business coach for advice on running your business are deductible.</li>

@@ -423,21 +423,21 @@ export default function BlogPostPropertyInvestmentUsingSuperannuation() {
       <SEOHead
         title="Your Guide to Property Investment Using Superannuation | Trew North Accounting"
         description="Your Guide to Property Investment Using Superannuation"
-        canonical="/blog/property-investment-using-superannuation"
+        canonical="/property-investment-using-superannuation"
         ogType="article"
         publishedTime="2026-06-25"
         schema={[
           blogPostingSchema({
             title: "Your Guide to Property Investment Using Superannuation",
             description: "Your Guide to Property Investment Using Superannuation",
-            url: '/blog/property-investment-using-superannuation',
+            url: '/property-investment-using-superannuation',
             datePublished: '2026-06-25',
             readingTime: 'PT24M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Your Guide to Property Investment Using Superannuation', url: '/blog/property-investment-using-superannuation' },
+            { name: 'Your Guide to Property Investment Using Superannuation', url: '/property-investment-using-superannuation' },
           ]),
         ]}
       />

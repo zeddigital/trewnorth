@@ -79,7 +79,7 @@ const htmlContent = `<p>Running a small business in Melbourne takes more than a 
 <li><strong>Quarter 4 (April – June):</strong> Due <strong>28 July</strong></li>
 </ul>
 <blockquote>
-<p>Staying ahead of your BAS is a game-changer for cash flow. If you regularly set aside the GST you collect, the funds are ready to go when the deadline hits—no stressful financial crunch. For a more detailed walkthrough, check out our complete guide on <a href="/how-to-lodge-bas-online/"><strong>how to lodge BAS online</strong></a>.</p>
+<p>Staying ahead of your BAS is a game-changer for cash flow. If you regularly set aside the GST you collect, the funds are ready to go when the deadline hits—no stressful financial crunch. For a more detailed walkthrough, check out our complete guide on <a href="/services/bookkeeping"><strong>how to lodge BAS online</strong></a>.</p>
 </blockquote>
 <h3>Quarterly Superannuation Payments</h3>
 <p>Paying super guarantee contributions for your eligible employees is non-negotiable. You must meet these quarterly deadlines to avoid the superannuation guarantee charge.</p>
@@ -120,7 +120,7 @@ const htmlContent = `<p>Running a small business in Melbourne takes more than a 
 <li><strong>Anytime, Anywhere Access:</strong> Check on your business’s financial health from your laptop at a café in Fitzroy or from your phone while you&#039;re on holiday. This kind of flexibility keeps you in control, no matter where you are.</li>
 <li><strong>Seamless Collaboration:</strong> You can give your accountant secure access to your live data. This means they can offer proactive advice and flag issues as they happen, instead of just tidying up old records at tax time.</li>
 </ul>
-<p>At the end of the day, cloud accounting gives you the tools to be more agile and responsive. You can make smarter, data-driven decisions that fuel real, sustainable growth—giving you the edge you need to thrive. To learn more about how these tools work, check out our <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/"><strong>complete guide to cloud bookkeeping services</strong></a>.</p>
+<p>At the end of the day, cloud accounting gives you the tools to be more agile and responsive. You can make smarter, data-driven decisions that fuel real, sustainable growth—giving you the edge you need to thrive. To learn more about how these tools work, check out our <a href="/services/bookkeeping"><strong>complete guide to cloud bookkeeping services</strong></a>.</p>
 <h2 id="h-making-sense-of-accounting-fees-with-flat-rate-prici">Making Sense of Accounting Fees with Flat-Rate Pricing</h2>
 <p>One of the biggest questions on any Melbourne small business owner&#039;s mind is, &quot;What&#039;s this actually going to cost me?&quot; That uncertainty is a major source of stress. When your accounting fees are all over the place, budgeting can feel like a total guessing game, which is why you need to get your head around pricing models before you partner with an accountant.</p>
 <p>Historically, professional services like accounting have run on the good old billable hour. While it seems straightforward enough, this model often creates a weird tension.</p>

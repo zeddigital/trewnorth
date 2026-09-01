@@ -52,21 +52,21 @@ export default function BlogPostAISmallBusiness() {
       <SEOHead
         title="The Impact of AI in Small Business | Trew North Accounting"
         description="AI is transforming how small businesses operate — automating tasks, improving customer service, and unlocking financial insights. A practical guide for Melbourne business owners."
-        canonical="/blog/the-impact-of-ai-in-small-business"
+        canonical="/the-impact-of-ai-in-small-business"
         ogType="article"
         publishedTime="2024-08-19"
         schema={[
           blogPostingSchema({
             title: 'The Impact of AI in Small Business',
             description: "AI is transforming how small businesses operate — automating tasks, improving customer service, and unlocking insights that were previously out of reach. Here's how to leverage it to stay competitive.",
-            url: '/blog/the-impact-of-ai-in-small-business',
+            url: '/the-impact-of-ai-in-small-business',
             datePublished: '2024-08-19',
             readingTime: 'PT7M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'The Impact of AI in Small Business', url: '/blog/the-impact-of-ai-in-small-business' },
+            { name: 'The Impact of AI in Small Business', url: '/the-impact-of-ai-in-small-business' },
           ]),
           faqSchema(aiSmallBusinessFaqs),
         ]}

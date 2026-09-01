@@ -18,7 +18,7 @@ const htmlContent = `<p>A Profit and Loss (P&amp;L) statement summarises your co
 <li><strong>Informed Decisions:</strong> You can identify exactly where your money is going and adjust your budget and strategy accordingly.</li>
 <li><strong>Growth Planning:</strong> It provides the foundation for building realistic financial forecasts and helps you secure funding from lenders or investors.</li>
 </ul>
-<p>Getting a handle on your P&amp;L statement is a crucial step in taking control of your business finances. For more foundational knowledge, check out our guide on <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">top small business bookkeeping tips to simplify your finances</a>.</p>
+<p>Getting a handle on your P&amp;L statement is a crucial step in taking control of your business finances. For more foundational knowledge, check out our guide on <a href="/top-small-business-bookkeeping-tips">top small business bookkeeping tips to simplify your finances</a>.</p>
 <p>In this guide, we&#039;ll demystify the P&amp;L, showing you how to use it as a powerful tool to drive your business forward.</p>
 <h2 id="h-the-core-components-of-a-p-amp-l-statement">The Core Components of a P&amp;L Statement</h2>
 <p>Think of a Profit and Loss statement as a financial story with a clear beginning, middle, and end. Each part builds on the last, peeling back the layers to show you how your business is <em>really</em> doing.</p>

@@ -9,7 +9,7 @@ import { SEOHead, blogPostingSchema, breadcrumbSchema } from '@/components/seo-h
 import { BlogBreadcrumb } from '@/components/blog-breadcrumb';
 
 const PAYDAY_SUPER =
-  '/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow';
+  '/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow';
 
 const toc = [
   { id: 'h-what-payrolling-covers', label: 'What Payrolling Covers' },
@@ -81,7 +81,7 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 
 <h3>State Payroll Tax</h3>
 <p>Payroll tax is a state tax, separate from everything above, and it only applies once your total Australian wages pass a threshold. In Victoria the annual threshold is <strong>$1,000,000</strong>, with a metropolitan rate of <strong>4.85%</strong> applied to wages above it.</p>
-<p>Most small businesses never reach it. Those approaching it should read our <a href="/blog/victoria-payroll-tax">Victorian payroll tax guide</a>, particularly the grouping rules — related businesses are assessed together, which catches people out.</p>
+<p>Most small businesses never reach it. Those approaching it should read our <a href="/victoria-payroll-tax">Victorian payroll tax guide</a>, particularly the grouping rules — related businesses are assessed together, which catches people out.</p>
 
 <h3>Records</h3>
 <p>Keep payroll records for at least <strong>five years</strong>: how each figure was calculated, evidence of every wage, tax and super payment made, and each employee's TFN declaration and super choice form. These records are what an ATO review actually examines.</p>
@@ -90,7 +90,7 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <p>The first hire is the moment you become an employer, with everything that carries. The setup itself is manageable in an afternoon.</p>
 <ol>
 <li><strong>Register for PAYG withholding.</strong> Through the Australian Business Register or your existing ATO channels. This is the legal precondition to paying anyone.</li>
-<li><strong>Choose payroll software.</strong> Spreadsheets cannot meet the STP obligation. <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> both handle STP, update tax tables automatically and generate payslips — our <a href="/blog/best-accounting-software-for-small-business-australia">software comparison</a> covers the choice.</li>
+<li><strong>Choose payroll software.</strong> Spreadsheets cannot meet the STP obligation. <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> both handle STP, update tax tables automatically and generate payslips — our <a href="/best-accounting-software-for-small-business-australia">software comparison</a> covers the choice.</li>
 <li><strong>Collect employee details.</strong> A TFN declaration, a superannuation standard choice form, and personal and bank details. If an employee does not nominate a fund, you must request their <strong>stapled fund</strong> from the ATO rather than defaulting them anywhere.</li>
 <li><strong>Set up their profile.</strong> Pay rate, tax details, and employment type — full-time, part-time or casual. That last field drives leave accrual, so a wrong setting compounds quietly for months.</li>
 <li><strong>Run the first pay.</strong> Check gross, tax and net before finalising. Finalising generates payslips and files the STP report, then you transfer the net pay.</li>
@@ -151,7 +151,7 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 const TITLE = 'What Is Payrolling? An Australian Employer’s Guide';
 const DESCRIPTION =
   'Payroll obligations for Australian small business — PAYG withholding, the 12% super guarantee under payday super, STP, payroll tax, and the errors that cost most.';
-const SLUG = '/blog/what-is-payrolling';
+const SLUG = '/what-is-payrolling';
 const PUBLISHED = '2026-08-16';
 
 export default function BlogPostWhatIsPayrolling() {

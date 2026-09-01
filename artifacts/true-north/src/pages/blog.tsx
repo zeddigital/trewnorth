@@ -21,7 +21,7 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
-    href: '/blog/what-is-a-profit-and-loss-statement',
+    href: '/what-is-a-profit-and-loss-statement',
     image: '/blog/what-is-a-profit-and-loss-statement.webp',
     category: 'Accounting',
     title: 'What Is a Profit and Loss Statement? A Small Business Guide',
@@ -30,7 +30,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/what-is-payrolling',
+    href: '/what-is-payrolling',
     image: '/blog/what-is-payrolling.webp',
     category: 'Payroll',
     title: 'What Is Payrolling? An Australian Employer\u2019s Guide',
@@ -39,7 +39,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/agent-nomination-ato',
+    href: '/agent-nomination-ato',
     image: '/blog/agent-nomination-ato.webp',
     category: 'Business',
     title: 'ATO Agent Nomination: A Step-by-Step Guide for Business',
@@ -48,7 +48,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/set-up-super-fund',
+    href: '/set-up-super-fund',
     image: '/blog/set-up-super-fund.webp',
     category: 'Superannuation',
     title: 'How to Set Up an SMSF in Australia: A 2026 Guide',
@@ -57,7 +57,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/what-is-management-accounting',
+    href: '/what-is-management-accounting',
     image: '/blog/what-is-management-accounting.webp',
     category: 'Accounting',
     title: 'What Is Management Accounting? A Small Business Guide',
@@ -66,7 +66,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/what-is-break-even-analysis',
+    href: '/what-is-break-even-analysis',
     image: '/blog/what-is-break-even-analysis.webp',
     category: 'Accounting',
     title: 'What Is Break-Even Analysis? A Guide for Small Business',
@@ -75,7 +75,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/how-to-read-a-balance-sheet',
+    href: '/how-to-read-a-balance-sheet',
     image: '/blog/how-to-read-a-balance-sheet.webp',
     category: 'Accounting',
     title: 'How to Read a Balance Sheet: A Guide for Australian Businesses',
@@ -84,7 +84,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/victoria-payroll-tax',
+    href: '/victoria-payroll-tax',
     image: '/blog/victoria-payroll-tax.webp',
     category: 'Payroll',
     title: 'Victorian Payroll Tax: A 2026 Guide for Melbourne Small Business',
@@ -93,7 +93,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/property-investment-using-superannuation',
+    href: '/property-investment-using-superannuation',
     image: '/blog/property-investment-using-superannuation.webp',
     category: 'Superannuation',
     title: 'Your Guide to Property Investment Using Superannuation',
@@ -102,7 +102,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026',
+    href: '/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026',
     image: '/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026.webp',
     category: 'Superannuation',
     title: "The ATO's Free Super Clearing House Is Closing — What Melbourne Small Businesses Need to Do",
@@ -111,7 +111,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/tax-deductions-sole-trader',
+    href: '/tax-deductions-sole-trader',
     image: '/blog/tax-deductions-sole-trader.webp',
     category: 'Tax Planning',
     title: 'Tax Deductions for Sole Traders — Tips to Boost Your Refund',
@@ -120,7 +120,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/how-to-salary-sacrifice-super',
+    href: '/how-to-salary-sacrifice-super',
     image: '/blog/how-to-salary-sacrifice-super.webp',
     category: 'Superannuation',
     title: 'How to Salary Sacrifice to Super in Australia',
@@ -129,7 +129,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/tax-return-deadline',
+    href: '/tax-return-deadline',
     image: '/blog/tax-return-deadline.webp',
     category: 'Tax Planning',
     title: 'Tax Return Deadline — A Quick Guide to Filing on Time',
@@ -138,7 +138,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/discretionary-trust-vs-family-trust',
+    href: '/discretionary-trust-vs-family-trust',
     image: '/blog/discretionary-trust-vs-family-trust.webp',
     category: 'Business Planning',
     title: 'Discretionary Trust vs Family Trust: A 2026 Guide for Melbourne Businesses',
@@ -147,7 +147,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/investment-property-tax-deductions-australia',
+    href: '/investment-property-tax-deductions-australia',
     image: '/blog/investment-property-tax-deductions-australia.webp',
     category: 'Tax Planning',
     title: 'Your Guide to Investment Property Tax Deductions in Australia',
@@ -156,7 +156,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow',
+    href: '/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow',
     image: '/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow.webp',
     category: 'Superannuation',
     title: 'Payday Super 2026: The Small Business Checklist to Stay Compliant',
@@ -165,7 +165,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/salary-sacrifice-is-it-worth-it',
+    href: '/salary-sacrifice-is-it-worth-it',
     image: '/blog/salary-sacrifice-is-it-worth-it.webp',
     category: 'Tax Planning',
     title: 'Salary Sacrifice — Is It Worth It? Your 2026 Guide to Tax and Savings',
@@ -174,7 +174,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/cash-flow-problems-in-small-business',
+    href: '/cash-flow-problems-in-small-business',
     image: '/blog/cash-flow-problems-in-small-business.webp',
     category: 'Business Planning',
     title: 'Solve Cash Flow Problems in Small Business: Quick Fixes and Solutions',
@@ -183,7 +183,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/best-accounting-software-for-small-business-australia',
+    href: '/best-accounting-software-for-small-business-australia',
     image: '/blog/best-accounting-software-for-small-business-australia.webp',
     category: 'Bookkeeping',
     title: 'The 12 Best Accounting Software for Small Business Australia (2026 Review)',
@@ -193,7 +193,7 @@ const posts: Post[] = [
   },
   // ── 2025 ──
   {
-    href: '/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags',
+    href: '/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags',
     image: '/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags.webp',
     category: 'Tax Planning',
     title: 'How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags',
@@ -202,7 +202,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/should-your-small-business-register-for-gst',
+    href: '/should-your-small-business-register-for-gst',
     image: '/blog/should-your-small-business-register-for-gst.webp',
     category: 'Tax Planning',
     title: 'Should Your Small Business Register for GST?',
@@ -211,7 +211,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know',
+    href: '/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know',
     image: '/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know.webp',
     category: 'Tax Planning',
     title: 'Navigating the 2025 Tax Changes: What Melbourne Small Businesses Need to Know',
@@ -220,7 +220,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/top-small-business-bookkeeping-tips',
+    href: '/top-small-business-bookkeeping-tips',
     image: '/blog/top-small-business-bookkeeping-tips.webp',
     category: 'Bookkeeping',
     title: 'Top Small Business Bookkeeping Tips: Simplify Your Finances',
@@ -229,7 +229,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/10-ways-to-reduce-your-business-tax-bill',
+    href: '/10-ways-to-reduce-your-business-tax-bill',
     image: '/blog/10-ways-to-reduce-your-business-tax-bill.webp',
     category: 'Tax Planning',
     title: '10 Ways to Reduce Your Business Tax Bill',
@@ -238,7 +238,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/succession-planning-for-small-businesses',
+    href: '/succession-planning-for-small-businesses',
     image: '/blog/succession-planning-for-small-businesses.webp',
     category: 'Business Planning',
     title: 'Succession Planning for Small Businesses',
@@ -247,7 +247,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/top-small-business-grants-for-2025',
+    href: '/top-small-business-grants-for-2025',
     image: '/blog/top-small-business-grants-for-2025.webp',
     category: 'Business Planning',
     title: 'Top Small Business Grants for 2025: Easy Funding Options',
@@ -257,7 +257,7 @@ const posts: Post[] = [
   },
   // ── 2024 ──
   {
-    href: '/blog/the-impact-of-rising-interest-rates-on-small-businesses',
+    href: '/the-impact-of-rising-interest-rates-on-small-businesses',
     image: '/blog/the-impact-of-rising-interest-rates-on-small-businesses.webp',
     category: 'Business Planning',
     title: 'The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt',
@@ -266,7 +266,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide',
+    href: '/how-to-handle-an-ato-audit-letter-step-by-step-guide',
     image: '/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide.webp',
     category: 'Tax Planning',
     title: 'How to Handle an ATO Audit Letter: Step-by-Step Guide',
@@ -275,7 +275,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/your-guide-to-the-best-melbourne-accountants-in-2024',
+    href: '/your-guide-to-the-best-melbourne-accountants-in-2024',
     image: '/blog/your-guide-to-the-best-melbourne-accountants-in-2024.webp',
     category: 'Small Business',
     title: 'Your Guide to the Best Melbourne Accountants in 2024',
@@ -284,7 +284,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/the-impact-of-ai-in-small-business',
+    href: '/the-impact-of-ai-in-small-business',
     image: '/blog/the-impact-of-ai-in-small-business.webp',
     category: 'Small Business',
     title: 'The Impact of AI in Small Business',
@@ -294,7 +294,7 @@ const posts: Post[] = [
   },
   // ── Older ──
   {
-    href: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
+    href: '/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
     image: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes.webp',
     category: 'Tax Planning',
     title: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid',
@@ -303,7 +303,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/strategic-plan-for-small-business',
+    href: '/strategic-plan-for-small-business',
     image: '/blog/strategic-plan-for-small-business.webp',
     category: 'Business Planning',
     title: 'Strategic Plan for Small Business',
@@ -312,7 +312,7 @@ const posts: Post[] = [
     internal: true,
   },
   {
-    href: '/blog/business-structures-pros-cons',
+    href: '/business-structures-pros-cons',
     image: '/blog/business-structures-pros-cons.webp',
     category: 'Business Planning',
     title: 'Business Structures — Pros & Cons',

@@ -68,7 +68,7 @@ const htmlContent = `<p>Think of your superannuation. For most of us, it’s som
 <li><p><strong>Paying Benefits:</strong> When a member becomes eligible to access their super, you are responsible for paying out their benefits—either as a lump sum or a pension—in line with the law and the trust deed.</p>
 </li>
 </ul>
-<p>These tasks require your ongoing attention and a proactive approach. They aren&#039;t &#039;set and forget&#039; jobs but a continuous cycle of review and action throughout the financial year. To learn more about optimising your financial position, check out our guide on <a href="/how-to-reduce-taxable-income/">how to reduce taxable income in Australia</a>.</p>
+<p>These tasks require your ongoing attention and a proactive approach. They aren&#039;t &#039;set and forget&#039; jobs but a continuous cycle of review and action throughout the financial year. To learn more about optimising your financial position, check out our guide on <a href="/10-ways-to-reduce-your-business-tax-bill">how to reduce taxable income in Australia</a>.</p>
 <h3>Record-Keeping and Reporting Obligations</h3>
 <p>Meticulous record-keeping is easily one of the most critical parts of being an SMSF trustee. The ATO can ask to see your records at any time, and they expect them to be accurate, organised, and complete. In fact, messy paperwork is one of the most common reasons SMSFs get into trouble.</p>
 <blockquote>

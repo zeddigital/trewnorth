@@ -60,7 +60,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 <p>On that last point, know what you are authorising before you start:</p>
 <ul>
 <li><strong>Income tax</strong> — annual returns and general tax compliance.</li>
-<li><strong>Activity statements</strong> — BAS lodgements, covering GST and PAYG withholding. If GST registration is still ahead of you, our guide on <a href="/blog/should-your-small-business-register-for-gst">whether to register for GST</a> covers the threshold and the decision.</li>
+<li><strong>Activity statements</strong> — BAS lodgements, covering GST and PAYG withholding. If GST registration is still ahead of you, our guide on <a href="/should-your-small-business-register-for-gst">whether to register for GST</a> covers the threshold and the decision.</li>
 <li><strong>Payroll service provider</strong> — for businesses using a separate provider purely for payroll.</li>
 </ul>
 
@@ -101,7 +101,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 </div>
 </div>
 <p>Plenty of businesses use both — a bookkeeper holding BAS authorisation for the quarterly cycle, and an accountant holding tax authorisation for the annual return and planning. Nominating both is perfectly normal.</p>
-<p>If you are still choosing, our guide to <a href="/blog/your-guide-to-the-best-melbourne-accountants-in-2024">finding a Melbourne accountant</a> covers what to look for in a firm you intend to stay with.</p>
+<p>If you are still choosing, our guide to <a href="/your-guide-to-the-best-melbourne-accountants-in-2024">finding a Melbourne accountant</a> covers what to look for in a firm you intend to stay with.</p>
 
 <h2 id="h-when-it-does-not-work">When It Does Not Work</h2>
 <p>Nominations fail for a small number of predictable reasons.</p>
@@ -117,7 +117,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 </blockquote>
 
 <h3>Why it is worth fixing quickly</h3>
-<p>Without a linked agent, lodgements are yours alone to make and to remember. Late lodgement is where penalties start, and for company directors the consequences of unpaid PAYG withholding, GST and super reach through to you personally. Our guide on <a href="/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide">handling an ATO audit letter</a> covers what happens when correspondence does arrive.</p>
+<p>Without a linked agent, lodgements are yours alone to make and to remember. Late lodgement is where penalties start, and for company directors the consequences of unpaid PAYG withholding, GST and super reach through to you personally. Our guide on <a href="/how-to-handle-an-ato-audit-letter-step-by-step-guide">handling an ATO audit letter</a> covers what happens when correspondence does arrive.</p>
 
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
@@ -144,7 +144,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 const TITLE = 'ATO Agent Nomination: A Step-by-Step Guide for Business';
 const DESCRIPTION =
   'How to nominate your tax or BAS agent with the ATO — myID and RAM setup, the nomination steps, the 28-day window, and why nominations most often fail.';
-const SLUG = '/blog/agent-nomination-ato';
+const SLUG = '/agent-nomination-ato';
 const PUBLISHED = '2026-08-15';
 
 export default function BlogPostAgentNominationAto() {

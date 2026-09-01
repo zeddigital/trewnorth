@@ -114,7 +114,7 @@ const htmlContent = `<p>Setting up a family trust in Australia involves a few ke
 <h3>The Annual Ritual: Trustee Resolutions</h3>
 <p>Here’s a date for your calendar: <strong>30 June</strong>. Every single year, before midnight on this date, the trustee has to formally decide how to distribute the trust&#039;s income for that financial year.</p>
 <p>This decision must be documented in a written <strong>Trustee Resolution</strong> or &quot;minute.&quot; This isn&#039;t optional paperwork; it&#039;s a strict legal requirement.</p>
-<p>Failing to make a valid resolution by the deadline has serious consequences. If the income isn&#039;t properly distributed to specific beneficiaries, the trustee themselves gets hit with the tax bill—at the highest possible marginal rate. It’s a very expensive mistake that is completely avoidable with a bit of planning. For small business owners, hitting these deadlines is just as critical as knowing <a href="/how-to-lodge-bas-online/">how to lodge a BAS online</a>.</p>
+<p>Failing to make a valid resolution by the deadline has serious consequences. If the income isn&#039;t properly distributed to specific beneficiaries, the trustee themselves gets hit with the tax bill—at the highest possible marginal rate. It’s a very expensive mistake that is completely avoidable with a bit of planning. For small business owners, hitting these deadlines is just as critical as knowing <a href="/services/bookkeeping">how to lodge a BAS online</a>.</p>
 <h3>Compliant vs. Non-Compliant: A Real-World Look</h3>
 <p>Let&#039;s see what this looks like in practice.</p>
 <p><strong>Compliant Distribution Example</strong></p>

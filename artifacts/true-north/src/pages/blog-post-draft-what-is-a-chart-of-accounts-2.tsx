@@ -65,7 +65,7 @@ const htmlContent = `<p>Think of a <strong>Chart of Accounts (COA)</strong> as t
 <li><strong>Accounts Payable:</strong> This is the flip side of Accounts Receivable. It&#039;s the money you owe to your suppliers for things you&#039;ve received but haven&#039;t paid for yet, like an invoice from a subcontractor.</li>
 <li><strong>Credit Card Balances:</strong> Any outstanding debt on your business credit cards falls into this category.</li>
 <li><strong>Business Loans:</strong> This includes any financing you’ve taken on from a bank or lender to fund your operations or buy assets.</li>
-<li><strong>GST Payable:</strong> This is the Goods and Services Tax you&#039;ve collected from customers on behalf of the ATO. It&#039;s not your money. You&#039;re just holding it until it&#039;s time to remit it. Understanding how to manage this is key, especially when you learn <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a>{target=&quot;_blank&quot;} with accuracy.</li>
+<li><strong>GST Payable:</strong> This is the Goods and Services Tax you&#039;ve collected from customers on behalf of the ATO. It&#039;s not your money. You&#039;re just holding it until it&#039;s time to remit it. Understanding how to manage this is key, especially when you learn <a href="/services/bookkeeping">how to lodge your BAS online</a>{target=&quot;_blank&quot;} with accuracy.</li>
 </ul>
 <blockquote>
 <p>The core relationship in accounting is <strong>Assets = Liabilities + Equity</strong>. This fundamental equation, known as the accounting equation, must always be in balance. It shows that everything the business owns (Assets) is financed by either debt (Liabilities) or the owner&#039;s investment (Equity).</p>
@@ -184,7 +184,7 @@ const htmlContent = `<p>Think of a <strong>Chart of Accounts (COA)</strong> as t
 </li>
 <li><p><strong>Resist On-the-Fly Changes:</strong> It’s tempting to create a new account every time a unique expense pops up, but this is a fast track to clutter. Instead, have a clear process for adding or changing accounts, which should probably involve a quick chat with your bookkeeper or accountant first.</p>
 </li>
-<li><p><strong>Train Your Team:</strong> If you have staff who code transactions, make sure they actually understand your COA. Consistent and accurate coding is the bedrock of data integrity. A small investment in training can prevent widespread <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes that cost small businesses</a>{target=&quot;_blank&quot;} and protect your finances.</p>
+<li><p><strong>Train Your Team:</strong> If you have staff who code transactions, make sure they actually understand your COA. Consistent and accurate coding is the bedrock of data integrity. A small investment in training can prevent widespread <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes that cost small businesses</a>{target=&quot;_blank&quot;} and protect your finances.</p>
 </li>
 </ul>
 <h3>The Benefits of a Clean COA</h3>

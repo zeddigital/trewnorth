@@ -122,21 +122,21 @@ export default function BlogPost10WaysToReduceYourBusinessTaxBill() {
       <SEOHead
         title="10 Ways To Reduce Your Business Tax Bill | Trew North Accounting"
         description="Running a small business in Australia comes with many financial responsibilities, and income tax can be one of the most significant costs."
-        canonical="/blog/10-ways-to-reduce-your-business-tax-bill"
+        canonical="/10-ways-to-reduce-your-business-tax-bill"
         ogType="article"
         publishedTime="2025-02-05"
         schema={[
           blogPostingSchema({
             title: "10 Ways To Reduce Your Business Tax Bill",
             description: "Running a small business in Australia comes with many financial responsibilities, and income tax can be one of the most significant costs.",
-            url: '/blog/10-ways-to-reduce-your-business-tax-bill',
+            url: '/10-ways-to-reduce-your-business-tax-bill',
             datePublished: '2025-02-05',
             readingTime: 'PT8M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: '10 Ways To Reduce Your Business Tax Bill', url: '/blog/10-ways-to-reduce-your-business-tax-bill' },
+            { name: '10 Ways To Reduce Your Business Tax Bill', url: '/10-ways-to-reduce-your-business-tax-bill' },
           ]),
         ]}
       />

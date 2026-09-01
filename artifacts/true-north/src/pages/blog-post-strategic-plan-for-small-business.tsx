@@ -111,21 +111,21 @@ export default function BlogPostStrategicPlanForSmallBusiness() {
       <SEOHead
         title="Strategic Plan For Small Business | Trew North Accounting"
         description="A small business should have a strategic plan because it provides a clear roadmap for achieving long-term goals, guiding decision-making, and allocating resourc"
-        canonical="/blog/strategic-plan-for-small-business"
+        canonical="/strategic-plan-for-small-business"
         ogType="article"
         publishedTime="2020-05-11"
         schema={[
           blogPostingSchema({
             title: "Strategic Plan For Small Business",
             description: "A small business should have a strategic plan because it provides a clear roadmap for achieving long-term goals, guiding decision-making, and allocating resourc",
-            url: '/blog/strategic-plan-for-small-business',
+            url: '/strategic-plan-for-small-business',
             datePublished: '2020-05-11',
             readingTime: 'PT10M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Strategic Plan For Small Business', url: '/blog/strategic-plan-for-small-business' },
+            { name: 'Strategic Plan For Small Business', url: '/strategic-plan-for-small-business' },
           ]),
         ]}
       />

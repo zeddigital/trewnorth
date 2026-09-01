@@ -54,21 +54,21 @@ export default function BlogPostInterestRates() {
       <SEOHead
         title="Rising Interest Rates & Small Business: How to Prepare | Trew North"
         description="Rising interest rates are reshaping cash flow and lending for Australian small businesses. Practical strategies to manage debt, cut costs, and protect your business."
-        canonical="/blog/the-impact-of-rising-interest-rates-on-small-businesses"
+        canonical="/the-impact-of-rising-interest-rates-on-small-businesses"
         ogType="article"
         publishedTime="2025-06-26"
         schema={[
           blogPostingSchema({
             title: 'The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt',
             description: "Rising interest rates are reshaping the financial landscape for Australian small businesses. Here's what it means for your cash flow, loans, and growth — and what you can do about it.",
-            url: '/blog/the-impact-of-rising-interest-rates-on-small-businesses',
+            url: '/the-impact-of-rising-interest-rates-on-small-businesses',
             datePublished: '2025-06-26',
             readingTime: 'PT9M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'The Impact of Rising Interest Rates on Small Businesses', url: '/blog/the-impact-of-rising-interest-rates-on-small-businesses' },
+            { name: 'The Impact of Rising Interest Rates on Small Businesses', url: '/the-impact-of-rising-interest-rates-on-small-businesses' },
           ]),
           faqSchema(interestRatesFaqs),
         ]}

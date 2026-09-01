@@ -123,7 +123,7 @@ const htmlContent = `<p>Setting up a <strong>self-managed super fund</strong> me
 <p>Once money is arriving, each dollar has to be allocated to the correct member's account and recorded precisely. Three kinds of contribution are common:</p>
 <ul>
 <li><strong>Employer contributions.</strong> Superannuation guarantee payments. If you are an employee of your own company, the business pays these into the fund directly.</li>
-<li><strong>Personal concessional contributions.</strong> Made from pre-tax income, typically by salary sacrifice, and taxed at 15% inside the fund. Our guide to <a href="/blog/salary-sacrifice-is-it-worth-it">whether salary sacrifice is worth it</a> works through the arithmetic, and <a href="/blog/how-to-salary-sacrifice-super">how to salary sacrifice to super</a> covers setting it up.</li>
+<li><strong>Personal concessional contributions.</strong> Made from pre-tax income, typically by salary sacrifice, and taxed at 15% inside the fund. Our guide to <a href="/salary-sacrifice-is-it-worth-it">whether salary sacrifice is worth it</a> works through the arithmetic, and <a href="/how-to-salary-sacrifice-super">how to salary sacrifice to super</a> covers setting it up.</li>
 <li><strong>Personal non-concessional contributions.</strong> Made from after-tax income, so no deduction — but earnings on them are taxed at the concessional rate inside the fund. Annual caps apply and they are worth planning around.</li>
 </ul>
 
@@ -138,7 +138,7 @@ const htmlContent = `<p>Setting up a <strong>self-managed super fund</strong> me
 <li><strong>The SMSF annual return.</strong> More than a tax return: it reports income tax, regulatory compliance and member contributions together.</li>
 <li><strong>The supervisory levy.</strong> Paid to the ATO, generally alongside the annual return.</li>
 </ul>
-<p>Records must be kept for at least five years, and some documents — trustee declarations and minutes among them — for longer. Good records make the audit faster and cheaper; poor ones make it neither. Our guide on <a href="/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide">handling an ATO audit letter</a> is worth reading before you need it.</p>
+<p>Records must be kept for at least five years, and some documents — trustee declarations and minutes among them — for longer. Good records make the audit faster and cheaper; poor ones make it neither. Our guide on <a href="/how-to-handle-an-ato-audit-letter-step-by-step-guide">handling an ATO audit letter</a> is worth reading before you need it.</p>
 
 <h3>Three Ways Trustees Come Unstuck</h3>
 <p><strong>Breaching the sole purpose test.</strong> The fund exists solely to provide retirement benefits to its members. Buying a holiday house in the fund and using it for family holidays is the textbook breach. Before any decision, the test is simple: is this purely for members' retirement?</p>
@@ -166,7 +166,7 @@ const htmlContent = `<p>Setting up a <strong>self-managed super fund</strong> me
 const TITLE = 'How to Set Up an SMSF in Australia: A 2026 Guide';
 const DESCRIPTION =
   'Setting up a self-managed super fund step by step — trustee structure, trust deed, ATO registration, investment strategy, and the annual obligations you take on.';
-const SLUG = '/blog/set-up-super-fund';
+const SLUG = '/set-up-super-fund';
 const PUBLISHED = '2026-08-14';
 
 export default function BlogPostSetUpSuperFund() {

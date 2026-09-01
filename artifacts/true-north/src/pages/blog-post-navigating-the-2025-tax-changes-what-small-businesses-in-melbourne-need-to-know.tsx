@@ -192,21 +192,21 @@ export default function BlogPostNavigatingThe2025TaxChangesWhatSmallBusinessesIn
       <SEOHead
         title="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know | Trew North Accounting"
         description="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know"
-        canonical="/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know"
+        canonical="/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know"
         ogType="article"
         publishedTime="2025-05-19"
         schema={[
           blogPostingSchema({
             title: "Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know",
             description: "Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know",
-            url: '/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know',
+            url: '/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know',
             datePublished: '2025-05-19',
             readingTime: 'PT36M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know', url: '/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know' },
+            { name: 'Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know', url: '/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know' },
           ]),
         ]}
       />

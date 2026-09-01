@@ -1,0 +1,38 @@
+# Blog posts moved from /blog/<slug> to /<slug> to match the URLs the
+# WordPress site served, so existing links and rankings survive the cutover.
+# Enumerated rather than wildcarded on purpose: /blog/* would also match the
+# post images under /blog/*.webp and redirect them into 404s.
+
+/blog/10-ways-to-reduce-your-business-tax-bill  /10-ways-to-reduce-your-business-tax-bill  301
+/blog/agent-nomination-ato  /agent-nomination-ato  301
+/blog/best-accounting-software-for-small-business-australia  /best-accounting-software-for-small-business-australia  301
+/blog/business-structures-pros-cons  /business-structures-pros-cons  301
+/blog/cash-flow-problems-in-small-business  /cash-flow-problems-in-small-business  301
+/blog/discretionary-trust-vs-family-trust  /discretionary-trust-vs-family-trust  301
+/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide  /how-to-handle-an-ato-audit-letter-step-by-step-guide  301
+/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags  /how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags  301
+/blog/how-to-read-a-balance-sheet  /how-to-read-a-balance-sheet  301
+/blog/how-to-salary-sacrifice-super  /how-to-salary-sacrifice-super  301
+/blog/investment-property-tax-deductions-australia  /investment-property-tax-deductions-australia  301
+/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes  /melbourne-tradies-tax-tips-and-bookkeeping-mistakes  301
+/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know  /navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know  301
+/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow  /payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow  301
+/blog/property-investment-using-superannuation  /property-investment-using-superannuation  301
+/blog/salary-sacrifice-is-it-worth-it  /salary-sacrifice-is-it-worth-it  301
+/blog/set-up-super-fund  /set-up-super-fund  301
+/blog/should-your-small-business-register-for-gst  /should-your-small-business-register-for-gst  301
+/blog/strategic-plan-for-small-business  /strategic-plan-for-small-business  301
+/blog/succession-planning-for-small-businesses  /succession-planning-for-small-businesses  301
+/blog/tax-deductions-sole-trader  /tax-deductions-sole-trader  301
+/blog/tax-return-deadline  /tax-return-deadline  301
+/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026  /the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026  301
+/blog/the-impact-of-ai-in-small-business  /the-impact-of-ai-in-small-business  301
+/blog/the-impact-of-rising-interest-rates-on-small-businesses  /the-impact-of-rising-interest-rates-on-small-businesses  301
+/blog/top-small-business-bookkeeping-tips  /top-small-business-bookkeeping-tips  301
+/blog/top-small-business-grants-for-2025  /top-small-business-grants-for-2025  301
+/blog/victoria-payroll-tax  /victoria-payroll-tax  301
+/blog/what-is-a-profit-and-loss-statement  /what-is-a-profit-and-loss-statement  301
+/blog/what-is-break-even-analysis  /what-is-break-even-analysis  301
+/blog/what-is-management-accounting  /what-is-management-accounting  301
+/blog/what-is-payrolling  /what-is-payrolling  301
+/blog/your-guide-to-the-best-melbourne-accountants-in-2024  /your-guide-to-the-best-melbourne-accountants-in-2024  301

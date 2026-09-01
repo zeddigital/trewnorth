@@ -58,7 +58,7 @@ const htmlContent = `<p>When you&#039;re running a business, keeping track of ta
 <p>These FBT instalments are paid right alongside your regular Business Activity Statement (BAS). This means keeping up with your quarterly BAS lodgements is a non-negotiable part of your FBT compliance.</p>
 </blockquote>
 <p>The instalments you pay are credited against your final FBT bill. If you’ve paid too much via your BAS, you’ll get a refund. If you’ve underpaid, you&#039;ll need to pay the remaining balance by the final FBT due date.</p>
-<p>For a deeper dive into the BAS process, you can learn more about <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a> to make sure your instalments are always sorted.</p>
+<p>For a deeper dive into the BAS process, you can learn more about <a href="/services/bookkeeping">how to lodge your BAS online</a> to make sure your instalments are always sorted.</p>
 <h2 id="h-what-happens-if-you-miss-the-fbt-deadline">What Happens If You Miss the FBT Deadline?</h2>
 <p>Let’s be honest, seeing an ATO deadline fly by can be a stressful moment. But when it comes to FBT, missing the due date is more than just a minor slip-up. The ATO has specific penalties that can quickly turn a small oversight into a larger financial headache.</p>
 <p>Understanding these consequences isn&#039;t about scare tactics. It&#039;s about seeing why being proactive with your FBT is so important.</p>

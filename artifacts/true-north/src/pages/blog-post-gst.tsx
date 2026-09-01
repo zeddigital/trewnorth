@@ -54,21 +54,21 @@ export default function BlogPostGST() {
       <SEOHead
         title="Should Your Small Business Register for GST? | Trew North Accounting"
         description="Understand GST registration thresholds ($75k turnover), voluntary registration, and ATO compliance obligations. Expert guidance from Darren Trew CA, Melbourne."
-        canonical="/blog/should-your-small-business-register-for-gst"
+        canonical="/should-your-small-business-register-for-gst"
         ogType="article"
         publishedTime="2025-10-27"
         schema={[
           blogPostingSchema({
             title: 'Should Your Small Business Register for GST?',
             description: 'Understanding when and why your small business should register for GST is vital for compliance and financial planning. This guide explains everything you need to know.',
-            url: '/blog/should-your-small-business-register-for-gst',
+            url: '/should-your-small-business-register-for-gst',
             datePublished: '2025-10-27',
             readingTime: 'PT8M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Should Your Small Business Register for GST?', url: '/blog/should-your-small-business-register-for-gst' },
+            { name: 'Should Your Small Business Register for GST?', url: '/should-your-small-business-register-for-gst' },
           ]),
           faqSchema(gstFaqs),
         ]}

@@ -168,7 +168,7 @@ const htmlContent = `<p>An SMSF investment strategy is a legally required docume
 <h3>Mixing Personal and Fund Assets</h3>
 <p>This is one of the most severe breaches a trustee can commit. Using fund assets for your personal benefit or mixing them with your personal finances is a direct violation of the <strong>Sole Purpose Test</strong>.</p>
 <p>This could be something as obvious as paying personal bills from the fund&#039;s bank account or as subtle as storing the fund&#039;s artwork in your home. The consequences can be devastating, potentially leading to your fund being declared non-compliant and facing hefty penalties.</p>
-<p>Avoiding these pitfalls often comes down to good governance and getting proactive advice. Understanding how to structure your fund correctly can significantly impact your outcomes, and you can learn more about strategies for <a href="/how-to-reduce-taxable-income/">how to reduce taxable income</a> in our detailed guide.</p>
+<p>Avoiding these pitfalls often comes down to good governance and getting proactive advice. Understanding how to structure your fund correctly can significantly impact your outcomes, and you can learn more about strategies for <a href="/10-ways-to-reduce-your-business-tax-bill">how to reduce taxable income</a> in our detailed guide.</p>
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 <p>When you&#039;re running your own self-managed super fund, it&#039;s natural for questions to pop up along the way. To give you some extra confidence, here are straightforward answers to the queries we hear most often from SMSF trustees.</p>
 <h3>How Detailed Does My SMSF Investment Strategy Need To Be?</h3>

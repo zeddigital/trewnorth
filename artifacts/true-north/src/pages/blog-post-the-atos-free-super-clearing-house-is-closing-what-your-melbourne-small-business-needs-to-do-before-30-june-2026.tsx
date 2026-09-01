@@ -26,21 +26,21 @@ export default function BlogPostTheAtosFreeSuperClearingHouseIsClosingWhatYourMe
       <SEOHead
         title="The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026 | Trew North Accounting"
         description="The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026"
-        canonical="/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026"
+        canonical="/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026"
         ogType="article"
         publishedTime="2026-06-16"
         schema={[
           blogPostingSchema({
             title: "The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026",
             description: "The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026",
-            url: '/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026',
+            url: '/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026',
             datePublished: '2026-06-16',
             readingTime: 'PT13M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: "The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026", url: '/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026' },
+            { name: "The ATO's Free Super Clearing House Is Closing - What Your Melbourne Small Business Needs to Do Before 30 June 2026", url: '/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026' },
           ]),
         ]}
       />

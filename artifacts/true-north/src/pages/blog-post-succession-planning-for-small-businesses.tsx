@@ -114,21 +114,21 @@ export default function BlogPostSuccessionPlanningForSmallBusinesses() {
       <SEOHead
         title="Succession Planning for Small Businesses | Trew North Accounting"
         description="Succession Planning for Small Businesses"
-        canonical="/blog/succession-planning-for-small-businesses"
+        canonical="/succession-planning-for-small-businesses"
         ogType="article"
         publishedTime="2025-01-29"
         schema={[
           blogPostingSchema({
             title: "Succession Planning for Small Businesses",
             description: "Succession Planning for Small Businesses",
-            url: '/blog/succession-planning-for-small-businesses',
+            url: '/succession-planning-for-small-businesses',
             datePublished: '2025-01-29',
             readingTime: 'PT5M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Succession Planning for Small Businesses', url: '/blog/succession-planning-for-small-businesses' },
+            { name: 'Succession Planning for Small Businesses', url: '/succession-planning-for-small-businesses' },
           ]),
         ]}
       />

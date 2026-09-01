@@ -103,7 +103,7 @@ const htmlContent = `<p>Effective bookkeeping is about so much more than just ke
 <p>And a smooth process always starts with up-to-date and accurate books.</p>
 <p>An absolutely crucial first step is making sure your accounts are reconciled <em>before</em> you start. This confirms that the data in your accounting software perfectly matches your bank statements, so you can have complete confidence in your BAS figures.</p>
 <p>Once your books are clean and tidy, modern software can generate your BAS report with just a few clicks.</p>
-<p>Many business owners find lodging their own BAS is surprisingly straightforward these days. If you&#039;re looking for a clear, step-by-step walkthrough, our guide on <a href="/how-to-lodge-bas-online/">how to lodge a BAS online</a> breaks down the entire process.</p>
+<p>Many business owners find lodging their own BAS is surprisingly straightforward these days. If you&#039;re looking for a clear, step-by-step walkthrough, our guide on <a href="/services/bookkeeping">how to lodge a BAS online</a> breaks down the entire process.</p>
 <p>Doing it yourself not only saves money but also builds your confidence and helps you understand your business numbers on a much deeper level.</p>
 <p>With a solid system in place, lodging your BAS becomes a predictable check-in on your business’s financial health, not a dreaded tax event.</p>
 <h2 id="h-building-your-bookkeeping-routine">Building Your Bookkeeping Routine</h2>
@@ -137,7 +137,7 @@ const htmlContent = `<p>Effective bookkeeping is about so much more than just ke
 <blockquote>
 <p>A consistent bookkeeping routine does more than keep you compliant; it transforms your financial data from a historical record into a forward-looking strategic tool. It&#039;s the difference between reacting to the past and actively shaping your future.</p>
 </blockquote>
-<p>Building these habits gives you true control over your finances. For more practical advice, check out our other <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">top small business bookkeeping tips to simplify your finances</a>.</p>
+<p>Building these habits gives you true control over your finances. For more practical advice, check out our other <a href="/top-small-business-bookkeeping-tips">top small business bookkeeping tips to simplify your finances</a>.</p>
 <h2 id="h-uh-oh-common-bookkeeping-mistakes-to-sidestep">Uh-Oh! Common Bookkeeping Mistakes to Sidestep</h2>
 <p>Even the most meticulous business owners can fall into a few classic bookkeeping traps. These might seem like tiny oversights at first, but trust me, they can snowball into unreliable financial data, compliance headaches with the ATO, and missed opportunities for growth.</p>
 <p>Knowing what these common slip-ups are is the first step to putting safeguards in place. Getting this right means your numbers will always give you a true picture of your business&#039;s health, giving you the confidence to make sharp decisions, manage your cash flow, and keep the tax office happy.</p>

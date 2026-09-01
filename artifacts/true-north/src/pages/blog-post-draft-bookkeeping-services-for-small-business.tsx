@@ -21,7 +21,7 @@ const htmlContent = `<p>Handing over your bookkeeping isn&#039;t just about offl
 <li><strong>Compliance Risks:</strong> The Australian tax landscape is notoriously complex. A simple mistake in your GST calculations or payroll can lead to hefty ATO penalties and stressful audits.</li>
 <li><strong>Delayed Decisions:</strong> Without a clear picture of your cash flow, you might put off crucial decisions, like hiring a new team member or investing in much-needed equipment.</li>
 </ul>
-<p>These factors can quietly hold your business back. It&#039;s worth exploring the most common and expensive <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes that small businesses make</a> to get a better sense of the risks. Partnering with a professional removes these obstacles, creating a solid platform for sustainable growth.</p>
+<p>These factors can quietly hold your business back. It&#039;s worth exploring the most common and expensive <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes that small businesses make</a> to get a better sense of the risks. Partnering with a professional removes these obstacles, creating a solid platform for sustainable growth.</p>
 <h2 id="h-what-does-a-professional-bookkeeper-actually-do">What Does a Professional Bookkeeper <em>Actually</em> Do?</h2>
 <p>Hiring a bookkeeper can feel like a huge step, but figuring out what they do really demystifies the whole thing. It&#039;s so much more than just data entry; it’s about building a rock-solid financial foundation for your business. A great bookkeeper takes that chaotic pile of invoices and receipts and turns it into a clear, usable picture of your business&#039;s health.</p>
 <p>They handle the critical, day-to-day money tasks that, when done right, fuel smart decisions and steady growth. For a small business owner here in Australia, that means less time stressing about compliance and more time focused on what you do best—serving your customers.</p>
@@ -64,7 +64,7 @@ const htmlContent = `<p>Handing over your bookkeeping isn&#039;t just about offl
 <blockquote>
 <p>A skilled bookkeeper doesn’t just lodge your BAS; they ensure every eligible expense is claimed, potentially putting hundreds or even thousands of dollars back into your business each quarter.</p>
 </blockquote>
-<p>This service is about more than just staying out of trouble. Proper BAS management directly improves your cash flow by making sure you&#039;re not overpaying the ATO. If you need a refresher on the process, our guide explains everything you need to know about <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a> and stay on top of those deadlines.</p>
+<p>This service is about more than just staying out of trouble. Proper BAS management directly improves your cash flow by making sure you&#039;re not overpaying the ATO. If you need a refresher on the process, our guide explains everything you need to know about <a href="/services/bookkeeping">how to lodge your BAS online</a> and stay on top of those deadlines.</p>
 <h3>Payroll and Superannuation</h3>
 <p>Paying your team correctly and on time is non-negotiable, both for morale and for staying on the right side of the law. Payroll is a lot more complex than just transferring wages. It involves calculating pay, withholding the right amount of tax (PAYG), tracking leave entitlements, and making sure superannuation contributions are paid correctly.</p>
 <p>Getting this right demands sharp attention to detail and a solid grasp of Fair Work and ATO regulations.</p>
@@ -132,7 +132,7 @@ const htmlContent = `<p>Handing over your bookkeeping isn&#039;t just about offl
 <blockquote>
 <p>Choosing a fixed-fee package transforms your bookkeeping from a variable, unpredictable expense into a stable, manageable investment. It allows you to budget with confidence and focus on growth.</p>
 </blockquote>
-<p>For business owners looking to modernise their finances, our <strong><a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping for small business guide</a></strong> explores how these packages integrate with tools like Xero to improve efficiency.</p>
+<p>For business owners looking to modernise their finances, our <strong><a href="/services/bookkeeping">cloud bookkeeping for small business guide</a></strong> explores how these packages integrate with tools like Xero to improve efficiency.</p>
 <h4>Custom Quote Pricing</h4>
 <p>A <strong>custom quote</strong> is for businesses with unique or complex needs that just don&#039;t fit into a standard package. The bookkeeper will assess your specific situation—things like multi-currency transactions, complex inventory management, or grant reporting—and create a tailored pricing plan just for you.</p>
 <ul>

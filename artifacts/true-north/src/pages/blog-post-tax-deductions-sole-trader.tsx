@@ -47,7 +47,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <li><strong>Assets and Super:</strong> Getting to grips with depreciation, the instant asset write-off, and claiming your super contributions.</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --><!-- wp:paragraph -->
-<p>By the time you're done, you'll have a solid game plan for maximising your return. For more tips, check out our related article on <a href="/how-to-reduce-taxable-income/">how to reduce taxable income</a>. This guide will arm you with the knowledge to hit the end of the financial year with a clear strategy, ensuring you keep more of what you earn.</p>
+<p>By the time you're done, you'll have a solid game plan for maximising your return. For more tips, check out our related article on <a href="/10-ways-to-reduce-your-business-tax-bill">how to reduce taxable income</a>. This guide will arm you with the knowledge to hit the end of the financial year with a clear strategy, ensuring you keep more of what you earn.</p>
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-the-three-golden-rules-for-claiming-any-expense">The Three Golden Rules for Claiming Any Expense</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
@@ -114,7 +114,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <li><strong>Software and Subscriptions:</strong> This includes your accounting software (like Xero or MYOB), project management tools (like Asana), cloud storage, and any other business-related digital subscriptions.</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --><!-- wp:paragraph -->
-<p>A simple trick to make tracking these smaller expenses a breeze is to maintain a dedicated business bank account. It creates a clear line between your business and personal spending, which saves a world of headaches at tax time. For more on getting your finances in order, check out our top <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">small business bookkeeping tips</a> to keep everything organised.</p>
+<p>A simple trick to make tracking these smaller expenses a breeze is to maintain a dedicated business bank account. It creates a clear line between your business and personal spending, which saves a world of headaches at tax time. For more on getting your finances in order, check out our top <a href="/top-small-business-bookkeeping-tips">small business bookkeeping tips</a> to keep everything organised.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
 <h3>Marketing and Advertising Costs</h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
@@ -248,7 +248,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <li><strong>Record-keeping:</strong> This method is all about the details. You must keep every single receipt and bill, along with a clear calculation showing how you apportioned the private versus business use for each and every expense.</li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --><!-- wp:paragraph -->
-<p>A bit of careful planning now can make a world of difference at tax time. For a deeper dive, check out our <a href="/end-of-financial-year-checklist-for-small-business-preparing-for-june-30/">end of financial year checklist for small business</a> to make sure you’ve got all your bases covered.</p>
+<p>A bit of careful planning now can make a world of difference at tax time. For a deeper dive, check out our <a href="/tax-return-deadline">end of financial year checklist for small business</a> to make sure you’ve got all your bases covered.</p>
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-claiming-tools-equipment-and-depreciating-assets">Claiming Tools, Equipment, and Depreciating Assets</h2>
 <!-- /wp:heading --><!-- wp:paragraph /--><!-- wp:image {"className":"wp-block-image size-large"} -->
@@ -377,21 +377,21 @@ export default function BlogPostTaxDeductionsSoleTrader() {
       <SEOHead
         title="Tax Deductions Sole Trader - Tax tips to Boost your Refund | Trew North Accounting"
         description="Tax Deductions Sole Trader - Tax tips to Boost your Refund"
-        canonical="/blog/tax-deductions-sole-trader"
+        canonical="/tax-deductions-sole-trader"
         ogType="article"
         publishedTime="2026-05-27"
         schema={[
           blogPostingSchema({
             title: "Tax Deductions Sole Trader - Tax tips to Boost your Refund",
             description: "Tax Deductions Sole Trader - Tax tips to Boost your Refund",
-            url: '/blog/tax-deductions-sole-trader',
+            url: '/tax-deductions-sole-trader',
             datePublished: '2026-05-27',
             readingTime: 'PT22M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Tax Deductions Sole Trader - Tax tips to Boost your Refund', url: '/blog/tax-deductions-sole-trader' },
+            { name: 'Tax Deductions Sole Trader - Tax tips to Boost your Refund', url: '/tax-deductions-sole-trader' },
           ]),
         ]}
       />

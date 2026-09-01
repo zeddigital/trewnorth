@@ -62,7 +62,7 @@ const htmlContent = `<p>Let&#039;s get straight to it. A <strong>tax refund calc
 <li><strong>Rental Properties:</strong> Your property manager&#039;s annual summary is a must-have.</li>
 <li><strong>Government Payments:</strong> This includes any taxable Centrelink payments you received.</li>
 </ul>
-<p>Getting organised at this stage is half the battle. For a really detailed breakdown of everything you&#039;ll need, have a look at our <a href="/end-of-financial-year-checklist-for-small-business-preparing-for-june-30/">end of financial year checklist for small business owners</a>.</p>
+<p>Getting organised at this stage is half the battle. For a really detailed breakdown of everything you&#039;ll need, have a look at our <a href="/tax-return-deadline">end of financial year checklist for small business owners</a>.</p>
 <h2 id="h-uncovering-deductions-that-boost-your-tax-refund">Uncovering Deductions That Boost Your Tax Refund</h2>
 <p><figure class="wp-block-image size-large"><img src="https://cdn.outrank.so/413aa6a2-4925-4343-93c8-fe8d0c5f2c8d/738eea30-7d29-4422-a9ab-014bc3e7f0cf/tax-refund-calculator-australia-tax-season.jpg" alt="A top-down view of a home office desk with a laptop, smartphone, calculator, and financial documents." /></figure></p>
 <p>This is where many business owners and sole traders accidentally leave money on the table. Uncovering every single eligible claim is the secret to maximising your return, and a good <strong>tax refund calculator in Australia</strong> lets you see the impact of these claims in real-time.</p>

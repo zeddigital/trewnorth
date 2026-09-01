@@ -21,7 +21,7 @@ const htmlContent = `<p>For any Australian small business owner, picking the rig
 <blockquote>
 <p>Making the switch to a cloud-based system is one of the most impactful decisions a small business owner can make. It transforms accounting from a reactive, compliance-driven task into a proactive tool for making informed business decisions.</p>
 </blockquote>
-<p>Understanding these benefits is the first step. Next, we need to look at how to make the switch properly and manage your books with confidence. For a deeper dive into modern financial management, our complete guide to <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping for small business</a> covers all the essential insights and practical advice.</p>
+<p>Understanding these benefits is the first step. Next, we need to look at how to make the switch properly and manage your books with confidence. For a deeper dive into modern financial management, our complete guide to <a href="/services/bookkeeping">cloud bookkeeping for small business</a> covers all the essential insights and practical advice.</p>
 <p>Now, let’s explore the core features you absolutely must look for.</p>
 <h2 id="h-core-features-for-australian-business-compliance">Core Features for Australian Business Compliance</h2>
 <p>Before we dive into comparing specific software brands, it&#039;s critical to establish the baseline. What are the absolute non-negotiable features any accounting software must have to work for a small business in Australia?</p>
@@ -30,7 +30,7 @@ const htmlContent = `<p>For any Australian small business owner, picking the rig
 <h3>GST Tracking and BAS Lodgement</h3>
 <p>If your business is registered for Goods and Services Tax (GST), this is your number one priority. Trying to track GST manually on every single sale and purchase is a recipe for disaster. It&#039;s not just tedious; it’s incredibly easy to make errors that can lead to costly ATO adjustments down the track.</p>
 <p>Modern accounting software handles this automatically. Every time you log a transaction, the system calculates and sets aside the GST component correctly. When your reporting period rolls around, it generates your Business Activity Statement (BAS) with all the figures ready to go.</p>
-<p>What was once a dreaded quarterly chore becomes a simple process of reviewing and lodging the figures. For a detailed walkthrough of that final step, check out our guide on <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a>.</p>
+<p>What was once a dreaded quarterly chore becomes a simple process of reviewing and lodging the figures. For a detailed walkthrough of that final step, check out our guide on <a href="/services/bookkeeping">how to lodge your BAS online</a>.</p>
 <h3>Single Touch Payroll STP Reporting</h3>
 <p>Paying staff? Then your software absolutely <strong>must be STP-enabled</strong>. Single Touch Payroll isn&#039;t optional—it’s a mandatory ATO system that requires you to report employee salaries, wages, PAYG withholding, and super information every time you process a pay run.</p>
 <p>A compliant platform takes care of this in the background.</p>
@@ -183,7 +183,7 @@ const htmlContent = `<p>For any Australian small business owner, picking the rig
 <p>Choosing the right accounting software is a fantastic first step. But let&#039;s be honest, the tech is just a tool. The real magic happens when you pair that powerful software with professional guidance. An experienced accounting partner is the bridge between the features on your screen and genuine financial success in the real world.</p>
 <p>Think of it this way: the software is your high-performance car, but your accountant is the expert driver who knows how to get the most out of it. They ensure everything is set up correctly from day one and provide the ongoing support to keep your finances accurate, compliant, and genuinely insightful. It’s this combination that unlocks the full return on your investment.</p>
 <h3>Beyond Just Clicking &#039;Install&#039;</h3>
-<p>Expert support is so much more than just getting your Xero or MYOB account running. It’s about a whole range of services designed to simplify your obligations and give you a crystal-clear view of your financial health. This oversight is what helps you sidestep the common <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes small businesses make</a> that can end up costing you dearly.</p>
+<p>Expert support is so much more than just getting your Xero or MYOB account running. It’s about a whole range of services designed to simplify your obligations and give you a crystal-clear view of your financial health. This oversight is what helps you sidestep the common <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes small businesses make</a> that can end up costing you dearly.</p>
 <p>An accounting partner delivers real, ongoing value through a few key services:</p>
 <ul>
 <li><strong>Initial Setup and Selection:</strong> We’ll help you choose the right platform for your specific industry and business structure, then get it configured correctly from the get-go.</li>

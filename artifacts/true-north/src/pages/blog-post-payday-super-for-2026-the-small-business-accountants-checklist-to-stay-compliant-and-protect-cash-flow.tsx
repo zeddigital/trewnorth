@@ -73,21 +73,21 @@ export default function BlogPostPaydaySuperFor2026TheSmallBusinessAccountantsChe
       <SEOHead
         title="Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow | Trew North Accounting"
         description="Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow"
-        canonical="/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow"
+        canonical="/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow"
         ogType="article"
         publishedTime="2026-03-30"
         schema={[
           blogPostingSchema({
             title: "Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow",
             description: "Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow",
-            url: '/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow',
+            url: '/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow',
             datePublished: '2026-03-30',
             readingTime: 'PT7M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow', url: '/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow' },
+            { name: 'Payday Super for 2026: The Small Business Accountant’s Checklist to Stay Compliant and Protect Cash Flow', url: '/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow' },
           ]),
         ]}
       />

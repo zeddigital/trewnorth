@@ -121,56 +121,56 @@ export function render(path: string): {
           <Route path="/suburbs" component={Suburbs} />
           <Route path="/blog" component={Blog} />
           <Route
-            path="/blog/should-your-small-business-register-for-gst"
+            path="/should-your-small-business-register-for-gst"
             component={BlogPostGST}
           />
           <Route
-            path="/blog/the-impact-of-rising-interest-rates-on-small-businesses"
+            path="/the-impact-of-rising-interest-rates-on-small-businesses"
             component={BlogPostInterestRates}
           />
           <Route
-            path="/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes"
+            path="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes"
             component={BlogPostTradies}
           />
           <Route
-            path="/blog/top-small-business-bookkeeping-tips"
+            path="/top-small-business-bookkeeping-tips"
             component={BlogPostBookkeepingTips}
           />
           <Route
-            path="/blog/the-impact-of-ai-in-small-business"
+            path="/the-impact-of-ai-in-small-business"
             component={BlogPostAISmallBusiness}
           />
           <Route
-            path="/blog/top-small-business-grants-for-2025"
+            path="/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
-          <Route path="/blog/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
-          <Route path="/blog/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
-          <Route path="/blog/agent-nomination-ato" component={BlogPostAgentNominationAto} />
-          <Route path="/blog/set-up-super-fund" component={BlogPostSetUpSuperFund} />
-          <Route path="/blog/what-is-management-accounting" component={BlogPostWhatIsManagementAccounting} />
-          <Route path="/blog/what-is-break-even-analysis" component={BlogPostWhatIsBreakEvenAnalysis} />
-          <Route path="/blog/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
-          <Route path="/blog/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
-          <Route path="/blog/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
-          <Route path="/blog/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026" component={BlogPostAtoSuperClearingHouseClosing} />
-          <Route path="/blog/tax-deductions-sole-trader" component={BlogPostTaxDeductionsSoleTrader} />
-          <Route path="/blog/how-to-salary-sacrifice-super" component={BlogPostHowToSalarySacrificeSuper} />
-          <Route path="/blog/tax-return-deadline" component={BlogPostTaxReturnDeadline} />
-          <Route path="/blog/discretionary-trust-vs-family-trust" component={BlogPostDiscretionaryTrustVsFamilyTrust} />
-          <Route path="/blog/investment-property-tax-deductions-australia" component={BlogPostInvestmentPropertyTaxDeductions} />
-          <Route path="/blog/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow" component={BlogPostPaydaySuper2026} />
-          <Route path="/blog/salary-sacrifice-is-it-worth-it" component={BlogPostSalarySacrificeIsItWorthIt} />
-          <Route path="/blog/cash-flow-problems-in-small-business" component={BlogPostCashFlowProblems} />
-          <Route path="/blog/best-accounting-software-for-small-business-australia" component={BlogPostBestAccountingSoftware} />
-          <Route path="/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags" component={BlogPostHowToPayYourselfAsABusinessOwner} />
-          <Route path="/blog/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know" component={BlogPostNavigatingThe2025TaxChanges} />
-          <Route path="/blog/10-ways-to-reduce-your-business-tax-bill" component={BlogPost10WaysToReduceYourBusinessTaxBill} />
-          <Route path="/blog/succession-planning-for-small-businesses" component={BlogPostSuccessionPlanningForSmallBusinesses} />
-          <Route path="/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide" component={BlogPostHowToHandleAtoAuditLetter} />
-          <Route path="/blog/your-guide-to-the-best-melbourne-accountants-in-2024" component={BlogPostBestMelbourneAccountants2024} />
-          <Route path="/blog/strategic-plan-for-small-business" component={BlogPostStrategicPlanForSmallBusiness} />
-          <Route path="/blog/business-structures-pros-cons" component={BlogPostBusinessStructuresProsCons} />
+          <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
+          <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
+          <Route path="/agent-nomination-ato" component={BlogPostAgentNominationAto} />
+          <Route path="/set-up-super-fund" component={BlogPostSetUpSuperFund} />
+          <Route path="/what-is-management-accounting" component={BlogPostWhatIsManagementAccounting} />
+          <Route path="/what-is-break-even-analysis" component={BlogPostWhatIsBreakEvenAnalysis} />
+          <Route path="/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
+          <Route path="/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
+          <Route path="/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
+          <Route path="/the-atos-free-super-clearing-house-is-closing-what-your-melbourne-small-business-needs-to-do-before-30-june-2026" component={BlogPostAtoSuperClearingHouseClosing} />
+          <Route path="/tax-deductions-sole-trader" component={BlogPostTaxDeductionsSoleTrader} />
+          <Route path="/how-to-salary-sacrifice-super" component={BlogPostHowToSalarySacrificeSuper} />
+          <Route path="/tax-return-deadline" component={BlogPostTaxReturnDeadline} />
+          <Route path="/discretionary-trust-vs-family-trust" component={BlogPostDiscretionaryTrustVsFamilyTrust} />
+          <Route path="/investment-property-tax-deductions-australia" component={BlogPostInvestmentPropertyTaxDeductions} />
+          <Route path="/payday-super-for-2026-the-small-business-accountants-checklist-to-stay-compliant-and-protect-cash-flow" component={BlogPostPaydaySuper2026} />
+          <Route path="/salary-sacrifice-is-it-worth-it" component={BlogPostSalarySacrificeIsItWorthIt} />
+          <Route path="/cash-flow-problems-in-small-business" component={BlogPostCashFlowProblems} />
+          <Route path="/best-accounting-software-for-small-business-australia" component={BlogPostBestAccountingSoftware} />
+          <Route path="/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags" component={BlogPostHowToPayYourselfAsABusinessOwner} />
+          <Route path="/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know" component={BlogPostNavigatingThe2025TaxChanges} />
+          <Route path="/10-ways-to-reduce-your-business-tax-bill" component={BlogPost10WaysToReduceYourBusinessTaxBill} />
+          <Route path="/succession-planning-for-small-businesses" component={BlogPostSuccessionPlanningForSmallBusinesses} />
+          <Route path="/how-to-handle-an-ato-audit-letter-step-by-step-guide" component={BlogPostHowToHandleAtoAuditLetter} />
+          <Route path="/your-guide-to-the-best-melbourne-accountants-in-2024" component={BlogPostBestMelbourneAccountants2024} />
+          <Route path="/strategic-plan-for-small-business" component={BlogPostStrategicPlanForSmallBusiness} />
+          <Route path="/business-structures-pros-cons" component={BlogPostBusinessStructuresProsCons} />
 
           <Route path="/accountant-in-brighton" component={SuburbBrighton} />
           <Route path="/accountant-in-cheltenham" component={SuburbCheltenham} />

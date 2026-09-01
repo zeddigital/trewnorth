@@ -70,41 +70,41 @@ const htmlContent = `<h1>Understanding Business Structures in Australia – Pros
 		<p>Choosing the right business structure in Melbourne is a strategic decision that affects various aspects of your business. Whether you’re drawn to the simplicity of a Sole Trader setup or the security of a Company, understanding the pros and cons will help you make an informed choice.</p>		
 					<h4>More articles</h4>				
 					<article>
-							<a aria-label="Post image" href="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes-to-avoid/"><img width="1536" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201536%201024&#039;%2F%3E" alt="Bookkeeping For Melbourne Tradies" decoding="async" style="--ratio: 1536 / 1024;" data-src="/blog/bookkeeping-matters.webp" loading="eager" /></a>						
-						<h5><a href="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes-to-avoid/" rel="bookmark" title="Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid">Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>					
+							<a aria-label="Post image" href="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes"><img width="1536" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201536%201024&#039;%2F%3E" alt="Bookkeeping For Melbourne Tradies" decoding="async" style="--ratio: 1536 / 1024;" data-src="/blog/bookkeeping-matters.webp" loading="eager" /></a>						
+						<h5><a href="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes" rel="bookmark" title="Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid">Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid</a></h5><a href="/blog" rel="tag">Small Business</a>					
 			</article><article>
 							<a aria-label="Post image" href="/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags/"><img width="1344" height="768" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201344%20768&#039;%2F%3E" alt="How to Pay Yourself as a Sole Trader" decoding="async" style="--ratio: 1344 / 768;" data-src="/blog/business-owner-pay-yourself.webp" loading="eager" /></a>						
-						<h5><a href="/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags/" rel="bookmark" title="How to Pay Yourself as a Business Owner (Without Triggering ATO Red Flags)">How to Pay Yourself as a Business Owner (Without Triggering ATO Red Flags)</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>, <a href="/category/tax-planning/" rel="tag">Tax Planning</a>					
+						<h5><a href="/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags/" rel="bookmark" title="How to Pay Yourself as a Business Owner (Without Triggering ATO Red Flags)">How to Pay Yourself as a Business Owner (Without Triggering ATO Red Flags)</a></h5><a href="/blog" rel="tag">Small Business</a>, <a href="/blog" rel="tag">Tax Planning</a>					
 			</article><article>
-							<a aria-label="Post image" href="/the-impact-of-rising-interest-rates-on-small-businesses-how-to-prepare-and-adapt/"><img width="1536" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201536%201024&#039;%2F%3E" alt="Rising Interest Rates can effective small business" decoding="async" style="--ratio: 1536 / 1024;" data-src="/blog/rising-interest-rates-small-business-owner-concerned.webp" loading="eager" /></a>						
-						<h5><a href="/the-impact-of-rising-interest-rates-on-small-businesses-how-to-prepare-and-adapt/" rel="bookmark" title="The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt">The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>, <a href="/category/tax-planning/" rel="tag">Tax Planning</a>					
+							<a aria-label="Post image" href="/the-impact-of-rising-interest-rates-on-small-businesses"><img width="1536" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201536%201024&#039;%2F%3E" alt="Rising Interest Rates can effective small business" decoding="async" style="--ratio: 1536 / 1024;" data-src="/blog/rising-interest-rates-small-business-owner-concerned.webp" loading="eager" /></a>						
+						<h5><a href="/the-impact-of-rising-interest-rates-on-small-businesses" rel="bookmark" title="The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt">The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt</a></h5><a href="/blog" rel="tag">Small Business</a>, <a href="/blog" rel="tag">Tax Planning</a>					
 			</article><article>
 							<a aria-label="Post image" href="/should-your-small-business-register-for-gst/"><img width="1344" height="768" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201344%20768&#039;%2F%3E" alt="Does my small business need to Register For GST?" decoding="async" style="--ratio: 1344 / 768;" data-src="/blog/should-i-register-for-gst.webp" loading="eager" /></a>						
-						<h5><a href="/should-your-small-business-register-for-gst/" rel="bookmark" title="Should Your Small Business Register for GST?">Should Your Small Business Register for GST?</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>, <a href="/category/tax-planning/" rel="tag">Tax Planning</a>					
+						<h5><a href="/should-your-small-business-register-for-gst/" rel="bookmark" title="Should Your Small Business Register for GST?">Should Your Small Business Register for GST?</a></h5><a href="/blog" rel="tag">Small Business</a>, <a href="/blog" rel="tag">Tax Planning</a>					
 			</article><article>
 							<a aria-label="Post image" href="/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know/"><img width="1344" height="768" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201344%20768&#039;%2F%3E" alt="Tax Changes For 2025" decoding="async" style="--ratio: 1344 / 768;" data-src="/blog/2025-tax-changes.webp" loading="eager" /></a>						
-						<h5><a href="/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know/" rel="bookmark" title="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know">Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know</a></h5><a href="/category/accounting/" rel="tag">Accounting</a>, <a href="/category/tax-planning/" rel="tag">Tax Planning</a>					
+						<h5><a href="/navigating-the-2025-tax-changes-what-small-businesses-in-melbourne-need-to-know/" rel="bookmark" title="Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know">Navigating the 2025 Tax Changes: What Small Businesses in Melbourne Need to Know</a></h5><a href="/blog" rel="tag">Accounting</a>, <a href="/blog" rel="tag">Tax Planning</a>					
 			</article><article>
-							<a aria-label="Post image" href="/top-small-business-bookkeeping-tips-simplify-your-finances/"><img width="1344" height="768" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201344%20768&#039;%2F%3E" alt="Small Business Bookkeeping" decoding="async" style="--ratio: 1344 / 768;" data-src="/blog/small-business-bookkeeping-tips.webp" loading="eager" /></a>						
-						<h5><a href="/top-small-business-bookkeeping-tips-simplify-your-finances/" rel="bookmark" title="Top Small Business Bookkeeping Tips: Simplify Your Finances">Top Small Business Bookkeeping Tips: Simplify Your Finances</a></h5><a href="/category/bookkeeping/" rel="tag">Bookkeeping</a>					
+							<a aria-label="Post image" href="/top-small-business-bookkeeping-tips"><img width="1344" height="768" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201344%20768&#039;%2F%3E" alt="Small Business Bookkeeping" decoding="async" style="--ratio: 1344 / 768;" data-src="/blog/small-business-bookkeeping-tips.webp" loading="eager" /></a>						
+						<h5><a href="/top-small-business-bookkeeping-tips" rel="bookmark" title="Top Small Business Bookkeeping Tips: Simplify Your Finances">Top Small Business Bookkeeping Tips: Simplify Your Finances</a></h5><a href="/blog" rel="tag">Bookkeeping</a>					
 			</article><article>
-							<a aria-label="Post image" href="/top-small-business-grants-for-2025-easy-funding-options/"><img width="1500" height="1000" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201500%201000&#039;%2F%3E" alt="Business Grants For Small Business And Startups" decoding="async" style="--ratio: 1500 / 1000;" data-src="/blog/small-business-grants-startups.webp" loading="eager" /></a>						
-						<h5><a href="/top-small-business-grants-for-2025-easy-funding-options/" rel="bookmark" title="Top Small Business Grants for 2025: Easy Funding Options">Top Small Business Grants for 2025: Easy Funding Options</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>					
+							<a aria-label="Post image" href="/top-small-business-grants-for-2025"><img width="1500" height="1000" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201500%201000&#039;%2F%3E" alt="Business Grants For Small Business And Startups" decoding="async" style="--ratio: 1500 / 1000;" data-src="/blog/small-business-grants-startups.webp" loading="eager" /></a>						
+						<h5><a href="/top-small-business-grants-for-2025" rel="bookmark" title="Top Small Business Grants for 2025: Easy Funding Options">Top Small Business Grants for 2025: Easy Funding Options</a></h5><a href="/blog" rel="tag">Small Business</a>					
 			</article><article>
 							<a aria-label="Post image" href="/10-ways-to-reduce-your-business-tax-bill/"><img width="1024" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201024%201024&#039;%2F%3E" alt="Reduce Your Business Tax Bill" decoding="async" style="--ratio: 1024 / 1024;" data-src="/blog/a-professional-accountant-at-a-desk-using-accounting-software-on-a-computer-with-financial-documents-and-tax-forms-spread-out-the-text-on-the-screen.webp" loading="eager" /></a>						
-						<h5><a href="/10-ways-to-reduce-your-business-tax-bill/" rel="bookmark" title="10 Ways To Reduce Your Business Tax Bill">10 Ways To Reduce Your Business Tax Bill</a></h5><a href="/category/tax-planning/" rel="tag">Tax Planning</a>					
+						<h5><a href="/10-ways-to-reduce-your-business-tax-bill/" rel="bookmark" title="10 Ways To Reduce Your Business Tax Bill">10 Ways To Reduce Your Business Tax Bill</a></h5><a href="/blog" rel="tag">Tax Planning</a>					
 			</article><article>
 							<a aria-label="Post image" href="/succession-planning-for-small-businesses/"><img width="1160" height="773" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201160%20773&#039;%2F%3E" alt="Succession Plan For Small Business" decoding="async" style="--ratio: 1160 / 773;" data-src="/blog/succession-plan-family-business.webp" loading="eager" /></a>						
-						<h5><a href="/succession-planning-for-small-businesses/" rel="bookmark" title="Succession Planning for Small Businesses">Succession Planning for Small Businesses</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>					
+						<h5><a href="/succession-planning-for-small-businesses/" rel="bookmark" title="Succession Planning for Small Businesses">Succession Planning for Small Businesses</a></h5><a href="/blog" rel="tag">Small Business</a>					
 			</article><article>
 							<a aria-label="Post image" href="/the-impact-of-ai-in-small-business/"><img width="1792" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201792%201024&#039;%2F%3E" alt="AI in Small Business" decoding="async" style="--ratio: 1792 / 1024;" data-src="/blog/ai-in-small-business.webp" loading="eager" /></a>						
-						<h5><a href="/the-impact-of-ai-in-small-business/" rel="bookmark" title="The Impact of AI in Small Business">The Impact of AI in Small Business</a></h5><a href="/category/small-business/" rel="tag">Small Business</a>					
+						<h5><a href="/the-impact-of-ai-in-small-business/" rel="bookmark" title="The Impact of AI in Small Business">The Impact of AI in Small Business</a></h5><a href="/blog" rel="tag">Small Business</a>					
 			</article><article>
 							<a aria-label="Post image" href="/how-to-handle-an-ato-audit-letter-step-by-step-guide/"><img width="1792" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201792%201024&#039;%2F%3E" alt="How to handle an ATO audit letter" decoding="async" style="--ratio: 1792 / 1024;" data-src="/blog/avoid-ato-audits.webp" loading="eager" /></a>						
-						<h5><a href="/how-to-handle-an-ato-audit-letter-step-by-step-guide/" rel="bookmark" title="How to Handle an ATO Audit Letter: Step-by-Step Guide">How to Handle an ATO Audit Letter: Step-by-Step Guide</a></h5><a href="/category/accounting/" rel="tag">Accounting</a>					
+						<h5><a href="/how-to-handle-an-ato-audit-letter-step-by-step-guide/" rel="bookmark" title="How to Handle an ATO Audit Letter: Step-by-Step Guide">How to Handle an ATO Audit Letter: Step-by-Step Guide</a></h5><a href="/blog" rel="tag">Accounting</a>					
 			</article><article>
 							<a aria-label="Post image" href="/your-guide-to-the-best-melbourne-accountants-in-2024/"><img width="1792" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201792%201024&#039;%2F%3E" alt="Melbourne Accountants" decoding="async" style="--ratio: 1792 / 1024;" data-src="/blog/accounting-technology.webp" loading="eager" /></a>						
-						<h5><a href="/your-guide-to-the-best-melbourne-accountants-in-2024/" rel="bookmark" title="Your Guide to the Best Melbourne Accountants in 2024">Your Guide to the Best Melbourne Accountants in 2024</a></h5><a href="/category/accounting/" rel="tag">Accounting</a>					
+						<h5><a href="/your-guide-to-the-best-melbourne-accountants-in-2024/" rel="bookmark" title="Your Guide to the Best Melbourne Accountants in 2024">Your Guide to the Best Melbourne Accountants in 2024</a></h5><a href="/blog" rel="tag">Accounting</a>					
 			</article>				
 					<h3>Let's get down to business!</h3>				
 		<p>Join hundreds of business owners who trust Trew North Accounting</p>		
@@ -116,21 +116,21 @@ export default function BlogPostBusinessStructuresProsCons() {
       <SEOHead
         title="Business Structures – Pros & Cons | Trew North Accounting"
         description="Which Business Structure is the right for you? The costs and risks of each legal structure are quite different."
-        canonical="/blog/business-structures-pros-cons"
+        canonical="/business-structures-pros-cons"
         ogType="article"
         publishedTime="2020-04-14"
         schema={[
           blogPostingSchema({
             title: "Business Structures – Pros & Cons",
             description: "Which Business Structure is the right for you? The costs and risks of each legal structure are quite different.",
-            url: '/blog/business-structures-pros-cons',
+            url: '/business-structures-pros-cons',
             datePublished: '2020-04-14',
             readingTime: 'PT5M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Business Structures – Pros & Cons', url: '/blog/business-structures-pros-cons' },
+            { name: 'Business Structures – Pros & Cons', url: '/business-structures-pros-cons' },
           ]),
         ]}
       />

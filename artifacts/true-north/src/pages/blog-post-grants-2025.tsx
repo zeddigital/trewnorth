@@ -53,21 +53,21 @@ export default function BlogPostGrants2025() {
       <SEOHead
         title="Top Small Business Grants Australia 2025 | Trew North Accounting"
         description="Discover federal and Victorian government grants available to Australian small businesses in 2025. Eligibility, application tips, and tax treatment explained by Trew North Accounting."
-        canonical="/blog/top-small-business-grants-for-2025"
+        canonical="/top-small-business-grants-for-2025"
         ogType="article"
         publishedTime="2025-02-20"
         schema={[
           blogPostingSchema({
             title: 'Top Small Business Grants for 2025: Easy Funding Options',
             description: "Government and private grants can provide a real boost for small businesses — but many owners don't know what's available or how to access it. Here's a practical guide to the top funding options for 2025.",
-            url: '/blog/top-small-business-grants-for-2025',
+            url: '/top-small-business-grants-for-2025',
             datePublished: '2025-02-20',
             readingTime: 'PT9M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Top Small Business Grants for 2025', url: '/blog/top-small-business-grants-for-2025' },
+            { name: 'Top Small Business Grants for 2025', url: '/top-small-business-grants-for-2025' },
           ]),
           faqSchema(grants2025Faqs),
         ]}

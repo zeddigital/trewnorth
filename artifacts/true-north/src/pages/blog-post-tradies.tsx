@@ -54,21 +54,21 @@ export default function BlogPostTradies() {
       <SEOHead
         title="Melbourne Tradies: Tax Tips & Bookkeeping Mistakes to Avoid | Trew North"
         description="Tradies often miss deductions and make costly bookkeeping errors at tax time. Darren Trew CA shares how Melbourne tradespeople can maximise returns and stay ATO-compliant."
-        canonical="/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes"
+        canonical="/melbourne-tradies-tax-tips-and-bookkeeping-mistakes"
         ogType="article"
         publishedTime="2025-10-27"
         schema={[
           blogPostingSchema({
             title: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid',
             description: "Tradies often leave money on the table at tax time — and can find themselves in trouble with the ATO from simple bookkeeping errors. Here's how to get it right.",
-            url: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
+            url: '/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
             datePublished: '2025-10-27',
             readingTime: 'PT8M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid', url: '/blog/melbourne-tradies-tax-tips-and-bookkeeping-mistakes' },
+            { name: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid', url: '/melbourne-tradies-tax-tips-and-bookkeeping-mistakes' },
           ]),
           faqSchema(tradiesFaqs),
         ]}

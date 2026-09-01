@@ -237,21 +237,21 @@ export default function BlogPostYourGuideToTheBestMelbourneAccountantsIn2024() {
       <SEOHead
         title="Your Guide to the Best Melbourne Accountants in 2024 | Trew North Accounting"
         description="Your Guide to the Best Melbourne Accountants in 2024"
-        canonical="/blog/your-guide-to-the-best-melbourne-accountants-in-2024"
+        canonical="/your-guide-to-the-best-melbourne-accountants-in-2024"
         ogType="article"
         publishedTime="2024-04-16"
         schema={[
           blogPostingSchema({
             title: "Your Guide to the Best Melbourne Accountants in 2024",
             description: "Your Guide to the Best Melbourne Accountants in 2024",
-            url: '/blog/your-guide-to-the-best-melbourne-accountants-in-2024',
+            url: '/your-guide-to-the-best-melbourne-accountants-in-2024',
             datePublished: '2024-04-16',
             readingTime: 'PT12M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Your Guide to the Best Melbourne Accountants in 2024', url: '/blog/your-guide-to-the-best-melbourne-accountants-in-2024' },
+            { name: 'Your Guide to the Best Melbourne Accountants in 2024', url: '/your-guide-to-the-best-melbourne-accountants-in-2024' },
           ]),
         ]}
       />

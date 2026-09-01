@@ -196,21 +196,21 @@ export default function BlogPostHowToPayYourselfAsABusinessOwnerWithoutTriggerin
       <SEOHead
         title="How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags | Trew North Accounting"
         description="How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags"
-        canonical="/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags"
+        canonical="/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags"
         ogType="article"
         publishedTime="2025-08-04"
         schema={[
           blogPostingSchema({
             title: "How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags",
             description: "How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags",
-            url: '/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags',
+            url: '/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags',
             datePublished: '2025-08-04',
             readingTime: 'PT29M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags', url: '/blog/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags' },
+            { name: 'How to Pay Yourself as a Business Owner Without Triggering ATO Red Flags', url: '/how-to-pay-yourself-as-a-business-owner-without-triggering-ato-red-flags' },
           ]),
         ]}
       />

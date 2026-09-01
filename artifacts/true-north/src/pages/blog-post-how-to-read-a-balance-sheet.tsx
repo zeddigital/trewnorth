@@ -152,7 +152,7 @@ const htmlContent = `<p>Reading a balance sheet comes down to one formula: <stro
 <li><strong>Get paid faster.</strong> Every dollar in accounts receivable is cash you have earned but cannot use. Tighten terms and automate reminders.</li>
 <li><strong>Move slow stock.</strong> Excess inventory is cash sitting on a shelf. Watch your turnover rate and clear what is not selling.</li>
 </ul>
-<p>Both of these are covered in more depth in our guide to <a href="/blog/cash-flow-problems-in-small-business">solving cash flow problems in small business</a>.</p>
+<p>Both of these are covered in more depth in our guide to <a href="/cash-flow-problems-in-small-business">solving cash flow problems in small business</a>.</p>
 
 <h3>On the liability and equity side</h3>
 <ul>
@@ -185,7 +185,7 @@ const htmlContent = `<p>Reading a balance sheet comes down to one formula: <stro
 const TITLE = 'How to Read a Balance Sheet: A Guide for Australian Businesses';
 const DESCRIPTION =
   'What assets, liabilities and equity actually mean, the ratios that matter, and how to spot trouble early — worked through with a Melbourne café example.';
-const SLUG = '/blog/how-to-read-a-balance-sheet';
+const SLUG = '/how-to-read-a-balance-sheet';
 const PUBLISHED = '2026-08-11';
 
 export default function BlogPostHowToReadABalanceSheet() {

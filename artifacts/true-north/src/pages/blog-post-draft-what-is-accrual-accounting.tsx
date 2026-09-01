@@ -92,7 +92,7 @@ const htmlContent = `<p>Let’s cut to the chase: <strong>accrual accounting</st
 <li><strong>Reporting GST on Sales:</strong> You must report and pay the <strong>GST</strong> on all sales you&#039;ve invoiced during that reporting period. This is required even if your clients haven&#039;t paid you yet.</li>
 <li><strong>Claiming GST Credits:</strong> On the flip side, you can claim <strong>GST</strong> credits for any business expenses you&#039;ve received a bill for, even if you haven&#039;t paid that supplier yet.</li>
 </ul>
-<p>This approach makes sure your BAS reflects <em>all</em> your business activities within a specific period, giving the ATO the complete picture they need. Our guide on <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a>{target=&quot;_blank&quot;} has more practical steps to help you manage this process.</p>
+<p>This approach makes sure your BAS reflects <em>all</em> your business activities within a specific period, giving the ATO the complete picture they need. Our guide on <a href="/services/bookkeeping">how to lodge your BAS online</a>{target=&quot;_blank&quot;} has more practical steps to help you manage this process.</p>
 <h3>A National Standard for Financial Reporting</h3>
 <p>Using accrual accounting isn&#039;t just a rule for small businesses. It’s the standard for financial reporting right across the country. Even the government uses it.</p>
 <blockquote>
@@ -121,14 +121,14 @@ const htmlContent = `<p>Let’s cut to the chase: <strong>accrual accounting</st
 <li><strong>Increased Complexity:</strong> It demands more detailed bookkeeping. You’ll need to track things like accounts receivable (who owes you money) and accounts payable (who you owe money to).</li>
 <li><strong>Requires Careful Cash Management:</strong> You have to be disciplined about monitoring your cash flow statement. This is crucial to make sure you have enough actual money on hand to pay wages, rent, and other immediate bills.</li>
 </ul>
-<p>For small businesses thinking about making the switch, finding the right <a href="https://www.payly.com.au/blog/small-business-accounting-software-australia">small business accounting software</a>{target=&quot;_blank&quot;} can make all the difference. Modern tools automate many of these complex tasks.</p>
+<p>For small businesses thinking about making the switch, finding the right <a href="https://www.payly.com.au/small-business-accounting-software-australia">small business accounting software</a>{target=&quot;_blank&quot;} can make all the difference. Modern tools automate many of these complex tasks.</p>
 <h2 id="h-making-a-smooth-transition-to-accrual-accounting">Making a Smooth Transition to Accrual Accounting</h2>
 <p>Switching from cash to accrual accounting is a big step, but it’s one that gives you a much sharper picture of your business&#039;s financial health. With a bit of planning, you can make the move smoothly and avoid the common headaches.</p>
 <p><figure class="wp-block-image size-large"><img src="https://cdnimg.co/413aa6a2-4925-4343-93c8-fe8d0c5f2c8d/52ed75f9-845d-499f-b615-3277080dd035/what-is-accrual-accounting-accounting-setup.jpg" alt="A laptop displaying cloud accounting software next to a notebook with an accounting setup checklist." /></figure></p>
 <p>The first thing to realise is that this isn&#039;t just a bookkeeping task. It’s a strategic upgrade for your business. This is where an expert accountant becomes your most valuable player.</p>
 <h3>Leveraging Modern Accounting Software</h3>
 <p>Modern cloud accounting platforms like <a href="https://www.xero.com/au/">Xero</a>{target=&quot;_blank&quot;} and <a href="https://www.myob.com/au/">MYOB</a>{target=&quot;_blank&quot;} are built to handle the complexities of accrual accounting automatically. These tools are designed to track accounts receivable and payable.</p>
-<p>For a deeper look at how these tools work, check out our <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">complete guide to cloud bookkeeping for small business</a>{target=&quot;_blank&quot;}.</p>
+<p>For a deeper look at how these tools work, check out our <a href="/services/bookkeeping">complete guide to cloud bookkeeping for small business</a>{target=&quot;_blank&quot;}.</p>
 <p>This transition needs a careful, structured approach. When the Victorian state government moved to accrual accounting, it had to restructure decades of historical cash data. It&#039;s a huge job, but the benefits are massive.</p>
 <p>You can read more about this comprehensive process on the <a href="https://www.dtf.vic.gov.au/aggregate-financial-statements">Victorian Department of Treasury and Finance website</a>{target=&quot;_blank&quot;}.</p>
 <h3>Your Simple Transition Checklist</h3>

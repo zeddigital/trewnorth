@@ -103,7 +103,7 @@ const htmlContent = `<p>Are you staring at a mountain of fuel receipts, wonderin
 <li><strong>Spreadsheets:</strong> Using a program like Excel or Google Sheets adds a bit more structure. You can set up a template and use formulas to do the maths, but you still need the discipline to update it after every single trip.</li>
 <li><strong>Logbook Apps:</strong> This is by far the most efficient way to do it. Apps like GOFAR or Driversnote use your phone&#039;s GPS to automatically track your journeys. All you have to do is classify each trip as &#039;business&#039; or &#039;private&#039; and add a quick description. It saves a massive amount of time and minimises errors.</li>
 </ul>
-<p>No matter which tool you use, the one non-negotiable is consistent and accurate data entry. Poor record-keeping is one of the most common issues we see, and it&#039;s one of those classic <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes small businesses make and what could cost you time and money</a>.</p>
+<p>No matter which tool you use, the one non-negotiable is consistent and accurate data entry. Poor record-keeping is one of the most common issues we see, and it&#039;s one of those classic <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes small businesses make and what could cost you time and money</a>.</p>
 <h2 id="h-calculating-your-business-use-percentage">Calculating Your Business-Use Percentage</h2>
 <iframe width="100%" style="aspect-ratio: 16 / 9" src="https://www.youtube.com/embed/jiNh8fe1TQ4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -178,7 +178,7 @@ const htmlContent = `<p>Are you staring at a mountain of fuel receipts, wonderin
 </ul>
 <p>First, we need to add up her total vehicle expenses:<br>$3,500 + $1,800 + $1,200 + $1,500 + $5,000 = <strong>$13,000</strong></p>
 <p>Next, we apply her business-use percentage to that total:<br>$13,000 (Total Expenses) x 70% (Business Use) = <strong>$9,100</strong></p>
-<p>In the end, Sarah can claim a <strong>$9,100</strong> tax deduction for her car expenses. This is worlds away from the maximum <strong>$4,400</strong> she could have claimed with the cents per kilometre method, really showing the power of good record-keeping. Going through this process is also a fantastic way to understand the true cost of running your business, which can help you make smarter financial decisions down the track. If you&#039;re looking for more ways to manage your business finances, our guide on <a href="/sole-trader-tax-deductions/">sole trader tax deductions</a> offers some extra pointers.</p>
+<p>In the end, Sarah can claim a <strong>$9,100</strong> tax deduction for her car expenses. This is worlds away from the maximum <strong>$4,400</strong> she could have claimed with the cents per kilometre method, really showing the power of good record-keeping. Going through this process is also a fantastic way to understand the true cost of running your business, which can help you make smarter financial decisions down the track. If you&#039;re looking for more ways to manage your business finances, our guide on <a href="/tax-deductions-sole-trader">sole trader tax deductions</a> offers some extra pointers.</p>
 <p>Of course, here is the rewritten section, crafted to sound like an experienced human expert.</p>
 <hr>
 <h2 id="h-common-logbook-mistakes-and-how-to-avoid-them">Common Logbook Mistakes and How to Avoid Them</h2>

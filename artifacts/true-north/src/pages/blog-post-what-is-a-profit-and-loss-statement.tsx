@@ -87,7 +87,7 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <p>If you work in the business and pay yourself nothing, or less than the role is worth, the P&amp;L is flattered by the difference. It reports a profit that only exists because your labour was free. Any comparison against a competitor who pays a manager is meaningless.</p>
 
 <h3>Books that are behind</h3>
-<p>A missed cash sale, an expense entered twice, a bank feed not reconciled for six weeks. Individually trivial, cumulatively enough to move the bottom line. The report can only ever be as good as what feeds it — our guide to <a href="/blog/top-small-business-bookkeeping-tips">small business bookkeeping</a> covers keeping that clean.</p>
+<p>A missed cash sale, an expense entered twice, a bank feed not reconciled for six weeks. Individually trivial, cumulatively enough to move the bottom line. The report can only ever be as good as what feeds it — our guide to <a href="/top-small-business-bookkeeping-tips">small business bookkeeping</a> covers keeping that clean.</p>
 
 <h2 id="h-from-net-profit-to-taxable-income">From Net Profit to Taxable Income</h2>
 <figure><img src="/blog/what-is-a-profit-and-loss-statement-reading.webp" alt="A small business owner reviewing a printed financial statement at a desk." width="1400" height="788" loading="lazy" /></figure>
@@ -108,10 +108,10 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <p>The P&amp;L measures <strong>profitability</strong> — did revenue exceed expenses over the period. A cash flow statement measures <strong>liquidity</strong> — is there money in the account to pay this week's bills. You need both, because they can disagree completely.</p>
 
 <h3>Why is my profit high but my bank account empty?</h3>
-<p>Because most P&amp;Ls are prepared on an accrual basis: revenue is recognised when you invoice, not when you are paid. Sell well on 30- or 60-day terms and the P&amp;L will show a healthy profit while the cash is still sitting with your customers. Add stock purchases, loan principal repayments and tax set-asides — none of which appear as expenses on the P&amp;L — and the gap widens further. Our guide to <a href="/blog/cash-flow-problems-in-small-business">cash flow problems in small business</a> deals with closing it.</p>
+<p>Because most P&amp;Ls are prepared on an accrual basis: revenue is recognised when you invoice, not when you are paid. Sell well on 30- or 60-day terms and the P&amp;L will show a healthy profit while the cash is still sitting with your customers. Add stock purchases, loan principal repayments and tax set-asides — none of which appear as expenses on the P&amp;L — and the gap widens further. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> deals with closing it.</p>
 
 <h3>How does it relate to the other reports?</h3>
-<p>The P&amp;L covers a period; the <a href="/blog/how-to-read-a-balance-sheet">balance sheet</a> shows a moment, and your net profit flows into its equity section. <a href="/blog/what-is-break-even-analysis">Break-even analysis</a> uses the same cost information to tell you the sales volume that gets you to zero. Together they are the core of <a href="/blog/what-is-management-accounting">management accounting</a>.</p>
+<p>The P&amp;L covers a period; the <a href="/how-to-read-a-balance-sheet">balance sheet</a> shows a moment, and your net profit flows into its equity section. <a href="/what-is-break-even-analysis">Break-even analysis</a> uses the same cost information to tell you the sales volume that gets you to zero. Together they are the core of <a href="/what-is-management-accounting">management accounting</a>.</p>
 
 <h3>Can I produce it myself?</h3>
 <p>Yes — <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> generate one in a couple of clicks. The catch is that the report inherits every categorisation decision in your chart of accounts. Getting that structure right at setup is worth more than any amount of tidying afterwards.</p>
@@ -123,7 +123,7 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 const TITLE = 'What Is a Profit and Loss Statement? A Small Business Guide';
 const DESCRIPTION =
   'How a P&L is built from revenue down to net profit, a worked example, the two ways to read it, and the four errors that make one misleading.';
-const SLUG = '/blog/what-is-a-profit-and-loss-statement';
+const SLUG = '/what-is-a-profit-and-loss-statement';
 const PUBLISHED = '2026-08-17';
 
 export default function BlogPostWhatIsAProfitAndLossStatement() {

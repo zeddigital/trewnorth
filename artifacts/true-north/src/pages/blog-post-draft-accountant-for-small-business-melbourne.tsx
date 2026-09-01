@@ -110,7 +110,7 @@ const htmlContent = `<p>When you&#039;re running a small business in Melbourne, 
 <p>Here’s a practical list of what you’ll almost certainly need:</p>
 <ul>
 <li><strong>Business Details:</strong> Your Australian Business Number (<strong>ABN</strong>) and Australian Company Number (<strong>ACN</strong>), if you have one.</li>
-<li><strong>Previous Tax Records:</strong> Pull together copies of your business tax returns and Business Activity Statements (<strong>BAS</strong>) from at least the last <strong>two financial years</strong>. If you want a refresher on BAS, our guide on <strong><a href="/how-to-lodge-bas-online/">how to lodge BAS online</a></strong> has some helpful background.</li>
+<li><strong>Previous Tax Records:</strong> Pull together copies of your business tax returns and Business Activity Statements (<strong>BAS</strong>) from at least the last <strong>two financial years</strong>. If you want a refresher on BAS, our guide on <strong><a href="/services/bookkeeping">how to lodge BAS online</a></strong> has some helpful background.</li>
 <li><strong>Financial Statements:</strong> This includes past profit and loss statements, balance sheets, and any cash flow reports you have.</li>
 <li><strong>Software Access:</strong> This is a big one. You&#039;ll need to grant your accountant access to your cloud accounting software, like Xero or MYOB. For a modern firm, this is probably the most critical step.</li>
 </ul>

@@ -54,21 +54,21 @@ export default function BlogPostBookkeepingTips() {
       <SEOHead
         title="Top Small Business Bookkeeping Tips | Trew North Accounting"
         description="Effective bookkeeping is the foundation of a healthy business. Practical tips, key terms, and accounting software recommendations for Melbourne small business owners."
-        canonical="/blog/top-small-business-bookkeeping-tips"
+        canonical="/top-small-business-bookkeeping-tips"
         ogType="article"
         publishedTime="2025-04-23"
         schema={[
           blogPostingSchema({
             title: 'Top Small Business Bookkeeping Tips: Simplify Your Finances',
             description: 'Effective bookkeeping is the foundation of a healthy business. These practical tips, key terms, and tool recommendations will help you stay on top of your finances without the stress.',
-            url: '/blog/top-small-business-bookkeeping-tips',
+            url: '/top-small-business-bookkeeping-tips',
             datePublished: '2025-04-23',
             readingTime: 'PT8M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Top Small Business Bookkeeping Tips', url: '/blog/top-small-business-bookkeeping-tips' },
+            { name: 'Top Small Business Bookkeeping Tips', url: '/top-small-business-bookkeeping-tips' },
           ]),
           faqSchema(bookkeepingFaqs),
         ]}

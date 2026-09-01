@@ -124,7 +124,7 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <li><strong>Genuine redundancy payments</strong> — the tax-free component.</li>
 <li><strong>Some contractor payments</strong> — though the rules here are strict, and the SRO frequently deems contractors to be employees.</li>
 </ul>
-<p>If reducing your overall tax position is the goal, exemptions are only one lever. Our guide to <a href="/blog/10-ways-to-reduce-your-business-tax-bill">10 ways to reduce your business tax bill</a> covers the others.</p>
+<p>If reducing your overall tax position is the goal, exemptions are only one lever. Our guide to <a href="/10-ways-to-reduce-your-business-tax-bill">10 ways to reduce your business tax bill</a> covers the others.</p>
 
 <h2 id="h-working-out-what-you-owe">Working Out What You Owe</h2>
 <p>The arithmetic is simpler than it looks. Take a Melbourne design studio — call it Metro Creatives — and work through both scenarios.</p>
@@ -183,7 +183,7 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 const TITLE = 'Victorian Payroll Tax: A 2026 Guide for Melbourne Small Business';
 const DESCRIPTION =
   'When Victorian payroll tax applies, the current $1,000,000 threshold and 4.85% rate, grouping rules, exemptions, and worked examples for Melbourne businesses.';
-const SLUG = '/blog/victoria-payroll-tax';
+const SLUG = '/victoria-payroll-tax';
 const PUBLISHED = '2026-08-05';
 
 export default function BlogPostVictoriaPayrollTax() {

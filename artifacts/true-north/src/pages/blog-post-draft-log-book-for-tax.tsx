@@ -113,7 +113,7 @@ const htmlContent = `<p>For any small business owner in Australia, keeping a det
 <blockquote>
 <p>Ultimately, the best tool is the one you will actually use consistently. An expensive app you never open is useless. A pristine paper logbook sitting empty in your glovebox won&#039;t help you at tax time.</p>
 </blockquote>
-<p>Choosing a method that fits your daily habits is what matters most. Understanding <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping for small business</a>{target=&quot;_blank&quot;} can highlight how digital tools fit into a bigger picture of business efficiency.</p>
+<p>Choosing a method that fits your daily habits is what matters most. Understanding <a href="/services/bookkeeping">cloud bookkeeping for small business</a>{target=&quot;_blank&quot;} can highlight how digital tools fit into a bigger picture of business efficiency.</p>
 <h2 id="h-common-logbook-mistakes-that-can-trigger-an-ato-audi">Common Logbook Mistakes That Can Trigger an ATO Audit</h2>
 <p>Even careful business owners can make small logbook errors that attract unwanted attention from the ATO. What seems like a minor slip-up can jeopardise your entire claim.</p>
 <p>Getting your logbook right isn&#039;t just about one tax return. A mistake can unravel deductions you&#039;ve relied on for years. Let&#039;s walk through the critical errors and how you can steer clear of them.</p>

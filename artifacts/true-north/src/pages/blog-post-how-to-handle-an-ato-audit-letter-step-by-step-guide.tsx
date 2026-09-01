@@ -281,21 +281,21 @@ export default function BlogPostHowToHandleAnAtoAuditLetterStepByStepGuide() {
       <SEOHead
         title="How to Handle an ATO Audit Letter: Step-by-Step Guide | Trew North Accounting"
         description="How to Handle an ATO Audit Letter: Step-by-Step Guide"
-        canonical="/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide"
+        canonical="/how-to-handle-an-ato-audit-letter-step-by-step-guide"
         ogType="article"
         publishedTime="2024-07-11"
         schema={[
           blogPostingSchema({
             title: "How to Handle an ATO Audit Letter: Step-by-Step Guide",
             description: "How to Handle an ATO Audit Letter: Step-by-Step Guide",
-            url: '/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide',
+            url: '/how-to-handle-an-ato-audit-letter-step-by-step-guide',
             datePublished: '2024-07-11',
             readingTime: 'PT21M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'How to Handle an ATO Audit Letter: Step-by-Step Guide', url: '/blog/how-to-handle-an-ato-audit-letter-step-by-step-guide' },
+            { name: 'How to Handle an ATO Audit Letter: Step-by-Step Guide', url: '/how-to-handle-an-ato-audit-letter-step-by-step-guide' },
           ]),
         ]}
       />

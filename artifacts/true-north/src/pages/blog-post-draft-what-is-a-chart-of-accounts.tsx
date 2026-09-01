@@ -136,7 +136,7 @@ const htmlContent = `<p>Think of your business&#039;s finances. If they were a l
 <blockquote>
 <p>A well-maintained COA doesn&#039;t just organise your past transactions. It clarifies your future decisions. Think of it as pruning a garden. Regular maintenance ensures healthy growth and prevents weeds from taking over your financial reports.</p>
 </blockquote>
-<p>By regularly tidying up your accounts and sticking to clear guidelines, you ensure your COA remains a powerful tool for financial analysis. To simplify your financial management even further, have a look at our other <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">top small business bookkeeping tips</a>. These proactive steps will save you a world of time and prevent major headaches when tax time rolls around.</p>
+<p>By regularly tidying up your accounts and sticking to clear guidelines, you ensure your COA remains a powerful tool for financial analysis. To simplify your financial management even further, have a look at our other <a href="/top-small-business-bookkeeping-tips">top small business bookkeeping tips</a>. These proactive steps will save you a world of time and prevent major headaches when tax time rolls around.</p>
 <h2 id="h-common-questions-about-the-chart-of-accounts">Common Questions About the Chart of Accounts</h2>
 <p>As you get more comfortable with your chart of accounts, it&#039;s natural for specific questions to pop up. Digging into the details is what helps you build a financial structure you can actually trust and use. Let&#039;s tackle some of the most common queries to clear up any confusion.</p>
 <h3>How Detailed Should My Chart of Accounts Be?</h3>
@@ -158,7 +158,7 @@ const htmlContent = `<p>Think of your business&#039;s finances. If they were a l
 <h3>Is My Accounting Software&#039;s Default COA Good Enough?</h3>
 <p>The default chart of accounts you get with software like <a href="https://www.xero.com/au/">Xero</a>{:target=&quot;_blank&quot;} or <a href="https://www.myob.com/au/">MYOB</a>{:target=&quot;_blank&quot;} is a fantastic starting point. But it&#039;s rarely a perfect long-term solution. These templates are built to be generic so they can cater to a massive range of businesses.</p>
 <p>This usually means they come loaded with accounts you’ll never touch. They are also missing the specific ones that are crucial for your industry. It’s always worth investing a bit of time upfront to customise it. Go through the default list, archive what&#039;s irrelevant, and add the accounts that will give you real insight into your performance.</p>
-<p>Making these tweaks early on is one of the easiest ways to avoid the common <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes small businesses make</a>. These mistakes can cost you dearly down the track.</p>
+<p>Making these tweaks early on is one of the easiest ways to avoid the common <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes small businesses make</a>. These mistakes can cost you dearly down the track.</p>
 <hr>
 <p>At <strong>Trew North Accounting</strong>, we help small businesses in Beaumaris and Melbourne build strong financial foundations. If you need expert help setting up or cleaning up your chart of accounts, our team offers practical advice and hands-on support. Visit us at <a href="https://tnaccounting.com.au">https://tnaccounting.com.au</a> to learn how we can make your bookkeeping simpler and more effective.</p>`;
 

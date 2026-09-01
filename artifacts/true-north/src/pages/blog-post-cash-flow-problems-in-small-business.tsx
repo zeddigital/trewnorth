@@ -66,7 +66,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 <li><strong>Indirect Overheads:</strong> The sneaky ones like rent, software subscriptions, insurance, marketing, and utilities.</li>
 <li><strong>Your Own Salary:</strong> Paying yourself a proper wage isn't a luxury; it's a legitimate business expense that needs to be factored into your pricing from day one.</li>
 </ul>
-<p>If your gross profit margin is razor-thin, a small jump in supplier costs or a minor dip in sales can wipe out your profit and create an instant cash crisis. This is often the point where business owners discover the real value of fixing common <a href="/bookkeeping-mistakes-small-business-make-what-could-cost-you-time-and-money/">bookkeeping mistakes that can cost time and money</a>.</p>
+<p>If your gross profit margin is razor-thin, a small jump in supplier costs or a minor dip in sales can wipe out your profit and create an instant cash crisis. This is often the point where business owners discover the real value of fixing common <a href="/top-small-business-bookkeeping-tips">bookkeeping mistakes that can cost time and money</a>.</p>
 <h3>Mismanaging ATO Obligations and Inventory</h3>
 <p>Two other major cash drains are often ignored until it’s too late: your tax obligations and how you manage your stock. Both can lock up huge amounts of cash that you desperately need elsewhere in the business.</p>
 <h4>Australian Tax Office (ATO) Obligations</h4>
@@ -144,7 +144,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 </ul>
 <p>Recent data shows just how critical this is. Xero’s latest figures reveal that Australian <strong>small business sales growth slowed to 3.0% year-on-year</strong>, which is well below the long-term average of <strong>7.8%</strong>.</p>
 <p>With revenue growth lagging behind rising costs, a business seeing only a <strong>3%</strong> sales increase can only survive if its financial management is rock-solid. You can <a href="https://www.xero.com/us/media-releases/xero-data-reveals-aussie-small-business-sales-volatile-2025-ahead-other-markets/" target="_blank" rel="noopener">explore the full Xero Small Business Insights report</a> for more on this trend.</p>
-<p>Smart pricing, combined with diligent forecasting and excellent bookkeeping, ensures that even modest growth translates into real financial strength. You can learn more with our <a href="/top-small-business-bookkeeping-tips-simplify-your-finances/">top small business bookkeeping tips to simplify your finances</a>.</p>
+<p>Smart pricing, combined with diligent forecasting and excellent bookkeeping, ensures that even modest growth translates into real financial strength. You can learn more with our <a href="/top-small-business-bookkeeping-tips">top small business bookkeeping tips to simplify your finances</a>.</p>
 <h2 id="h-navigating-finance-options-and-ato-obligations">Navigating Finance Options and ATO Obligations</h2>
 <p><img src="/blog/finance-options-and-ato-obligations.webp" alt="" width="1536" height="1024" /></p>
 <p>Sometimes, even the best long-term strategies aren’t enough to get you out of an immediate and serious cash gap. When you desperately need funds to cover payroll or a big supplier invoice, looking at external finance can feel like a lifeline.</p>
@@ -181,7 +181,7 @@ const htmlContent = `<p>It’s a frustrating and surprisingly common reality for
 <p>Failing to manage these obligations is one of the biggest red flags for a business in distress. Cash flow problems are a brutal reality reflected in the national insolvency data.</p>
 <p>Recent ASIC figures show that <strong>over 11,000 Australian businesses entered insolvency in the last financial year </strong>— a sharp rise that’s hitting small businesses with thin cash buffers the hardest. This pressure also hits owners personally, with <strong>one in four regularly dipping into personal savings</strong> just to keep the business afloat.</p>
 <p>These numbers aren't just statistics; they're a stark reminder of why having up-to-date books and staying on top of your compliance is often the difference between recovery and failure. </p>
-<p>For many business owners, simply understanding what’s required is the first hurdle. Our guide offers a detailed breakdown of <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a>, making sure you can meet your obligations correctly and on time.</p>
+<p>For many business owners, simply understanding what’s required is the first hurdle. Our guide offers a detailed breakdown of <a href="/services/bookkeeping">how to lodge your BAS online</a>, making sure you can meet your obligations correctly and on time.</p>
 <h2 id="h-how-a-business-accountant-can-transform-your-cash-">How a Business Accountant Can Transform Your Cash Flow</h2>
 <p>Managing cash flow can often feel like a lonely, high-stakes balancing act. But you don’t have to go it alone.</p>
 <p>Knowing when to ask for help isn't a sign of weakness—it's a mark of strong leadership. An experienced accountant is much more than a compliance box you have to tick; they are a genuine strategic partner in your business's success.</p>
@@ -242,21 +242,21 @@ export default function BlogPostCashFlowProblemsInSmallBusiness() {
       <SEOHead
         title="Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions | Trew North Accounting"
         description="Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions"
-        canonical="/blog/cash-flow-problems-in-small-business"
+        canonical="/cash-flow-problems-in-small-business"
         ogType="article"
         publishedTime="2026-02-13"
         schema={[
           blogPostingSchema({
             title: "Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions",
             description: "Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions",
-            url: '/blog/cash-flow-problems-in-small-business',
+            url: '/cash-flow-problems-in-small-business',
             datePublished: '2026-02-13',
             readingTime: 'PT22M',
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Blog', url: '/blog' },
-            { name: 'Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions', url: '/blog/cash-flow-problems-in-small-business' },
+            { name: 'Solve Cash Flow Problems in Small Business: Quick Fixes And Solutions', url: '/cash-flow-problems-in-small-business' },
           ]),
         ]}
       />

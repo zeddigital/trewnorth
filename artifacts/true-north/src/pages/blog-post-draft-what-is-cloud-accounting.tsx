@@ -207,7 +207,7 @@ const htmlContent = `<p>Think about how you use your online banking or even your
 </blockquote>
 <h3>Stage 3: Execute the Switch</h3>
 <p>This is it—the &quot;go-live&quot; phase where you actively move your data across and flick the switch to your new cloud platform. If you&#039;ve followed your plan from the previous stage, this part should be pretty straightforward.</p>
-<p>Once your historical data is imported, connecting your live bank feeds is one of the most important things you&#039;ll do. This is what unlocks that real-time visibility that makes cloud accounting so powerful. For a deeper dive into making the most of your new system, our complete guide to <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping for small business</a> offers some great insights.</p>
+<p>Once your historical data is imported, connecting your live bank feeds is one of the most important things you&#039;ll do. This is what unlocks that real-time visibility that makes cloud accounting so powerful. For a deeper dive into making the most of your new system, our complete guide to <a href="/services/bookkeeping">cloud bookkeeping for small business</a> offers some great insights.</p>
 <p><strong>Key Migration Steps</strong></p>
 <ul>
 <li><strong>Set a cut-off date:</strong> Pick a specific date to stop entering any new data into your old system.</li>
@@ -239,7 +239,7 @@ const htmlContent = `<p>Think about how you use your online banking or even your
 <p>Plus, the amount of time you save with automated features like bank feeds and streamlined BAS prep delivers a massive return on your investment.</p>
 <h3>How Does This Change How I Work with My Accountant?</h3>
 <p>It completely transforms your relationship. Instead of a reactive scramble at the end of each quarter, it becomes a proactive, collaborative partnership. Cloud accounting makes working together incredibly simple and far more efficient.</p>
-<p>You can give your accountant secure, real-time access to your financial data. This means no more emailing sensitive files, dropping off USB sticks, or handing over shoeboxes full of receipts. Speaking of compliance, our guide on <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a> explains how much easier this process becomes with cloud tools.</p>
+<p>You can give your accountant secure, real-time access to your financial data. This means no more emailing sensitive files, dropping off USB sticks, or handing over shoeboxes full of receipts. Speaking of compliance, our guide on <a href="/services/bookkeeping">how to lodge your BAS online</a> explains how much easier this process becomes with cloud tools.</p>
 <blockquote>
 <p>This shared access means your accountant can offer advice based on information that’s accurate to the minute. They can spot opportunities or potential issues as they happen, making tax time and financial planning smoother and much more strategic.</p>
 </blockquote>

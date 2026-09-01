@@ -21,7 +21,7 @@ const htmlContent = `<p>When it comes to payroll in Australia, getting the numbe
 </blockquote>
 <h3>Why Accurate Calculations Matter</h3>
 <p>Precision in payroll isn&#039;t just about keeping the tax office happy; it directly impacts your business&#039;s health and reputation. Inaccurate calculations can quickly erode employee trust, disrupt your cash flow with unexpected bills, and eat up valuable time that you should be spending on growing your business.</p>
-<p>This is where embracing modern tools becomes essential. You can learn more about how <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping services for small businesses</a> can automate many of these calculations, dramatically reducing the risk of manual error and helping you stay organised.</p>
+<p>This is where embracing modern tools becomes essential. You can learn more about how <a href="/services/bookkeeping">cloud bookkeeping services for small businesses</a> can automate many of these calculations, dramatically reducing the risk of manual error and helping you stay organised.</p>
 <h2 id="h-calculating-pay-as-you-go-payg-withholding">Calculating Pay As You Go (PAYG) Withholding</h2>
 <p><figure class="wp-block-image size-large"><img src="https://cdn.outrank.so/413aa6a2-4925-4343-93c8-fe8d0c5f2c8d/2a40b96e-9d0c-4796-a196-8ab9225014de/how-to-calculate-payroll-taxes-tax-calculation.jpg" alt="Person calculating taxes with a calculator and reviewing documents like gross pay and tax withheld." /></figure></p>
 <p>Calculating Pay As You Go (PAYG) withholding is one of the most common tasks you&#039;ll handle in your payroll cycle. At its core, it’s the process of setting aside a slice of your employee&#039;s gross pay to cover their estimated income tax for the year. As an employer, you&#039;re essentially acting as a collection agent for the Australian Taxation Office (ATO), making sure this tax is accurately withheld and sent to them.</p>
@@ -44,7 +44,7 @@ const htmlContent = `<p>When it comes to payroll in Australia, getting the numbe
 <li><strong>Fortnightly Tax Table:</strong> For those paid every two weeks.</li>
 <li><strong>Monthly Tax Table:</strong> Used when you pay employees once a month.</li>
 </ul>
-<p>These tables are laid out like a grid. You find your employee’s gross earnings for the pay period in one column, then look across to the columns that match their TFN declaration answers, like whether they’re claiming the tax-free threshold. If you&#039;re new to this, we have a helpful guide that breaks down the <a href="/payg-withholding-meaning/">PAYG withholding meaning</a> and its core concepts.</p>
+<p>These tables are laid out like a grid. You find your employee’s gross earnings for the pay period in one column, then look across to the columns that match their TFN declaration answers, like whether they’re claiming the tax-free threshold. If you&#039;re new to this, we have a helpful guide that breaks down the <a href="/what-is-payrolling">PAYG withholding meaning</a> and its core concepts.</p>
 <blockquote>
 <p>I always tell my clients to double-check they&#039;re using the tax tables for the correct financial year. The ATO updates them regularly, and using an outdated version is a guaranteed way to calculate the wrong amount, creating compliance issues down the line.</p>
 </blockquote>
@@ -186,7 +186,7 @@ const htmlContent = `<p>When it comes to payroll in Australia, getting the numbe
 <h3>Lodging Your Business Activity Statement</h3>
 <p>While STP takes care of the play-by-play reporting, the <strong>Business Activity Statement (BAS)</strong> is where you officially declare and pay the PAYG withholding you’ve collected. For most small businesses, this is a monthly or quarterly task.</p>
 <p>Think of your BAS as a summary of all your tax obligations for that period. The PAYG withholding figure your software sent via STP should line up perfectly with what you declare on your BAS at Label <strong>W1</strong> (total salary and wages) and <strong>W2</strong> (amount withheld). Once you lodge it, you pay the total owed to the ATO.</p>
-<p>If you want a more detailed walkthrough, we have a dedicated guide on <a href="/how-to-lodge-bas-online/">how to lodge your BAS online</a>.</p>
+<p>If you want a more detailed walkthrough, we have a dedicated guide on <a href="/services/bookkeeping">how to lodge your BAS online</a>.</p>
 <h3>Managing State Payroll Tax Obligations</h3>
 <p>Now, if your business&#039;s total wages tip over your state&#039;s payroll tax threshold, you&#039;ll have a separate reporting duty to your state or territory&#039;s revenue office. This is completely separate from your ATO obligations.</p>
 <p>Generally, it’s a two-step process:</p>

@@ -72,7 +72,7 @@ const htmlContent = `<p>The short answer? You can generally salary sacrifice up 
 <li><strong>Without Salary Sacrifice:</strong> That $10,000 would be taxed at their marginal rate, leaving them with only <strong>$6,100</strong> in their pocket after tax (<strong>$10,000 - $3,900 tax</strong>).</li>
 <li><strong>With Salary Sacrifice:</strong> The full $10,000 goes into their super and is taxed at only <strong>15%</strong>. This means a solid <strong>$8,500</strong> gets added to their retirement savings.</li>
 </ul>
-<p>By choosing to sacrifice, they’ve turned a <strong>$3,900</strong> tax bill into a powerful wealth-building move, netting an immediate tax saving of <strong>$2,400</strong>. You can explore more strategies like this for <a href="/how-to-reduce-taxable-income/">reducing your taxable income in our detailed guide</a>{:target=&quot;_blank&quot;}.</p>
+<p>By choosing to sacrifice, they’ve turned a <strong>$3,900</strong> tax bill into a powerful wealth-building move, netting an immediate tax saving of <strong>$2,400</strong>. You can explore more strategies like this for <a href="/10-ways-to-reduce-your-business-tax-bill">reducing your taxable income in our detailed guide</a>{:target=&quot;_blank&quot;}.</p>
 <h3>What About High-Income Earners?</h3>
 <p>If you&#039;re a high-income earner, there&#039;s an extra rule you need to know about called <strong>Division 293 tax</strong>. It’s an additional tax on super contributions designed to level the playing field and reduce the tax concessions for Australia&#039;s top earners.</p>
 <ul>

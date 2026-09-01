@@ -112,7 +112,7 @@ const htmlContent = `<p>Staring at your business finances can feel like trying t
 <li><strong>Prepare Tax Documentation:</strong> Pull together all the necessary documents, including your financial reports, details of any asset purchases, and records of major expenses.</li>
 <li><strong>Lodge Tax Return:</strong> Work with your accountant to prepare and lodge your business&#039;s annual income tax return.</li>
 </ul>
-<p>For a comprehensive breakdown of everything you need to do, check out our <a href="/end-of-financial-year-checklist-for-small-business-preparing-for-june-30/">end-of-financial-year checklist for small business</a> to ensure a stress-free tax time.</p>
+<p>For a comprehensive breakdown of everything you need to do, check out our <a href="/tax-return-deadline">end-of-financial-year checklist for small business</a> to ensure a stress-free tax time.</p>
 <h2 id="h-choosing-your-cloud-accounting-software">Choosing Your Cloud Accounting Software</h2>
 <p>If you’re still using a spreadsheet and a shoebox full of receipts, it’s time for an upgrade. Modern small business accounting happens in the cloud, and choosing the right software is easily the biggest step you can take to get your financial admin under control.</p>
 <p>Think of it less as an expense and more as the central nervous system for a healthy, organised business.</p>
@@ -129,7 +129,7 @@ const htmlContent = `<p>Staring at your business finances can feel like trying t
 </ul>
 <p>Cloud accounting is fundamentally changing how Australian small businesses operate. As businesses grow, having near real-time financial data becomes critical for managing everything from GST and payroll to supplier payments. The demand for accountants skilled in these systems is rising, with over <strong>36,700</strong> accounting services businesses now operating in Australia. You can explore more on the <a href="https://www.ibisworld.com/australia/number-of-businesses/accounting-services/561/">growth of the accounting services sector in Australia</a>.</p>
 <h3>Comparing the Top Cloud Accounting Platforms</h3>
-<p>For most Australian businesses, the decision comes down to three main players: <a href="https://www.xero.com/au/">Xero</a>, <a href="https://www.myob.com/au/">MYOB</a>, and <a href="https://quickbooks.intuit.com/au/">QuickBooks Online</a>. While they share core features, they each have different strengths. The right one for you really depends on your business size, industry, and how comfortable you are with technology. Getting this right is a huge part of effective <a href="/cloud-bookkeeping-for-small-business-complete-guide-services/">cloud bookkeeping for small business</a>.</p>
+<p>For most Australian businesses, the decision comes down to three main players: <a href="https://www.xero.com/au/">Xero</a>, <a href="https://www.myob.com/au/">MYOB</a>, and <a href="https://quickbooks.intuit.com/au/">QuickBooks Online</a>. While they share core features, they each have different strengths. The right one for you really depends on your business size, industry, and how comfortable you are with technology. Getting this right is a huge part of effective <a href="/services/bookkeeping">cloud bookkeeping for small business</a>.</p>
 <p>Here’s a quick breakdown to help guide your decision.</p>
 <h4>Xero</h4>
 <ul>

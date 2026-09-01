@@ -124,7 +124,7 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 </ul>
 
 <h3>Cash Flow and Lending</h3>
-<p>Break-even volume sharpens cash flow forecasting, and presenting the analysis in a loan application demonstrates you understand your own numbers. Our guide to <a href="/blog/cash-flow-problems-in-small-business">solving cash flow problems in small business</a> covers the forecasting side in more depth, and the <a href="/blog/how-to-read-a-balance-sheet">balance sheet guide</a> covers where these costs end up.</p>
+<p>Break-even volume sharpens cash flow forecasting, and presenting the analysis in a loan application demonstrates you understand your own numbers. Our guide to <a href="/cash-flow-problems-in-small-business">solving cash flow problems in small business</a> covers the forecasting side in more depth, and the <a href="/how-to-read-a-balance-sheet">balance sheet guide</a> covers where these costs end up.</p>
 
 <h2 id="h-when-you-sell-more-than-one-thing">When You Sell More Than One Thing</h2>
 <p>Most businesses do not sell a single product at a single price, which makes a single contribution margin misleading. The fix is a <strong>weighted-average contribution margin</strong>:</p>
@@ -154,7 +154,7 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 const TITLE = 'What Is Break-Even Analysis? A Guide for Small Business';
 const DESCRIPTION =
   'How to work out the point where sales cover costs — fixed and variable costs, contribution margin, both formulas, and a worked example for a Melbourne store.';
-const SLUG = '/blog/what-is-break-even-analysis';
+const SLUG = '/what-is-break-even-analysis';
 const PUBLISHED = '2026-08-12';
 
 export default function BlogPostWhatIsBreakEvenAnalysis() {
