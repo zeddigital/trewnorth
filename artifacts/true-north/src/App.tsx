@@ -51,6 +51,7 @@ const BlogPostSetUpSuperFund = lazy(() => import('@/pages/blog-post-set-up-super
 const BlogPostAgentNominationAto = lazy(() => import('@/pages/blog-post-agent-nomination-ato'));
 const BlogPostWhatIsPayrolling = lazy(() => import('@/pages/blog-post-what-is-payrolling'));
 const BlogPostWhatIsAProfitAndLossStatement = lazy(() => import('@/pages/blog-post-what-is-a-profit-and-loss-statement'));
+const BlogPostTaxWriteOffForDonations = lazy(() => import('@/pages/blog-post-tax-write-off-for-donations'));
 const BlogPostDiscretionaryTrustVsFamilyTrust = lazy(() => import('@/pages/blog-post-discretionary-trust-vs-family-trust'));
 const BlogPostInvestmentPropertyTaxDeductions = lazy(() => import('@/pages/blog-post-investment-property-tax-deductions-australia'));
 const BlogPostHowToSalarySacrificeSuper = lazy(() => import('@/pages/blog-post-how-to-salary-sacrifice-super'));
@@ -199,6 +200,7 @@ function Router() {
         <Route path="/property-investment-using-superannuation" component={BlogPostPropertyInvestmentSuperannuation} />
         <Route path="/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
         <Route path="/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
+        <Route path="/tax-write-off-for-donations" component={BlogPostTaxWriteOffForDonations} />
         <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
         <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
         <Route path="/agent-nomination-ato" component={BlogPostAgentNominationAto} />

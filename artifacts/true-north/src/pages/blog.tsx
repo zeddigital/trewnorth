@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/tax-write-off-for-donations',
+    image: '/blog/tax-write-off-for-donations.webp',
+    category: 'Tax Planning',
+    title: 'Tax Write-Off for Donations: An Australian Guide',
+    excerpt: 'The $2 and DGR tests, gift versus purchase, valuing non-cash gifts, and the rule that stops a donation creating a tax loss.',
+    date: '18 August 2026',
+    internal: true,
+  },
+  {
     href: '/what-is-a-profit-and-loss-statement',
     image: '/blog/what-is-a-profit-and-loss-statement.webp',
     category: 'Accounting',

@@ -49,6 +49,7 @@ import BlogPostSetUpSuperFund from '@/pages/blog-post-set-up-super-fund';
 import BlogPostAgentNominationAto from '@/pages/blog-post-agent-nomination-ato';
 import BlogPostWhatIsPayrolling from '@/pages/blog-post-what-is-payrolling';
 import BlogPostWhatIsAProfitAndLossStatement from '@/pages/blog-post-what-is-a-profit-and-loss-statement';
+import BlogPostTaxWriteOffForDonations from '@/pages/blog-post-tax-write-off-for-donations';
 import Suburbs from '@/pages/suburbs';
 import SuburbBrighton from '@/pages/suburb-brighton';
 import SuburbCheltenham from '@/pages/suburb-cheltenham';
@@ -144,6 +145,7 @@ export function render(path: string): {
             path="/top-small-business-grants-for-2025"
             component={BlogPostGrants2025}
           />
+          <Route path="/tax-write-off-for-donations" component={BlogPostTaxWriteOffForDonations} />
           <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
           <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
           <Route path="/agent-nomination-ato" component={BlogPostAgentNominationAto} />
