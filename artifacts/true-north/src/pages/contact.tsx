@@ -45,8 +45,10 @@ const contactDetails = [
   },
 ];
 
+type SubmitStatus = 'idle' | 'sending' | 'success' | 'error';
+
 export default function Contact() {
-  const [formSubmitted, setFormSubmitted] = useState(false);
+  const [status, setStatus] = useState<SubmitStatus>('idle');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -54,11 +56,28 @@ export default function Contact() {
     company: '',
     service: '',
     message: '',
+    // Honeypot. Hidden from people, so anything here means a bot.
+    website: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const formSubmitted = status === 'success';
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setFormSubmitted(true);
+    if (status === 'sending') return;
+    setStatus('sending');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+      setStatus('success');
+    } catch {
+      setStatus('error');
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -167,7 +186,7 @@ export default function Contact() {
               </p>
 
               {!formSubmitted ? (
-                <form onSubmit={handleSubmit} className="space-y-5">
+                <form onSubmit={handleSubmit} className="space-y-5 relative">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div>
                       <Label htmlFor="name">Full Name *</Label>
@@ -250,13 +269,44 @@ export default function Contact() {
                     />
                   </div>
 
+                  {/* Honeypot — positioned off-screen rather than display:none,
+                      which some bots detect and skip. Never shown to people. */}
+                  <div aria-hidden="true" className="absolute left-[-9999px] w-px h-px overflow-hidden">
+                    <label htmlFor="website">Leave this field blank</label>
+                    <input
+                      id="website"
+                      name="website"
+                      type="text"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      value={formData.website}
+                      onChange={(e) => handleChange('website', e.target.value)}
+                    />
+                  </div>
+
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full btn-cta gap-2"
+                    disabled={status === 'sending'}
+                    className="w-full btn-cta gap-2 disabled:opacity-70"
                   >
-                    Send Enquiry <ArrowRight className="h-4 w-4" />
+                    {status === 'sending' ? 'Sending…' : (
+                      <>Send Enquiry <ArrowRight className="h-4 w-4" /></>
+                    )}
                   </Button>
+
+                  {status === 'error' && (
+                    <div
+                      role="alert"
+                      className="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-foreground leading-relaxed"
+                    >
+                      Sorry — your message didn't send. Please call{' '}
+                      <a href="tel:0411732966" className="font-semibold text-primary hover:underline">0411&nbsp;732&nbsp;966</a>{' '}
+                      or email{' '}
+                      <a href="mailto:darren@tnaccounting.com.au" className="font-semibold text-primary hover:underline">darren@tnaccounting.com.au</a>{' '}
+                      and we'll pick it up straight away.
+                    </div>
+                  )}
 
                   <p className="text-xs text-muted-foreground text-center">
                     We respond within one business day. Your details are kept strictly confidential.
@@ -276,7 +326,7 @@ export default function Contact() {
                     Thanks — we'll be in touch soon.
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Darren or a member of the team will contact you within one business day to arrange your free consultation.
+                    We've sent a confirmation to your inbox. Darren will contact you within one business day to arrange your free consultation.
                   </p>
                 </motion.div>
               )}
