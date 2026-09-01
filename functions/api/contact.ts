@@ -40,7 +40,6 @@ const PHONE_HREF = 'tel:0411732966';
    and no support for CSS custom properties. */
 const NAVY = '#111C2C';
 const CYAN = '#0DB7E1';
-const ORANGE = '#FC8D34';
 const PAGE_BG = '#F1F4F6';
 const CARD_BG = '#FFFFFF';
 const TEXT = '#161F2D';
@@ -181,17 +180,27 @@ function practiceEmail(e: Enquiry): { html: string; text: string } {
     detailRow('Service', escapeHtml(e.service)),
   ].join('');
 
+  // Everything below is laid out with tables and cell padding rather than
+  // margins on block elements. Margins on a table are unreliable across mail
+  // clients — an earlier version put the reply button in a margin-spaced table
+  // and it collapsed onto the message block in Darren's client.
   const message = e.message
-    ? `<p style="margin:26px 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">Message</p>
-<div style="background:${PAGE_BG};border-left:3px solid ${CYAN};border-radius:0 8px 8px 0;padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</div>`
-    : `<p style="margin:26px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:${MUTED};font-style:italic;">No message was included.</p>`;
+    ? `<tr><td style="padding:26px 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">Message</td></tr>
+<tr><td>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${PAGE_BG};border-left:3px solid ${CYAN};">
+<tr><td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</td></tr>
+</table>
+</td></tr>`
+    : `<tr><td style="padding:26px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.6;color:${MUTED};font-style:italic;">No message was included.</td></tr>`;
 
   const inner = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid ${BORDER};">${rows}</table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
 ${message}
-<table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin-top:28px;">
-<tr><td style="background:${ORANGE};border-radius:8px;">
-<a href="mailto:${escapeHtml(e.email)}" style="display:inline-block;padding:13px 26px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:${NAVY};text-decoration:none;">Reply to ${escapeHtml(e.firstName)}</a>
-</td></tr></table>`;
+<tr><td style="padding:24px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.6;color:${MUTED};">
+Reply to this email to answer ${escapeHtml(e.firstName)} directly, or call
+<a href="tel:${escapeHtml(e.phone.replace(/[^\d+]/g, ''))}" style="color:${CYAN};text-decoration:none;font-weight:bold;">${escapeHtml(e.phone)}</a>.
+</td></tr>
+</table>`;
 
   const text = [
     `New enquiry from the website`,
@@ -216,8 +225,14 @@ ${message}
 
 function acknowledgementEmail(e: Enquiry): { html: string; text: string } {
   const summary = e.message
-    ? `<p style="margin:0 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">What you sent us</p>
-<div style="background:${PAGE_BG};border-left:3px solid ${CYAN};border-radius:0 8px 8px 0;padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</div>`
+    ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td style="padding:0 0 8px;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.07em;text-transform:uppercase;color:${MUTED};">What you sent us</td></tr>
+<tr><td>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:${PAGE_BG};border-left:3px solid ${CYAN};">
+<tr><td style="padding:16px 18px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:${TEXT};white-space:pre-wrap;">${escapeHtml(e.message)}</td></tr>
+</table>
+</td></tr>
+</table>`
     : '';
 
   const inner = `<p style="margin:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.7;color:${TEXT};">Hi ${escapeHtml(e.firstName)},</p>
