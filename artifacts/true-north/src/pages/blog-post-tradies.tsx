@@ -44,7 +44,7 @@ const tradiesFaqs = [
   },
   {
     question: 'Can a self-employed tradie claim super contributions as a tax deduction?',
-    answer: 'Yes. If you\'re self-employed, personal superannuation contributions you make to a complying super fund are generally tax-deductible — up to the concessional contributions cap of $30,000 per year (2024–25 and 2025–26). You must lodge a Notice of Intent to Claim form with your super fund before lodging your tax return.',
+    answer: 'Yes. If you\'re self-employed, personal superannuation contributions you make to a complying super fund are generally tax-deductible, up to the concessional contributions cap of $30,000 per year (2024–25 and 2025–26). You must lodge a Notice of Intent to Claim form with your super fund before lodging your tax return.',
   },
 ];
 
@@ -60,7 +60,7 @@ export default function BlogPostTradies() {
         schema={[
           blogPostingSchema({
             title: 'Melbourne Tradies: Tax Tips and Bookkeeping Mistakes to Avoid',
-            description: "Tradies often leave money on the table at tax time — and can find themselves in trouble with the ATO from simple bookkeeping errors. Here's how to get it right.",
+            description: "Tradies often leave money on the table at tax time, and can find themselves in trouble with the ATO from simple bookkeeping errors. Here's how to get it right.",
             url: '/melbourne-tradies-tax-tips-and-bookkeeping-mistakes',
             datePublished: '2025-10-27',
             readingTime: 'PT8M',
@@ -101,7 +101,7 @@ export default function BlogPostTradies() {
             </h1>
 
             <p className="text-xl text-foreground/70 leading-relaxed mb-8">
-              Tradies often leave money on the table at tax time — and can find themselves in trouble with the ATO from simple bookkeeping errors. Here's how to get it right.
+              Tradies often leave money on the table at tax time, and can find themselves in trouble with the ATO from simple bookkeeping errors. Here's how to get it right.
             </p>
 
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/55">
@@ -136,12 +136,12 @@ export default function BlogPostTradies() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>Melbourne tradies can claim deductions for tools, work vehicles, protective clothing, home office costs, and super contributions. You must register for GST if your turnover exceeds $75,000, lodge BAS quarterly, and keep records for 5 years. The ATO actively benchmarks the construction and trades sector — accurate bookkeeping and a separate business bank account are non-negotiable.</strong></p>
+                  <p><strong>Melbourne tradies can claim deductions for tools, work vehicles, protective clothing, home office costs, and super contributions. You must register for GST if your turnover exceeds $75,000, lodge BAS quarterly, and keep records for 5 years. The ATO actively benchmarks the construction and trades sector, accurate bookkeeping and a separate business bank account are non-negotiable.</strong></p>
                   <p className="text-xs text-foreground/60 mt-2">Sources: <a href="https://www.ato.gov.au/individuals-and-families/jobs-and-employment-types/working-as-an-employee/construction-and-building-employees/deductions-for-construction-workers" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO deductions for construction workers</a> · <a href="https://www.ato.gov.au/businesses-and-organisations/record-keeping-for-business" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO record-keeping requirements</a></p>
                 </div>
 
                 <p>
-                  Whether you're a plumber, electrician, carpenter, or builder, tax and bookkeeping are a fact of life as a Melbourne tradie. The good news: there are significant deductions available to you. The bad news: many tradies miss them — or make avoidable mistakes that cost them at tax time, or worse, trigger an ATO audit.
+                  Whether you're a plumber, electrician, carpenter, or builder, tax and bookkeeping are a fact of life as a Melbourne tradie. The good news: there are significant deductions available to you. The bad news: many tradies miss them, or make avoidable mistakes that cost them at tax time, or worse, trigger an ATO audit.
                 </p>
                 <p>
                   This guide covers the key tax tips every Melbourne tradie should know, and the common bookkeeping mistakes you need to avoid.
@@ -149,7 +149,7 @@ export default function BlogPostTradies() {
 
                 <h2 id="overview">Tax Overview for Tradies</h2>
                 <p>
-                  As a tradie running your own business — whether as a sole trader, partnership, or company — you're responsible for managing your own tax obligations. This includes income tax, GST (if registered), superannuation contributions, and potentially payroll tax if you employ staff.
+                  As a tradie running your own business (whether as a sole trader, partnership, or company) you're responsible for managing your own tax obligations. This includes income tax, GST (if registered), superannuation contributions, and potentially payroll tax if you employ staff.
                 </p>
                 <p>
                   Unlike employees who have tax withheld automatically, business owners need to set aside money for tax throughout the year and pay via PAYG instalments or at tax time. Failing to do this is one of the most common reasons tradies get into financial difficulty.
@@ -184,14 +184,14 @@ export default function BlogPostTradies() {
 
                 <h2 id="vehicle">Vehicle and Travel Expenses</h2>
                 <p>
-                  Vehicle expenses are one of the largest deductions available to tradies — and also one of the most scrutinised by the ATO. There are two main methods for claiming vehicle expenses:
+                  Vehicle expenses are one of the largest deductions available to tradies, and also one of the most scrutinised by the ATO. There are two main methods for claiming vehicle expenses:
                 </p>
                 <ul>
-                  <li><strong>Logbook method:</strong> Keep a logbook for 12 consecutive weeks to establish the business-use percentage of your vehicle. This percentage then applies to all vehicle costs — fuel, insurance, registration, repairs, depreciation. Generally gives the highest deduction.</li>
+                  <li><strong>Logbook method:</strong> Keep a logbook for 12 consecutive weeks to establish the business-use percentage of your vehicle. This percentage then applies to all vehicle costs, fuel, insurance, registration, repairs, depreciation. Generally gives the highest deduction.</li>
                   <li><strong>Cents-per-kilometre method:</strong> Claim a fixed rate per kilometre (<a href="https://www.ato.gov.au/individuals-and-families/income-deductions-offsets-and-records/deductions-you-can-claim/vehicles-and-travel/car-expenses/cents-per-kilometre-method" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">currently <strong>88 cents per km</strong> for the 2024–25 income year, as set by the ATO</a>) for up to 5,000 km of business travel per year. Simpler, but capped at $4,400 per vehicle annually.</li>
                 </ul>
                 <p>
-                  Note that driving between home and work is generally <em>not</em> deductible — unless your home is also your place of business, or you carry heavy tools that can't be stored at the workplace.
+                  Note that driving between home and work is generally <em>not</em> deductible, unless your home is also your place of business, or you carry heavy tools that can't be stored at the workplace.
                 </p>
 
                 <h2 id="tools-equipment">Tools and Equipment</h2>
@@ -204,12 +204,12 @@ export default function BlogPostTradies() {
 
                 <h2 id="home-office">Home Office Costs</h2>
                 <p>
-                  Many tradies run their administrative operations — quoting, invoicing, planning — from home. If you use a dedicated part of your home for business purposes, you may be able to claim a portion of rent/mortgage interest, utilities, and internet costs. The ATO's fixed rate method (70 cents per hour for the 2024–25 and 2025–26 income years) simplifies this calculation.
+                  Many tradies run their administrative operations (quoting, invoicing, planning) from home. If you use a dedicated part of your home for business purposes, you may be able to claim a portion of rent/mortgage interest, utilities, and internet costs. The ATO's fixed rate method (70 cents per hour for the 2024–25 and 2025–26 income years) simplifies this calculation.
                 </p>
 
                 <h2 id="super">Superannuation Tips</h2>
                 <p>
-                  As a self-employed tradie, you're not required to pay yourself superannuation — but it's strongly advisable. Super contributions you make for yourself are generally tax-deductible (up to the concessional contributions cap of $30,000 per year), which can significantly reduce your taxable income while building your retirement savings.
+                  As a self-employed tradie, you're not required to pay yourself superannuation, but it's strongly advisable. Super contributions you make for yourself are generally tax-deductible (up to the concessional contributions cap of $30,000 per year), which can significantly reduce your taxable income while building your retirement savings.
                 </p>
                 <p>
                   If you employ staff, you must pay the Super Guarantee (12% from 1 July 2025) on their ordinary earnings. Failing to do so results in the Super Guarantee Charge, which is not tax-deductible.
@@ -217,7 +217,7 @@ export default function BlogPostTradies() {
 
                 <h2 id="bookkeeping-mistakes">Common Bookkeeping Mistakes</h2>
                 <p>
-                  Good bookkeeping isn't just about compliance — it's about having accurate information to run your business. These are the mistakes we see most often with Melbourne tradies:
+                  Good bookkeeping isn't just about compliance, it's about having accurate information to run your business. These are the mistakes we see most often with Melbourne tradies:
                 </p>
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">Mistakes to avoid:</p>
@@ -226,14 +226,14 @@ export default function BlogPostTradies() {
                     <li><strong>Losing receipts:</strong> No receipt, no deduction. Use a receipt-scanning app or take photos immediately after purchases.</li>
                     <li><strong>Not reconciling accounts regularly:</strong> Monthly bank reconciliation catches errors and fraud early and keeps your books accurate.</li>
                     <li><strong>Ignoring BAS deadlines:</strong> Late BAS lodgements attract penalties. Set calendar reminders or use a bookkeeper to ensure you never miss one.</li>
-                    <li><strong>Under-reporting cash income:</strong> The ATO uses data matching extensively. All income — including cash payments — must be declared.</li>
-                    <li><strong>Forgetting to account for GST:</strong> If you're registered for GST, GST collected is not your money — it belongs to the ATO. Set it aside in a separate account.</li>
+                    <li><strong>Under-reporting cash income:</strong> The ATO uses data matching extensively. All income, including cash payments, must be declared.</li>
+                    <li><strong>Forgetting to account for GST:</strong> If you're registered for GST, GST collected is not your money, it belongs to the ATO. Set it aside in a separate account.</li>
                   </ul>
                 </div>
 
                 <h2 id="cash-payments">Handling Cash Payments</h2>
                 <p>
-                  Cash is common in the trades, but it must be handled correctly. All cash income must be declared in your tax return — the ATO uses industry benchmarking data to identify businesses where reported income seems unusually low for the sector.
+                  Cash is common in the trades, but it must be handled correctly. All cash income must be declared in your tax return, the ATO uses industry benchmarking data to identify businesses where reported income seems unusually low for the sector.
                 </p>
                 <p>
                   Always issue a receipt or tax invoice for cash jobs, and record cash receipts in your accounting system on the day they're received. This protects you and gives you an accurate view of your income.
@@ -241,7 +241,7 @@ export default function BlogPostTradies() {
 
                 <h2 id="invoicing">Invoicing Best Practices</h2>
                 <p>
-                  Professional, accurate invoicing isn't just about looking credible — it's essential for cash flow and compliance. Good invoices include:
+                  Professional, accurate invoicing isn't just about looking credible, it's essential for cash flow and compliance. Good invoices include:
                 </p>
                 <ul>
                   <li>Your business name and ABN</li>
@@ -268,12 +268,12 @@ export default function BlogPostTradies() {
                   If your annual turnover exceeds $75,000, you must register for GST and submit Business Activity Statements (BAS). BAS is typically lodged quarterly and reports GST collected on sales, GST paid on purchases, and any PAYG withholding for employees.
                 </p>
                 <p>
-                  Many tradies benefit from setting aside GST in a dedicated account as they collect it — so there are no surprises when BAS is due.
+                  Many tradies benefit from setting aside GST in a dedicated account as they collect it, so there are no surprises when BAS is due.
                 </p>
 
                 <h2 id="working-with-accountant">Working with an Accountant</h2>
                 <p>
-                  A good accountant doesn't just lodge your tax return — they help you structure your business, minimise tax, and make smarter financial decisions. For Melbourne tradies especially, having an accountant who understands the construction and trades industry is invaluable.
+                  A good accountant doesn't just lodge your tax return. They help you structure your business, minimise tax, and make smarter financial decisions. For Melbourne tradies especially, having an accountant who understands the construction and trades industry is invaluable.
                 </p>
                 <p>
                   At a minimum, meet with your accountant once a year before tax time. Ideally, meet quarterly to review your financials and plan ahead.
@@ -297,9 +297,9 @@ export default function BlogPostTradies() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small business owners — including many tradies — with tax and financial strategy. If you'd like a review of your current setup, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small business owners, including many tradies, with tax and financial strategy. If you'd like a review of your current setup, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>

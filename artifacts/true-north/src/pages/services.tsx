@@ -21,7 +21,7 @@ const services = [
     icon: Calculator,
     title: 'Accounting & Tax Planning',
     description:
-      'Strategic, year-round tax planning that minimises your liability while keeping you fully compliant with ATO requirements. We plan ahead — not just at EOFY.',
+      'Strategic, year-round tax planning that minimises your liability while keeping you fully compliant with ATO requirements. We plan ahead, not just at EOFY.',
     highlights: [
       'Year-round proactive tax planning',
       'Tax return preparation and lodgement',
@@ -47,7 +47,7 @@ const services = [
     icon: Wallet,
     title: 'Personal Tax & Finance',
     description:
-      'Personal tax returns done right — capturing every deduction from investment properties, share portfolios, and beyond. More than a form; an opportunity.',
+      'Personal tax returns done right, capturing every deduction from investment properties, share portfolios, and beyond. More than a form; an opportunity.',
     highlights: [
       'Individual tax return preparation',
       'Investment property income and expenses',
@@ -86,7 +86,7 @@ const services = [
     icon: Users,
     title: 'Small Business Accountant',
     description:
-      'A dedicated accounting partner for your business — covering tax, bookkeeping, compliance, and strategy. One team that knows your business inside and out.',
+      'A dedicated accounting partner for your business, covering tax, bookkeeping, compliance, and strategy. One team that knows your business inside and out.',
     highlights: [
       'Dedicated account manager',
       'Tax, BAS, and compliance',
@@ -101,7 +101,7 @@ export default function Services() {
     <div className="min-h-screen">
       <SEOHead
         title="Accounting & Tax Services Melbourne | Trew North Accounting"
-        description="Explore Trew North Accounting's services — tax planning, bookkeeping, SMSF, personal tax, and small business strategy for Melbourne businesses."
+        description="Explore Trew North Accounting's services, tax planning, bookkeeping, SMSF, personal tax, and small business strategy for Melbourne businesses."
         canonical="/services"
         schema={breadcrumbSchema([
           { name: 'Home', url: '/' },
@@ -123,7 +123,7 @@ export default function Services() {
               Services built for growing businesses
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Comprehensive accounting, tax, and advisory services designed to help Melbourne small businesses thrive — not just comply.
+              Comprehensive accounting, tax, and advisory services designed to help Melbourne small businesses thrive, not just comply.
             </p>
           </motion.div>
         </div>

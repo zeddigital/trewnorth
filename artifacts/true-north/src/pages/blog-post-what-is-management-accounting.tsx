@@ -18,7 +18,7 @@ const toc = [
   { id: 'h-frequently-asked-questions', label: 'Frequently Asked Questions' },
 ];
 
-const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong>management accounting</strong> is the dashboard — the fuel gauge, the speedometer and the route ahead. It is the practice of using your own numbers to run the business, rather than to report on it.</p>
+const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong>management accounting</strong> is the dashboard, the fuel gauge, the speedometer and the route ahead. It is the practice of using your own numbers to run the business, rather than to report on it.</p>
 
 <h2 id="h-looking-forward-not-back">Looking Forward, Not Back</h2>
 <p>Financial accounting exists to satisfy people outside the business: the ATO, a lender, an investor. It looks backwards, and it has to follow prescribed standards.</p>
@@ -29,9 +29,9 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <li><strong>Efficiency.</strong> Which service costs more to deliver than it earns?</li>
 </ul>
 <blockquote>
-<p>Financial accounting gives you last year's history lesson. Management accounting gives you next quarter's forecast — and the reports are shaped around your questions, not a regulator's.</p>
+<p>Financial accounting gives you last year's history lesson. Management accounting gives you next quarter's forecast, and the reports are shaped around your questions, not a regulator's.</p>
 </blockquote>
-<p>Take a construction company in Melbourne. Its financial accounts report annual profit to the ATO — that is compliance, and it happens once. Its management accounts track cost by job, which sharpens every quote it writes and tells the owner months ahead when payroll and material orders will collide.</p>
+<p>Take a construction company in Melbourne. Its financial accounts report annual profit to the ATO. That is compliance, and it happens once. Its management accounts track cost by job, which sharpens every quote it writes and tells the owner months ahead when payroll and material orders will collide.</p>
 
 <h2 id="h-three-jobs-often-confused">Three Jobs, Often Confused</h2>
 <p>Bookkeeping, financial accounting and management accounting get used interchangeably. They are three different jobs, and each depends on the one before it.</p>
@@ -62,13 +62,13 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 </div>
 </div>
 
-<h3>Bookkeeping — The Record</h3>
+<h3>Bookkeeping: The Record</h3>
 <p>The ground-level work of capturing every transaction: sales, purchases, payments, receipts. The output is a clean <strong>general ledger</strong>. Nothing else in this article is possible without it, which is why "our books are a bit behind" is never a small problem.</p>
 
-<h3>Financial Accounting — The Report</h3>
-<p>Turns that raw data into standardised statements — the <strong>profit and loss</strong>, the <strong>balance sheet</strong>, the <strong>cash flow statement</strong> — prepared in line with Australian Accounting Standards and handed to the ATO, the bank or an investor. Our guides to <a href="/how-to-read-a-balance-sheet">reading a balance sheet</a> and <a href="/top-small-business-bookkeeping-tips">keeping the books straight</a> cover this ground in detail.</p>
+<h3>Financial Accounting, The Report</h3>
+<p>Turns that raw data into standardised statements, the <strong>profit and loss</strong>, the <strong>balance sheet</strong>, the <strong>cash flow statement</strong>, prepared in line with Australian Accounting Standards and handed to the ATO, the bank or an investor. Our guides to <a href="/how-to-read-a-balance-sheet">reading a balance sheet</a> and <a href="/top-small-business-bookkeeping-tips">keeping the books straight</a> cover this ground in detail.</p>
 
-<h3>Management Accounting — The Decision</h3>
+<h3>Management Accounting: The Decision</h3>
 <p>Same underlying data, entirely different purpose. Budgets, cash flow forecasts, cost analyses and performance dashboards, built to answer a specific question you are facing right now. Nobody outside the business ever sees them.</p>
 <blockquote>
 <p>Financial accounting reports the past to outsiders. Management accounting uses that same data to help insiders shape what happens next.</p>
@@ -79,33 +79,33 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <p>Four instruments do most of the work. None of them require a finance degree.</p>
 
 <h3>Cost Accounting</h3>
-<p>Working out what things genuinely cost — materials and labour, but also the share of rent, power and insurance that each job or product should carry.</p>
+<p>Working out what things genuinely cost, materials and labour, but also the share of rent, power and insurance that each job or product should carry.</p>
 <p>Without it you are pricing blind, and a bestseller can quietly be your least profitable line. A café that knows a flat white costs it $1.85 to make can price it at $4.50 with confidence rather than by looking at the shop next door.</p>
 <p>The natural companion here is <a href="/what-is-break-even-analysis">break-even analysis</a>, which turns your cost structure into a sales target you can actually act on.</p>
 
 <h3>Budgeting and Forecasting</h3>
 <p>A budget is the plan for the period. A forecast is the projection of what will really happen, updated as reality arrives.</p>
-<p>A trade contractor budgets the quarter — revenue, materials, subcontractors, overheads — and runs a cash flow forecast alongside it that shows cash tightening in May. Knowing that in February means arranging a facility or renegotiating terms calmly, rather than in a panic in May. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> goes deeper on the forecasting side.</p>
+<p>A trade contractor budgets the quarter (revenue, materials, subcontractors, overheads) and runs a cash flow forecast alongside it that shows cash tightening in May. Knowing that in February means arranging a facility or renegotiating terms calmly, rather than in a panic in May. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> goes deeper on the forecasting side.</p>
 
 <h3>Performance Measurement</h3>
 <p><strong>Key performance indicators</strong> are the handful of numbers that tell you whether the business is doing what you need it to. Total revenue rarely qualifies. For an online retailer, the informative ones might be:</p>
 <ul>
-<li><strong>Customer acquisition cost</strong> — what it costs in marketing to win one customer</li>
-<li><strong>Average order value</strong> — whether customers are spending more per transaction over time</li>
-<li><strong>Gross profit margin</strong> — what share of revenue survives the cost of goods sold</li>
+<li><strong>Customer acquisition cost:</strong> what it costs in marketing to win one customer</li>
+<li><strong>Average order value:</strong> whether customers are spending more per transaction over time</li>
+<li><strong>Gross profit margin:</strong> what share of revenue survives the cost of goods sold</li>
 </ul>
 <blockquote>
-<p>A KPI is a vital sign. A doctor does not check every measurement available — they check the few that reveal the most, and they check them regularly.</p>
+<p>A KPI is a vital sign. A doctor does not check every measurement available, they check the few that reveal the most, and they check them regularly.</p>
 </blockquote>
 
 <h3>Variance Analysis</h3>
 <p>Comparing what happened against what you planned, then asking why they differ. This is the step that ties the other three together.</p>
-<p>An agency budgets $5,000 for project expenses and spends $6,500. The $1,500 gap is not the finding — the reason for it is. A software price rise is a permanent adjustment to future budgets; a project that consumed more resource than scoped is a quoting problem. Two very different responses, and you only find out which by looking.</p>
+<p>An agency budgets $5,000 for project expenses and spends $6,500. The $1,500 gap is not the finding. The reason for it is. A software price rise is a permanent adjustment to future budgets; a project that consumed more resource than scoped is a quoting problem. Two very different responses, and you only find out which by looking.</p>
 
 <h2 id="h-what-it-changes-in-practice">What It Changes in Practice</h2>
 
 <h3>Decisions Stop Being Guesses</h3>
-<p>You can model a move before committing to it: what a 10% price rise does to margin and volume, what a new hire costs in real terms, which services are genuinely carrying the business. Understanding your own cost base also tells you exactly how far you can go on price and still make money — useful information when a competitive quote is on the table.</p>
+<p>You can model a move before committing to it: what a 10% price rise does to margin and volume, what a new hire costs in real terms, which services are genuinely carrying the business. Understanding your own cost base also tells you exactly how far you can go on price and still make money, useful information when a competitive quote is on the table.</p>
 
 <h3>Cash Flow Becomes Predictable</h3>
 <p>Forecasting income and outgoings means spotting a shortfall while there is still time to do something about it. Most cash crises are visible months in advance to anyone who is looking. See our <a href="/services/small-business-planning">small business planning</a> service for how we set this up.</p>
@@ -114,7 +114,7 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <p>A budget built this way stops being a wish list and starts doing three jobs: allocating money where the return is best, setting targets a team can be measured against, and flagging constraints before they bite.</p>
 
 <h3>Pricing Gets Precise</h3>
-<p>An electrician who costs each job properly — materials, their own and an apprentice's time, and a calculated share of van insurance, tools and phone — knows a job will cost $780 and quotes $1,100 with a clear margin. The same electrician working on instinct might quote $900 and barely cover costs.</p>
+<p>An electrician who costs each job properly (materials, their own and an apprentice's time, and a calculated share of van insurance, tools and phone) knows a job will cost $780 and quotes $1,100 with a clear margin. The same electrician working on instinct might quote $900 and barely cover costs.</p>
 
 <h3>Compliance Gets Easier</h3>
 <p>This is the side benefit nobody expects. Clean, well-categorised data prepared for your own decision-making is the same data that makes BAS and tax time straightforward. Our <a href="/services/accounting-and-tax-planning">accounting and tax planning</a> work runs on exactly this principle.</p>
@@ -145,7 +145,7 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <p>Four situations reliably signal that the do-it-yourself stage has been outgrown.</p>
 <ul>
 <li><strong>Rapid growth.</strong> Sales climbing and headcount rising is exactly when financial control slips, because the informal systems that worked at half the size quietly stop working.</li>
-<li><strong>Persistent cash pressure.</strong> Profitable on paper but always short in the bank means cash is trapped somewhere specific — in debtors, in stock, or in payment timing — and it needs finding.</li>
+<li><strong>Persistent cash pressure.</strong> Profitable on paper but always short in the bank means cash is trapped somewhere specific (in debtors, in stock, or in payment timing) and it needs finding.</li>
 <li><strong>Approaching a lender or investor.</strong> Both expect projections and budgets that stand up to scrutiny. A shoebox of receipts and a good story is not enough.</li>
 <li><strong>No one to think it through with.</strong> Plenty of data, nobody to help interpret it. This is the least urgent trigger and often the most valuable one.</li>
 </ul>
@@ -154,19 +154,19 @@ const htmlContent = `<p>If financial accounting is the rear-view mirror, <strong
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3>Can I do this myself in Xero?</h3>
-<p>You can get a long way. Xero and MYOB generate the underlying reports perfectly well. The harder part is interpretation — knowing which report answers your question, what the numbers mean in your context, and which of them warrants acting on.</p>
+<p>You can get a long way. Xero and MYOB generate the underlying reports perfectly well. The harder part is interpretation, knowing which report answers your question, what the numbers mean in your context, and which of them warrants acting on.</p>
 
 <h3>How often should I review the reports?</h3>
 <p>Monthly suits most small businesses. It is frequent enough to catch a trend while it is still forming, and infrequent enough to stay realistic alongside running the business. Waiting until year-end means making decisions on old news.</p>
 
 <h3>Is this worth paying for?</h3>
-<p>The fair way to judge it is whether the decisions it improves are worth more than it costs. Better pricing, tighter costs and fewer cash surprises tend to settle that question quickly — but it is a reasonable thing to ask before starting, not after.</p>
+<p>The fair way to judge it is whether the decisions it improves are worth more than it costs. Better pricing, tighter costs and fewer cash surprises tend to settle that question quickly, but it is a reasonable thing to ask before starting, not after.</p>
 
 <h3>What if my business is small?</h3>
 <p>The tools scale down cleanly. A sole trader who knows their break-even point, tracks three KPIs and reviews the numbers monthly is doing management accounting, whatever it gets called.</p>
 
 <hr>
-<p>Compliance tells you what the business did. Management accounting tells you what to do next — and it runs on the numbers you are already collecting.</p>
+<p>Compliance tells you what the business did. Management accounting tells you what to do next, and it runs on the numbers you are already collecting.</p>
 <p>Trew North Accounting helps Melbourne small business owners set up the reports, read them properly and act on what they show. See our <a href="/services/small-business-planning">small business planning</a> and <a href="/services/small-business-accountant">small business accounting</a> services, or <a href="/contact">get in touch</a> to talk it through.</p>`;
 
 const TITLE = 'What Is Management Accounting? A Small Business Guide';
@@ -270,7 +270,7 @@ export default function BlogPostWhatIsManagementAccounting() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

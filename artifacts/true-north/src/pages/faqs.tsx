@@ -14,22 +14,22 @@ const faqs = [
       {
         question: 'How do I get started with Trew North?',
         answer:
-          'The first step is a free 30-minute consultation — no obligation, no hard sell. We\'ll discuss your current situation, what you\'re looking for, and whether we\'re the right fit. You can book through our contact page or call us directly.',
+          'The first step is a free 30-minute consultation, no obligation, no hard sell. We\'ll discuss your current situation, what you\'re looking for, and whether we\'re the right fit. You can book through our contact page or call us directly.',
       },
       {
         question: 'Do you work with businesses outside of Melbourne?',
         answer:
-          'We work with businesses across Australia. While we\'re based in Beaumaris and have deep knowledge of the Melbourne market, most of our client work happens online via Xero, video calls, and email — so geography isn\'t a barrier.',
+          'We work with businesses across Australia. While we\'re based in Beaumaris and have deep knowledge of the Melbourne market, most of our client work happens online via Xero, video calls, and email, so geography isn\'t a barrier.',
       },
       {
         question: 'How much does it cost?',
         answer:
-          'Our pricing depends on the scope of work. We offer fixed-fee packages for most services so you always know what you\'re paying — no surprise invoices. We\'ll provide a clear quote after your initial consultation.',
+          'Our pricing depends on the scope of work. We offer fixed-fee packages for most services so you always know what you\'re paying, no surprise invoices. We\'ll provide a clear quote after your initial consultation.',
       },
       {
         question: 'Can I switch accountants mid-year?',
         answer:
-          'Yes — and it\'s simpler than most people think. We handle the transfer of records from your previous accountant and make the transition as seamless as possible. There\'s never a bad time to make the switch.',
+          'Yes, and it\'s simpler than most people think. We handle the transfer of records from your previous accountant and make the transition as seamless as possible. There\'s never a bad time to make the switch.',
       },
     ],
   },
@@ -44,7 +44,7 @@ const faqs = [
       {
         question: 'What records should I be keeping for my business?',
         answer:
-          'You should keep records for at least five years, including: receipts and invoices, bank statements, payroll records, asset registers, and any contracts. Using cloud accounting software like Xero makes this much easier — we can help you set up a solid system.',
+          'You should keep records for at least five years, including: receipts and invoices, bank statements, payroll records, asset registers, and any contracts. Using cloud accounting software like Xero makes this much easier. We can help you set up a solid system.',
       },
       {
         question: 'What is a BAS and when do I need to lodge one?',
@@ -52,7 +52,7 @@ const faqs = [
           'A Business Activity Statement (BAS) reports your GST, PAYG withholding, and other tax obligations to the ATO. Most businesses registered for GST lodge quarterly, though some lodge monthly or annually. We handle BAS preparation and lodgement for all our clients.',
       },
       {
-        question: 'I received a letter from the ATO — what should I do?',
+        question: 'I received a letter from the ATO. What should I do?',
         answer:
           'Don\'t ignore it. Contact us as soon as possible with a copy of the letter. ATO correspondence can range from routine checks to serious audit notices, and the earlier we\'re involved, the better the outcome. We represent clients in all ATO dealings.',
       },
@@ -69,12 +69,12 @@ const faqs = [
       {
         question: 'Should my business be a company, trust, or sole trader?',
         answer:
-          'It depends on your circumstances — your income, asset protection needs, succession plans, and growth goals all play a role. This is one of the most important decisions a business owner makes, and we can walk you through the pros and cons of each structure for your specific situation.',
+          'It depends on your circumstances, your income, asset protection needs, succession plans, and growth goals all play a role. This is one of the most important decisions a business owner makes, and we can walk you through the pros and cons of each structure for your specific situation.',
       },
       {
         question: 'What is a trust and do I need one?',
         answer:
-          'A discretionary (family) trust is a legal structure that holds assets and distributes income to beneficiaries. They can be very effective for tax planning and asset protection. Whether you need one depends on your situation — book a consultation and we\'ll advise you directly.',
+          'A discretionary (family) trust is a legal structure that holds assets and distributes income to beneficiaries. They can be very effective for tax planning and asset protection. Whether you need one depends on your situation. Book a consultation and we\'ll advise you directly.',
       },
       {
         question: 'How can an accountant help me grow my business?',
@@ -89,7 +89,7 @@ const faqs = [
       {
         question: 'Is an SMSF right for me?',
         answer:
-          'An SMSF can be an excellent structure for the right person — typically someone with a reasonable super balance (generally $200,000+), who wants control over their investment choices, and is prepared to meet the trustee obligations. We\'ll help you assess whether it\'s the right fit.',
+          'An SMSF can be an excellent structure for the right person, typically someone with a reasonable super balance (generally $200,000+), who wants control over their investment choices, and is prepared to meet the trustee obligations. We\'ll help you assess whether it\'s the right fit.',
       },
       {
         question: 'How much does it cost to run an SMSF?',
@@ -99,7 +99,7 @@ const faqs = [
       {
         question: 'Can my SMSF borrow to buy property?',
         answer:
-          'Yes — through a Limited Recourse Borrowing Arrangement (LRBA). This is a complex area with strict ATO rules. We can advise on whether this strategy makes sense for your fund, and help you navigate the setup correctly.',
+          'Yes, through a Limited Recourse Borrowing Arrangement (LRBA). This is a complex area with strict ATO rules. We can advise on whether this strategy makes sense for your fund, and help you navigate the setup correctly.',
       },
     ],
   },
@@ -172,7 +172,7 @@ export default function FAQs() {
               Frequently asked questions
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Answers to the questions we hear most often. Can't find what you're looking for? Get in touch — we're happy to help.
+              Answers to the questions we hear most often. Can't find what you're looking for? Get in touch, we're happy to help.
             </p>
           </motion.div>
         </div>
@@ -215,7 +215,7 @@ export default function FAQs() {
               Still have questions?
             </h2>
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
-              Book a free 30-minute consultation and we'll answer anything you need — no obligation, no jargon.
+              Book a free 30-minute consultation and we'll answer anything you need, no obligation, no jargon.
             </p>
             <Button asChild size="lg" className="text-base btn-cta">
               <Link href="/contact">

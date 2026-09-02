@@ -20,8 +20,8 @@ export interface SuburbPageProps {
   seoDescription: string;
   personalTaxImage: string; // confirmed CDN URL
   smsfImage: string;        // confirmed CDN URL
-  heroImage?: string;       // optional — hero right-pane photo
-  smallBizImage?: string;   // optional — small business section photo
+  heroImage?: string;       // optional, hero right-pane photo
+  smallBizImage?: string;   // optional, small business section photo
 }
 
 const services = [
@@ -78,10 +78,10 @@ const smsfFeatures = [
 ];
 
 const smsfBenefits = [
-  { icon: SlidersHorizontal, title: 'Investment Control', body: 'Full control over strategy and asset allocation — direct property, shares, fixed income, and more.' },
+  { icon: SlidersHorizontal, title: 'Investment Control', body: 'Full control over strategy and asset allocation, direct property, shares, fixed income, and more.' },
   { icon: ReceiptText,        title: 'Tax Benefits',       body: 'Concessional tax rate of 15% on income with strategic planning for franking credits and CGT.' },
   { icon: FileText,           title: 'Estate Planning',    body: 'Flexibility in estate planning and control over distribution of benefits to family members.' },
-  { icon: CalendarDays,       title: 'Cost Efficiency',    body: 'Lower management fees than retail funds for balances over $200k — fixed costs spread over more.' },
+  { icon: CalendarDays,       title: 'Cost Efficiency',    body: 'Lower management fees than retail funds for balances over $200k. Fixed costs spread over more.' },
   { icon: Layers,             title: 'Retirement Flex',    body: 'Plan your pension drawdowns well in advance. Transition to tax-free pension mode at retirement.' },
   { icon: Shield,             title: 'Asset Protection',   body: 'Safeguard retirement savings with greater control and professional compliance oversight.' },
 ];
@@ -177,7 +177,7 @@ export default function SuburbPage({
               Accountant in<br />{suburb}
             </h1>
             <p className="text-lg text-white/75 leading-relaxed mb-10 max-w-xl">
-              If you're searching for an Accountant in {suburb} that blends technical expertise, strong interpersonal skills, and a deep understanding of financial regulations — the search is over.
+              If you're searching for an Accountant in {suburb} that blends technical expertise, strong interpersonal skills, and a deep understanding of financial regulations. The search is over.
             </p>
             <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
               <BookConsultation><Button size="lg" className="text-base btn-cta">
@@ -227,7 +227,7 @@ export default function SuburbPage({
               Welcome To Trew North Accounting
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Hi, my name is <strong className="text-foreground">Darren Trew</strong> and I believe that to be a great accountant is much more than just balancing the books. A great accountant should be proactive, detail-oriented, and committed to their clients' success — continuously learning and adapting to provide the best possible service. I act with integrity, build strong trust-based relationships, and help clients navigate financial complexities and achieve their goals.
+              Hi, my name is <strong className="text-foreground">Darren Trew</strong> and I believe that to be a great accountant is much more than just balancing the books. A great accountant should be proactive, detail-oriented, and committed to their clients' success, continuously learning and adapting to provide the best possible service. I act with integrity, build strong trust-based relationships, and help clients navigate financial complexities and achieve their goals.
             </p>
           </motion.div>
         </div>
@@ -274,7 +274,7 @@ export default function SuburbPage({
               <img
                 src={personalTaxImage}
                 alt={`Personal Tax Accountant ${suburb}`}
-                title={`Personal Tax Accountant in ${suburb} — Trew North Accounting`}
+                title={`Personal Tax Accountant in ${suburb}, Trew North Accounting`}
                 className="rounded-2xl w-full object-cover shadow-lg"
                 loading="lazy"
               />
@@ -360,7 +360,7 @@ export default function SuburbPage({
           <motion.div {...fadeUp} className="text-center max-w-3xl mx-auto mb-16">
             <p className="text-primary font-medium tracking-widest text-sm uppercase mb-4">Super Funds</p>
             <h2 className="font-serif font-semibold text-4xl sm:text-5xl text-foreground mb-5">
-              Accountant in {suburb} — Self-Managed Super Funds
+              Accountant in {suburb}, Self-Managed Super Funds
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
               Setting up and managing an SMSF requires careful consideration and a clear understanding of your responsibilities. We guide you through every step.
@@ -398,7 +398,7 @@ export default function SuburbPage({
               <img
                 src={smsfImage}
                 alt={`Self Managed Super Fund Accountant ${suburb}`}
-                title={`Self Managed Super Fund Accountant in ${suburb} — Trew North Accounting`}
+                title={`Self Managed Super Fund Accountant in ${suburb}, Trew North Accounting`}
                 className="rounded-2xl w-full object-cover shadow-lg"
                 loading="lazy"
               />

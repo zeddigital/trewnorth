@@ -27,7 +27,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading -->
 <h2 id="h-your-guide-to-sole-trader-tax-deductions">Your Guide to Sole Trader Tax Deductions</h2>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>Running your own show is incredibly rewarding, but let's be honest—navigating tax time can feel like a whole other job. This guide is your no-nonsense map to understanding every tax deduction you can claim as a sole trader in Australia. We're here to demystify the rules and show you exactly how to legally lower your tax bill.</p>
+<p>Running your own show is incredibly rewarding, but let's be honest. Navigating tax time can feel like a whole other job. This guide is your no-nonsense map to understanding every tax deduction you can claim as a sole trader in Australia. We're here to demystify the rules and show you exactly how to legally lower your tax bill.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Our goal is simple: to help you feel confident managing your taxes. We'll start with the core principles the ATO lives by, then jump straight into the specific expenses you can claim.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
@@ -83,7 +83,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
 <h3>Rule 3: You Can Only Claim the Business Portion</h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>The final rule tackles those expenses that pull double duty—partly for business, partly for personal life. For these mixed-use costs, you can only claim the <strong>business-use percentage</strong>. This is a process called apportionment, and it's something every sole trader needs to master.</p>
+<p>The final rule tackles those expenses that pull double duty, partly for business, partly for personal life. For these mixed-use costs, you can only claim the <strong>business-use percentage</strong>. This is a process called apportionment, and it's something every sole trader needs to master.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Your mobile phone is the perfect example. Let's say your bill is <strong>$100 a month</strong>. To figure out your claim, you keep a log for a representative period (like a month) and find you use your phone <strong>70% of the time for work-related calls</strong> and data, and the other 30% is for scrolling through social media or calling your mum.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
@@ -178,11 +178,11 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:image --><!-- wp:paragraph -->
 
 <!-- /wp:paragraph --><!-- wp:paragraph -->
-<p>This simple chart reinforces the idea. Regular operating expenses are the low-hanging fruit. It’s the larger, mixed-use costs—like your car and home—that need a bit more attention, which is what we'll dive into now.</p>
+<p>This simple chart reinforces the idea. Regular operating expenses are the low-hanging fruit. It’s the larger, mixed-use costs, like your car and home, that need a bit more attention, which is what we'll dive into now.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":3} -->
 <h3>Decoding Your Vehicle Expense Claims</h3>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>When you use your car for business—whether it's driving to meet clients, picking up supplies, or travelling between job sites—those running costs are absolutely a valid tax deduction. The ATO gives you two distinct ways to calculate your claim.</p>
+<p>When you use your car for business (whether it's driving to meet clients, picking up supplies, or travelling between job sites) those running costs are absolutely a valid tax deduction. The ATO gives you two distinct ways to calculate your claim.</p>
 <!-- /wp:paragraph --><!-- wp:heading {"level":4} -->
 <h4>Method 1: The Cents Per Kilometre Method</h4>
 <!-- /wp:heading --><!-- wp:paragraph -->
@@ -191,7 +191,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <ul><!-- wp:list-item -->
 <li><strong>How it works:</strong> You can claim a maximum of <strong>5,000 business kilometres</strong> per car, each financial year.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
-<li><strong>The rate:</strong> The ATO sets a rate per kilometre annually (for example, <strong>85 cents for the 2023–24 financial year</strong>). This single rate is designed to cover everything—fuel, registration, insurance, and even depreciation.</li>
+<li><strong>The rate:</strong> The ATO sets a rate per kilometre annually (for example, <strong>85 cents for the 2023–24 financial year</strong>). This single rate is designed to cover everything, fuel, registration, insurance, and even depreciation.</li>
 <!-- /wp:list-item --><!-- wp:list-item -->
 <li><strong>Record-keeping:</strong> While you don’t need a receipt for every litre of petrol, you do need to be able to show the ATO how you worked out your kilometres. A simple diary or calendar noting your work-related trips is usually enough.</li>
 <!-- /wp:list-item --></ul>
@@ -200,7 +200,7 @@ const htmlContent = `<!-- wp:paragraph -->
 <!-- /wp:paragraph --><!-- wp:heading {"level":4} -->
 <h4>Method 2: The Logbook Method</h4>
 <!-- /wp:heading --><!-- wp:paragraph -->
-<p>If your car is a core part of your business operations, the logbook method will almost certainly deliver a much bigger tax deduction. It's more work, there’s no denying it, but it provides a more accurate—and often much more generous—claim based on your car’s actual running costs.</p>
+<p>If your car is a core part of your business operations, the logbook method will almost certainly deliver a much bigger tax deduction. It's more work, there’s no denying it, but it provides a more accurate, and often much more generous, claim based on your car’s actual running costs.</p>
 <!-- /wp:paragraph --><!-- wp:paragraph -->
 <p>Here’s what you need to do:</p>
 <!-- /wp:paragraph --><!-- wp:list {"ordered":true} -->
@@ -465,7 +465,7 @@ export default function BlogPostTaxDeductionsSoleTrader() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation

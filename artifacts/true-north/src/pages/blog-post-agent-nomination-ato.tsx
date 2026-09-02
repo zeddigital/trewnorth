@@ -17,7 +17,7 @@ const toc = [
   { id: 'h-frequently-asked-questions', label: 'Frequently Asked Questions' },
 ];
 
-const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to-agent linking system. Before a registered tax agent, BAS agent or payroll provider can act for your business, you have to nominate them yourself through Online services for business. It takes about five minutes once your digital identity is set up — and it is the setup, not the nomination, where almost everyone gets stuck.</p>
+const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to-agent linking system. Before a registered tax agent, BAS agent or payroll provider can act for your business, you have to nominate them yourself through Online services for business. It takes about five minutes once your digital identity is set up, and it is the setup, not the nomination, where almost everyone gets stuck.</p>
 
 <h2 id="h-what-agent-nomination-is">What Agent Nomination Is</h2>
 <figure><img src="/blog/agent-nomination-ato-secure-nomination.webp" alt="A business owner reviewing a secure agent nomination on a laptop." width="1400" height="788" loading="lazy" /></figure>
@@ -38,7 +38,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 <div class="compare-card">
 <h4>1. Your myID</h4>
 <dl>
-<dt>What it is</dt><dd>The Australian Government's digital identity app, renamed from myGovID in late 2024. Same app, same login — new name.</dd>
+<dt>What it is</dt><dd>The Australian Government's digital identity app, renamed from myGovID in late 2024. Same app, same login, new name.</dd>
 <dt>What you need</dt><dd>At least <strong>Standard</strong> identity strength, which means verifying two documents such as a passport, driver's licence or Medicare card.</dd>
 </dl>
 </div>
@@ -52,16 +52,16 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 <div class="compare-card">
 <h4>3. Your agent's number</h4>
 <dl>
-<dt>What it is</dt><dd>The <strong>registered agent number</strong> (RAN) — the code that identifies your agent in the ATO's system.</dd>
+<dt>What it is</dt><dd>The <strong>registered agent number</strong> (RAN), the code that identifies your agent in the ATO's system.</dd>
 <dt>What you need</dt><dd>Ask your accountant or bookkeeper for it, and confirm which authorisations they need while you are asking.</dd>
 </dl>
 </div>
 </div>
 <p>On that last point, know what you are authorising before you start:</p>
 <ul>
-<li><strong>Income tax</strong> — annual returns and general tax compliance.</li>
-<li><strong>Activity statements</strong> — BAS lodgements, covering GST and PAYG withholding. If GST registration is still ahead of you, our guide on <a href="/should-your-small-business-register-for-gst">whether to register for GST</a> covers the threshold and the decision.</li>
-<li><strong>Payroll service provider</strong> — for businesses using a separate provider purely for payroll.</li>
+<li><strong>Income tax:</strong> annual returns and general tax compliance.</li>
+<li><strong>Activity statements:</strong> BAS lodgements, covering GST and PAYG withholding. If GST registration is still ahead of you, our guide on <a href="/should-your-small-business-register-for-gst">whether to register for GST</a> covers the threshold and the decision.</li>
+<li><strong>Payroll service provider:</strong> for businesses using a separate provider purely for payroll.</li>
 </ul>
 
 <h2 id="h-making-the-nomination">Making the Nomination</h2>
@@ -72,7 +72,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 
 <h3>Fill in the form</h3>
 <ol>
-<li><strong>Find your agent.</strong> Enter the RAN and search. Their practice name appears — check it is the firm you expect before continuing.</li>
+<li><strong>Find your agent.</strong> Enter the RAN and search. Their practice name appears. Check it is the firm you expect before continuing.</li>
 <li><strong>Choose the authorisations.</strong> For most small businesses this is income tax and activity statements. If you are not certain, confirm with your agent rather than guessing.</li>
 <li><strong>Read the declaration.</strong> It confirms you have authority to appoint an agent for the business. Tick, and submit.</li>
 </ol>
@@ -100,7 +100,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 </dl>
 </div>
 </div>
-<p>Plenty of businesses use both — a bookkeeper holding BAS authorisation for the quarterly cycle, and an accountant holding tax authorisation for the annual return and planning. Nominating both is perfectly normal.</p>
+<p>Plenty of businesses use both, a bookkeeper holding BAS authorisation for the quarterly cycle, and an accountant holding tax authorisation for the annual return and planning. Nominating both is perfectly normal.</p>
 <p>If you are still choosing, our guide to <a href="/your-guide-to-the-best-melbourne-accountants-in-2024">finding a Melbourne accountant</a> covers what to look for in a firm you intend to stay with.</p>
 
 <h2 id="h-when-it-does-not-work">When It Does Not Work</h2>
@@ -113,7 +113,7 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 <h3>Identity and authority mismatches</h3>
 <p>Most authentication failures come down to your details not matching across systems. Your name as a director on the Australian Business Register has to align with your verified myID identity, and you must hold principal authority for the ABN in RAM.</p>
 <blockquote>
-<p>If RAM will not let you claim the business, the problem is almost always upstream — outdated director details on the ABR, or a myID that has not reached Standard strength. Fix it there, not in the nomination screen.</p>
+<p>If RAM will not let you claim the business, the problem is almost always upstream, outdated director details on the ABR, or a myID that has not reached Standard strength. Fix it there, not in the nomination screen.</p>
 </blockquote>
 
 <h3>Why it is worth fixing quickly</h3>
@@ -122,14 +122,14 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3>What if I cannot use myID or get online?</h3>
-<p>Call the ATO. There is a phone-based pathway for people who genuinely cannot meet the digital identity requirements — you verify your identity and your connection to the business over the phone. Explain your situation and ask whether you qualify.</p>
+<p>Call the ATO. There is a phone-based pathway for people who genuinely cannot meet the digital identity requirements, you verify your identity and your connection to the business over the phone. Explain your situation and ask whether you qualify.</p>
 
 <h3>How do I change or remove my current agent?</h3>
 <p>You do not need to remove anyone first. Nominate the new agent, and when they accept, the previous authorisation is revoked automatically. No awkward conversation required.</p>
 <p>If you want to end a relationship without appointing a replacement, remove their access under <strong>Authorised contacts</strong> in the portal instead.</p>
 
 <h3>Does my agent get notified?</h3>
-<p>No. This is the single most important thing to remember, which is why it appears three times in this article. Tell them yourself, and do it the same day — the 28-day clock starts when you submit, not when they find out.</p>
+<p>No. This is the single most important thing to remember, which is why it appears three times in this article. Tell them yourself, and do it the same day, the 28-day clock starts when you submit, not when they find out.</p>
 
 <h3>I am a sole trader. Do I need to do this?</h3>
 <p>Not currently. The requirement covers companies, trusts, partnerships and SMSFs. Your agent can still add you using the earlier method. Worth keeping an eye on, as the ATO has indicated the scope may widen.</p>
@@ -139,11 +139,11 @@ const htmlContent = `<p><strong>Agent nomination</strong> is the ATO's client-to
 
 <hr>
 <p>Agent nomination is a five-minute job wrapped around a digital identity setup that can take an afternoon. Do the myID and RAM work first, keep the RAN handy, and tell your agent the moment you submit.</p>
-<p>Trew North Accounting handles ATO compliance end to end for Melbourne small businesses. See our <a href="/services/small-business-accountant">small business accounting</a> and <a href="/services/bookkeeping">bookkeeping</a> services, or <a href="/contact">get in touch</a> — we will walk you through the nomination when you come on board.</p>`;
+<p>Trew North Accounting handles ATO compliance end to end for Melbourne small businesses. See our <a href="/services/small-business-accountant">small business accounting</a> and <a href="/services/bookkeeping">bookkeeping</a> services, or <a href="/contact">get in touch</a>. We will walk you through the nomination when you come on board.</p>`;
 
 const TITLE = 'ATO Agent Nomination: A Step-by-Step Guide for Business';
 const DESCRIPTION =
-  'How to nominate your tax or BAS agent with the ATO — myID and RAM setup, the nomination steps, the 28-day window, and why nominations most often fail.';
+  'How to nominate your tax or BAS agent with the ATO, myID and RAM setup, the nomination steps, the 28-day window, and why nominations most often fail.';
 const SLUG = '/agent-nomination-ato';
 const PUBLISHED = '2026-08-15';
 
@@ -242,7 +242,7 @@ export default function BlogPostAgentNominationAto() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

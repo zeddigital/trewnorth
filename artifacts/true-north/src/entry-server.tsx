@@ -78,9 +78,9 @@ function createStaticLocationHook(path: string) {
   const getPath = () => path;
   return (): [string, (to: string) => void] => {
     const currentPath = useSyncExternalStore(
-      () => noop,   // subscribe — returns unsubscribe; path never changes in SSR
+      () => noop,   // subscribe: returns unsubscribe; path never changes in SSR
       getPath,       // getSnapshot
-      getPath,       // getServerSnapshot — required by React 18 server rendering
+      getPath,       // getServerSnapshot: required by React 18 server rendering
     );
     return [currentPath, noop];
   };

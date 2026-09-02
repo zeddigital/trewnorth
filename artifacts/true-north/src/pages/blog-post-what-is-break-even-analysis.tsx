@@ -18,11 +18,11 @@ const toc = [
   { id: 'h-frequently-asked-questions', label: 'Frequently Asked Questions' },
 ];
 
-const htmlContent = `<p><strong>Break-even analysis</strong> finds the point where total sales exactly cover total costs — the moment you stop losing money but have not yet made any. It is the financial baseline for the whole operation, and it is arguably the single most useful number a small business owner can know.</p>
+const htmlContent = `<p><strong>Break-even analysis</strong> finds the point where total sales exactly cover total costs, the moment you stop losing money but have not yet made any. It is the financial baseline for the whole operation, and it is arguably the single most useful number a small business owner can know.</p>
 
 <h2 id="h-what-break-even-analysis-is">What Break-Even Analysis Is</h2>
 <figure><img src="/blog/what-is-break-even-analysis-break-even.webp" alt="A balance scale weighing coins against a shop model and sales receipt." width="1400" height="788" /></figure>
-<p>Picture the business as a seesaw. On one side sit your costs — rent, wages, materials. On the other sits the revenue from every sale. Your break-even point is where the seesaw balances.</p>
+<p>Picture the business as a seesaw. On one side sit your costs, rent, wages, materials. On the other sits the revenue from every sale. Your break-even point is where the seesaw balances.</p>
 <p>Knowing it moves you from hoping you are profitable to knowing precisely how many units you need to shift, or how much revenue you need to bring in, just to keep the lights on.</p>
 
 <h3>Why It Earns Its Keep</h3>
@@ -40,12 +40,12 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 <figure><img src="/blog/what-is-break-even-analysis-cost-concepts.webp" alt="Three pillars labelled Fixed Costs, Variable Costs and Selling Price." width="1400" height="788" /></figure>
 
 <h3>Fixed Costs</h3>
-<p><strong>Fixed costs</strong> are what you pay every month regardless of sales. Sell one item or a thousand — these do not move:</p>
+<p><strong>Fixed costs</strong> are what you pay every month regardless of sales. Sell one item or a thousand. These do not move:</p>
 <ul>
 <li><strong>Rent</strong> on the shop, office or workshop</li>
 <li><strong>Salaries</strong> for permanent staff, and your own director's salary</li>
 <li><strong>Insurance</strong> premiums</li>
-<li><strong>Software subscriptions</strong> — accounting, hosting, scheduling</li>
+<li><strong>Software subscriptions:</strong> accounting, hosting, scheduling</li>
 <li><strong>Loan repayments</strong> at a fixed monthly amount</li>
 </ul>
 <p>They are the hurdle you clear each month before profit is even on the table.</p>
@@ -53,8 +53,8 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 <h3>Variable Costs</h3>
 <p><strong>Variable costs</strong> rise and fall with sales volume. A month with no sales should mean close to no variable costs:</p>
 <ul>
-<li><strong>Raw materials</strong> — coffee beans for a café, fabric for a clothing label</li>
-<li><strong>Direct labour</strong> — casual hours rostered to customer demand</li>
+<li><strong>Raw materials:</strong> coffee beans for a café, fabric for a clothing label</li>
+<li><strong>Direct labour:</strong> casual hours rostered to customer demand</li>
 <li><strong>Sales commissions</strong></li>
 <li><strong>Shipping and packaging</strong> for an online store</li>
 </ul>
@@ -80,14 +80,14 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 <blockquote>
 <p><strong>Break-Even Point (Dollars) = Total Fixed Costs ÷ Contribution Margin Ratio</strong></p>
 </blockquote>
-<p>The <strong>contribution margin ratio</strong> is the contribution margin per unit divided by the selling price — the share of every dollar earned that is available to cover fixed costs. This version suits businesses selling at multiple price points, or service businesses billing in varied amounts.</p>
+<p>The <strong>contribution margin ratio</strong> is the contribution margin per unit divided by the selling price, the share of every dollar earned that is available to cover fixed costs. This version suits businesses selling at multiple price points, or service businesses billing in varied amounts.</p>
 
 <h2 id="h-a-worked-example">A Worked Example</h2>
 <p>Take a small Melbourne online store selling custom tote bags. Monthly numbers:</p>
 <ul>
-<li><strong>Total fixed costs:</strong> $4,000 — studio rent, hosting, software, a modest marketing budget</li>
+<li><strong>Total fixed costs:</strong> $4,000, studio rent, hosting, software, a modest marketing budget</li>
 <li><strong>Selling price per unit:</strong> $50</li>
-<li><strong>Variable cost per unit:</strong> $20 — blank bag, printing, packaging</li>
+<li><strong>Variable cost per unit:</strong> $20, blank bag, printing, packaging</li>
 </ul>
 <p>Contribution margin first:</p>
 <ul>
@@ -109,8 +109,8 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 <h3>Pricing</h3>
 <p>With the contribution margin in hand you can model changes before making them:</p>
 <ul>
-<li><strong>Raise the price 10%</strong> — you need fewer units to break even, but you have to weigh whether demand holds.</li>
-<li><strong>Run a discount</strong> — how many extra units does the promotion need to shift before it pays for itself? Often the answer is sobering.</li>
+<li><strong>Raise the price 10%:</strong> you need fewer units to break even, but you have to weigh whether demand holds.</li>
+<li><strong>Run a discount:</strong> how many extra units does the promotion need to shift before it pays for itself? Often the answer is sobering.</li>
 </ul>
 
 <h3>Sales Targets</h3>
@@ -139,13 +139,13 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3>How often should I recalculate it?</h3>
-<p>Any time your cost base or pricing changes materially — a rent review, a new hire, a supplier increase, a price rise. Otherwise a quarterly check is enough to catch drift.</p>
+<p>Any time your cost base or pricing changes materially, a rent review, a new hire, a supplier increase, a price rise. Otherwise a quarterly check is enough to catch drift.</p>
 
 <h3>Is my own salary a fixed cost?</h3>
 <p>If you pay yourself a set amount each month, yes. Leaving it out is one of the most common ways a break-even calculation flatters the business, because it implies your time is free.</p>
 
 <h3>What if my costs are not neatly fixed or variable?</h3>
-<p>Some are genuinely mixed — a phone plan with a base fee plus usage, or staff on guaranteed minimum hours with overtime. Split them into their fixed and variable parts rather than forcing them into one column.</p>
+<p>Some are genuinely mixed, a phone plan with a base fee plus usage, or staff on guaranteed minimum hours with overtime. Split them into their fixed and variable parts rather than forcing them into one column.</p>
 
 <hr>
 <p>Break-even is the number that turns a pricing debate, a hiring decision or a loan application from a matter of opinion into a matter of arithmetic.</p>
@@ -153,7 +153,7 @@ const htmlContent = `<p><strong>Break-even analysis</strong> finds the point whe
 
 const TITLE = 'What Is Break-Even Analysis? A Guide for Small Business';
 const DESCRIPTION =
-  'How to work out the point where sales cover costs — fixed and variable costs, contribution margin, both formulas, and a worked example for a Melbourne store.';
+  'How to work out the point where sales cover costs. Fixed and variable costs, contribution margin, both formulas, and a worked example for a Melbourne store.';
 const SLUG = '/what-is-break-even-analysis';
 const PUBLISHED = '2026-08-12';
 
@@ -252,7 +252,7 @@ export default function BlogPostWhatIsBreakEvenAnalysis() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

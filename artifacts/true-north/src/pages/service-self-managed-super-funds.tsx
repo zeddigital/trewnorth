@@ -20,7 +20,7 @@ const benefits = [
   {
     icon: DollarSign,
     title: 'Potential Cost Savings',
-    body: 'For larger balances, an SMSF can be more cost-effective than traditional super funds — administration and investment fees lower on a per-member basis.',
+    body: 'For larger balances, an SMSF can be more cost-effective than traditional super funds, administration and investment fees lower on a per-member basis.',
   },
   {
     icon: Star,
@@ -40,14 +40,14 @@ const benefits = [
   {
     icon: Lock,
     title: 'Asset Protection',
-    body: 'Greater control over how your retirement savings are invested and safeguarded — with professional compliance support at every step.',
+    body: 'Greater control over how your retirement savings are invested and safeguarded, with professional compliance support at every step.',
   },
 ];
 
 const whyPoints = [
-  { icon: TrendingUp,  title: 'Investment Control',  body: 'Decide where and how your retirement savings are invested — shares, property, term deposits, and more.' },
+  { icon: TrendingUp,  title: 'Investment Control',  body: 'Decide where and how your retirement savings are invested, shares, property, term deposits, and more.' },
   { icon: Receipt,     title: 'Tax Advantages',      body: 'Enjoy lower tax rates and strategic tax planning opportunities throughout accumulation and retirement phases.' },
-  { icon: Settings2,   title: 'Greater Flexibility', body: 'Structure your super fund to suit your retirement and estate planning goals — not a one-size-fits-all approach.' },
+  { icon: Settings2,   title: 'Greater Flexibility', body: 'Structure your super fund to suit your retirement and estate planning goals, not a one-size-fits-all approach.' },
   { icon: PiggyBank,   title: 'Cost-Effective',      body: 'For balances over $200,000, SMSFs can be more cost-effective than retail or industry super funds.' },
   { icon: ShieldCheck, title: 'Asset Protection',    body: 'Safeguard your retirement savings with greater control over how your money is invested and managed.' },
 ];
@@ -55,7 +55,7 @@ const whyPoints = [
 const atTrewNorth = [
   { icon: DollarSign, title: 'Fair Prices',  body: 'We arrange for SMSF clients to be on a fixed monthly fee to assist with cashflow. No surprises.' },
   { icon: Lock,       title: 'Privacy',      body: 'All your information is securely stored. Your financial details stay confidential, always.' },
-  { icon: Star,       title: 'Expertise',    body: 'With over 30 years\' experience in this field we can provide you with the best SMSF advice possible.' },
+  { icon: Star,       title: 'Expertise',    body: 'With over 40 years\' experience in this field we can provide you with the best SMSF advice possible.' },
 ];
 
 const faqs = [
@@ -153,7 +153,7 @@ export default function ServiceSelfManagedSuperFunds() {
                 Self-Managed<br />Super Funds
               </h1>
               <p className="text-lg text-white/75 leading-relaxed mb-10">
-                Take control of your financial future with an SMSF. We specialise in helping Melbourne small business owners establish and manage their super funds efficiently — with full compliance and maximum flexibility.
+                Take control of your financial future with an SMSF. We specialise in helping Melbourne small business owners establish and manage their super funds efficiently, with full compliance and maximum flexibility.
               </p>
               <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">
@@ -187,7 +187,7 @@ export default function ServiceSelfManagedSuperFunds() {
                     <div key={p.title} className="flex gap-3">
                       <Icon className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <div>
-                        <span className="font-semibold text-foreground">{p.title} — </span>
+                        <span className="font-semibold text-foreground">{p.title}, </span>
                         <span className="text-muted-foreground">{p.body}</span>
                       </div>
                     </div>

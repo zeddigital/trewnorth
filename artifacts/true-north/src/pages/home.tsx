@@ -34,7 +34,7 @@ const services = [
   {
     icon: Wallet,
     title: 'Personal Tax & Finance',
-    description: 'Personal tax returns done right — capturing every deduction from investment properties, shares, and beyond.',
+    description: 'Personal tax returns done right, capturing every deduction from investment properties, shares, and beyond.',
     href: '/services/personal-tax-and-finance',
   },
   {
@@ -52,7 +52,7 @@ const services = [
   {
     icon: Users,
     title: 'Small Business Accountant',
-    description: 'A dedicated accounting partner — covering tax, bookkeeping, compliance, and strategy under one roof.',
+    description: 'A dedicated accounting partner, covering tax, bookkeeping, compliance, and strategy under one roof.',
     href: '/services/small-business-accountant',
   },
 ];
@@ -90,7 +90,7 @@ const whyReasons = [
   },
   {
     title: 'Small Business Specialists',
-    description: 'We work exclusively with businesses like yours — not massive corporates or one-person contractors.',
+    description: 'We work exclusively with businesses like yours, not massive corporates or one-person contractors.',
   },
 ];
 

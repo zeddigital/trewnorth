@@ -386,7 +386,7 @@ export default function Contact() {
                       role="alert"
                       className="rounded-lg border border-destructive/30 bg-destructive/5 px-4 py-3 text-sm text-foreground leading-relaxed"
                     >
-                      Sorry — your message didn't send. Please call{' '}
+                      Sorry, your message didn't send. Please call{' '}
                       <a href="tel:0411732966" className="font-semibold text-primary hover:underline">0411&nbsp;732&nbsp;966</a>{' '}
                       or email{' '}
                       <a href="mailto:darren@tnaccounting.com.au" className="font-semibold text-primary hover:underline">darren@tnaccounting.com.au</a>{' '}
@@ -409,7 +409,7 @@ export default function Contact() {
                     <CheckCircle2 className="h-8 w-8 text-primary" />
                   </div>
                   <h3 className="font-serif font-semibold text-2xl text-foreground mb-3">
-                    Thanks — we'll be in touch soon.
+                    Thanks, we'll be in touch soon.
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
                     We've sent a confirmation to your inbox. Darren will contact you within one business day to arrange your free consultation.
@@ -445,7 +445,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="-mt-4 text-sm text-primary hover:underline inline-flex items-center gap-1"
               >
-                <MapPin className="h-4 w-4" /> 14 Keys Street, Beaumaris VIC 3193 — Get directions →
+                <MapPin className="h-4 w-4" /> 14 Keys Street, Beaumaris VIC 3193. Get directions →
               </a>
 
             </motion.div>

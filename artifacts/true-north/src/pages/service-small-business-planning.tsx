@@ -11,7 +11,7 @@ import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
 import { BookConsultation } from '@/components/book-consultation';
 
 const features = [
-  { icon: TrendingUp,  title: 'Experienced Specialists',  body: 'Over 20 years in small business. We have seen every challenge — and we help you navigate them with confidence.' },
+  { icon: TrendingUp,  title: 'Experienced Specialists',  body: 'Over 40 years in small business. We have seen every challenge, and we help you navigate them with confidence.' },
   { icon: Cpu,         title: 'Modern Software',          body: 'We use the latest cloud-based accounting software to give you real-time visibility over your business performance.' },
   { icon: DollarSign,  title: 'Fair, Fixed Prices',       body: 'Set up on a monthly fixed fee so there are no unexpected compliance costs. Peace of mind, guaranteed.' },
 ];
@@ -19,7 +19,7 @@ const features = [
 const keys = [
   {
     title: 'Clear Vision and Goals',
-    body: 'Start with a clear vision for your business and set specific, measurable goals. Your vision should outline where you want your business to be in the future, while your goals provide a roadmap to get there — from increasing sales to achieving financial independence.',
+    body: 'Start with a clear vision for your business and set specific, measurable goals. Your vision should outline where you want your business to be in the future, while your goals provide a roadmap to get there, from increasing sales to achieving financial independence.',
   },
   {
     title: 'Comprehensive Business Plan',
@@ -27,7 +27,7 @@ const keys = [
   },
   {
     title: 'Financial Management and Budgeting',
-    body: "Effective financial management means setting a realistic budget, forecasting cash flow, and managing expenses. We track all income and outgoings, review your financial statements for profitability, plan for taxes, and identify growth opportunities — helping you avoid potential financial pitfalls.",
+    body: "Effective financial management means setting a realistic budget, forecasting cash flow, and managing expenses. We track all income and outgoings, review your financial statements for profitability, plan for taxes, and identify growth opportunities, helping you avoid potential financial pitfalls.",
   },
   {
     title: 'Marketing and Sales Strategy',
@@ -35,7 +35,7 @@ const keys = [
   },
   {
     title: 'Adaptability and Risk Management',
-    body: "The ability to adapt to changing market conditions is crucial for long-term success. We monitor industry trends, identify risks — economic downturns, regulatory changes, supply chain issues — and help you build contingency plans to keep your business resilient.",
+    body: "The ability to adapt to changing market conditions is crucial for long-term success. We monitor industry trends, identify risks (economic downturns, regulatory changes, supply chain issues) and help you build contingency plans to keep your business resilient.",
   },
 ];
 
@@ -99,7 +99,7 @@ export default function ServiceSmallBusinessPlanning() {
                 Small Business<br />Planning
               </h1>
               <p className="text-lg text-white/75 leading-relaxed mb-10">
-                Every small business needs help along the way. The old saying is true — "If you fail to plan then you plan to fail." We prepare quarterly cash flow statements, strategic plans, and 12–24 month forecasts to help your business prosper.
+                Every small business needs help along the way. The old saying is true, "If you fail to plan then you plan to fail." We prepare quarterly cash flow statements, strategic plans, and 12–24 month forecasts to help your business prosper.
               </p>
               <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">

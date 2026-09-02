@@ -32,11 +32,11 @@ const bookkeepingFaqs = [
   },
   {
     question: 'What\'s the difference between a bookkeeper and an accountant?',
-    answer: 'A bookkeeper records and organises day-to-day financial transactions — including bank reconciliations, payroll, invoicing, and BAS preparation. An accountant interprets that financial data, prepares tax returns, provides strategic advice, and helps with business structure and planning. Many small businesses benefit from both working together.',
+    answer: 'A bookkeeper records and organises day-to-day financial transactions, including bank reconciliations, payroll, invoicing, and BAS preparation. An accountant interprets that financial data, prepares tax returns, provides strategic advice, and helps with business structure and planning. Many small businesses benefit from both working together.',
   },
   {
     question: 'How often should I reconcile my bank accounts?',
-    answer: 'Aim to reconcile at least weekly if you use cloud accounting software with automated bank feeds. Monthly reconciliation is the minimum — but problems can compound quickly if left too long. Weekly reconciliation catches errors early and keeps your financial data reliable for decision-making.',
+    answer: 'Aim to reconcile at least weekly if you use cloud accounting software with automated bank feeds. Monthly reconciliation is the minimum, but problems can compound quickly if left too long. Weekly reconciliation catches errors early and keeps your financial data reliable for decision-making.',
   },
   {
     question: 'What accounting software is best for Australian small businesses?',
@@ -136,12 +136,12 @@ export default function BlogPostBookkeepingTips() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>Good bookkeeping means recording every transaction — income, expenses, and bank movements — accurately and consistently. Australian businesses must keep records for at least 5 years. The single most impactful habit is separating personal and business finances from day one, followed by weekly bank reconciliation and sending invoices the moment work is complete.</strong></p>
+                  <p><strong>Good bookkeeping means recording every transaction (income, expenses, and bank movements) accurately and consistently. Australian businesses must keep records for at least 5 years. The single most impactful habit is separating personal and business finances from day one, followed by weekly bank reconciliation and sending invoices the moment work is complete.</strong></p>
                   <p className="text-xs text-foreground/60 mt-2">Source: <a href="https://www.ato.gov.au/businesses-and-organisations/record-keeping-for-business" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO record-keeping for business</a></p>
                 </div>
 
                 <p>
-                  Good bookkeeping isn't glamorous — but it's one of the most valuable things a small business owner can do. Accurate, up-to-date books give you a clear picture of where your business stands financially, help you make better decisions, reduce stress at tax time, and ensure you stay compliant with the ATO.
+                  Good bookkeeping isn't glamorous, but it's one of the most valuable things a small business owner can do. Accurate, up-to-date books give you a clear picture of where your business stands financially, help you make better decisions, reduce stress at tax time, and ensure you stay compliant with the ATO.
                 </p>
                 <p>
                   The challenge is that many small business owners find bookkeeping confusing, time-consuming, or easy to push to the bottom of the to-do list. This guide cuts through the complexity with practical, actionable tips that any business owner can implement.
@@ -149,7 +149,7 @@ export default function BlogPostBookkeepingTips() {
 
                 <h2 id="why-bookkeeping">Why Bookkeeping Matters</h2>
                 <p>
-                  Bookkeeping is the process of recording and organising all financial transactions in your business — every sale, every expense, every payment in and out. When done well, it gives you:
+                  Bookkeeping is the process of recording and organising all financial transactions in your business, every sale, every expense, every payment in and out. When done well, it gives you:
                 </p>
                 <ul>
                   <li><strong>Financial clarity:</strong> Know exactly how much money you have, what you're owed, and what you owe.</li>
@@ -169,15 +169,15 @@ export default function BlogPostBookkeepingTips() {
 
                 <h2 id="software">Choose the Right Accounting Software</h2>
                 <p>
-                  Modern cloud accounting software has transformed bookkeeping for small businesses. It automates bank feeds, simplifies reconciliation, generates invoices, calculates GST, and produces financial reports — all without needing a bookkeeping degree.
+                  Modern cloud accounting software has transformed bookkeeping for small businesses. It automates bank feeds, simplifies reconciliation, generates invoices, calculates GST, and produces financial reports, all without needing a bookkeeping degree.
                 </p>
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">Popular options for Australian small businesses:</p>
                   <ul>
-                    <li><strong>Xero</strong> — Market-leading, highly intuitive, excellent for businesses with multiple team members or advisors. Connects with hundreds of third-party apps.</li>
-                    <li><strong>MYOB</strong> — Long-established Australian software, particularly strong for payroll and inventory management.</li>
-                    <li><strong>QuickBooks</strong> — Good value option with solid reporting capabilities.</li>
-                    <li><strong>Wave</strong> — Free option for very small businesses with basic needs.</li>
+                    <li><strong>Xero:</strong> Market-leading, highly intuitive, excellent for businesses with multiple team members or advisors. Connects with hundreds of third-party apps.</li>
+                    <li><strong>MYOB:</strong> Long-established Australian software, particularly strong for payroll and inventory management.</li>
+                    <li><strong>QuickBooks:</strong> Good value option with solid reporting capabilities.</li>
+                    <li><strong>Wave:</strong> Free option for very small businesses with basic needs.</li>
                   </ul>
                 </div>
                 <p>
@@ -189,7 +189,7 @@ export default function BlogPostBookkeepingTips() {
                   Bank reconciliation is the process of matching your accounting records against your actual bank statements to ensure they agree. It catches errors, identifies missing transactions, and spots any fraudulent activity.
                 </p>
                 <p>
-                  Most cloud accounting software makes reconciliation straightforward through automated bank feeds — transactions are imported daily, and you simply confirm or categorise them. Aim to reconcile at least weekly. Monthly reconciliation works, but problems can compound quickly if left too long.
+                  Most cloud accounting software makes reconciliation straightforward through automated bank feeds. Transactions are imported daily, and you simply confirm or categorise them. Aim to reconcile at least weekly. Monthly reconciliation works, but problems can compound quickly if left too long.
                 </p>
 
                 <h2 id="receipts">Keep Receipts and Records</h2>
@@ -202,15 +202,15 @@ export default function BlogPostBookkeepingTips() {
 
                 <h2 id="invoicing">Invoice Promptly and Follow Up</h2>
                 <p>
-                  Cash flow problems are often a delayed invoicing problem. Send invoices the moment work is completed or goods are delivered — not at the end of the week or month. Set clear payment terms (14 or 30 days is standard in Australia) and follow up systematically on overdue invoices.
+                  Cash flow problems are often a delayed invoicing problem. Send invoices the moment work is completed or goods are delivered, not at the end of the week or month. Set clear payment terms (14 or 30 days is standard in Australia) and follow up systematically on overdue invoices.
                 </p>
                 <p>
-                  Most accounting software has automated invoice reminders that can be sent 7, 14, and 21 days overdue — set these up and let the software do the chasing.
+                  Most accounting software has automated invoice reminders that can be sent 7, 14, and 21 days overdue, set these up and let the software do the chasing.
                 </p>
 
                 <h2 id="cash-flow">Monitor Cash Flow Weekly</h2>
                 <p>
-                  Profit and cash flow are different things. A business can be profitable on paper but run out of cash if customers pay slowly or if there are large upcoming expenses. Monitoring your cash position — what's in the bank, what's owed to you, and what you owe — gives you early warning of potential shortfalls.
+                  Profit and cash flow are different things. A business can be profitable on paper but run out of cash if customers pay slowly or if there are large upcoming expenses. Monitoring your cash position (what's in the bank, what's owed to you, and what you owe) gives you early warning of potential shortfalls.
                 </p>
                 <p>
                   Review your cash flow at least weekly. A simple rolling 4–6 week forecast shows you whether you'll have enough cash to meet obligations and when you might need to act.
@@ -227,12 +227,12 @@ export default function BlogPostBookkeepingTips() {
                   <li>Reporting via Single Touch Payroll (STP), which is mandatory for all employers</li>
                 </ul>
                 <p>
-                  Late super payments attract the <a href="https://www.ato.gov.au/businesses-and-organisations/super-for-employers/super-guarantee/super-guarantee-charge" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Super Guarantee Charge</a> — which is <strong>not tax-deductible</strong> and significantly more expensive than simply paying on time. The ATO estimates that unpaid or underpaid superannuation remains one of the most common payroll compliance issues for small businesses; ensuring on-time payment is one of the simplest ways to avoid a costly and non-deductible penalty.
+                  Late super payments attract the <a href="https://www.ato.gov.au/businesses-and-organisations/super-for-employers/super-guarantee/super-guarantee-charge" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Super Guarantee Charge</a>, which is <strong>not tax-deductible</strong> and significantly more expensive than simply paying on time. The ATO estimates that unpaid or underpaid superannuation remains one of the most common payroll compliance issues for small businesses; ensuring on-time payment is one of the simplest ways to avoid a costly and non-deductible penalty.
                 </p>
 
                 <h2 id="bas">Prepare for BAS on Time</h2>
                 <p>
-                  If you're registered for GST, you must submit a Business Activity Statement (BAS) regularly — usually quarterly. The BAS reports GST collected from sales, GST paid on purchases (input tax credits), and any PAYG withholding.
+                  If you're registered for GST, you must submit a Business Activity Statement (BAS) regularly, usually quarterly. The BAS reports GST collected from sales, GST paid on purchases (input tax credits), and any PAYG withholding.
                 </p>
                 <p>
                   The best way to make BAS painless is to keep your books up-to-date throughout the quarter, rather than scrambling at deadline. With cloud accounting software connected to your bank, most of the work is done automatically.
@@ -240,13 +240,13 @@ export default function BlogPostBookkeepingTips() {
 
                 <h2 id="year-end">Year-End Preparation</h2>
                 <p>
-                  The financial year end (30 June) is when clean bookkeeping pays dividends. Businesses with well-maintained books can lodge their tax return quickly and accurately — and are better positioned to take advantage of year-end tax planning strategies.
+                  The financial year end (30 June) is when clean bookkeeping pays dividends. Businesses with well-maintained books can lodge their tax return quickly and accurately, and are better positioned to take advantage of year-end tax planning strategies.
                 </p>
                 <p>
-                  In the weeks before 30 June, review your financials with your accountant to identify any tax-minimisation opportunities — such as timing large purchases, prepaying deductible expenses, or reviewing your business structure.
+                  In the weeks before 30 June, review your financials with your accountant to identify any tax-minimisation opportunities, such as timing large purchases, prepaying deductible expenses, or reviewing your business structure.
                 </p>
 
-                <h2 id="bookkeeper-vs-accountant">Bookkeeper vs Accountant — Who Does What?</h2>
+                <h2 id="bookkeeper-vs-accountant">Bookkeeper vs Accountant: Who Does What?</h2>
                 <p>
                   Many small business owners are unclear about the difference. In short:
                 </p>
@@ -255,7 +255,7 @@ export default function BlogPostBookkeepingTips() {
                   <li><strong>Accountant:</strong> Interprets financial data, prepares tax returns, provides strategic advice, and helps with business structure, tax planning, and growth decisions.</li>
                 </ul>
                 <p>
-                  Many small businesses benefit from both — a bookkeeper for ongoing record-keeping and an accountant for tax and strategic advice. The combination is often more cost-effective than you'd expect, and far less expensive than the cost of getting things wrong.
+                  Many small businesses benefit from both, a bookkeeper for ongoing record-keeping and an accountant for tax and strategic advice. The combination is often more cost-effective than you'd expect, and far less expensive than the cost of getting things wrong.
                 </p>
 
                 <h2 id="key-terms">Key Bookkeeping Terms Explained</h2>
@@ -290,9 +290,9 @@ export default function BlogPostBookkeepingTips() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small businesses get their finances in order. If you'd like help setting up better bookkeeping systems or reviewing your current approach, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small businesses get their finances in order. If you'd like help setting up better bookkeeping systems or reviewing your current approach, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>

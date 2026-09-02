@@ -237,7 +237,7 @@ Reply to this email to answer ${escapeHtml(e.firstName)} directly, or call
   ].filter(Boolean).join('\n');
 
   return {
-    html: shell('New enquiry from the website', `${e.name} — reply to this email to respond directly.`, inner),
+    html: shell('New enquiry from the website', `${e.name}, reply to this email to respond directly.`, inner),
     text,
   };
 }
@@ -288,11 +288,11 @@ ${summary}
     `Kind regards,`,
     `Darren Trew`,
     `Trew North Accounting`,
-    `${PHONE_DISPLAY} — ${DEFAULT_TO} — ${SITE}`,
+    `${PHONE_DISPLAY}, ${DEFAULT_TO}, ${SITE}`,
   ].filter(Boolean).join('\n');
 
   return {
-    html: shell("Thanks — we've got your enquiry", 'Darren will be in touch within one business day.', inner),
+    html: shell("Thanks, we've got your enquiry", 'Darren will be in touch within one business day.', inner),
     text,
   };
 }
@@ -374,7 +374,7 @@ export const onRequestPost = async (ctx: RequestContext): Promise<Response> => {
       from,
       to: [to],
       reply_to: enquiry.email,
-      subject: `New enquiry — ${enquiry.name}${enquiry.company ? ` (${enquiry.company})` : ''}`,
+      subject: `New enquiry, ${enquiry.name}${enquiry.company ? ` (${enquiry.company})` : ''}`,
       html: practice.html,
       text: practice.text,
     });
@@ -391,7 +391,7 @@ export const onRequestPost = async (ctx: RequestContext): Promise<Response> => {
       from,
       to: [enquiry.email],
       reply_to: to,
-      subject: 'We received your enquiry — Trew North Accounting',
+      subject: 'We received your enquiry, Trew North Accounting',
       html: ack.html,
       text: ack.text,
     });

@@ -11,7 +11,7 @@ const values = [
     icon: Target,
     title: 'Clear Direction',
     description:
-      'We translate your numbers into decisions. Every report, every meeting, every conversation is aimed at giving you clarity — not more confusion.',
+      'We translate your numbers into decisions. Every report, every meeting, every conversation is aimed at giving you clarity, not more confusion.',
   },
   {
     icon: Heart,
@@ -23,13 +23,13 @@ const values = [
     icon: Award,
     title: 'Professional Excellence',
     description:
-      'Chartered Accountant qualified and continuously learning. You get advice that is technically rigorous, clearly communicated, and backed by 25+ years of practice.',
+      'Chartered Accountant qualified and continuously learning. You get advice that is technically rigorous, clearly communicated, and backed by 40+ years of practice.',
   },
   {
     icon: Shield,
     title: 'Local Expertise',
     description:
-      'Based in Beaumaris, Darren has deep knowledge of the Melbourne small business landscape — including Victorian state taxes, local industry trends, and market conditions.',
+      'Based in Beaumaris, Darren has deep knowledge of the Melbourne small business landscape, including Victorian state taxes, local industry trends, and market conditions.',
   },
 ];
 
@@ -47,7 +47,7 @@ const directAccessPoints = [
   {
     icon: Lightbulb,
     title: 'Faster, sharper advice',
-    body: 'With a boutique practice, decisions happen quickly. No committee sign-offs, no partner approval chains — just a qualified CA who knows your business giving you a straight answer.',
+    body: 'With a boutique practice, decisions happen quickly. No committee sign-offs, no partner approval chains, just a qualified CA who knows your business giving you a straight answer.',
   },
 ];
 
@@ -63,7 +63,7 @@ export default function About() {
     <div className="min-h-screen">
       <SEOHead
         title="Darren Trew | Chartered Accountant | Trew North Accounting"
-        description="Darren Trew is a Chartered Accountant based in Beaumaris, Melbourne, with 25+ years' experience helping small businesses with tax, bookkeeping, SMSF and strategic advice."
+        description="Darren Trew is a Chartered Accountant based in Beaumaris, Melbourne, with 40+ years' experience helping small businesses with tax, bookkeeping, SMSF and strategic advice."
         canonical="/about"
         ogImage="/og-about.jpg"
         schema={[
@@ -101,7 +101,7 @@ export default function About() {
               Chartered Accountant &amp; Registered Tax Agent · Beaumaris, Melbourne VIC
             </p>
             <p className="text-xl text-secondary-foreground/75 leading-relaxed">
-              Trew North is a boutique accounting practice built around one belief: small business owners deserve a qualified, experienced accountant they can actually reach — not a rotating door of juniors.
+              Trew North is a boutique accounting practice built around one belief: small business owners deserve a qualified, experienced accountant they can actually reach, not a rotating door of juniors.
             </p>
           </motion.div>
         </div>
@@ -154,17 +154,17 @@ export default function About() {
                   The story
                 </p>
                 <h2 className="font-serif font-bold text-4xl sm:text-5xl leading-[1.1] text-foreground mb-8" style={{ letterSpacing: '-0.02em' }}>
-                  25 years in the making
+                  40 years in the making
                 </h2>
                 <div className="space-y-5 text-muted-foreground leading-relaxed text-[1.0625rem]">
                   <p>
-                    Darren Trew is a Chartered Accountant with over 25 years' experience working with small and medium businesses across Melbourne. He's seen the full spectrum — from start-ups finding their footing to established businesses planning succession — and he's built Trew North around the clients that most accounting firms overlook: ambitious small business owners who need more than once-a-year tax compliance.
+                    Darren Trew is a Chartered Accountant with over 40 years' experience working with small and medium businesses across Melbourne. He's seen the full spectrum, from start-ups finding their footing to established businesses planning succession, and he's built Trew North around the clients that most accounting firms overlook: ambitious small business owners who need more than once-a-year tax compliance.
                   </p>
                   <p>
-                    After spending years watching small business owners get lost inside larger firms — handed off to juniors, waiting days for a callback, getting boilerplate advice that didn't fit their situation — Darren set out to build something different. A practice that runs lean, moves fast, and puts the client relationship front and centre.
+                    After spending years watching small business owners get lost inside larger firms (handed off to juniors, waiting days for a callback, getting boilerplate advice that didn't fit their situation) Darren set out to build something different. A practice that runs lean, moves fast, and puts the client relationship front and centre.
                   </p>
                   <p>
-                    Trew North is based in Beaumaris on Melbourne's bayside, and serves small businesses across Melbourne and Australia-wide via Xero, video calls, and email. When you work with Trew North, you work with Darren — that's not a marketing line, it's how the practice is built.
+                    Trew North is based in Beaumaris on Melbourne's bayside, and serves small businesses across Melbourne and Australia-wide via Xero, video calls, and email. When you work with Trew North, you work with Darren. That is not a marketing line; it is how the practice is built.
                   </p>
                 </div>
               </div>
@@ -234,7 +234,7 @@ export default function About() {
               What direct principal access actually means
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Working directly with a senior Chartered Accountant — not a delegation chain — changes the quality of advice you receive and how quickly it arrives.
+              Working directly with a senior Chartered Accountant, not a delegation chain, changes the quality of advice you receive and how quickly it arrives.
             </p>
           </motion.div>
 
@@ -323,7 +323,7 @@ export default function About() {
               Ready to work directly with your accountant?
             </h2>
             <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
-              Book a free 30-minute consultation with Darren. No obligation, no hard sell — just an honest conversation about your situation and how Trew North can help.
+              Book a free 30-minute consultation with Darren. No obligation, no hard sell, just an honest conversation about your situation and how Trew North can help.
             </p>
             <BookConsultation><Button
               size="lg"

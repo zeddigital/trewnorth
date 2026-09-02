@@ -325,7 +325,7 @@ export default function BlogPostYourGuideToTheBestMelbourneAccountantsIn2024() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation

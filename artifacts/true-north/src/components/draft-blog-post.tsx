@@ -49,7 +49,7 @@ export default function DraftBlogPost({
 
       {/* Draft banner */}
       <div className="bg-amber-50 border-b border-amber-200 text-amber-800 text-center text-sm font-medium py-2 px-4">
-        ⚠ Draft — not published. Visible at this URL for preview only.
+        ⚠ Draft, not published. Visible at this URL for preview only.
       </div>
 
       {/* Hero */}
@@ -133,7 +133,7 @@ export default function DraftBlogPost({
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation

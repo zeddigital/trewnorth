@@ -17,14 +17,14 @@ const toc = [
   { id: 'h-frequently-asked-questions', label: 'Frequently Asked Questions' },
 ];
 
-const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&amp;L, or income statement — reports what your business earned and what it spent over a period, and ends with the one figure everyone looks for first: net profit or loss. Where a balance sheet is a photograph taken at a moment, the P&amp;L is the film of what happened between two moments.</p>
+const htmlContent = `<p>A <strong>profit and loss statement</strong> (the P&amp;L, or income statement) reports what your business earned and what it spent over a period, and ends with the one figure everyone looks for first: net profit or loss. Where a balance sheet is a photograph taken at a moment, the P&amp;L is the film of what happened between two moments.</p>
 
 <h2 id="h-the-shape-of-the-report">The Shape of the Report</h2>
 <figure><img src="/blog/what-is-a-profit-and-loss-statement-statement.webp" alt="A printed financial report, calculator, notebook and manila folders on a desk in slatted afternoon light." width="1400" height="788" loading="lazy" /></figure>
 <p>The report works down the page in stages, and each stage answers a different question. Read only the last line and you learn whether you made money. Read the stages and you learn <em>why</em>.</p>
 
 <h3>Revenue</h3>
-<p>The <strong>top line</strong> — everything earned from your core trading activity before a single cost is taken out.</p>
+<p>The <strong>top line</strong>, everything earned from your core trading activity before a single cost is taken out.</p>
 
 <h3>Cost of Goods Sold</h3>
 <p><strong>COGS</strong> is the direct cost of what you sold: raw materials, the wholesale cost of stock, the direct labour that went into the job. It does not include rent, marketing or the office phone bill. That distinction matters more than almost anything else on the page, and we come back to it below.</p>
@@ -33,10 +33,10 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <blockquote>
 <p><strong>Revenue − COGS = Gross Profit</strong></p>
 </blockquote>
-<p>What is left after paying for the thing you sold. This figure speaks to your pricing and your production efficiency, and nothing else. If gross profit is thin, no amount of overhead-trimming further down will rescue the business — the problem is upstream, in what you charge or what it costs you to deliver.</p>
+<p>What is left after paying for the thing you sold. This figure speaks to your pricing and your production efficiency, and nothing else. If gross profit is thin, no amount of overhead-trimming further down will rescue the business. The problem is upstream, in what you charge or what it costs you to deliver.</p>
 
 <h3>Operating Expenses and Operating Profit</h3>
-<p>Overheads: administrative wages, rent, utilities, insurance, marketing, software. Subtract them from gross profit and you get <strong>operating profit</strong> — the profitability of the actual business model, before financing and tax enter the picture.</p>
+<p>Overheads: administrative wages, rent, utilities, insurance, marketing, software. Subtract them from gross profit and you get <strong>operating profit</strong>, the profitability of the actual business model, before financing and tax enter the picture.</p>
 
 <h3>Net Profit</h3>
 <p>The bottom line, after everything: interest, tax, and any one-off items. This is the number that answers "did we make money", and the only one most owners can quote from memory.</p>
@@ -45,8 +45,8 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <p>A small Melbourne homewares retailer, one quarter:</p>
 <ul>
 <li><strong>Revenue:</strong> $180,000</li>
-<li><strong>Cost of goods sold:</strong> $108,000 — wholesale stock and freight in</li>
-<li><strong>Operating expenses:</strong> $54,000 — rent, wages, insurance, software, marketing</li>
+<li><strong>Cost of goods sold:</strong> $108,000, wholesale stock and freight in</li>
+<li><strong>Operating expenses:</strong> $54,000, rent, wages, insurance, software, marketing</li>
 <li><strong>Interest on a business loan:</strong> $3,000</li>
 </ul>
 <p>Working down:</p>
@@ -57,7 +57,7 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <li>Net profit before tax: $18,000 − $3,000 = <strong>$15,000</strong></li>
 <li>Net margin: $15,000 ÷ $180,000 = <strong>8.3%</strong></li>
 </ul>
-<p>The useful observation is not the $15,000. It is that overheads consumed three-quarters of gross profit. A 5% lift in price, holding volume, would add $9,000 straight to the bottom line — a 60% increase in net profit from a change most customers would barely register. That is the kind of thing a P&amp;L tells you and a bank balance never will.</p>
+<p>The useful observation is not the $15,000. It is that overheads consumed three-quarters of gross profit. A 5% lift in price, holding volume, would add $9,000 straight to the bottom line, a 60% increase in net profit from a change most customers would barely register. That is the kind of thing a P&amp;L tells you and a bank balance never will.</p>
 
 <h2 id="h-reading-it-properly">Reading It Properly</h2>
 <figure><img src="/blog/what-is-a-profit-and-loss-statement-review.webp" alt="Two people at a shop counter reviewing a printed report together." width="1400" height="788" loading="lazy" /></figure>
@@ -71,53 +71,53 @@ const htmlContent = `<p>A <strong>profit and loss statement</strong> — the P&a
 <p>Put this quarter beside the last, and beside the same quarter last year. You are looking for lines moving at different speeds to revenue.</p>
 <p>Rising sales with a falling margin is the classic warning: costs are climbing faster than income, and growth is quietly making things worse. Catching that in a quarterly review is straightforward. Discovering it at year end is expensive.</p>
 <blockquote>
-<p>A single P&amp;L tells you what happened. Two tell you what is changing — and what is changing is nearly always the more useful information.</p>
+<p>A single P&amp;L tells you what happened. Two tell you what is changing, and what is changing is nearly always the more useful information.</p>
 </blockquote>
 
 <h2 id="h-four-ways-a-p-and-l-misleads">Four Ways a P&amp;L Misleads</h2>
 <p>An inaccurate P&amp;L is worse than none, because it carries the authority of a report while pointing the wrong way. Four errors account for most of it.</p>
 
 <h3>Costs in the wrong bucket</h3>
-<p>Putting an overhead into COGS, or a direct cost into overheads, distorts gross margin. Since gross margin is what you use to judge pricing, the error propagates directly into your pricing decisions — you conclude a product is profitable when it is not, or discount one that was carrying you.</p>
+<p>Putting an overhead into COGS, or a direct cost into overheads, distorts gross margin. Since gross margin is what you use to judge pricing, the error propagates directly into your pricing decisions. You conclude a product is profitable when it is not, or discount one that was carrying you.</p>
 
 <h3>Ignoring depreciation</h3>
-<p>Depreciation spreads the cost of a vehicle, fit-out or equipment across the years it is used. No cash leaves your account this month, so it is easy to leave out — and leaving it out makes the business look more profitable than it is, right up until the asset needs replacing.</p>
+<p>Depreciation spreads the cost of a vehicle, fit-out or equipment across the years it is used. No cash leaves your account this month, so it is easy to leave out, and leaving it out makes the business look more profitable than it is, right up until the asset needs replacing.</p>
 
 <h3>Leaving out your own wage</h3>
 <p>If you work in the business and pay yourself nothing, or less than the role is worth, the P&amp;L is flattered by the difference. It reports a profit that only exists because your labour was free. Any comparison against a competitor who pays a manager is meaningless.</p>
 
 <h3>Books that are behind</h3>
-<p>A missed cash sale, an expense entered twice, a bank feed not reconciled for six weeks. Individually trivial, cumulatively enough to move the bottom line. The report can only ever be as good as what feeds it — our guide to <a href="/top-small-business-bookkeeping-tips">small business bookkeeping</a> covers keeping that clean.</p>
+<p>A missed cash sale, an expense entered twice, a bank feed not reconciled for six weeks. Individually trivial, cumulatively enough to move the bottom line. The report can only ever be as good as what feeds it, our guide to <a href="/top-small-business-bookkeeping-tips">small business bookkeeping</a> covers keeping that clean.</p>
 
 <h2 id="h-from-net-profit-to-taxable-income">From Net Profit to Taxable Income</h2>
 <figure><img src="/blog/what-is-a-profit-and-loss-statement-reading.webp" alt="A small business owner reviewing a printed financial statement at a desk." width="1400" height="788" loading="lazy" /></figure>
 <p>Your net profit is where the tax calculation starts, not where it ends. Accounting profit and taxable income are different numbers, and the gap between them is made of specific adjustments:</p>
 <ul>
-<li><strong>Non-deductible expenses</strong> get added back. Client entertainment, the private-use share of a vehicle, some fines and penalties — real costs to the business, not deductions in the ATO's view.</li>
+<li><strong>Non-deductible expenses</strong> get added back. Client entertainment, the private-use share of a vehicle, some fines and penalties. Real costs to the business, not deductions in the ATO's view.</li>
 <li><strong>Depreciation is recalculated</strong> to the ATO's rules, which will not match whatever rate you chose for your own management reporting.</li>
-<li><strong>Prepayments</strong> — insurance or an annual subscription paid in advance — may need to be claimed across the periods they cover rather than when the money left.</li>
+<li><strong>Prepayments</strong>, insurance or an annual subscription paid in advance, may need to be claimed across the periods they cover rather than when the money left.</li>
 </ul>
 <p>A clean P&amp;L also does most of the work for your activity statements, since the revenue and expense figures behind your GST reporting come straight off it. Our <a href="/services/accounting-and-tax-planning">accounting and tax planning</a> service handles this reconciliation.</p>
 
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3>How often should I look at it?</h3>
-<p>Monthly. The ATO only needs one a year, but an annual P&amp;L is a post-mortem — it tells you about decisions you can no longer change. A monthly read catches a drifting margin or a creeping supplier cost while there is still something to do about it.</p>
+<p>Monthly. The ATO only needs one a year, but an annual P&amp;L is a post-mortem. It tells you about decisions you can no longer change. A monthly read catches a drifting margin or a creeping supplier cost while there is still something to do about it.</p>
 
 <h3>What is the difference between this and a cash flow statement?</h3>
-<p>The P&amp;L measures <strong>profitability</strong> — did revenue exceed expenses over the period. A cash flow statement measures <strong>liquidity</strong> — is there money in the account to pay this week's bills. You need both, because they can disagree completely.</p>
+<p>The P&amp;L measures <strong>profitability</strong>, did revenue exceed expenses over the period. A cash flow statement measures <strong>liquidity</strong>, is there money in the account to pay this week's bills. You need both, because they can disagree completely.</p>
 
 <h3>Why is my profit high but my bank account empty?</h3>
-<p>Because most P&amp;Ls are prepared on an accrual basis: revenue is recognised when you invoice, not when you are paid. Sell well on 30- or 60-day terms and the P&amp;L will show a healthy profit while the cash is still sitting with your customers. Add stock purchases, loan principal repayments and tax set-asides — none of which appear as expenses on the P&amp;L — and the gap widens further. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> deals with closing it.</p>
+<p>Because most P&amp;Ls are prepared on an accrual basis: revenue is recognised when you invoice, not when you are paid. Sell well on 30- or 60-day terms and the P&amp;L will show a healthy profit while the cash is still sitting with your customers. Add stock purchases, loan principal repayments and tax set-asides, none of which appear as expenses on the P&amp;L, and the gap widens further. Our guide to <a href="/cash-flow-problems-in-small-business">cash flow problems in small business</a> deals with closing it.</p>
 
 <h3>How does it relate to the other reports?</h3>
 <p>The P&amp;L covers a period; the <a href="/how-to-read-a-balance-sheet">balance sheet</a> shows a moment, and your net profit flows into its equity section. <a href="/what-is-break-even-analysis">Break-even analysis</a> uses the same cost information to tell you the sales volume that gets you to zero. Together they are the core of <a href="/what-is-management-accounting">management accounting</a>.</p>
 
 <h3>Can I produce it myself?</h3>
-<p>Yes — <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> generate one in a couple of clicks. The catch is that the report inherits every categorisation decision in your chart of accounts. Getting that structure right at setup is worth more than any amount of tidying afterwards.</p>
+<p>Yes, <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> generate one in a couple of clicks. The catch is that the report inherits every categorisation decision in your chart of accounts. Getting that structure right at setup is worth more than any amount of tidying afterwards.</p>
 
 <hr>
-<p>The bottom line answers one question. The lines above it answer the ones that actually change what you do next — whether the pricing works, whether the overheads are proportionate, and whether this quarter is better or worse than it looks.</p>
+<p>The bottom line answers one question. The lines above it answer the ones that actually change what you do next. Whether the pricing works, whether the overheads are proportionate, and whether this quarter is better or worse than it looks.</p>
 <p>Trew North Accounting helps Melbourne small business owners read their numbers and act on them. See our <a href="/services/small-business-accountant">small business accounting</a> service, or <a href="/contact">get in touch</a>.</p>`;
 
 const TITLE = 'What Is a Profit and Loss Statement? A Small Business Guide';
@@ -221,7 +221,7 @@ export default function BlogPostWhatIsAProfitAndLossStatement() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

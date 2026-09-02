@@ -33,11 +33,11 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <li><strong>Tracking leave.</strong> Annual leave, personal leave and long service leave, accrued and recorded accurately.</li>
 </ul>
 <blockquote>
-<p>Payroll is not really an admin task. It is a compliance obligation with an employment relationship attached — which is why errors cost money and goodwill at the same time.</p>
+<p>Payroll is not really an admin task. It is a compliance obligation with an employment relationship attached, which is why errors cost money and goodwill at the same time.</p>
 </blockquote>
 
 <h2 id="h-employee-or-contractor">Employee or Contractor?</h2>
-<p>This is the first decision, and it determines almost everything that follows. Getting it wrong — treating someone as a contractor when the working relationship makes them an employee — is <strong>sham contracting</strong>, and the correction is retrospective: back-paid super, back-paid leave, and penalties on top.</p>
+<p>This is the first decision, and it determines almost everything that follows. Getting it wrong, treating someone as a contractor when the working relationship makes them an employee, is <strong>sham contracting</strong>, and the correction is retrospective: back-paid super, back-paid leave, and penalties on top.</p>
 <div class="compare-cards">
 <div class="compare-card">
 <h4>Employee</h4>
@@ -52,7 +52,7 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <h4>Contractor</h4>
 <dl>
 <dt>Tax</dt><dd>They handle their own income tax and invoice you, usually with GST.</dd>
-<dt>Super</dt><dd>Generally none — but see the caution below.</dd>
+<dt>Super</dt><dd>Generally none, but see the caution below.</dd>
 <dt>Leave</dt><dd>No paid leave from your business.</dd>
 <dt>Insurance</dt><dd>They carry their own public liability and professional indemnity.</dd>
 </dl>
@@ -66,22 +66,22 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <h2 id="h-your-obligations-as-an-employer">Your Obligations as an Employer</h2>
 
 <h3>PAYG Withholding</h3>
-<p>Register for PAYG withholding before you pay anyone — at business registration, or as soon as you decide to hire. From then on you use the ATO's tax tables to work out how much to withhold based on earnings and pay frequency, and remit it by the due date. Most small businesses report and pay this with their quarterly activity statement.</p>
+<p>Register for PAYG withholding before you pay anyone, at business registration, or as soon as you decide to hire. From then on you use the ATO's tax tables to work out how much to withhold based on earnings and pay frequency, and remit it by the due date. Most small businesses report and pay this with their quarterly activity statement.</p>
 
-<h3>Superannuation — and What Changed in 2026</h3>
+<h3>Superannuation: and What Changed in 2026</h3>
 <p>The superannuation guarantee is <strong>12%</strong> of ordinary time earnings, paid into each eligible employee's fund.</p>
-<p>The timing is the part that changed. From <strong>1 July 2026</strong>, super is no longer a quarterly obligation: contributions must be paid on payday, and must be <em>received by the employee's fund</em> within seven business days. If you are still working to a quarterly rhythm, that is now out of date — and the quarterly cash buffer that came with it is gone.</p>
+<p>The timing is the part that changed. From <strong>1 July 2026</strong>, super is no longer a quarterly obligation: contributions must be paid on payday, and must be <em>received by the employee's fund</em> within seven business days. If you are still working to a quarterly rhythm, that is now out of date, and the quarterly cash buffer that came with it is gone.</p>
 <p>Our guide to <a href="${PAYDAY_SUPER}">payday super for 2026</a> covers the transition, the timing rule and the cash flow consequences in detail.</p>
 <blockquote>
 <p>Missed or late super triggers the superannuation guarantee charge, which is not deductible and carries interest and an administration component. Under payday super the same mistake can now repeat weekly or fortnightly rather than quarterly, so errors surface faster and multiply faster.</p>
 </blockquote>
 
 <h3>Single Touch Payroll</h3>
-<p>Every time you finalise a pay run, STP-enabled software reports salaries, wages, tax withheld and super information to the ATO. The requirement is <strong>on or before each payday</strong> — not monthly, not quarterly. In practice this is automatic once your software is configured correctly.</p>
+<p>Every time you finalise a pay run, STP-enabled software reports salaries, wages, tax withheld and super information to the ATO. The requirement is <strong>on or before each payday</strong>, not monthly, not quarterly. In practice this is automatic once your software is configured correctly.</p>
 
 <h3>State Payroll Tax</h3>
 <p>Payroll tax is a state tax, separate from everything above, and it only applies once your total Australian wages pass a threshold. In Victoria the annual threshold is <strong>$1,000,000</strong>, with a metropolitan rate of <strong>4.85%</strong> applied to wages above it.</p>
-<p>Most small businesses never reach it. Those approaching it should read our <a href="/victoria-payroll-tax">Victorian payroll tax guide</a>, particularly the grouping rules — related businesses are assessed together, which catches people out.</p>
+<p>Most small businesses never reach it. Those approaching it should read our <a href="/victoria-payroll-tax">Victorian payroll tax guide</a>, particularly the grouping rules. Related businesses are assessed together, which catches people out.</p>
 
 <h3>Records</h3>
 <p>Keep payroll records for at least <strong>five years</strong>: how each figure was calculated, evidence of every wage, tax and super payment made, and each employee's TFN declaration and super choice form. These records are what an ATO review actually examines.</p>
@@ -90,9 +90,9 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <p>The first hire is the moment you become an employer, with everything that carries. The setup itself is manageable in an afternoon.</p>
 <ol>
 <li><strong>Register for PAYG withholding.</strong> Through the Australian Business Register or your existing ATO channels. This is the legal precondition to paying anyone.</li>
-<li><strong>Choose payroll software.</strong> Spreadsheets cannot meet the STP obligation. <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> both handle STP, update tax tables automatically and generate payslips — our <a href="/best-accounting-software-for-small-business-australia">software comparison</a> covers the choice.</li>
+<li><strong>Choose payroll software.</strong> Spreadsheets cannot meet the STP obligation. <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a> and <a href="https://www.myob.com/au/" target="_blank" rel="noopener noreferrer">MYOB</a> both handle STP, update tax tables automatically and generate payslips, our <a href="/best-accounting-software-for-small-business-australia">software comparison</a> covers the choice.</li>
 <li><strong>Collect employee details.</strong> A TFN declaration, a superannuation standard choice form, and personal and bank details. If an employee does not nominate a fund, you must request their <strong>stapled fund</strong> from the ATO rather than defaulting them anywhere.</li>
-<li><strong>Set up their profile.</strong> Pay rate, tax details, and employment type — full-time, part-time or casual. That last field drives leave accrual, so a wrong setting compounds quietly for months.</li>
+<li><strong>Set up their profile.</strong> Pay rate, tax details, and employment type: full-time, part-time or casual. That last field drives leave accrual, so a wrong setting compounds quietly for months.</li>
 <li><strong>Run the first pay.</strong> Check gross, tax and net before finalising. Finalising generates payslips and files the STP report, then you transfer the net pay.</li>
 </ol>
 
@@ -102,13 +102,13 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 
 <h3>Getting ordinary time earnings wrong</h3>
 <p>A café owner pays penalty rates for a public holiday, calculates super on the base rate only, and treats the extra as a one-off outside super. A review a year later finds the shortfall, and the correction arrives with interest and an administration charge attached.</p>
-<p>Ordinary time earnings is a defined concept, and it is not simply base pay. Confirm which payments are included rather than assuming — this is the single most common super error there is.</p>
+<p>Ordinary time earnings is a defined concept, and it is not simply base pay. Confirm which payments are included rather than assuming. This is the single most common super error there is.</p>
 
 <h3>Misclassifying employment type</h3>
 <p>Recording a part-time employee as casual, or an employee as a contractor. Both lead to back-payment of leave and super, and neither is forgiven because it was unintentional.</p>
 
 <h3>Missing STP deadlines</h3>
-<p>Reporting late, or not at all, attracts penalties and marks the business for closer attention. Configured software handles this automatically — the failure is usually a setup gap, not a discipline problem.</p>
+<p>Reporting late, or not at all, attracts penalties and marks the business for closer attention. Configured software handles this automatically. The failure is usually a setup gap, not a discipline problem.</p>
 
 <h3>Mishandling final pay</h3>
 <p>Termination payments mix unused leave, leave loading and sometimes redundancy, and each component has its own tax treatment. Work through a checklist every time, or get the calculation checked. This one is worth not improvising.</p>
@@ -117,7 +117,7 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <p>Withholding against last year's rates produces wrong deductions for every employee until someone notices. Any current payroll software updates these for you; manual calculation does not.</p>
 
 <h2 id="h-when-to-bring-in-help">When to Bring in Help</h2>
-<p>Software handles routine payroll for most small businesses perfectly well. The point to bring someone in is when the cost of an error would exceed the cost of advice — which arrives sooner than most owners expect.</p>
+<p>Software handles routine payroll for most small businesses perfectly well. The point to bring someone in is when the cost of an error would exceed the cost of advice, which arrives sooner than most owners expect.</p>
 <ul>
 <li><strong>Your first hire.</strong> Setting it up correctly once is far cheaper than unwinding it later.</li>
 <li><strong>A growing team.</strong> More people means mixed employment types, award complexity, and eventually payroll tax.</li>
@@ -130,10 +130,10 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <h2 id="h-frequently-asked-questions">Frequently Asked Questions</h2>
 
 <h3>Do I pay super for casual employees?</h3>
-<p>Yes. Casual employees aged 18 or over receive the superannuation guarantee on their ordinary time earnings regardless of how much they earn — the old $450 monthly minimum was abolished in 2022. For employees under 18, super is payable only if they work more than <strong>30 hours in a week</strong>.</p>
+<p>Yes. Casual employees aged 18 or over receive the superannuation guarantee on their ordinary time earnings regardless of how much they earn, the old $450 monthly minimum was abolished in 2022. For employees under 18, super is payable only if they work more than <strong>30 hours in a week</strong>.</p>
 
 <h3>What is the difference between salary and wages?</h3>
-<p>A salary is a fixed annual amount paid in regular instalments, independent of exact hours. Wages are paid at an hourly rate, so the total varies with hours worked. The practical difference is that wages require reliable timesheets and salaries do not — though salaried staff covered by an award still need their pay checked against award minimums.</p>
+<p>A salary is a fixed annual amount paid in regular instalments, independent of exact hours. Wages are paid at an hourly rate, so the total varies with hours worked. The practical difference is that wages require reliable timesheets and salaries do not, though salaried staff covered by an award still need their pay checked against award minimums.</p>
 
 <h3>How often do I report through STP?</h3>
 <p>On or before every payday. Each finalised pay run sends the data automatically. There is no separate monthly or quarterly STP lodgement.</p>
@@ -142,15 +142,15 @@ const htmlContent = `<p><strong>Payrolling</strong> is everything involved in pa
 <p>No. From 1 July 2026 super must be paid on payday and received by the fund within seven business days. Quarterly payment no longer satisfies the obligation.</p>
 
 <h3>What if an employee does not choose a super fund?</h3>
-<p>Request their stapled fund from the ATO and pay into that. Only if the ATO returns no stapled fund may you use your default fund — you cannot simply pick one.</p>
+<p>Request their stapled fund from the ATO and pay into that. Only if the ATO returns no stapled fund may you use your default fund, you cannot simply pick one.</p>
 
 <hr>
-<p>Payroll rewards a careful setup and punishes a rushed one. Classify workers correctly, get ordinary time earnings right, and keep the software current — those three cover most of the risk.</p>
+<p>Payroll rewards a careful setup and punishes a rushed one. Classify workers correctly, get ordinary time earnings right, and keep the software current, those three cover most of the risk.</p>
 <p>Trew North Accounting sets up and runs payroll for Melbourne small businesses. See our <a href="/services/bookkeeping">bookkeeping service</a>, or <a href="/contact">get in touch</a> before your first hire rather than after.</p>`;
 
 const TITLE = 'What Is Payrolling? An Australian Employer’s Guide';
 const DESCRIPTION =
-  'Payroll obligations for Australian small business — PAYG withholding, the 12% super guarantee under payday super, STP, payroll tax, and the errors that cost most.';
+  'Payroll obligations for Australian small business, PAYG withholding, the 12% super guarantee under payday super, STP, payroll tax, and the errors that cost most.';
 const SLUG = '/what-is-payrolling';
 const PUBLISHED = '2026-08-16';
 
@@ -249,7 +249,7 @@ export default function BlogPostWhatIsPayrolling() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

@@ -114,7 +114,7 @@ const keyServices = [
 const reasons = [
   {
     title: 'Expertise in Small Business Accounting',
-    body: 'At Trew North, we specialise in working with small businesses, understanding the unique challenges and needs of business owners. Our team has more than 20 years of experience in bookkeeping, tax compliance, financial reporting, and strategic financial planning, ensuring your business stays on track financially while you focus on growth.',
+    body: 'At Trew North, we specialise in working with small businesses, understanding the unique challenges and needs of business owners. Our team has more than 40 years of experience in bookkeeping, tax compliance, financial reporting, and strategic financial planning, ensuring your business stays on track financially while you focus on growth.',
   },
   {
     title: 'Tailored Tax Planning & Compliance',
@@ -122,7 +122,7 @@ const reasons = [
   },
   {
     title: 'Proactive Financial Advice',
-    body: 'At Trew North we don\'t just crunch numbers — we provide proactive financial advice to help you make informed decisions. From cash flow management to budgeting and financial forecasting, we offer insights that help you manage your business efficiently and position it for future growth.',
+    body: 'At Trew North we don\'t just crunch numbers, we provide proactive financial advice to help you make informed decisions. From cash flow management to budgeting and financial forecasting, we offer insights that help you manage your business efficiently and position it for future growth.',
   },
   {
     title: 'Personalised Service',
@@ -130,7 +130,7 @@ const reasons = [
   },
   {
     title: 'Transparent and Affordable Pricing',
-    body: 'We offer competitive and transparent pricing, so there are no surprises when it comes to fees. Our service delivery is of the highest quality, which means we can deliver these services at an affordable rate — ensuring that even small businesses can access expert accounting without breaking the bank.',
+    body: 'We offer competitive and transparent pricing, so there are no surprises when it comes to fees. Our service delivery is of the highest quality, which means we can deliver these services at an affordable rate, ensuring that even small businesses can access expert accounting without breaking the bank.',
   },
 ];
 
@@ -191,7 +191,7 @@ const faqs = [
   {
     question: 'How much does a small business accountant in Melbourne charge?',
     answer:
-      'Costs vary based on the scope of services. We offer fixed-fee packages so you always know what you\'re paying — no surprise invoices. Typical small business packages range from bookkeeping and compliance through to full advisory services. Book a free consultation and we\'ll provide a clear, tailored quote.',
+      'Costs vary based on the scope of services. We offer fixed-fee packages so you always know what you\'re paying, no surprise invoices. Typical small business packages range from bookkeeping and compliance through to full advisory services. Book a free consultation and we\'ll provide a clear, tailored quote.',
   },
   {
     question: 'Can a small business accountant help with my cash flow management?',
@@ -201,17 +201,17 @@ const faqs = [
   {
     question: 'Can a small business accountant assist with my business growth?',
     answer:
-      'Yes — and this is where a proactive accountant earns their keep. Beyond compliance, we help you understand your margins, plan for tax as you grow, structure your business efficiently, and identify opportunities that numbers alone might not reveal. Think of us as a financial co-pilot.',
+      'Yes, and this is where a proactive accountant earns their keep. Beyond compliance, we help you understand your margins, plan for tax as you grow, structure your business efficiently, and identify opportunities that numbers alone might not reveal. Think of us as a financial co-pilot.',
   },
   {
     question: 'How do I choose the right small business accountant in Melbourne?',
     answer:
-      'Look for an accountant who specialises in small businesses (not just large corporates), is CA or CPA qualified, takes a proactive rather than reactive approach, and communicates clearly without jargon. A good fit matters — book a free consultation to see if Trew North feels right for you.',
+      'Look for an accountant who specialises in small businesses (not just large corporates), is CA or CPA qualified, takes a proactive rather than reactive approach, and communicates clearly without jargon. A good fit matters. Book a free consultation to see if Trew North feels right for you.',
   },
   {
     question: 'What are the benefits of working with a local Melbourne accountant?',
     answer:
-      'A local accountant understands the Victorian business environment, local market conditions, and Melbourne-specific considerations — from state taxes and payroll tax thresholds to local industry trends. You also get the benefit of being able to meet in person when it matters.',
+      'A local accountant understands the Victorian business environment, local market conditions, and Melbourne-specific considerations, from state taxes and payroll tax thresholds to local industry trends. You also get the benefit of being able to meet in person when it matters.',
   },
 ];
 
@@ -310,7 +310,7 @@ export default function SmallBusinessAccountant() {
                 Small Business<br />Accountant
               </h1>
               <p className="text-lg text-white/75 leading-relaxed mb-10">
-                If you're searching for a Small Business Accountant in Melbourne that possesses a blend of technical expertise, strong interpersonal skills, and a deep understanding of financial regulations and business practices — the search is over.
+                If you're searching for a Small Business Accountant in Melbourne that possesses a blend of technical expertise, strong interpersonal skills, and a deep understanding of financial regulations and business practices. The search is over.
               </p>
               <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">

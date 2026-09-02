@@ -38,11 +38,11 @@ const aiSmallBusinessFaqs = [
   },
   {
     question: 'Will AI replace accountants and bookkeepers?',
-    answer: 'AI is automating the most repetitive parts of accounting — data entry, transaction coding, and basic report generation — but it cannot replace the judgement, tax expertise, and strategic advice that a qualified accountant provides. The most likely outcome is that AI makes accountants and bookkeepers significantly more efficient, allowing them to focus on higher-value advisory work.',
+    answer: 'AI is automating the most repetitive parts of accounting (data entry, transaction coding, and basic report generation) but it cannot replace the judgement, tax expertise, and strategic advice that a qualified accountant provides. The most likely outcome is that AI makes accountants and bookkeepers significantly more efficient, allowing them to focus on higher-value advisory work.',
   },
   {
     question: 'How much time can AI realistically save a small business?',
-    answer: 'The McKinsey Global Institute\'s 2023 research on generative AI found significant automation potential for knowledge work activities — particularly data processing, routine communication, and document generation. In practice, small businesses using AI writing assistants and automated accounting software commonly report meaningful reductions in routine admin time, freeing owners to focus on clients and decisions. The actual saving depends on which tasks you automate and how well the tools are configured.',
+    answer: 'The McKinsey Global Institute\'s 2023 research on generative AI found significant automation potential for knowledge work activities, particularly data processing, routine communication, and document generation. In practice, small businesses using AI writing assistants and automated accounting software commonly report meaningful reductions in routine admin time, freeing owners to focus on clients and decisions. The actual saving depends on which tasks you automate and how well the tools are configured.',
   },
 ];
 
@@ -51,14 +51,14 @@ export default function BlogPostAISmallBusiness() {
     <div className="min-h-screen">
       <SEOHead
         title="The Impact of AI in Small Business | Trew North Accounting"
-        description="AI is transforming how small businesses operate — automating tasks, improving customer service, and unlocking financial insights. A practical guide for Melbourne business owners."
+        description="AI is transforming how small businesses operate, automating tasks, improving customer service, and unlocking financial insights. A practical guide for Melbourne business owners."
         canonical="/the-impact-of-ai-in-small-business"
         ogType="article"
         publishedTime="2024-08-19"
         schema={[
           blogPostingSchema({
             title: 'The Impact of AI in Small Business',
-            description: "AI is transforming how small businesses operate — automating tasks, improving customer service, and unlocking insights that were previously out of reach. Here's how to leverage it to stay competitive.",
+            description: "AI is transforming how small businesses operate, automating tasks, improving customer service, and unlocking insights that were previously out of reach. Here's how to leverage it to stay competitive.",
             url: '/the-impact-of-ai-in-small-business',
             datePublished: '2024-08-19',
             readingTime: 'PT7M',
@@ -99,7 +99,7 @@ export default function BlogPostAISmallBusiness() {
             </h1>
 
             <p className="text-xl text-foreground/70 leading-relaxed mb-8">
-              AI is transforming how small businesses operate — automating tasks, improving customer service, and unlocking insights that were previously out of reach. Here's how to leverage it to stay competitive.
+              AI is transforming how small businesses operate, automating tasks, improving customer service, and unlocking insights that were previously out of reach. Here's how to leverage it to stay competitive.
             </p>
 
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/55">
@@ -134,23 +134,23 @@ export default function BlogPostAISmallBusiness() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>AI tools can save small businesses meaningful hours of admin per week by automating routine tasks — email drafting, social media, receipt capture, and customer FAQs. The McKinsey Global Institute (2023) found generative AI could automate 60–70% of worker activity across functions involving data processing and routine communication. The best starting points are AI writing assistants, cloud accounting with AI features, and AI chatbots for after-hours enquiries.</strong></p>
-                  <p className="text-xs text-foreground/60 mt-2">Source: <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">McKinsey Global Institute — The economic potential of generative AI (2023)</a></p>
+                  <p><strong>AI tools can save small businesses meaningful hours of admin per week by automating routine tasks, email drafting, social media, receipt capture, and customer FAQs. The McKinsey Global Institute (2023) found generative AI could automate 60–70% of worker activity across functions involving data processing and routine communication. The best starting points are AI writing assistants, cloud accounting with AI features, and AI chatbots for after-hours enquiries.</strong></p>
+                  <p className="text-xs text-foreground/60 mt-2">Source: <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">McKinsey Global Institute, The economic potential of generative AI (2023)</a></p>
                 </div>
 
                 <p>
-                  Artificial Intelligence is no longer just for large corporations with deep technology budgets. Accessible, affordable AI tools are now within reach of any small business — and those that embrace them are finding real competitive advantages in efficiency, customer experience, and decision-making.
+                  Artificial Intelligence is no longer just for large corporations with deep technology budgets. Accessible, affordable AI tools are now within reach of any small business, and those that embrace them are finding real competitive advantages in efficiency, customer experience, and decision-making.
                 </p>
                 <p>
-                  The question for most small business owners isn't <em>whether</em> AI will affect their business — it's how to get started and where it can add the most value. This article breaks down the practical opportunities and how to approach them without overwhelm.
+                  The question for most small business owners isn't <em>whether</em> AI will affect their business, it's how to get started and where it can add the most value. This article breaks down the practical opportunities and how to approach them without overwhelm.
                 </p>
 
                 <h2 id="overview">AI and the Small Business Landscape</h2>
                 <p>
-                  The AI revolution is being driven largely by large language models (LLMs) like ChatGPT, Claude, and Gemini, which can generate text, summarise information, answer questions, and assist with a remarkable range of tasks. Alongside these, AI is being integrated into the business software small businesses already use — from accounting platforms to customer relationship management (CRM) tools to e-commerce platforms. The key is knowing what to look for and how to make use of them.
+                  The AI revolution is being driven largely by large language models (LLMs) like ChatGPT, Claude, and Gemini, which can generate text, summarise information, answer questions, and assist with a remarkable range of tasks. Alongside these, AI is being integrated into the business software small businesses already use, from accounting platforms to customer relationship management (CRM) tools to e-commerce platforms. The key is knowing what to look for and how to make use of them.
                 </p>
                 <p>
-                  This means you don't necessarily need to seek out specialised AI tools — AI capabilities are increasingly coming to the tools you already use. The key is knowing what to look for and how to make use of them.
+                  This means you don't necessarily need to seek out specialised AI tools. AI capabilities are increasingly coming to the tools you already use. The key is knowing what to look for and how to make use of them.
                 </p>
 
                 <h2 id="automating-tasks">Automating Repetitive Tasks</h2>
@@ -167,10 +167,10 @@ export default function BlogPostAISmallBusiness() {
 
                 <h2 id="customer-service">AI-Powered Customer Service</h2>
                 <p>
-                  Customer expectations for fast, helpful responses have never been higher — but small businesses often can't afford to staff 24/7 customer support. AI chatbots and virtual assistants can fill this gap effectively, handling common enquiries, booking requests, and FAQs around the clock.
+                  Customer expectations for fast, helpful responses have never been higher, but small businesses often can't afford to staff 24/7 customer support. AI chatbots and virtual assistants can fill this gap effectively, handling common enquiries, booking requests, and FAQs around the clock.
                 </p>
                 <p>
-                  Modern AI chatbots can be trained on your specific business information — your products, services, pricing, and policies — and handle a significant proportion of customer interactions without human intervention. When a query is too complex, they can escalate to a human seamlessly.
+                  Modern AI chatbots can be trained on your specific business information (your products, services, pricing, and policies) and handle a significant proportion of customer interactions without human intervention. When a query is too complex, they can escalate to a human seamlessly.
                 </p>
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">Customer service AI in practice:</p>
@@ -185,7 +185,7 @@ export default function BlogPostAISmallBusiness() {
 
                 <h2 id="marketing">Marketing and Content Creation</h2>
                 <p>
-                  Creating consistent, high-quality marketing content is a challenge for any small business — it's time-consuming, and many business owners don't feel confident as writers. AI has transformed this area dramatically.
+                  Creating consistent, high-quality marketing content is a challenge for any small business, it's time-consuming, and many business owners don't feel confident as writers. AI has transformed this area dramatically.
                 </p>
                 <p>
                   AI writing tools (ChatGPT, Claude, Jasper, and others) can produce first drafts of blog posts, social media captions, email newsletters, and website copy in minutes. The quality won't replace a skilled human writer, but it provides an excellent starting point that can be refined quickly.
@@ -208,7 +208,7 @@ export default function BlogPostAISmallBusiness() {
 
                 <h2 id="data-insights">Turning Data into Insights</h2>
                 <p>
-                  Small businesses generate a great deal of data — sales figures, customer behaviour, website traffic, inventory levels — but extracting useful insights from it has traditionally required significant analytical skills or dedicated staff. AI tools are making this more accessible.
+                  Small businesses generate a great deal of data (sales figures, customer behaviour, website traffic, inventory levels) but extracting useful insights from it has traditionally required significant analytical skills or dedicated staff. AI tools are making this more accessible.
                 </p>
                 <p>
                   Tools like Microsoft Copilot in Excel, or AI features in Google Analytics, can answer plain-English questions about your data: "Which products have the highest margin?", "What time of day do most of my customers enquire?", "Which customer segment is growing fastest?"
@@ -222,7 +222,7 @@ export default function BlogPostAISmallBusiness() {
                   <p className="font-semibold text-foreground mb-2">A starter toolkit for small businesses:</p>
                   <ul>
                     <li><strong>ChatGPT / Claude:</strong> General-purpose AI assistants for writing, research, brainstorming, and problem-solving.</li>
-                    <li><strong>Canva AI:</strong> Design tools with AI-powered image generation and layout suggestions — great for marketing materials.</li>
+                    <li><strong>Canva AI:</strong> Design tools with AI-powered image generation and layout suggestions, great for marketing materials.</li>
                     <li><strong>Xero / MYOB with AI features:</strong> Automated bookkeeping, receipt capture, and financial insights.</li>
                     <li><strong>Tidio / Intercom:</strong> AI-powered customer chat and support automation.</li>
                     <li><strong>Notion AI / Microsoft Copilot:</strong> AI-enhanced document creation, note-taking, and knowledge management.</li>
@@ -244,7 +244,7 @@ export default function BlogPostAISmallBusiness() {
 
                 <h2 id="getting-started">Getting Started with AI</h2>
                 <p>
-                  The best approach is to start small and experiment. Pick one area of your business where you feel the pain of repetition or inefficiency most acutely — email drafting, social media, customer enquiries, bookkeeping — and try one AI tool in that area for 30 days.
+                  The best approach is to start small and experiment. Pick one area of your business where you feel the pain of repetition or inefficiency most acutely (email drafting, social media, customer enquiries, bookkeeping) and try one AI tool in that area for 30 days.
                 </p>
                 <p>
                   Measure the time saved and the quality of the output. If it's working, expand. If not, try a different tool or approach. The AI landscape is evolving rapidly, so what doesn't work today may be much better in six months.
@@ -252,10 +252,10 @@ export default function BlogPostAISmallBusiness() {
 
                 <h2 id="future">The Future of AI for Small Business</h2>
                 <p>
-                  AI is developing at a remarkable pace. What's possible today was science fiction five years ago — and in five more years, the capabilities available to small businesses will likely be equally transformative. Businesses that develop AI literacy and experimentation habits now will be far better positioned to take advantage of what's coming.
+                  AI is developing at a remarkable pace. What's possible today was science fiction five years ago, and in five more years, the capabilities available to small businesses will likely be equally transformative. Businesses that develop AI literacy and experimentation habits now will be far better positioned to take advantage of what's coming.
                 </p>
                 <p>
-                  The most important thing isn't to have all the answers — it's to stay curious, keep experimenting, and focus on where AI can free up your time for the things that only humans can do well: building relationships, making judgement calls, and providing genuinely personal service.
+                  The most important thing isn't to have all the answers, it's to stay curious, keep experimenting, and focus on where AI can free up your time for the things that only humans can do well: building relationships, making judgement calls, and providing genuinely personal service.
                 </p>
 
                 {/* FAQ */}
@@ -276,9 +276,9 @@ export default function BlogPostAISmallBusiness() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small business owners improve their financial performance. If you'd like to discuss how technology — including AI — can improve your financial operations, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small business owners improve their financial performance. If you'd like to discuss how technology, including AI, can improve your financial operations, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>
@@ -328,7 +328,7 @@ export default function BlogPostAISmallBusiness() {
                     <p className="font-semibold text-sm">Ready to modernise?</p>
                   </div>
                   <p className="text-secondary-foreground/75 text-sm leading-relaxed mb-5">
-                    We help Melbourne businesses use technology — including cloud accounting and AI tools — to run smarter. Book a free consultation.
+                    We help Melbourne businesses use technology, including cloud accounting and AI tools, to run smarter. Book a free consultation.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">Book a free consultation</Button></BookConsultation>
                 </div>

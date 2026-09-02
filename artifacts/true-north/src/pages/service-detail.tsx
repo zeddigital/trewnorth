@@ -47,7 +47,7 @@ const services: Record<string, ServiceData> = {
     extras: [
       {
         heading: 'Proactive, not reactive',
-        body: 'We review your tax position throughout the year — not just in June — so there are no surprises and every opportunity to save is captured.',
+        body: 'We review your tax position throughout the year, not just in June, so there are no surprises and every opportunity to save is captured.',
       },
       {
         heading: 'ATO audit support',
@@ -64,7 +64,7 @@ const services: Record<string, ServiceData> = {
     title: 'Small Business Planning',
     tagline: 'A clear path forward for ambitious owners.',
     description:
-      'Numbers tell a story — but only if someone is reading them strategically. Our small business planning service gives Melbourne business owners a dedicated advisory partner to help them grow with clarity, make better decisions, and plan for the future.',
+      'Numbers tell a story, but only if someone is reading them strategically. Our small business planning service gives Melbourne business owners a dedicated advisory partner to help them grow with clarity, make better decisions, and plan for the future.',
     features: [
       'Strategic planning sessions',
       'Cash flow forecasting and modelling',
@@ -82,7 +82,7 @@ const services: Record<string, ServiceData> = {
       },
       {
         heading: 'Cash flow is king',
-        body: 'We build forward-looking cash flow models so you can plan hiring, capital investment, and growth initiatives with confidence — not guesswork.',
+        body: 'We build forward-looking cash flow models so you can plan hiring, capital investment, and growth initiatives with confidence, not guesswork.',
       },
       {
         heading: 'Exit and succession',
@@ -95,7 +95,7 @@ const services: Record<string, ServiceData> = {
     title: 'Personal Tax & Finance',
     tagline: 'Get more back. Keep more of what you earn.',
     description:
-      'Personal tax is more than a form — it\'s an opportunity. From investment properties to share portfolios, we make sure your individual tax return captures every legal deduction while fitting into your broader financial picture.',
+      'Personal tax is more than a form, it\'s an opportunity. From investment properties to share portfolios, we make sure your individual tax return captures every legal deduction while fitting into your broader financial picture.',
     features: [
       'Individual tax return preparation',
       'Investment property income and expenses',
@@ -109,7 +109,7 @@ const services: Record<string, ServiceData> = {
     extras: [
       {
         heading: 'Maximise your refund',
-        body: 'We take the time to understand your full financial situation — not just your payslip — so no deduction is overlooked.',
+        body: 'We take the time to understand your full financial situation, not just your payslip, so no deduction is overlooked.',
       },
       {
         heading: 'Investment property specialists',
@@ -117,7 +117,7 @@ const services: Record<string, ServiceData> = {
       },
       {
         heading: 'Capital gains planning',
-        body: 'Timing a sale, holding an asset, or splitting income — CGT planning can make a significant difference. We help you plan before you transact.',
+        body: 'Timing a sale, holding an asset, or splitting income. CGT planning can make a significant difference. We help you plan before you transact.',
       },
     ],
   },
@@ -126,7 +126,7 @@ const services: Record<string, ServiceData> = {
     title: 'Bookkeeping',
     tagline: 'Clean books. Clear decisions. No stress.',
     description:
-      'Accurate, timely bookkeeping is the foundation of every healthy business. We keep your records in order, your bank reconciled, and your reporting up-to-date — so you always know exactly where your business stands.',
+      'Accurate, timely bookkeeping is the foundation of every healthy business. We keep your records in order, your bank reconciled, and your reporting up-to-date, so you always know exactly where your business stands.',
     features: [
       'Full bookkeeping and data entry',
       'Accounts payable and receivable',
@@ -148,7 +148,7 @@ const services: Record<string, ServiceData> = {
       },
       {
         heading: 'Foundation for good decisions',
-        body: 'Clean books mean accurate reports, which mean better decisions. Bookkeeping isn\'t just a compliance task — it\'s the engine of good financial management.',
+        body: 'Clean books mean accurate reports, which mean better decisions. Bookkeeping isn\'t just a compliance task, it\'s the engine of good financial management.',
       },
     ],
   },
@@ -157,7 +157,7 @@ const services: Record<string, ServiceData> = {
     title: 'Self-Managed Super Funds',
     tagline: 'Build long-term wealth on your own terms.',
     description:
-      'A self-managed super fund gives you control over your retirement savings and investment strategy. Our SMSF specialists handle the setup, compliance, and annual obligations — so you can focus on the investment decisions that matter.',
+      'A self-managed super fund gives you control over your retirement savings and investment strategy. Our SMSF specialists handle the setup, compliance, and annual obligations, so you can focus on the investment decisions that matter.',
     features: [
       'SMSF establishment and ATO registration',
       'Annual financial statements and audit',
@@ -171,7 +171,7 @@ const services: Record<string, ServiceData> = {
     extras: [
       {
         heading: 'Full compliance, handled',
-        body: 'SMSF compliance is demanding. We manage every annual obligation — from audit coordination to ATO lodgement — so your fund stays in good standing.',
+        body: 'SMSF compliance is demanding. We manage every annual obligation, from audit coordination to ATO lodgement, so your fund stays in good standing.',
       },
       {
         heading: 'Investment strategy',
@@ -188,7 +188,7 @@ const services: Record<string, ServiceData> = {
     title: 'Small Business Accountant',
     tagline: 'A true partner, not just a once-a-year call.',
     description:
-      'Trew North was built for small business owners. We act as a genuine accounting partner — across tax, bookkeeping, compliance, and strategy — so you have one trusted team that knows your business inside and out.',
+      'Trew North was built for small business owners. We act as a genuine accounting partner (across tax, bookkeeping, compliance, and strategy) so you have one trusted team that knows your business inside and out.',
     features: [
       'Dedicated account manager',
       'Tax planning and lodgement',
@@ -202,7 +202,7 @@ const services: Record<string, ServiceData> = {
     extras: [
       {
         heading: 'One team, everything covered',
-        body: 'No more juggling a separate bookkeeper, tax agent, and advisor. We handle it all — and each piece informs the others — giving you a cohesive, complete picture.',
+        body: 'No more juggling a separate bookkeeper, tax agent, and advisor. We handle it all, and each piece informs the others, giving you a cohesive, complete picture.',
       },
       {
         heading: 'Proactive by default',
@@ -210,7 +210,7 @@ const services: Record<string, ServiceData> = {
       },
       {
         heading: 'Grows with your business',
-        body: 'Whether you\'re a sole trader, partnership, or growing a team, our service scales with you — and we\'re always thinking ahead to the next stage.',
+        body: 'Whether you\'re a sole trader, partnership, or growing a team, our service scales with you, and we\'re always thinking ahead to the next stage.',
       },
     ],
   },
@@ -373,7 +373,7 @@ export default function ServiceDetail() {
               Ready to get started?
             </h2>
             <p className="text-lg text-secondary-foreground/80 mb-10 max-w-2xl mx-auto leading-relaxed text-balance">
-              Book a free consultation and let's talk through your situation. No obligation, no jargon — just a straight conversation about what's possible.
+              Book a free consultation and let's talk through your situation. No obligation, no jargon, just a straight conversation about what's possible.
             </p>
             <BookConsultation><Button size="lg" className="text-base btn-cta">
                 Book a Free Consultation

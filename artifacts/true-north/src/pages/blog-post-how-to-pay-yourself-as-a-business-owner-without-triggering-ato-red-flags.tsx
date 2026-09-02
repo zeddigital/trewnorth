@@ -34,7 +34,7 @@ const htmlContent = `<h1>How to Pay Yourself as a Business Owner Without Trigger
 		<p>Failing to declare all your business income can quickly lead to an ATO audit, which may result in penalties or fines. To stay compliant, use reliable accounting software to track every dollar that comes into your business, and keep your financial records up to date. If you’re unsure about your tax obligations or how to report certain types of income, it’s wise to consult a registered tax agent or tax professional. </p>		
 		<p>By taking these steps, you’ll not only meet your tax obligations but also reduce the risk of audit and keep your business running smoothly.</p>		
 					<h2 id="h-managing-cash-flow-in-a-cash-based-business">Managing Cash Flow in a Cash Based Business</h2>				
-		<p>For many small business owners, especially those running a cash-based business, managing cash flow and maintaining accurate records can be challenging—but it’s absolutely essential. The ATO pays close attention to cash transactions, as these are often seen as higher risk for underreporting income or over-claiming tax deductions. </p>		
+		<p>For many small business owners, especially those running a cash-based business, managing cash flow and maintaining accurate records can be challenging, but it’s absolutely essential. The ATO pays close attention to cash transactions, as these are often seen as higher risk for underreporting income or over-claiming tax deductions. </p>		
 		<p>To protect your business from unnecessary scrutiny or an ATO audit, make sure you keep detailed records of all cash transactions, including receipts and bank deposits. Using accounting software can help you track your income and expenses, making it easier to claim the right deductions and demonstrate compliance if questioned. If you’re unsure about how to manage your cash flow or need help with record keeping, don’t hesitate to seek professional help from an <strong><a href="/">accountant</a></strong> or tax professional.</p>		
 		<p>By staying organized and transparent, you’ll not only meet your tax obligations but also ensure your business’s financial health and avoid raising red flags with the ATO.</p>		
 					<h2 id="h-how-to-pay-yourself-as-a-sole-trader">How to Pay Yourself as a Sole Trader</h2>				
@@ -284,7 +284,7 @@ export default function BlogPostHowToPayYourselfAsABusinessOwnerWithoutTriggerin
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation

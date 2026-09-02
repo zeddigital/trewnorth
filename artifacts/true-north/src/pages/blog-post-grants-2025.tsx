@@ -35,7 +35,7 @@ const grants2025Faqs = [
   },
   {
     question: 'What is the Export Market Development Grant (EMDG) and who qualifies?',
-    answer: 'The EMDG is a federal program administered by Austrade that reimburses eligible costs incurred promoting Australian products and services in overseas markets — including trade shows, marketing materials, overseas travel, and market research. Businesses with less than $50 million in annual turnover and genuine export ambitions can apply. Over 5,000 Australian SMEs benefit from the program each year.',
+    answer: 'The EMDG is a federal program administered by Austrade that reimburses eligible costs incurred promoting Australian products and services in overseas markets. Including trade shows, marketing materials, overseas travel, and market research. Businesses with less than $50 million in annual turnover and genuine export ambitions can apply. Over 5,000 Australian SMEs benefit from the program each year.',
   },
   {
     question: 'How competitive are small business grant applications?',
@@ -59,7 +59,7 @@ export default function BlogPostGrants2025() {
         schema={[
           blogPostingSchema({
             title: 'Top Small Business Grants for 2025: Easy Funding Options',
-            description: "Government and private grants can provide a real boost for small businesses — but many owners don't know what's available or how to access it. Here's a practical guide to the top funding options for 2025.",
+            description: "Government and private grants can provide a real boost for small businesses, but many owners don't know what's available or how to access it. Here's a practical guide to the top funding options for 2025.",
             url: '/top-small-business-grants-for-2025',
             datePublished: '2025-02-20',
             readingTime: 'PT9M',
@@ -100,7 +100,7 @@ export default function BlogPostGrants2025() {
             </h1>
 
             <p className="text-xl text-foreground/70 leading-relaxed mb-8">
-              Government and private grants can provide a real boost for small businesses — but many owners don't know what's available or how to access it. Here's a practical guide to the top funding options for 2025.
+              Government and private grants can provide a real boost for small businesses, but many owners don't know what's available or how to access it. Here's a practical guide to the top funding options for 2025.
             </p>
 
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/55">
@@ -135,17 +135,17 @@ export default function BlogPostGrants2025() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>Australian small businesses can access grants from federal, state, and local government — including the R&amp;D Tax Incentive, the Export Market Development Grants program, digital transformation funding, and the Victorian Business Growth Fund. Unlike loans, grants don't need to be repaid — but most are assessable income for tax purposes.</strong></p>
+                  <p><strong>Australian small businesses can access grants from federal, state, and local government, including the R&amp;D Tax Incentive, the Export Market Development Grants program, digital transformation funding, and the Victorian Business Growth Fund. Unlike loans, grants don't need to be repaid, but most are assessable income for tax purposes.</strong></p>
                   <p className="text-xs text-foreground/60 mt-2">Sources: <a href="https://www.austrade.gov.au/en/information-for-exporters/export-grants" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Austrade EMDG</a> · <a href="https://business.vic.gov.au/grants-and-programs/victorian-business-growth-fund" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Victorian Business Growth Fund</a> · <a href="https://www.ato.gov.au/businesses-and-organisations/income-deductions-and-concessions/income-exemptions/tax-treatment-of-government-grants-and-payments" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO grant tax treatment</a></p>
                 </div>
 
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">Important: always verify program availability</p>
-                  <p>Grant programs open and close throughout the year, and eligibility criteria can change. The programs listed in this article represent categories and examples that have been available to Australian small businesses — but you should always confirm current status and requirements directly with the administering agency before applying. Use <a href="https://business.gov.au/grants-and-programs" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">business.gov.au</a> and <a href="https://business.vic.gov.au" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">business.vic.gov.au</a> as your primary sources for live program information.</p>
+                  <p>Grant programs open and close throughout the year, and eligibility criteria can change. The programs listed in this article represent categories and examples that have been available to Australian small businesses, but you should always confirm current status and requirements directly with the administering agency before applying. Use <a href="https://business.gov.au/grants-and-programs" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">business.gov.au</a> and <a href="https://business.vic.gov.au" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">business.vic.gov.au</a> as your primary sources for live program information.</p>
                 </div>
 
                 <p>
-                  Grants are one of the most underutilised sources of funding for Australian small businesses. Unlike loans, grants don't need to be repaid — making them an attractive option for funding growth, innovation, digital transformation, and more. Yet many business owners don't know what's available, or assume the process is too complex or competitive to be worth pursuing.
+                  Grants are one of the most underutilised sources of funding for Australian small businesses. Unlike loans, grants don't need to be repaid, making them an attractive option for funding growth, innovation, digital transformation, and more. Yet many business owners don't know what's available, or assume the process is too complex or competitive to be worth pursuing.
                 </p>
                 <p>
                   The reality is that with the right information and a methodical approach, many small businesses are eligible for grants they've never applied for. This guide covers key grant categories and programs relevant to Melbourne and Victorian small businesses in 2025.
@@ -153,7 +153,7 @@ export default function BlogPostGrants2025() {
 
                 <h2 id="overview">Overview of Grants for 2025</h2>
                 <p>
-                  Grant programs in Australia come from multiple levels of government — federal, state, and local — as well as private foundations and industry bodies. Programs open and close throughout the year, and eligibility criteria vary widely based on business size, industry, location, and the purpose of the funding.
+                  Grant programs in Australia come from multiple levels of government (federal, state, and local) as well as private foundations and industry bodies. Programs open and close throughout the year, and eligibility criteria vary widely based on business size, industry, location, and the purpose of the funding.
                 </p>
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">Key grant categories available in 2025:</p>
@@ -206,7 +206,7 @@ export default function BlogPostGrants2025() {
 
                 <h2 id="innovation">Innovation and R&D Funding</h2>
                 <p>
-                  Australia has strong support for businesses engaged in research, development, and innovation — and the available funding is more accessible than many business owners realise.
+                  Australia has strong support for businesses engaged in research, development, and innovation, and the available funding is more accessible than many business owners realise.
                 </p>
                 <ul>
                   <li>
@@ -250,7 +250,7 @@ export default function BlogPostGrants2025() {
                   <li>More than 4,000 Australian exporters have benefited from the program (per <a href="https://www.austrade.gov.au/en/information-for-exporters/export-grants" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">Austrade</a>)</li>
                 </ul>
                 <p>
-                  If your business sells — or wants to sell — to international markets, EMDG is worth investigating as a priority.
+                  If your business sells, or wants to sell, to international markets, EMDG is worth investigating as a priority.
                 </p>
 
                 <h2 id="employment">Employment and Training Support</h2>
@@ -303,8 +303,8 @@ export default function BlogPostGrants2025() {
                     <li><strong>Read the guidelines carefully:</strong> Understand exactly what the grant is designed to fund and ensure your project aligns with the program's objectives.</li>
                     <li><strong>Address all criteria:</strong> Grant assessors score applications against specific criteria. Ensure you address every one explicitly.</li>
                     <li><strong>Be specific and quantified:</strong> Vague statements are less persuasive than specific, measurable claims. Use numbers, data, and concrete examples.</li>
-                    <li><strong>Demonstrate impact:</strong> Show how the grant funding will create tangible outcomes — jobs, revenue growth, innovation, environmental benefits.</li>
-                    <li><strong>Allow enough time:</strong> Good applications take time. Don't rush — start well before the deadline.</li>
+                    <li><strong>Demonstrate impact:</strong> Show how the grant funding will create tangible outcomes, jobs, revenue growth, innovation, environmental benefits.</li>
+                    <li><strong>Allow enough time:</strong> Good applications take time. Don't rush. Start well before the deadline.</li>
                     <li><strong>Get professional help if needed:</strong> For large grants, engaging a grant writer or advisor may be worthwhile.</li>
                   </ul>
                 </div>
@@ -314,10 +314,10 @@ export default function BlogPostGrants2025() {
                   An important consideration that many business owners overlook: grants are generally assessable income for tax purposes. This means you need to declare grant income in your tax return and may need to pay tax on it, depending on your overall tax position.
                 </p>
                 <p>
-                  However, if the grant funds are used to purchase deductible assets or meet deductible expenses, those deductions may offset the tax liability. The tax treatment can be complex, particularly for larger grants or those with specific conditions — so always discuss the tax implications with your accountant before and after receiving a grant.
+                  However, if the grant funds are used to purchase deductible assets or meet deductible expenses, those deductions may offset the tax liability. The tax treatment can be complex, particularly for larger grants or those with specific conditions, so always discuss the tax implications with your accountant before and after receiving a grant.
                 </p>
                 <p>
-                  The key exception is certain payments received as part of COVID support programs and some emergency relief programs, which may have had different tax treatment — but this should always be confirmed with professional advice.
+                  The key exception is certain payments received as part of COVID support programs and some emergency relief programs, which may have had different tax treatment, but this should always be confirmed with professional advice.
                 </p>
 
                 {/* FAQ */}
@@ -338,9 +338,9 @@ export default function BlogPostGrants2025() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small businesses access funding and manage their tax obligations. If you'd like help identifying grants you may be eligible for or understanding the tax treatment of a grant, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small businesses access funding and manage their tax obligations. If you'd like help identifying grants you may be eligible for or understanding the tax treatment of a grant, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>

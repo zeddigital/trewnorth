@@ -18,7 +18,7 @@ const toc = [
   { id: 'h-frequently-asked-questions', label: 'Frequently Asked Questions' },
 ];
 
-const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisation with <strong>deductible gift recipient</strong> status reduces your taxable income. That is the whole rule in one sentence — but three things sit behind it that decide whether a particular gift actually counts, and they catch people out every year.</p>
+const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisation with <strong>deductible gift recipient</strong> status reduces your taxable income. That is the whole rule in one sentence, but three things sit behind it that decide whether a particular gift actually counts, and they catch people out every year.</p>
 
 <h2 id="h-what-makes-a-donation-deductible">What Makes a Donation Deductible</h2>
 <p>Generosity alone does not create a deduction. Three tests have to be met, and all three, not two of them.</p>
@@ -27,7 +27,7 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <h4>1. At least $2</h4>
 <dl>
 <dt>The rule</dt><dd>Gifts below $2 are not deductible, however worthy the cause.</dd>
-<dt>In practice</dt><dd>Rarely the binding constraint, but it is why loose change in a tin needs its own treatment — see the records section.</dd>
+<dt>In practice</dt><dd>Rarely the binding constraint, but it is why loose change in a tin needs its own treatment. See the records section.</dd>
 </dl>
 </div>
 <div class="compare-card compare-card--accent">
@@ -41,13 +41,13 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <h4>3. A genuine gift</h4>
 <dl>
 <dt>The rule</dt><dd>You must receive nothing of material value in return.</dd>
-<dt>In practice</dt><dd>If you got a ticket, a meal or a chance to win something, it is a purchase — see the next section.</dd>
+<dt>In practice</dt><dd>If you got a ticket, a meal or a chance to win something, it is a purchase. See the next section.</dd>
 </dl>
 </div>
 </div>
 
 <h3>Checking DGR status takes two minutes</h3>
-<p>Find the organisation's ABN — it will be on their website or donation page — and search it on <a href="https://abr.business.gov.au/" target="_blank" rel="noopener noreferrer">ABN Lookup</a>. The results page has a "Charity and DGR" section stating plainly whether the endorsement is current.</p>
+<p>Find the organisation's ABN, it will be on their website or donation page, and search it on <a href="https://abr.business.gov.au/" target="_blank" rel="noopener noreferrer">ABN Lookup</a>. The results page has a "Charity and DGR" section stating plainly whether the endorsement is current.</p>
 <blockquote>
 <p>Being a registered charity and being endorsed as a DGR are two different things. Plenty of legitimate, well-run charities are not DGRs, and gifts to them are simply not deductible. The lookup is the only reliable check.</p>
 </blockquote>
@@ -60,7 +60,7 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <li><strong>Raffle and lottery tickets.</strong> You are buying a chance at a prize.</li>
 <li><strong>Items bought at a charity auction.</strong> You received the item.</li>
 <li><strong>Fundraising dinner and gala tickets.</strong> You received a meal and an evening out. A limited concession can apply to contributions above a threshold at eligible fundraising events, but it is narrow and worth confirming rather than assuming.</li>
-<li><strong>Sponsorship.</strong> If your business gets signage, naming or advertising in return, it is not a gift — though it may well be deductible as a business expense instead, which is a different and often better outcome.</li>
+<li><strong>Sponsorship.</strong> If your business gets signage, naming or advertising in return, it is not a gift, though it may well be deductible as a business expense instead, which is a different and often better outcome.</li>
 </ul>
 <p>A straightforward payment to a DGR, expecting nothing back, is the clean case.</p>
 
@@ -74,12 +74,12 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 </ul>
 <p>In every case you are still out of pocket by the balance. The deduction reduces the cost of giving; it never pays for it. Anyone describing donations as a way to make money is misreading the arithmetic.</p>
 <blockquote>
-<p>The higher your marginal rate, the more a deduction is worth — which is also why the timing of a large gift can matter. A donation made in a high-income year is worth more than the same gift in a lean one.</p>
+<p>The higher your marginal rate, the more a deduction is worth, which is also why the timing of a large gift can matter. A donation made in a high-income year is worth more than the same gift in a lean one.</p>
 </blockquote>
 <p>For the broader picture on lowering a business tax bill, our guide to <a href="/10-ways-to-reduce-your-business-tax-bill">reducing your business tax</a> covers the other levers.</p>
 
 <h2 id="h-donating-something-other-than-cash">Donating Something Other Than Cash</h2>
-<p>Cash is simplest — you claim what you gave. Non-cash gifts follow their own valuation rules, and the holding period usually decides the answer.</p>
+<p>Cash is simplest, you claim what you gave. Non-cash gifts follow their own valuation rules, and the holding period usually decides the answer.</p>
 
 <h3>Property</h3>
 <p>Held for <strong>12 months or more</strong>, you can generally claim market value. Held for <strong>less than 12 months</strong>, the claim is limited to what you paid, even if it has appreciated sharply since.</p>
@@ -92,11 +92,11 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <p>Artwork, manuscripts and historically significant items given to eligible public collections fall under the <a href="https://www.arts.gov.au/funding-and-support/cultural-gifts-program" target="_blank" rel="noopener noreferrer">Cultural Gifts Program</a>, which allows a deduction at market value set by approved valuers. The item has to be accepted by a participating institution, so it is a process rather than a transaction.</p>
 
 <h3>Trading stock</h3>
-<p>Donating goods your business sells is possible, but the deductible amount is not the retail price and the treatment depends on how the disposal is characterised. Confirm the specific position before you commit stock — this is the non-cash category where assumptions most often turn out to be wrong.</p>
+<p>Donating goods your business sells is possible, but the deductible amount is not the retail price and the treatment depends on how the disposal is characterised. Confirm the specific position before you commit stock. This is the non-cash category where assumptions most often turn out to be wrong.</p>
 
 <h2 id="h-the-limit-most-people-miss">The Limit Most People Miss</h2>
 <p>A gift deduction <strong>cannot create or increase a tax loss</strong>. If you donate more than your income can absorb, the excess is not simply refunded.</p>
-<p>That surprises people who make a large gift in a year when profit was thin. The relief is that for eligible gifts you can elect to spread the deduction across up to <strong>five income years</strong>, choosing how much falls in each. Done deliberately, that can be worth more than claiming it all at once — particularly if you expect a higher-income year ahead.</p>
+<p>That surprises people who make a large gift in a year when profit was thin. The relief is that for eligible gifts you can elect to spread the deduction across up to <strong>five income years</strong>, choosing how much falls in each. Done deliberately, that can be worth more than claiming it all at once, particularly if you expect a higher-income year ahead.</p>
 <blockquote>
 <p>The election has to be made properly and before you lodge. It is one of the few genuinely valuable planning decisions available on the giving side, and one of the easiest to miss by lodging on autopilot.</p>
 </blockquote>
@@ -116,7 +116,7 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <p>Either can, provided the gift meets the same three tests. Which is better depends on the marginal rate involved and where the cash actually comes from. A company at 25% gets less benefit per dollar than an individual at 37%, so for owner-operators it is worth deciding deliberately rather than by default.</p>
 
 <h3>Is crowdfunding deductible?</h3>
-<p>Usually not. Most personal fundraising campaigns are not run by DGRs, so however genuine the cause, the gift is not deductible. Some campaigns are hosted on behalf of an endorsed charity — the ABN on the page is what settles it.</p>
+<p>Usually not. Most personal fundraising campaigns are not run by DGRs, so however genuine the cause, the gift is not deductible. Some campaigns are hosted on behalf of an endorsed charity, the ABN on the page is what settles it.</p>
 
 <h3>What if I volunteer my time?</h3>
 <p>Time is not deductible, however valuable it is. Out-of-pocket expenses you incur while volunteering may be, depending on the circumstances, so keep those receipts separately.</p>
@@ -125,15 +125,15 @@ const htmlContent = `<p>A donation of <strong>$2 or more</strong> to an organisa
 <p>No. Gift deductions are available to individuals as well as businesses. The tests are the same either way.</p>
 
 <h3>When is the gift made?</h3>
-<p>On the date the DGR receives it, not the date you intended to give. A donation made on 30 June and received on 1 July falls in the following year — worth watching if the timing is what makes it worthwhile.</p>
+<p>On the date the DGR receives it, not the date you intended to give. A donation made on 30 June and received on 1 July falls in the following year, worth watching if the timing is what makes it worthwhile.</p>
 
 <hr>
-<p>Giving is worth doing for its own reasons. The tax treatment simply reduces what it costs — and getting the three tests, the valuation rules and the loss limit right is the difference between a deduction that holds up and one that does not.</p>
+<p>Giving is worth doing for its own reasons. The tax treatment simply reduces what it costs, and getting the three tests, the valuation rules and the loss limit right is the difference between a deduction that holds up and one that does not.</p>
 <p>Trew North Accounting advises Melbourne small business owners on planning gifts and claiming them properly. See our <a href="/services/accounting-and-tax-planning">accounting and tax planning</a> service, or <a href="/contact">get in touch</a>.</p>`;
 
 const TITLE = 'Tax Write-Off for Donations: An Australian Guide';
 const DESCRIPTION =
-  'When a donation is deductible in Australia — the $2 and DGR tests, gift versus purchase, non-cash gifts, the rule that stops a gift creating a loss, and what records to keep.';
+  'When a donation is deductible in Australia, the $2 and DGR tests, gift versus purchase, non-cash gifts, the rule that stops a gift creating a loss, and what records to keep.';
 const SLUG = '/tax-write-off-for-donations';
 const PUBLISHED = '2026-08-18';
 
@@ -232,7 +232,7 @@ export default function BlogPostTaxWriteOffForDonations() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <Button asChild size="sm" className="w-full btn-cta">
                     <Link href="/contact">

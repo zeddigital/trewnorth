@@ -23,7 +23,7 @@ export default function Suburbs() {
     suburbNames.length > 1
       ? suburbNames.slice(0, -1).join(', ') + ', and ' + suburbNames[suburbNames.length - 1]
       : suburbNames[0] ?? '';
-  const seoDescription = `Trew North Accounting provides local accounting services across Melbourne's Bayside suburbs — ${suburbList}.`;
+  const seoDescription = `Trew North Accounting provides local accounting services across Melbourne's Bayside suburbs, ${suburbList}.`;
 
   return (
     <>
@@ -93,7 +93,7 @@ export default function Suburbs() {
                     <img
                       src={suburb.heroImage}
                       alt={`Accountant in ${suburb.name}`}
-                      title={`Accountant in ${suburb.name} — Trew North Accounting`}
+                      title={`Accountant in ${suburb.name}, Trew North Accounting`}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />

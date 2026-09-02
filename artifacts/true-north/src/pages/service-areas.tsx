@@ -49,7 +49,7 @@ export default function ServiceAreas() {
     suburbNames.length > 1
       ? suburbNames.slice(0, -1).join(', ') + ', and ' + suburbNames[suburbNames.length - 1]
       : suburbNames[0] ?? '';
-  const seoDescription = `Trew North Accounting serves small businesses and individuals across Melbourne's Bayside suburbs — ${suburbList}.`;
+  const seoDescription = `Trew North Accounting serves small businesses and individuals across Melbourne's Bayside suburbs, ${suburbList}.`;
 
   return (
     <>
@@ -111,7 +111,7 @@ export default function ServiceAreas() {
                     <img
                       src={suburb.heroImage}
                       alt={`Accountant in ${suburb.name}`}
-                      title={`Accountant in ${suburb.name} — Trew North Accounting`}
+                      title={`Accountant in ${suburb.name}, Trew North Accounting`}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                     />
@@ -158,8 +158,8 @@ export default function ServiceAreas() {
                 your area.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                As a Chartered Accountant based in Beaumaris, Darren has spent over 20 years
-                advising small businesses across the Bayside corridor — which means faster,
+                As a Chartered Accountant based in Beaumaris, Darren has spent over 40 years
+                advising small businesses across the Bayside corridor, which means faster,
                 sharper advice with no learning curve about your local market.
               </p>
               <BookConsultation><Button className="btn-cta">

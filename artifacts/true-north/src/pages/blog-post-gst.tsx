@@ -28,7 +28,7 @@ const toc = [
 const gstFaqs = [
   {
     question: 'Do I have to register for GST if my turnover is under $75,000?',
-    answer: 'No — GST registration is only mandatory once your annual turnover reaches $75,000 (or $150,000 for non-profits). However, you can voluntarily register below this threshold if you want to claim input tax credits on business purchases.',
+    answer: 'No. GST registration is only mandatory once your annual turnover reaches $75,000 (or $150,000 for non-profits). However, you can voluntarily register below this threshold if you want to claim input tax credits on business purchases.',
   },
   {
     question: 'How long do I have to register for GST after reaching the threshold?',
@@ -36,7 +36,7 @@ const gstFaqs = [
   },
   {
     question: 'What happens if I don\'t register for GST when I should?',
-    answer: 'The ATO can backdating your registration to the date you were required to register, making you liable for all GST that should have been collected and remitted — even if you didn\'t charge it to customers. Penalties and interest may also apply.',
+    answer: 'The ATO can backdating your registration to the date you were required to register, making you liable for all GST that should have been collected and remitted, even if you didn\'t charge it to customers. Penalties and interest may also apply.',
   },
   {
     question: 'How often do I need to lodge a BAS?',
@@ -44,7 +44,7 @@ const gstFaqs = [
   },
   {
     question: 'Can I claim GST on purchases I made before registering?',
-    answer: 'Generally, you can only claim GST credits from the date your registration takes effect. In limited circumstances, you may be able to claim credits for certain purchases made prior to registration — speak with your accountant if this situation applies to you.',
+    answer: 'Generally, you can only claim GST credits from the date your registration takes effect. In limited circumstances, you may be able to claim credits for certain purchases made prior to registration. Speak with your accountant if this situation applies to you.',
   },
 ];
 
@@ -136,7 +136,7 @@ export default function BlogPostGST() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>You must register for GST once your annual turnover reaches $75,000 — and you have 21 days to do so. Voluntarily registering below that threshold lets you claim input tax credits on business purchases. More than 3.5 million Australian businesses are GST-registered, and the ATO uses sophisticated data-matching to identify those who should be but aren't.</strong></p>
+                  <p><strong>You must register for GST once your annual turnover reaches $75,000, and you have 21 days to do so. Voluntarily registering below that threshold lets you claim input tax credits on business purchases. More than 3.5 million Australian businesses are GST-registered, and the ATO uses sophisticated data-matching to identify those who should be but aren't.</strong></p>
                   <p className="text-xs text-foreground/60 mt-2">Sources: <a href="https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO GST registration</a> · <a href="https://www.ato.gov.au/about-ato/research-and-statistics/in-detail/tax-statistics/tax-statistics-2022-23/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO Tax Statistics 2022–23</a></p>
                 </div>
 
@@ -147,7 +147,7 @@ export default function BlogPostGST() {
                 {/* Section 1 */}
                 <h2 id="what-is-gst">What Exactly is GST and How Does it Work?</h2>
                 <p>
-                  GST is a broad-based tax that impacts nearly every business transaction in Australia. Businesses registered for GST must collect an additional 10% on taxable supplies — goods and services subject to GST under Australian law, excluding GST-free or input-taxed items — which they later remit to the ATO.
+                  GST is a broad-based tax that impacts nearly every business transaction in Australia. Businesses registered for GST must collect an additional 10% on taxable supplies (goods and services subject to GST under Australian law, excluding GST-free or input-taxed items) which they later remit to the ATO.
                 </p>
                 <p>
                   The total price charged to customers often includes GST, meaning the GST portion is embedded within the sale amount. When a price is marked as <em>'GST included'</em>, the GST is already part of the total amount paid, and you can calculate the GST portion by dividing the total by 11.
@@ -167,7 +167,7 @@ export default function BlogPostGST() {
                   The GST turnover threshold is <strong>$75,000</strong> for most businesses and <strong>$150,000</strong> for non-profit organisations. To work out if you need to register, add up your total sales from all business activities, but exclude any GST-free or input-taxed sales.
                 </p>
                 <p>
-                  According to the <a href="https://www.ato.gov.au/about-ato/research-and-statistics/in-detail/tax-statistics/tax-statistics-2022-23/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO's 2022–23 Tax Statistics</a>, more than <strong>3.5 million Australian businesses</strong> are registered for GST. The ATO cross-references BAS data, bank records, and industry benchmarks to identify businesses operating above the threshold without registering — making non-compliance increasingly difficult to sustain undetected.
+                  According to the <a href="https://www.ato.gov.au/about-ato/research-and-statistics/in-detail/tax-statistics/tax-statistics-2022-23/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO's 2022–23 Tax Statistics</a>, more than <strong>3.5 million Australian businesses</strong> are registered for GST. The ATO cross-references BAS data, bank records, and industry benchmarks to identify businesses operating above the threshold without registering, making non-compliance increasingly difficult to sustain undetected.
                 </p>
                 <p>
                   Regularly monitoring your GST turnover helps you stay on top of your obligations and avoid unexpected tax issues. If you're unsure how to calculate your GST turnover, a registered tax agent can help you review your figures and ensure you remain compliant.
@@ -176,7 +176,7 @@ export default function BlogPostGST() {
                 {/* Section 3 */}
                 <h2 id="when-to-register">When Must You Register for GST?</h2>
                 <p>
-                  The most critical factor is your annual business turnover — specifically whether it exceeds the $75,000 threshold. The ATO introduced this threshold and a simplified BAS format in July 2017 to make GST reporting easier for small businesses.
+                  The most critical factor is your annual business turnover, specifically whether it exceeds the $75,000 threshold. The ATO introduced this threshold and a simplified BAS format in July 2017 to make GST reporting easier for small businesses.
                 </p>
 
                 <p className="font-semibold text-foreground">Mandatory GST registration applies when:</p>
@@ -196,7 +196,7 @@ export default function BlogPostGST() {
                 {/* Section 4 */}
                 <h2 id="cash-flow">How GST Impacts Your Cash Flow</h2>
                 <p>
-                  Being registered for GST can have a significant impact on your cash flow. When you charge GST on your sales, you're collecting money on behalf of the ATO — which means you'll need to pay it to the government regularly. On the flip side, you can claim GST credits on your business purchases, which helps reduce the amount you owe.
+                  Being registered for GST can have a significant impact on your cash flow. When you charge GST on your sales, you're collecting money on behalf of the ATO, which means you'll need to pay it to the government regularly. On the flip side, you can claim GST credits on your business purchases, which helps reduce the amount you owe.
                 </p>
                 <p>
                   For small businesses and sole traders, managing this carefully is crucial. If you don't track your GST obligations, you might find yourself short when it's time to pay the ATO. Using accounting software or working with a bookkeeper can help you monitor GST payments and credits and avoid cash flow surprises.
@@ -246,16 +246,16 @@ export default function BlogPostGST() {
                   <li>Obtain an <strong>Australian Business Number (ABN)</strong>.</li>
                   <li>Complete the GST registration process through the ATO's Business Portal or via an accountant.</li>
                   <li>Set up accounting systems to handle GST invoicing and reporting.</li>
-                  <li>Ensure you issue a <strong>tax invoice</strong> for all taxable sales — this is required for GST compliance and allows customers to claim GST credits.</li>
+                  <li>Ensure you issue a <strong>tax invoice</strong> for all taxable sales. This is required for GST compliance and allows customers to claim GST credits.</li>
                 </ol>
                 <p>
                   If you are a new business, consider your GST and other business registrations early to ensure compliance from the start.
                 </p>
 
                 {/* Section 9 */}
-                <h2 id="invoicing">GST and Invoicing — What You Need to Know</h2>
+                <h2 id="invoicing">GST and Invoicing: What You Need to Know</h2>
                 <p>
-                  If your business is registered for GST, every invoice you issue should clearly show the GST amount — either as a separate line or included in the total price. Invoices must include:
+                  If your business is registered for GST, every invoice you issue should clearly show the GST amount, either as a separate line or included in the total price. Invoices must include:
                 </p>
                 <ul>
                   <li>A description of the goods or services sold</li>
@@ -289,7 +289,7 @@ export default function BlogPostGST() {
                 {/* Section 11 */}
                 <h2 id="penalties">What Happens If You Don't Register?</h2>
                 <p>
-                  Failing to register for GST when required can lead to serious consequences. The ATO may impose penalties and fines, and you'll miss out on claiming GST credits for your business purchases. Non-compliance can also damage your business's credibility — especially if customers or clients discover you're operating outside the rules.
+                  Failing to register for GST when required can lead to serious consequences. The ATO may impose penalties and fines, and you'll miss out on claiming GST credits for your business purchases. Non-compliance can also damage your business's credibility, especially if customers or clients discover you're operating outside the rules.
                 </p>
                 <p>
                   The <a href="https://www.ato.gov.au/individuals-and-families/your-tax-return/penalties-and-interest/failure-to-lodge-on-time-penalty" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO's failure-to-lodge penalty</a> is one penalty unit per 28-day period for small businesses (currently <strong>$330 per period</strong> for 2024–25), and can escalate significantly depending on the size of the debt and how long the non-compliance continues. Under the <a href="https://www.ato.gov.au/individuals-and-families/your-tax-return/penalties-and-interest/tax-shortfall-penalties" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">ATO's tax shortfall penalty framework</a>, intentional disregard of GST obligations can attract penalties of up to <strong>75% of the shortfall amount</strong>.
@@ -304,7 +304,7 @@ export default function BlogPostGST() {
                 <ul>
                   <li><strong>Time large purchases strategically</strong> to maximise GST claims in the right BAS period.</li>
                   <li><strong>Regularly review GST arrangements</strong> to identify potential savings or improvements.</li>
-                  <li><strong>Check if any of your offerings are GST-free</strong> — for example, certain education courses or food items — to optimise your GST position.</li>
+                  <li><strong>Check if any of your offerings are GST-free</strong> (for example, certain education courses or food items) to optimise your GST position.</li>
                   <li><strong>Consider cash accounting</strong> if eligible, to better manage cash flow around GST payments.</li>
                 </ul>
 
@@ -326,9 +326,9 @@ export default function BlogPostGST() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small business owners navigate tax, compliance and financial strategy. If you have questions about GST registration or any aspect of your business finances, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small business owners navigate tax, compliance and financial strategy. If you have questions about GST registration or any aspect of your business finances, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>

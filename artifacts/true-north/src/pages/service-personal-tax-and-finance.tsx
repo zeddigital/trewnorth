@@ -12,7 +12,7 @@ import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
 import { BookConsultation } from '@/components/book-consultation';
 
 const features = [
-  { icon: MessageCircle, title: 'Unlimited Support',    body: "When you need us we're here. You're not alone — call us anytime for personal tax advice and guidance." },
+  { icon: MessageCircle, title: 'Unlimited Support',    body: "When you need us we're here. You're not alone. Call us anytime for personal tax advice and guidance." },
   { icon: UserCheck,     title: 'Dedicated Accountant', body: 'We speak in plain language with a clear process and helpful resources to make tax as painless as possible.' },
   { icon: Layers,        title: 'All in One Place',     body: 'Combining bookkeeping, accounting, and personal taxes increases efficiency and simplifies your financial life.' },
 ];
@@ -21,7 +21,7 @@ const keys = [
   {
     icon: ReceiptText,
     title: 'Understanding Income Tax and Tax Returns',
-    body: "Australia operates on a progressive tax system — the more you earn, the higher the percentage of tax you pay. It's crucial to understand your tax obligations, what bracket you fall into, and the importance of lodging your tax return accurately and on time. We ensure you claim all eligible deductions: work-related expenses, investment loan interest, and charitable donations — all of which can significantly reduce your taxable income.",
+    body: "Australia operates on a progressive tax system, the more you earn, the higher the percentage of tax you pay. It's crucial to understand your tax obligations, what bracket you fall into, and the importance of lodging your tax return accurately and on time. We ensure you claim all eligible deductions: work-related expenses, investment loan interest, and charitable donations. All of which can significantly reduce your taxable income.",
     checklist: [
       'Work-related expenses',
       'Interest on investment loans',
@@ -31,13 +31,13 @@ const keys = [
   {
     icon: PiggyBank,
     title: 'Superannuation and Retirement Planning',
-    body: "Superannuation is a critical aspect of personal finance in Australia. Understanding how your super works — including concessional and non-concessional contributions, investment options, and fees — is essential for building a secure retirement. Making additional voluntary contributions can offer significant tax advantages. We help you understand when and how to access your super and the tax implications of doing so.",
+    body: "Superannuation is a critical aspect of personal finance in Australia. Understanding how your super works (including concessional and non-concessional contributions, investment options, and fees) is essential for building a secure retirement. Making additional voluntary contributions can offer significant tax advantages. We help you understand when and how to access your super and the tax implications of doing so.",
     checklist: [],
   },
   {
     icon: CreditCard,
     title: 'Managing Debt and Credit Wisely',
-    body: "Debt management is a crucial aspect of personal finance. Whether it's a mortgage, credit card, or personal loan — understanding the interest rates, repayment terms, and potential tax implications is important. In Australia, interest on a home loan for your primary residence is not tax-deductible, but interest on loans for investment properties or business purposes may be. We help you manage debt wisely and consider consolidation options where appropriate.",
+    body: "Debt management is a crucial aspect of personal finance. Whether it's a mortgage, credit card, or personal loan, understanding the interest rates, repayment terms, and potential tax implications is important. In Australia, interest on a home loan for your primary residence is not tax-deductible, but interest on loans for investment properties or business purposes may be. We help you manage debt wisely and consider consolidation options where appropriate.",
     checklist: [],
   },
 ];
@@ -114,7 +114,7 @@ export default function ServicePersonalTaxAndFinance() {
                 Personal Tax<br />& Finance
               </h1>
               <p className="text-lg text-white/75 leading-relaxed mb-10">
-                We make personal tax and finance easy. With experienced accountants and a clear, jargon-free process — we handle your tax return, super, and financial planning so you don't have to.
+                We make personal tax and finance easy. With experienced accountants and a clear, jargon-free process, we handle your tax return, super, and financial planning so you don't have to.
               </p>
               <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">

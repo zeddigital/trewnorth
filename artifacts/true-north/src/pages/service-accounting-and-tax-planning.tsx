@@ -12,7 +12,7 @@ import { ServiceBreadcrumb } from '@/components/service-breadcrumb';
 import { BookConsultation } from '@/components/book-consultation';
 
 const features = [
-  { icon: MessageCircle, title: 'Unlimited Support',    body: 'When you need us we\'re here. You\'re not alone — call us anytime for guidance on any accounting or tax matter.' },
+  { icon: MessageCircle, title: 'Unlimited Support',    body: 'When you need us we\'re here. You\'re not alone. Call us anytime for guidance on any accounting or tax matter.' },
   { icon: UserCheck,     title: 'Dedicated Accountant', body: 'We speak in plain language and have a clear process. Helpful resources make accounting as painless as possible.' },
   { icon: Layers,        title: 'All in One Place',     body: 'We combine bookkeeping, accounting, and tax planning to increase efficiency and simplify your financial life.' },
 ];
@@ -20,7 +20,7 @@ const features = [
 const keys = [
   {
     title: 'Understanding the Tax System and Compliance Obligations',
-    body: "Australia has a complex tax system with income tax, GST, and FBT. It's crucial to understand the taxes that apply to your situation — whether you're an individual, sole trader, or business owner. Staying compliant with the ATO is essential: timely and accurate filing, correct income reporting, and detailed records.",
+    body: "Australia has a complex tax system with income tax, GST, and FBT. It's crucial to understand the taxes that apply to your situation, whether you're an individual, sole trader, or business owner. Staying compliant with the ATO is essential: timely and accurate filing, correct income reporting, and detailed records.",
   },
   {
     title: 'Maximising Tax Deductions and Credits',

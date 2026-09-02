@@ -19,24 +19,24 @@ const toc = [
   { id: 'h-your-payroll-tax-questions-answered', label: 'Your Payroll Tax Questions, Answered' },
 ];
 
-const htmlContent = `<p>If your business is growing, Victorian payroll tax is a threshold you will eventually cross. It is a state tax that applies once your total wages pass a set amount — and it is not a penalty for hiring. It is a sign your business has reached a certain scale.</p>
+const htmlContent = `<p>If your business is growing, Victorian payroll tax is a threshold you will eventually cross. It is a state tax that applies once your total wages pass a set amount, and it is not a penalty for hiring. It is a sign your business has reached a certain scale.</p>
 <p>Understanding how it works is the difference between a predictable line in your budget and an unwelcome assessment from the State Revenue Office.</p>
 
 <h2 id="h-what-victorian-payroll-tax-actually-is">What Victorian Payroll Tax Actually Is</h2>
 <figure><img src="/blog/victoria-payroll-tax-payroll-tax.jpg" alt="A gauge labelled &quot;Payroll tax zone&quot; with the needle entering the red section." width="2048" height="1152" /></figure>
-<p>Payroll tax is a <strong>self-assessed</strong> state tax administered by the Victorian State Revenue Office (SRO) — not the ATO. Self-assessed means the responsibility sits with you as the employer: you work out what you owe, you report it, and you pay it.</p>
+<p>Payroll tax is a <strong>self-assessed</strong> state tax administered by the Victorian State Revenue Office (SRO), not the ATO. Self-assessed means the responsibility sits with you as the employer: you work out what you owe, you report it, and you pay it.</p>
 <p>It is a direct cost to your business. It is not deducted from your employees and it never appears on their payslips.</p>
 <p>Because it is state-based, the rules differ in every state and territory. What applies in New South Wales or Queensland does not apply here. If you employ people in Victoria, the SRO's rules are the ones that matter.</p>
 
 <h3>Who Has to Pay</h3>
-<p>You have a Victorian payroll tax obligation if you pay wages to staff in Victoria and your total <strong>Australian</strong> wages exceed the annual threshold. Your head office location is irrelevant — if you have people working here, their wages count.</p>
+<p>You have a Victorian payroll tax obligation if you pay wages to staff in Victoria and your total <strong>Australian</strong> wages exceed the annual threshold. Your head office location is irrelevant, if you have people working here, their wages count.</p>
 <p>The trigger is your total wage bill, and "wages" is broader than most business owners expect:</p>
 <ul>
 <li><strong>Taxable wages</strong> include base salary, bonuses, commissions, allowances, superannuation contributions, fringe benefits, and payments to some contractors.</li>
 <li><strong>Grouping</strong> means that if you control more than one business, the SRO may combine their wages and assess them as a single entity against one threshold.</li>
 </ul>
 <blockquote>
-<p>Payroll tax is not a penalty for taking on staff. It applies once your business reaches a certain size, and it funds state services — hospitals, schools, emergency services and transport.</p>
+<p>Payroll tax is not a penalty for taking on staff. It applies once your business reaches a certain size, and it funds state services, hospitals, schools, emergency services and transport.</p>
 </blockquote>
 
 <h3>Why Getting It Right Matters</h3>
@@ -52,12 +52,12 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <p>These are the numbers your entire liability hangs on. Get them right and the rest is arithmetic.</p>
 
 <h3>The Tax-Free Threshold</h3>
-<p>The tax-free threshold is your annual allowance — the total Australian wages you can pay before Victorian payroll tax applies. Critically, <em>you only pay tax on the wages above the threshold</em>, not on your entire wage bill.</p>
+<p>The tax-free threshold is your annual allowance, the total Australian wages you can pay before Victorian payroll tax applies. Critically, <em>you only pay tax on the wages above the threshold</em>, not on your entire wage bill.</p>
 <ul>
 <li><strong>Annual threshold:</strong> <strong>$1,000,000</strong></li>
 <li><strong>Monthly threshold:</strong> <strong>$83,333</strong></li>
 </ul>
-<p>The threshold has risen substantially in recent years, which has taken a large number of smaller Victorian employers out of the system entirely. If you last checked this figure a few years ago, check it again — you may have more headroom than you think.</p>
+<p>The threshold has risen substantially in recent years, which has taken a large number of smaller Victorian employers out of the system entirely. If you last checked this figure a few years ago, check it again. You may have more headroom than you think.</p>
 <blockquote>
 <p><strong>Key takeaway:</strong> You do not pay payroll tax on your whole wage bill. Tax applies only to wages above the <strong>$1,000,000</strong> annual threshold.</p>
 </blockquote>
@@ -74,7 +74,7 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <h4>Metropolitan Employers</h4>
 <ul>
 <li><strong>Rate:</strong> 4.85%</li>
-<li><strong>Applies to:</strong> businesses whose employees are primarily based in greater Melbourne — including the bayside suburbs.</li>
+<li><strong>Applies to:</strong> businesses whose employees are primarily based in greater Melbourne, including the bayside suburbs.</li>
 </ul>
 
 <h4>Regional Employers</h4>
@@ -96,16 +96,16 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <li><strong>Monthly lodgement</strong> is the default. If your annual payroll tax liability exceeds <strong>$100,000</strong>, you lodge a return and pay by the 7th of the following month.</li>
 <li><strong>Annual lodgement</strong> applies if your annual liability is <strong>$100,000 or less</strong>. You lodge once a year instead.</li>
 </ul>
-<p>Qualifying for annual lodgement is worth knowing about. It improves cash flow — you hold your money longer — and removes eleven reporting events from your year.</p>
+<p>Qualifying for annual lodgement is worth knowing about. It improves cash flow, since you hold your money longer, and removes eleven reporting events from your year.</p>
 <blockquote>
 <p><strong>Worth remembering:</strong> If you are registered for monthly lodgement and owe nothing for a given month, you still have to lodge a nil return. Skipping it is a compliance breach in its own right.</p>
 </blockquote>
 
 <h2 id="h-grouping-rules-and-exemptions">Grouping Rules and Exemptions</h2>
-<p>Grouping and exemptions are where businesses most often get caught out — either by an unexpected assessment or by quietly overpaying for years.</p>
+<p>Grouping and exemptions are where businesses most often get caught out, either by an unexpected assessment or by quietly overpaying for years.</p>
 
 <h3>Grouping</h3>
-<p>Grouping exists to stop businesses splitting operations across entities to duck under the threshold. If the SRO considers businesses related — through common control, shared employees or tracing of interests — it combines their wages, and <strong>the group claims only one threshold between them</strong>.</p>
+<p>Grouping exists to stop businesses splitting operations across entities to duck under the threshold. If the SRO considers businesses related (through common control, shared employees or tracing of interests) it combines their wages, and <strong>the group claims only one threshold between them</strong>.</p>
 <p>Consider a director who owns two Melbourne cafés:</p>
 <ul>
 <li><strong>Café A wages:</strong> $600,000</li>
@@ -118,16 +118,16 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <figure><img src="/blog/victoria-payroll-tax-decision-path.jpg" alt="Flowchart showing the payroll tax lodgement decision path based on monthly wages and annual liability." width="1344" height="768" /></figure>
 <p>Certain payments can be excluded from your taxable wages. Coding these correctly in your payroll system is one of the simplest ways to avoid overpaying:</p>
 <ul>
-<li><strong>Paid parental leave</strong> — primary and secondary caregiver leave payments.</li>
-<li><strong>Volunteer and emergency services leave</strong> — including CFA and recognised emergency response.</li>
-<li><strong>Approved apprentice and trainee wages</strong> — where an approved training contract is in place.</li>
-<li><strong>Genuine redundancy payments</strong> — the tax-free component.</li>
-<li><strong>Some contractor payments</strong> — though the rules here are strict, and the SRO frequently deems contractors to be employees.</li>
+<li><strong>Paid parental leave:</strong> primary and secondary caregiver leave payments.</li>
+<li><strong>Volunteer and emergency services leave:</strong> including CFA and recognised emergency response.</li>
+<li><strong>Approved apprentice and trainee wages:</strong> where an approved training contract is in place.</li>
+<li><strong>Genuine redundancy payments:</strong> the tax-free component.</li>
+<li><strong>Some contractor payments:</strong> though the rules here are strict, and the SRO frequently deems contractors to be employees.</li>
 </ul>
 <p>If reducing your overall tax position is the goal, exemptions are only one lever. Our guide to <a href="/10-ways-to-reduce-your-business-tax-bill">10 ways to reduce your business tax bill</a> covers the others.</p>
 
 <h2 id="h-working-out-what-you-owe">Working Out What You Owe</h2>
-<p>The arithmetic is simpler than it looks. Take a Melbourne design studio — call it Metro Creatives — and work through both scenarios.</p>
+<p>The arithmetic is simpler than it looks. Take a Melbourne design studio, call it Metro Creatives, and work through both scenarios.</p>
 
 <h3>Example 1: A Monthly Calculation</h3>
 <p>Metro Creatives paid <strong>$120,000</strong> in total Australian wages in July, which is above the monthly threshold.</p>
@@ -158,26 +158,26 @@ const htmlContent = `<p>If your business is growing, Victorian payroll tax is a 
 <h2 id="h-your-payroll-tax-questions-answered">Your Payroll Tax Questions, Answered</h2>
 
 <h3>Do I pay payroll tax on contractors?</h3>
-<p>Sometimes — and this is where the largest unexpected assessments come from. Genuine independent contractors are generally exempt, but the SRO looks past the ABN and the invoice to the substance of the relationship:</p>
+<p>Sometimes, and this is where the largest unexpected assessments come from. Genuine independent contractors are generally exempt, but the SRO looks past the ABN and the invoice to the substance of the relationship:</p>
 <ul>
 <li><strong>Control:</strong> who decides how, where and when the work is done?</li>
 <li><strong>Tools and equipment:</strong> does the contractor supply their own, or use yours?</li>
 <li><strong>Commercial risk:</strong> who bears the cost of rectifying defective work?</li>
 </ul>
-<p>If a contractor is deemed an employee, every dollar paid to them becomes taxable wages — often retrospectively, with penalties and interest attached.</p>
+<p>If a contractor is deemed an employee, every dollar paid to them becomes taxable wages, often retrospectively, with penalties and interest attached.</p>
 
 <h3>What if my wages move above and below the threshold?</h3>
 <p>This is normal for seasonal businesses, and the system handles it. You may pay tax in your busy months and none in your quiet ones. The annual reconciliation settles the difference, and if your annual total finishes under <strong>$1,000,000</strong>, you are refunded everything you paid.</p>
 
 <h3>What are the penalties for getting it wrong?</h3>
-<p>Penalties are calculated as a percentage of the tax underpaid, and the rate depends on why the error occurred — an honest mistake is treated very differently from deliberate evasion. Interest is charged on top, running from the original due date.</p>
+<p>Penalties are calculated as a percentage of the tax underpaid, and the rate depends on why the error occurred. An honest mistake is treated very differently from deliberate evasion. Interest is charged on top, running from the original due date.</p>
 <p>The practical point: the cost of getting advice is almost always lower than the cost of a reassessment.</p>
 
 <h3>Where do I check the current figures?</h3>
 <p>Rates and thresholds are reviewed regularly. The <a href="https://www.sro.vic.gov.au/payroll-tax" target="_blank" rel="noopener noreferrer">State Revenue Office</a> publishes the current figures, and it is the only source worth relying on.</p>
 
 <hr>
-<p>Payroll tax is a milestone worth planning for rather than reacting to. If your wage bill is approaching $1,000,000, or you run multiple entities and are unsure whether grouping applies, that is the right moment to get advice — not after an assessment arrives.</p>
+<p>Payroll tax is a milestone worth planning for rather than reacting to. If your wage bill is approaching $1,000,000, or you run multiple entities and are unsure whether grouping applies, that is the right moment to get advice, not after an assessment arrives.</p>
 <p>Trew North Accounting works with growing Melbourne businesses on exactly this. See our <a href="/services/bookkeeping">bookkeeping</a> and <a href="/services/small-business-accountant">small business accounting</a> services, or <a href="/contact">get in touch</a> to talk it through.</p>`;
 
 const TITLE = 'Victorian Payroll Tax: A 2026 Guide for Melbourne Small Business';
@@ -280,7 +280,7 @@ export default function BlogPostVictoriaPayrollTax() {
                 <div className="bg-secondary text-secondary-foreground rounded-xl p-6">
                   <p className="font-semibold text-base mb-2">Talk to Darren directly</p>
                   <p className="text-sm text-secondary-foreground/75 mb-5 leading-relaxed">
-                    Get specific advice for your business — not generic answers.
+                    Get specific advice for your business, not generic answers.
                   </p>
                   <BookConsultation><Button size="sm" className="w-full btn-cta">
                       Book a Free Consultation

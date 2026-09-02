@@ -14,7 +14,7 @@ const features = [
   {
     icon: BookOpen,
     title: 'Accurate, Detailed Books Done For You',
-    body: 'We use Xero — a cloud-based application that is affordable, easy to use, and gives you real-time visibility over your business finances.',
+    body: 'We use Xero, a cloud-based application that is affordable, easy to use, and gives you real-time visibility over your business finances.',
   },
   {
     icon: DollarSign,
@@ -24,15 +24,15 @@ const features = [
   {
     icon: Calculator,
     title: 'Accounting for Everything',
-    body: "Whether you're a small business or an individual needing a personal accounting solution, we've got you covered — all in one place.",
+    body: "Whether you're a small business or an individual needing a personal accounting solution, we've got you covered, all in one place.",
   },
 ];
 
 const benefits = [
   { icon: Clock,       title: 'Save Time', body: 'Stop spending your evenings doing books. Hand them over and spend that time on your business and family.' },
-  { icon: CheckCircle2, title: 'Stay Compliant', body: 'Accurate BAS lodgement, GST reporting, and ATO compliance — handled on time, every time.' },
+  { icon: CheckCircle2, title: 'Stay Compliant', body: 'Accurate BAS lodgement, GST reporting, and ATO compliance, handled on time, every time.' },
   { icon: Shield,      title: 'Avoid Costly Errors', body: 'Bookkeeping mistakes cost money. Our accurate records keep you safe from ATO penalties and cash flow surprises.' },
-  { icon: FileText,    title: 'Better Decisions', body: 'Clean books give you real numbers to make informed decisions about your business — pricing, hiring, investing.' },
+  { icon: FileText,    title: 'Better Decisions', body: 'Clean books give you real numbers to make informed decisions about your business, pricing, hiring, investing.' },
 ];
 
 const steps = [
@@ -95,7 +95,7 @@ export default function ServiceBookkeeping() {
                 Monthly<br />Bookkeeping
               </h1>
               <p className="text-lg text-white/75 leading-relaxed mb-10">
-                Get your books organised. Accuracy guaranteed. Let's face it — when you get home after a long day at work, doing your books is the last thing on your mind. Let us handle it all.
+                Get your books organised. Accuracy guaranteed. Let's face it, when you get home after a long day at work, doing your books is the last thing on your mind. Let us handle it all.
               </p>
               <div className="flex flex-col gap-6 sm:flex-row sm:gap-4">
                 <BookConsultation><Button size="lg" className="text-base btn-cta">
@@ -179,10 +179,10 @@ export default function ServiceBookkeeping() {
       <section className="py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif font-semibold text-3xl sm:text-4xl text-secondary mb-4">
-            We Use Xero — Australia's #1 Small Business Accounting Software
+            We Use Xero, Australia's #1 Small Business Accounting Software
           </h2>
           <p className="text-secondary/75 leading-relaxed">
-            Cloud-based, real-time, and easy to use. We set you up, connect your bank feeds, and keep everything reconciled — so you always have accurate numbers when you need them.
+            Cloud-based, real-time, and easy to use. We set you up, connect your bank feeds, and keep everything reconciled, so you always have accurate numbers when you need them.
           </p>
         </div>
       </section>

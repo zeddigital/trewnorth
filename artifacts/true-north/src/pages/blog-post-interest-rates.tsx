@@ -28,7 +28,7 @@ const toc = [
 const interestRatesFaqs = [
   {
     question: 'How do rising interest rates directly affect small business loans?',
-    answer: 'Variable-rate business loans reprice automatically when the RBA raises the cash rate — meaning your monthly repayments increase without any action required by the lender. A 1% rate rise on a $200,000 variable business loan adds approximately $2,000 per year in interest costs. Fixed-rate loans are unaffected until the fixed term expires.',
+    answer: 'Variable-rate business loans reprice automatically when the RBA raises the cash rate, meaning your monthly repayments increase without any action required by the lender. A 1% rate rise on a $200,000 variable business loan adds approximately $2,000 per year in interest costs. Fixed-rate loans are unaffected until the fixed term expires.',
   },
   {
     question: 'Should I fix my variable-rate business loan when rates are high?',
@@ -60,7 +60,7 @@ export default function BlogPostInterestRates() {
         schema={[
           blogPostingSchema({
             title: 'The Impact of Rising Interest Rates on Small Businesses: How to Prepare and Adapt',
-            description: "Rising interest rates are reshaping the financial landscape for Australian small businesses. Here's what it means for your cash flow, loans, and growth — and what you can do about it.",
+            description: "Rising interest rates are reshaping the financial landscape for Australian small businesses. Here's what it means for your cash flow, loans, and growth, and what you can do about it.",
             url: '/the-impact-of-rising-interest-rates-on-small-businesses',
             datePublished: '2025-06-26',
             readingTime: 'PT9M',
@@ -101,7 +101,7 @@ export default function BlogPostInterestRates() {
             </h1>
 
             <p className="text-xl text-foreground/70 leading-relaxed mb-8">
-              Rising interest rates are reshaping the financial landscape for Australian small businesses. Here's what it means for your cash flow, loans, and growth — and what you can do about it.
+              Rising interest rates are reshaping the financial landscape for Australian small businesses. Here's what it means for your cash flow, loans, and growth, and what you can do about it.
             </p>
 
             <div className="flex flex-wrap items-center gap-5 text-sm text-foreground/55">
@@ -136,20 +136,20 @@ export default function BlogPostInterestRates() {
                 {/* Direct answer block */}
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-1">The short answer</p>
-                  <p><strong>Rising interest rates increase borrowing costs, reduce consumer spending, and squeeze cash flow — often simultaneously. The RBA delivered 13 rate increases between May 2022 and November 2023, raising the cash rate from a historic low of 0.1% to 4.35%. The core strategies: audit your existing debt, build a 2–3 month cash reserve, and run a rolling cash flow forecast.</strong></p>
+                  <p><strong>Rising interest rates increase borrowing costs, reduce consumer spending, and squeeze cash flow, often simultaneously. The RBA delivered 13 rate increases between May 2022 and November 2023, raising the cash rate from a historic low of 0.1% to 4.35%. The core strategies: audit your existing debt, build a 2–3 month cash reserve, and run a rolling cash flow forecast.</strong></p>
                   <p className="text-xs text-foreground/60 mt-2">Source: <a href="https://www.rba.gov.au/monetary-policy/cash-rate/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">RBA cash rate decisions</a></p>
                 </div>
 
                 <p>
-                  Rising interest rates have become a defining challenge for small business owners across Australia. After years of historically low borrowing costs, rate hikes have made it more expensive to finance operations, service existing loans, and invest in growth. These changes can significantly affect cash flow, debt management, and overall financial health — making it essential to understand and prepare.
+                  Rising interest rates have become a defining challenge for small business owners across Australia. After years of historically low borrowing costs, rate hikes have made it more expensive to finance operations, service existing loans, and invest in growth. These changes can significantly affect cash flow, debt management, and overall financial health, making it essential to understand and prepare.
                 </p>
 
                 <h2 id="introduction">Introduction to Rising Interest Rates</h2>
                 <p>
-                  When the Reserve Bank of Australia (RBA) raises the cash rate to control inflation, the effects ripple through to business loans, credit lines, and mortgages. Between May 2022 and November 2023, the <a href="https://www.rba.gov.au/monetary-policy/cash-rate/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">RBA delivered 13 rate increases</a>, lifting the cash rate from a historic low of 0.1% to 4.35% — the steepest tightening cycle in over three decades. For small businesses, which often operate on tighter margins than large corporations, even a modest rate increase can translate into materially higher monthly repayments and reduced access to credit.
+                  When the Reserve Bank of Australia (RBA) raises the cash rate to control inflation, the effects ripple through to business loans, credit lines, and mortgages. Between May 2022 and November 2023, the <a href="https://www.rba.gov.au/monetary-policy/cash-rate/" className="text-primary hover:underline" target="_blank" rel="noopener noreferrer">RBA delivered 13 rate increases</a>, lifting the cash rate from a historic low of 0.1% to 4.35%, the steepest tightening cycle in over three decades. For small businesses, which often operate on tighter margins than large corporations, even a modest rate increase can translate into materially higher monthly repayments and reduced access to credit.
                 </p>
                 <p>
-                  By recognising these challenges early, small business owners can take proactive steps to adapt and safeguard their financial health — rather than reacting under pressure when cash gets tight.
+                  By recognising these challenges early, small business owners can take proactive steps to adapt and safeguard their financial health, rather than reacting under pressure when cash gets tight.
                 </p>
 
                 <h2 id="effects">Effects of Rising Interest Rates on Small Businesses</h2>
@@ -159,7 +159,7 @@ export default function BlogPostInterestRates() {
 
                 <h2 id="borrowing-costs">Higher Borrowing Costs</h2>
                 <p>
-                  The most direct impact of rising rates is on the cost of debt. If your business has a variable-rate loan — whether a business line of credit, equipment finance, or a commercial mortgage — your repayments will increase as rates rise.
+                  The most direct impact of rising rates is on the cost of debt. If your business has a variable-rate loan (whether a business line of credit, equipment finance, or a commercial mortgage) your repayments will increase as rates rise.
                 </p>
                 <div className="callout">
                   <p className="font-semibold text-foreground mb-2">What this means in practice:</p>
@@ -173,10 +173,10 @@ export default function BlogPostInterestRates() {
 
                 <h2 id="consumer-spending">Reduced Consumer Spending</h2>
                 <p>
-                  Rising rates don't just affect your borrowing costs — they also affect your customers. When households face higher mortgage repayments and credit costs, they typically reduce discretionary spending. For small businesses in retail, hospitality, trades, and services, this can translate directly into softer revenue.
+                  Rising rates don't just affect your borrowing costs, they also affect your customers. When households face higher mortgage repayments and credit costs, they typically reduce discretionary spending. For small businesses in retail, hospitality, trades, and services, this can translate directly into softer revenue.
                 </p>
                 <p>
-                  This dual pressure — higher costs on one side and weaker demand on the other — is why interest rate environments are particularly challenging for small operators.
+                  This dual pressure, higher costs on one side and weaker demand on the other, is why interest rate environments are particularly challenging for small operators.
                 </p>
 
                 <h2 id="cash-flow">Cash Flow Challenges</h2>
@@ -200,7 +200,7 @@ export default function BlogPostInterestRates() {
 
                 <h2 id="refinancing">Refinancing Options</h2>
                 <p>
-                  Refinancing existing loans can be a valuable strategy when interest rates rise. If you locked in a low fixed rate previously, you may not need to act — but if you're on a variable rate, exploring fixed-rate options or consolidating multiple debts into a single facility could reduce your total interest burden.
+                  Refinancing existing loans can be a valuable strategy when interest rates rise. If you locked in a low fixed rate previously, you may not need to act, but if you're on a variable rate, exploring fixed-rate options or consolidating multiple debts into a single facility could reduce your total interest burden.
                 </p>
                 <p>
                   Always compare the total cost (including break fees, establishment fees, and the new rate) before refinancing. A broker or accountant can help you model the numbers.
@@ -213,8 +213,8 @@ export default function BlogPostInterestRates() {
                 <ul>
                   <li>Subscriptions and software licences you're not fully using</li>
                   <li>Supplier contracts where renegotiation is possible</li>
-                  <li>Energy costs — consider reviewing tariffs or investing in efficiency</li>
-                  <li>Staffing arrangements — not cutting headcount, but optimising rostering and workflows</li>
+                  <li>Energy costs, consider reviewing tariffs or investing in efficiency</li>
+                  <li>Staffing arrangements, not cutting headcount, but optimising rostering and workflows</li>
                 </ul>
 
                 <h2 id="diversifying">Diversifying Revenue Streams</h2>
@@ -224,7 +224,7 @@ export default function BlogPostInterestRates() {
 
                 <h2 id="government-support">Government Support and Grants</h2>
                 <p>
-                  Australian small businesses have access to a range of government support programs that can help offset the financial pressure of rising rates. State and federal grants, low-interest loan schemes, and advisory programs are available — particularly for businesses investing in innovation, digital transformation, or export growth.
+                  Australian small businesses have access to a range of government support programs that can help offset the financial pressure of rising rates. State and federal grants, low-interest loan schemes, and advisory programs are available, particularly for businesses investing in innovation, digital transformation, or export growth.
                 </p>
                 <p>
                   Check Business Victoria, the Australian Business Register, and the ATO's small business support pages regularly for current programs.
@@ -273,9 +273,9 @@ export default function BlogPostInterestRates() {
                       <User className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <p className="font-semibold text-foreground">Darren Trew — Director, Trew North Accounting</p>
+                      <p className="font-semibold text-foreground">Darren Trew, Director, Trew North Accounting</p>
                       <p className="text-foreground/65 text-sm leading-relaxed mt-1">
-                        Darren is a Chartered Accountant with over 25 years' experience helping Melbourne small business owners navigate tax, compliance and financial strategy. If you'd like help reviewing your loan structure or cash flow position, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
+                        Darren is a Chartered Accountant with over 40 years' experience helping Melbourne small business owners navigate tax, compliance and financial strategy. If you'd like help reviewing your loan structure or cash flow position, <Link href="/contact" className="text-primary hover:underline">get in touch</Link>.
                       </p>
                     </div>
                   </div>
