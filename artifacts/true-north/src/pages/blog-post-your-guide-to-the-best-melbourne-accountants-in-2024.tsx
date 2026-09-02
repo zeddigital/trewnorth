@@ -41,11 +41,11 @@ const htmlContent = `<p>When it comes to managing your finances in Melbourne, fi
 <li>
 <p>The firm’s deep understanding of the local economy and business context</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Melbourne accountants are equipped with an in-depth knowledge of the state-specific needs, which means they can provide strategic services tailored to your unique requirements</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Whether you’re an ambitious startup or an established enterprise, local accountants in Melbourne can offer the right advice and services that resonate with your business goals.</p>
 </li>
@@ -66,15 +66,15 @@ const htmlContent = `<p>When it comes to managing your finances in Melbourne, fi
 <li>
 <p>Payroll processing</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Strategic business performance analyses</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Superannuation management services</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Financial planning advice</p>
 </li>
@@ -95,7 +95,7 @@ const htmlContent = `<p>When it comes to managing your finances in Melbourne, fi
 					<h3>Advanced Tax Strategies for Growth</h3>				
 		<p>Melbourne accountants provide advanced tax strategies, including those related to capital gains tax, to help businesses reduce tax liabilities and elevate profit margins. These strategies involve in-depth financial analyses to pinpoint tax-saving opportunities, ensuring clients can legally leverage deductions, credits, and exemptions to minimise tax burdens.</p>		
 		<p>By engaging taxation services, businesses can ensure that they are not only compliant with tax laws but also strategically positioned to optimize their financial outcomes.</p>
-<p><!-- /wp:paragraph --><!-- wp:spacer {"height":"50px"} --></p>		
+<p></p>		
 					<h2 id="h-the-role-of-technology-in-modern-accounting-servic">The Role of Technology in Modern Accounting Services</h2>				
 															<img width="1792" height="1024" src="/blog/accounting-technology.webp" alt="Melbourne Accountants" />															
 		<p>Technology plays a crucial role in modern accounting services. Melbourne firms are integrating new technologies to deliver personalized tax strategies, streamline business activity statements, and provide digital bookkeeping solutions. For example, they provide <a href="https://www.myob.com/au" target="_blank" rel="noopener noreferrer">MYOB</a> &amp; Quicken software installations and ensure clients are trained to use these tools efficiently.</p>		
@@ -104,50 +104,50 @@ const htmlContent = `<p>When it comes to managing your finances in Melbourne, fi
 <li>
 <p>Automating tasks and minimizing manual errors, promoting accuracy in financial reporting</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Real-time recording of financial transactions, aiding in the streamlined collection of data for reporting purposes</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Cloud-based accounting programs like <a href="https://www.xero.com/au/" target="_blank" rel="noopener noreferrer">Xero</a>, which allow for improved client-accountant collaboration and access to financial reports from any location with internet.</p>
 </li>
-<!-- /wp:list-item --></ul>
-<p><!-- /wp:list --><!-- wp:spacer {"height":"40px"} --></p>		
+</ul>
+<p></p>		
 					<h3>Streamlining Business Activity Statements</h3>				
 		<p>Technology has become fundamental in assisting with the preparation and accuracy of Business Activity Statements (BAS) for GST-registered companies. Businesses use technology to:</p>		
 		<ul>
 <li>
 <p>Monitor financial transactions</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Automate data entry</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Generate reports</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Calculate GST liabilities</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Submit BAS electronically</p>
 </li>
 </ul>
-<p><!-- /wp:paragraph --><!-- wp:spacer {"height":"50px"} --></p><p>These processes are crucial for the preparation of BAS and help businesses save time and ensure accuracy.</p>		
+<p></p><p>These processes are crucial for the preparation of BAS and help businesses save time and ensure accuracy.</p>		
 		<p>The use of technology facilitates:</p>		
 		<ul>
 <li>
 <p>The accurate and timely calculation of GST and other tax liabilities</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Streamlined technology-driven procedures that ensure the reliable preparation of accounting documents</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>Minimizing errors and enhancing business efficiency</p>
 </li>
@@ -163,27 +163,27 @@ const htmlContent = `<p>When it comes to managing your finances in Melbourne, fi
 <li>
 <p>qualifications</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>professional affiliations</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>areas of expertise</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>client base</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>fee structure</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>account management</p>
 </li>
-<!-- /wp:list-item --><!-- wp:list-item -->
+
 <li>
 <p>processes for document submission and complaint handling</p>
 </li>

@@ -26,7 +26,16 @@ _Populate as you build — short repo map plus pointers to the source-of-truth f
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- **GA4 is hostname-guarded.** The inline gtag loader in `artifacts/true-north/index.html`
+  only fires on `tnaccounting.com.au` and `www.`. Cloudflare gives every build a
+  `pages.dev` preview URL; without the guard, each preview deploy and every check
+  anyone makes on one lands in GA4 as real traffic.
+- **The favicon is `tna-fav.png`, not `logo.svg`.** The SVG is the full horizontal
+  wordmark and letterboxes to nothing at tab size.
+- **`index.html` carries a default title and description** that react-helmet-async
+  overrides per page. They are the fallback, not the homepage's real tags.
+- **Nothing in the shipped page source is a note to a developer.** Rationale goes
+  here or in the `.tsx` files, both of which stay out of the build output.
 
 ## Product
 
@@ -34,11 +43,29 @@ _Describe the high-level user-facing capabilities of this app once they exist._
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- **No em dashes anywhere in site copy.** Proper punctuation instead: a colon, a
+  full stop, a comma or parentheses depending on the job the dash was doing.
+- **One blog post published per day**, dated sequentially.
+- **Blog posts live at the root** (`/slug`), never `/blog/slug`, matching the
+  WordPress URLs they replaced. `public/_redirects` holds the 301s.
+- **Darren has 40 years' experience.** Every claim on the site says 40.
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- **Publishing a post takes four registrations**, not one: `pages/blog.tsx`,
+  `App.tsx` (lazy), `entry-server.tsx` (static, this is what prerenders), and the
+  route manifest in `scripts/prerender.mjs` (which also drives `sitemap.xml`).
+  Miss `entry-server.tsx` and the page 404s as a static file.
+- **Pages Functions live in `/functions` at the repo root**, next to the build
+  output, not inside it.
+- **`public/_redirects` must stay enumerated.** A `/blog/*` wildcard would swallow
+  the `/blog/*.webp` images the posts still reference.
+- **Image scripts must run from the repo root** or `sharp` fails to resolve.
+  House sizes: 800x450 cards, 1400x788 featured and body, webp.
+- **Email HTML is tables and cell padding only.** Margins on tables and
+  `display:inline-block` padding are both unreliable across clients.
+- **Some posts were migrated from WordPress** as raw HTML. Check new content for
+  Gutenberg `<!-- wp: -->` block markers; they render as comments in page source.
 
 ## Pointers
 
