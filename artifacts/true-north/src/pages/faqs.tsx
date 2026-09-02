@@ -111,7 +111,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <div className="border-b border-border last:border-0">
       <button
-        className="w-full flex items-start justify-between gap-4 py-6 text-left group"
+        className="w-full flex items-start justify-between gap-4 py-6 text-left group cursor-pointer"
         onClick={() => setOpen(!open)}
       >
         <span className="font-medium text-foreground group-hover:text-primary transition-colors leading-snug">

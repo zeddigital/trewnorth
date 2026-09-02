@@ -72,7 +72,7 @@ function FAQItem({ question, answer }: { question: string; answer: string }) {
   return (
     <div className="border-b border-border last:border-0">
       <button
-        className="w-full flex items-start justify-between gap-4 py-5 text-left group"
+        className="w-full flex items-start justify-between gap-4 py-5 text-left group cursor-pointer"
         onClick={() => setOpen(!open)}
         aria-expanded={open}
       >
