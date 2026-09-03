@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/difference-between-bookkeeping-and-accounting',
+    image: '/blog/difference-between-bookkeeping-and-accounting.webp',
+    category: 'Bookkeeping',
+    title: 'The Difference Between Bookkeeping and Accounting',
+    excerpt: 'Bookkeeping records what happened; accounting works out what it means. What each role does, the line Australian law draws between them, and which one your business needs now.',
+    date: '3 September 2026',
+    internal: true,
+  },
+  {
     href: '/what-is-a-chart-of-accounts',
     image: '/blog/what-is-a-chart-of-accounts.webp',
     category: 'Bookkeeping',

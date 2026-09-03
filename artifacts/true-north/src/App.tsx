@@ -53,6 +53,7 @@ const BlogPostWhatIsPayrolling = lazy(() => import('@/pages/blog-post-what-is-pa
 const BlogPostWhatIsAProfitAndLossStatement = lazy(() => import('@/pages/blog-post-what-is-a-profit-and-loss-statement'));
 const BlogPostTaxWriteOffForDonations = lazy(() => import('@/pages/blog-post-tax-write-off-for-donations'));
 const BlogPostWhatIsAChartOfAccounts = lazy(() => import('@/pages/blog-post-what-is-a-chart-of-accounts'));
+const BlogPostDifferenceBetweenBookkeepingAndAccounting = lazy(() => import('@/pages/blog-post-difference-between-bookkeeping-and-accounting'));
 const BlogPostDiscretionaryTrustVsFamilyTrust = lazy(() => import('@/pages/blog-post-discretionary-trust-vs-family-trust'));
 const BlogPostInvestmentPropertyTaxDeductions = lazy(() => import('@/pages/blog-post-investment-property-tax-deductions-australia'));
 const BlogPostHowToSalarySacrificeSuper = lazy(() => import('@/pages/blog-post-how-to-salary-sacrifice-super'));
@@ -84,7 +85,6 @@ const BlogPostDraftSmsfInvestmentStrategies = lazy(() => import('@/pages/blog-po
 const BlogPostDraftWhatIsAProfitAndLossStatement = lazy(() => import('@/pages/blog-post-draft-what-is-a-profit-and-loss-statement'));
 const BlogPostDraftWhatIsCloudAccounting = lazy(() => import('@/pages/blog-post-draft-what-is-cloud-accounting'));
 const BlogPostDraftHowToCalculatePayrollTaxes = lazy(() => import('@/pages/blog-post-draft-how-to-calculate-payroll-taxes'));
-const BlogPostDraftDifferenceBetweenBookkeepingAndAccounting = lazy(() => import('@/pages/blog-post-draft-difference-between-bookkeeping-and-accounting'));
 const BlogPostDraftHowToUseXeroSoftware = lazy(() => import('@/pages/blog-post-draft-how-to-use-xero-software'));
 const BlogPostDraftLogbookMethodAto = lazy(() => import('@/pages/blog-post-draft-logbook-method-ato'));
 const BlogPostDraftNonCommercialLossesRules = lazy(() => import('@/pages/blog-post-draft-non-commercial-losses-rules'));
@@ -202,6 +202,7 @@ function Router() {
         <Route path="/victoria-payroll-tax" component={BlogPostVictoriaPayrollTax} />
         <Route path="/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
         <Route path="/what-is-a-chart-of-accounts" component={BlogPostWhatIsAChartOfAccounts} />
+        <Route path="/difference-between-bookkeeping-and-accounting" component={BlogPostDifferenceBetweenBookkeepingAndAccounting} />
         <Route path="/tax-write-off-for-donations" component={BlogPostTaxWriteOffForDonations} />
         <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
         <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
@@ -239,7 +240,6 @@ function Router() {
         <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostDraftWhatIsAProfitAndLossStatement} />
         <Route path="/what-is-cloud-accounting" component={BlogPostDraftWhatIsCloudAccounting} />
         <Route path="/how-to-calculate-payroll-taxes" component={BlogPostDraftHowToCalculatePayrollTaxes} />
-        <Route path="/difference-between-bookkeeping-and-accounting" component={BlogPostDraftDifferenceBetweenBookkeepingAndAccounting} />
         <Route path="/how-to-use-xero-software" component={BlogPostDraftHowToUseXeroSoftware} />
         <Route path="/logbook-method-ato" component={BlogPostDraftLogbookMethodAto} />
         <Route path="/non-commercial-losses-rules" component={BlogPostDraftNonCommercialLossesRules} />
