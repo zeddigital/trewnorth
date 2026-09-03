@@ -106,7 +106,7 @@ export default function ServiceAreas() {
                 whileInView="visible"
                 viewport={{ once: true, margin: '-60px' }}
               >
-                <Link href={`/accountant-in-${suburb.slug}`} className="group flex h-full flex-col rounded-2xl overflow-hidden border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg bg-card">
+                <Link href={`/services/accountant-in-${suburb.slug}`} className="group flex h-full flex-col rounded-2xl overflow-hidden border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg bg-card">
                   {/* Image */}
                   <div className="relative h-52 shrink-0 overflow-hidden">
                     <img

@@ -86,7 +86,7 @@ export default function Suburbs() {
                 viewport={{ once: true, margin: '-60px' }}
               >
                 <Link
-                  href={`/accountant-in-${suburb.slug}`}
+                  href={`/services/accountant-in-${suburb.slug}`}
                   className="group flex h-full flex-col rounded-2xl overflow-hidden border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg bg-card"
                 >
                   {/* Image */}

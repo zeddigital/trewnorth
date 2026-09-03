@@ -103,20 +103,20 @@ export default function SuburbPage({
       <SEOHead
         title={seoTitle}
         description={seoDescription}
-        canonical={`/accountant-in-${slug}`}
+        canonical={`/services/accountant-in-${slug}`}
         ogImage={heroImage}
         schema={[
           localBusinessSchemaForSuburb(suburb),
           serviceSchema({
             name: `Accounting Services in ${suburb}`,
             description: seoDescription,
-            url: `/accountant-in-${slug}`,
+            url: `/services/accountant-in-${slug}`,
             areaServed: { '@type': 'City', name: suburb },
           }),
           breadcrumbSchema([
             { name: 'Home', url: '/' },
             { name: 'Suburbs', url: '/suburbs' },
-            { name: suburb, url: `/accountant-in-${slug}` },
+            { name: suburb, url: `/services/accountant-in-${slug}` },
           ]),
         ]}
       />

@@ -36,3 +36,16 @@
 /blog/what-is-management-accounting  /what-is-management-accounting  301
 /blog/what-is-payrolling  /what-is-payrolling  301
 /blog/your-guide-to-the-best-melbourne-accountants-in-2024  /your-guide-to-the-best-melbourne-accountants-in-2024  301
+
+# Suburb pages live under /services/ to match the URLs the WordPress site
+# served. These 301s cover the root-level paths this site briefly used.
+
+/accountant-in-brighton  /services/accountant-in-brighton  301
+/accountant-in-cheltenham  /services/accountant-in-cheltenham  301
+/accountant-in-moorabbin  /services/accountant-in-moorabbin  301
+/accountant-in-bentleigh  /services/accountant-in-bentleigh  301
+/accountant-in-mordialloc  /services/accountant-in-mordialloc  301
+/accountant-in-parkdale  /services/accountant-in-parkdale  301
+/accountant-in-braeside  /services/accountant-in-braeside  301
+/accountant-in-sandringham  /services/accountant-in-sandringham  301
+/accountant-in-mentone  /services/accountant-in-mentone  301

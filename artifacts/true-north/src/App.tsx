@@ -153,16 +153,16 @@ function Router() {
         <Route path="/services/bookkeeping" component={ServiceBookkeeping} />
         <Route path="/services/self-managed-super-funds" component={ServiceSelfManagedSuperFunds} />
         <Route path="/services/personal-tax-and-finance" component={ServicePersonalTaxAndFinance} />
+        <Route path="/services/accountant-in-mordialloc" component={SuburbMordialloc} />
+        <Route path="/services/accountant-in-cheltenham" component={SuburbCheltenham} />
+        <Route path="/services/accountant-in-brighton" component={SuburbBrighton} />
+        <Route path="/services/accountant-in-moorabbin" component={SuburbMoorabbin} />
+        <Route path="/services/accountant-in-bentleigh" component={SuburbBentleigh} />
+        <Route path="/services/accountant-in-braeside" component={SuburbBraeside} />
+        <Route path="/services/accountant-in-parkdale" component={SuburbParkdale} />
+        <Route path="/services/accountant-in-sandringham" component={SuburbSandringham} />
+        <Route path="/services/accountant-in-mentone" component={SuburbMentone} />
         <Route path="/services/:slug" component={ServiceDetail} />
-        <Route path="/accountant-in-mordialloc" component={SuburbMordialloc} />
-        <Route path="/accountant-in-cheltenham" component={SuburbCheltenham} />
-        <Route path="/accountant-in-brighton" component={SuburbBrighton} />
-        <Route path="/accountant-in-moorabbin" component={SuburbMoorabbin} />
-        <Route path="/accountant-in-bentleigh" component={SuburbBentleigh} />
-        <Route path="/accountant-in-braeside" component={SuburbBraeside} />
-        <Route path="/accountant-in-parkdale" component={SuburbParkdale} />
-        <Route path="/accountant-in-sandringham" component={SuburbSandringham} />
-        <Route path="/accountant-in-mentone" component={SuburbMentone} />
         <Route path="/service-areas" component={ServiceAreas} />
         <Route path="/suburbs" component={Suburbs} />
         <Route path="/terms-conditions" component={TermsConditions} />
