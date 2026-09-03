@@ -133,6 +133,7 @@ const SuburbBentleigh = lazy(() => import('@/pages/suburb-bentleigh'));
 const SuburbBraeside = lazy(() => import('@/pages/suburb-braeside'));
 const SuburbParkdale = lazy(() => import('@/pages/suburb-parkdale'));
 const SuburbSandringham = lazy(() => import('@/pages/suburb-sandringham'));
+const SuburbMentone = lazy(() => import('@/pages/suburb-mentone'));
 const ServiceAreas = lazy(() => import('@/pages/service-areas'));
 const Suburbs = lazy(() => import('@/pages/suburbs'));
 
@@ -161,6 +162,7 @@ function Router() {
         <Route path="/accountant-in-braeside" component={SuburbBraeside} />
         <Route path="/accountant-in-parkdale" component={SuburbParkdale} />
         <Route path="/accountant-in-sandringham" component={SuburbSandringham} />
+        <Route path="/accountant-in-mentone" component={SuburbMentone} />
         <Route path="/service-areas" component={ServiceAreas} />
         <Route path="/suburbs" component={Suburbs} />
         <Route path="/terms-conditions" component={TermsConditions} />

@@ -53,6 +53,7 @@ const routes = [
   { path: '/accountant-in-parkdale',                                   changefreq: 'monthly', priority: '0.8' },
   { path: '/accountant-in-braeside',                                   changefreq: 'monthly', priority: '0.8' },
   { path: '/accountant-in-sandringham',                                changefreq: 'monthly', priority: '0.8' },
+  { path: '/accountant-in-mentone',                                    changefreq: 'monthly', priority: '0.8' },
 
   // ─── Blog ───────────────────────────────────────────────────────────────
   { path: '/blog',                                                     changefreq: 'weekly',  priority: '0.8' },

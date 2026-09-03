@@ -61,6 +61,7 @@ import SuburbMordialloc from '@/pages/suburb-mordialloc';
 import SuburbParkdale from '@/pages/suburb-parkdale';
 import SuburbBraeside from '@/pages/suburb-braeside';
 import SuburbSandringham from '@/pages/suburb-sandringham';
+import SuburbMentone from '@/pages/suburb-mentone';
 import ServiceAreas from '@/pages/service-areas';
 import PrivacyPolicy from '@/pages/privacy-policy';
 import TermsConditions from '@/pages/terms-conditions';
@@ -186,6 +187,7 @@ export function render(path: string): {
           <Route path="/accountant-in-parkdale" component={SuburbParkdale} />
           <Route path="/accountant-in-braeside" component={SuburbBraeside} />
           <Route path="/accountant-in-sandringham" component={SuburbSandringham} />
+          <Route path="/accountant-in-mentone" component={SuburbMentone} />
           <Route path="/service-areas" component={ServiceAreas} />
 
           <Route path="/privacy-policy" component={PrivacyPolicy} />

@@ -63,4 +63,11 @@ export const suburbs: Suburb[] = [
     tagline: 'Elegant bayside village',
     description: "Tax planning, SMSF advisory, and personal accounting for Sandringham's professionals, investors, and families.",
   },
+  {
+    name: 'Mentone',
+    slug: 'mentone',
+    heroImage: '/hero-mentone.jpg',
+    tagline: 'Beachside township',
+    description: "Small business accounting, tax returns, and SMSF support for Mentone's traders, professionals, and families.",
+  },
 ];
