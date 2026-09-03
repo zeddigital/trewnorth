@@ -82,7 +82,6 @@ const BlogPostDraftPayrollTaxVictoria = lazy(() => import('@/pages/blog-post-dra
 const BlogPostDraftHowToSetUpAFamilyTrust = lazy(() => import('@/pages/blog-post-draft-how-to-set-up-a-family-trust'));
 const BlogPostDraftBookkeepingForBusiness = lazy(() => import('@/pages/blog-post-draft-bookkeeping-for-business'));
 const BlogPostDraftSmsfInvestmentStrategies = lazy(() => import('@/pages/blog-post-draft-smsf-investment-strategies'));
-const BlogPostDraftWhatIsAProfitAndLossStatement = lazy(() => import('@/pages/blog-post-draft-what-is-a-profit-and-loss-statement'));
 const BlogPostDraftWhatIsCloudAccounting = lazy(() => import('@/pages/blog-post-draft-what-is-cloud-accounting'));
 const BlogPostDraftHowToCalculatePayrollTaxes = lazy(() => import('@/pages/blog-post-draft-how-to-calculate-payroll-taxes'));
 const BlogPostDraftHowToUseXeroSoftware = lazy(() => import('@/pages/blog-post-draft-how-to-use-xero-software'));
@@ -98,7 +97,6 @@ const BlogPostDraftLogBookForTax = lazy(() => import('@/pages/blog-post-draft-lo
 const BlogPostDraftReportableSuperContributions = lazy(() => import('@/pages/blog-post-draft-reportable-super-contributions'));
 const BlogPostDraftHowMuchCanYouSalarySacrificeToSuper = lazy(() => import('@/pages/blog-post-draft-how-much-can-you-salary-sacrifice-to-super'));
 const BlogPostDraftTaxDeductionsForSmallBusiness = lazy(() => import('@/pages/blog-post-draft-tax-deductions-for-small-business'));
-const BlogPostDraftWhatIsAChartOfAccounts = lazy(() => import('@/pages/blog-post-draft-what-is-a-chart-of-accounts'));
 const BlogPostDraftWhatIsAChartOfAccounts2 = lazy(() => import('@/pages/blog-post-draft-what-is-a-chart-of-accounts-2'));
 const BlogPostDraftSmallBusinessTaxClaims = lazy(() => import('@/pages/blog-post-draft-small-business-tax-claims'));
 const BlogPostDraftHowDoesAFamilyTrustWork = lazy(() => import('@/pages/blog-post-draft-how-does-a-family-trust-work'));
@@ -110,17 +108,9 @@ const BlogPostDraftHowToDoDepreciation = lazy(() => import('@/pages/blog-post-dr
 const BlogPostDraftSmsfCommercialPropertyLoan = lazy(() => import('@/pages/blog-post-draft-smsf-commercial-property-loan'));
 const BlogPostDraftWhatIsNegativeGearingInAustralia = lazy(() => import('@/pages/blog-post-draft-what-is-negative-gearing-in-australia'));
 const BlogPostDraftAssetsThatDepreciate = lazy(() => import('@/pages/blog-post-draft-assets-that-depreciate'));
-const BlogPostDraftSetUpSuperFund = lazy(() => import('@/pages/blog-post-draft-set-up-super-fund'));
-const BlogPostDraftWhatIsPayrolling = lazy(() => import('@/pages/blog-post-draft-what-is-payrolling'));
-const BlogPostDraftTaxWriteOffForDonations = lazy(() => import('@/pages/blog-post-draft-tax-write-off-for-donations'));
-const BlogPostDraftWhatIsManagementAccounting = lazy(() => import('@/pages/blog-post-draft-what-is-management-accounting'));
-const BlogPostDraftHowToReadABalanceSheet = lazy(() => import('@/pages/blog-post-draft-how-to-read-a-balance-sheet'));
-const BlogPostDraftWhatIsBreakEvenAnalysis = lazy(() => import('@/pages/blog-post-draft-what-is-break-even-analysis'));
-const BlogPostDraftVictoriaPayrollTax = lazy(() => import('@/pages/blog-post-draft-victoria-payroll-tax'));
 const BlogPostDraftHowDoTrustsWork = lazy(() => import('@/pages/blog-post-draft-how-do-trusts-work'));
 const BlogPostDraftWhatIsReportableFringeBenefits = lazy(() => import('@/pages/blog-post-draft-what-is-reportable-fringe-benefits'));
 const BlogPostDraftYourSpousesReportableSuperannuationContributions = lazy(() => import('@/pages/blog-post-draft-your-spouses-reportable-superannuation-contributions'));
-const BlogPostDraftAgentNominationAto = lazy(() => import('@/pages/blog-post-draft-agent-nomination-ato'));
 const BlogPostDraftCashFlowForecastTemplate = lazy(() => import('@/pages/blog-post-draft-cash-flow-forecast-template'));
 
 // Legal pages
@@ -237,7 +227,6 @@ function Router() {
         <Route path="/how-to-set-up-a-family-trust" component={BlogPostDraftHowToSetUpAFamilyTrust} />
         <Route path="/bookkeeping-for-business" component={BlogPostDraftBookkeepingForBusiness} />
         <Route path="/smsf-investment-strategies" component={BlogPostDraftSmsfInvestmentStrategies} />
-        <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostDraftWhatIsAProfitAndLossStatement} />
         <Route path="/what-is-cloud-accounting" component={BlogPostDraftWhatIsCloudAccounting} />
         <Route path="/how-to-calculate-payroll-taxes" component={BlogPostDraftHowToCalculatePayrollTaxes} />
         <Route path="/how-to-use-xero-software" component={BlogPostDraftHowToUseXeroSoftware} />
@@ -253,7 +242,6 @@ function Router() {
         <Route path="/reportable-super-contributions" component={BlogPostDraftReportableSuperContributions} />
         <Route path="/how-much-can-you-salary-sacrifice-to-super" component={BlogPostDraftHowMuchCanYouSalarySacrificeToSuper} />
         <Route path="/tax-deductions-for-small-business" component={BlogPostDraftTaxDeductionsForSmallBusiness} />
-        <Route path="/what-is-a-chart-of-accounts" component={BlogPostDraftWhatIsAChartOfAccounts} />
         <Route path="/what-is-a-chart-of-accounts-2" component={BlogPostDraftWhatIsAChartOfAccounts2} />
         <Route path="/small-business-tax-claims" component={BlogPostDraftSmallBusinessTaxClaims} />
         <Route path="/how-does-a-family-trust-work" component={BlogPostDraftHowDoesAFamilyTrustWork} />
@@ -265,17 +253,9 @@ function Router() {
         <Route path="/smsf-commercial-property-loan" component={BlogPostDraftSmsfCommercialPropertyLoan} />
         <Route path="/what-is-negative-gearing-in-australia" component={BlogPostDraftWhatIsNegativeGearingInAustralia} />
         <Route path="/assets-that-depreciate" component={BlogPostDraftAssetsThatDepreciate} />
-        <Route path="/set-up-super-fund" component={BlogPostDraftSetUpSuperFund} />
-        <Route path="/what-is-payrolling" component={BlogPostDraftWhatIsPayrolling} />
-        <Route path="/tax-write-off-for-donations" component={BlogPostDraftTaxWriteOffForDonations} />
-        <Route path="/what-is-management-accounting" component={BlogPostDraftWhatIsManagementAccounting} />
-        <Route path="/how-to-read-a-balance-sheet" component={BlogPostDraftHowToReadABalanceSheet} />
-        <Route path="/what-is-break-even-analysis" component={BlogPostDraftWhatIsBreakEvenAnalysis} />
-        <Route path="/victoria-payroll-tax" component={BlogPostDraftVictoriaPayrollTax} />
         <Route path="/how-do-trusts-work" component={BlogPostDraftHowDoTrustsWork} />
         <Route path="/what-is-reportable-fringe-benefits" component={BlogPostDraftWhatIsReportableFringeBenefits} />
         <Route path="/your-spouses-reportable-superannuation-contributions" component={BlogPostDraftYourSpousesReportableSuperannuationContributions} />
-        <Route path="/agent-nomination-ato" component={BlogPostDraftAgentNominationAto} />
         <Route path="/cash-flow-forecast-template" component={BlogPostDraftCashFlowForecastTemplate} />
         <Route component={NotFound} />
       </Switch>
