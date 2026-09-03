@@ -95,19 +95,20 @@ export default function ServiceAreas() {
       {/* Suburb grid */}
       <section className="bg-background py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:auto-rows-fr gap-8">
             {suburbs.map((suburb, i) => (
               <motion.div
                 key={suburb.slug}
                 custom={i}
                 variants={cardVariants}
+                className="h-full"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, margin: '-60px' }}
               >
-                <Link href={`/accountant-in-${suburb.slug}`} className="group block rounded-2xl overflow-hidden border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg bg-card">
+                <Link href={`/accountant-in-${suburb.slug}`} className="group flex h-full flex-col rounded-2xl overflow-hidden border border-border hover:border-primary/40 transition-all duration-300 hover:shadow-lg bg-card">
                   {/* Image */}
-                  <div className="relative h-52 overflow-hidden">
+                  <div className="relative h-52 shrink-0 overflow-hidden">
                     <img
                       src={suburb.heroImage}
                       alt={`Accountant in ${suburb.name}`}
@@ -122,14 +123,14 @@ export default function ServiceAreas() {
                   </div>
 
                   {/* Content */}
-                  <div className="p-6">
+                  <div className="flex flex-1 flex-col p-6">
                     <h2 className="font-serif text-2xl font-bold text-foreground mb-2">
                       Accountant in {suburb.name}
                     </h2>
                     <p className="text-muted-foreground text-sm leading-relaxed mb-5">
                       {suburb.description}
                     </p>
-                    <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary group-hover:gap-2.5 transition-all duration-200">
+                    <span className="mt-auto inline-flex items-center gap-1.5 text-sm font-medium text-primary group-hover:gap-2.5 transition-all duration-200">
                       Learn more <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
                     </span>
                   </div>
