@@ -69,7 +69,7 @@ const testimonials = [
     role: "Business Client",
   },
   {
-    quote: "I have had the pleasure of dealing with Darren for 10 years for all my tax requirements. When it comes to taxation advice, I choose to deal with someone who has over 25 years in the business. Knowledge is everything. Thank you, Darren, for years of professional support.",
+    quote: "I have had the pleasure of dealing with Darren for 10 years for all my tax requirements. When it comes to taxation advice, I choose to deal with someone who has over 40 years in the business. Knowledge is everything. Thank you, Darren, for years of professional support.",
     author: "Joshua Freney",
     role: "10-Year Client",
   },
