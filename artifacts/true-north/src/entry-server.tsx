@@ -52,6 +52,7 @@ import BlogPostWhatIsAProfitAndLossStatement from '@/pages/blog-post-what-is-a-p
 import BlogPostTaxWriteOffForDonations from '@/pages/blog-post-tax-write-off-for-donations';
 import BlogPostWhatIsAChartOfAccounts from '@/pages/blog-post-what-is-a-chart-of-accounts';
 import BlogPostDifferenceBetweenBookkeepingAndAccounting from '@/pages/blog-post-difference-between-bookkeeping-and-accounting';
+import BlogPostLogbookMethodAto from '@/pages/blog-post-logbook-method-ato';
 import Suburbs from '@/pages/suburbs';
 import SuburbBrighton from '@/pages/suburb-brighton';
 import SuburbCheltenham from '@/pages/suburb-cheltenham';
@@ -160,6 +161,7 @@ export function render(path: string): {
           />
           <Route path="/what-is-a-chart-of-accounts" component={BlogPostWhatIsAChartOfAccounts} />
           <Route path="/difference-between-bookkeeping-and-accounting" component={BlogPostDifferenceBetweenBookkeepingAndAccounting} />
+          <Route path="/logbook-method-ato" component={BlogPostLogbookMethodAto} />
           <Route path="/tax-write-off-for-donations" component={BlogPostTaxWriteOffForDonations} />
           <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
           <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />

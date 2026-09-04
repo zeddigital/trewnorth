@@ -54,6 +54,7 @@ const BlogPostWhatIsAProfitAndLossStatement = lazy(() => import('@/pages/blog-po
 const BlogPostTaxWriteOffForDonations = lazy(() => import('@/pages/blog-post-tax-write-off-for-donations'));
 const BlogPostWhatIsAChartOfAccounts = lazy(() => import('@/pages/blog-post-what-is-a-chart-of-accounts'));
 const BlogPostDifferenceBetweenBookkeepingAndAccounting = lazy(() => import('@/pages/blog-post-difference-between-bookkeeping-and-accounting'));
+const BlogPostLogbookMethodAto = lazy(() => import('@/pages/blog-post-logbook-method-ato'));
 const BlogPostDiscretionaryTrustVsFamilyTrust = lazy(() => import('@/pages/blog-post-discretionary-trust-vs-family-trust'));
 const BlogPostInvestmentPropertyTaxDeductions = lazy(() => import('@/pages/blog-post-investment-property-tax-deductions-australia'));
 const BlogPostHowToSalarySacrificeSuper = lazy(() => import('@/pages/blog-post-how-to-salary-sacrifice-super'));
@@ -85,7 +86,6 @@ const BlogPostDraftSmsfInvestmentStrategies = lazy(() => import('@/pages/blog-po
 const BlogPostDraftWhatIsCloudAccounting = lazy(() => import('@/pages/blog-post-draft-what-is-cloud-accounting'));
 const BlogPostDraftHowToCalculatePayrollTaxes = lazy(() => import('@/pages/blog-post-draft-how-to-calculate-payroll-taxes'));
 const BlogPostDraftHowToUseXeroSoftware = lazy(() => import('@/pages/blog-post-draft-how-to-use-xero-software'));
-const BlogPostDraftLogbookMethodAto = lazy(() => import('@/pages/blog-post-draft-logbook-method-ato'));
 const BlogPostDraftNonCommercialLossesRules = lazy(() => import('@/pages/blog-post-draft-non-commercial-losses-rules'));
 const BlogPostDraftReportableSuperannuationContributions = lazy(() => import('@/pages/blog-post-draft-reportable-superannuation-contributions'));
 const BlogPostDraftWhatIsDiscretionaryTrust = lazy(() => import('@/pages/blog-post-draft-what-is-discretionary-trust'));
@@ -195,6 +195,7 @@ function Router() {
         <Route path="/how-to-read-a-balance-sheet" component={BlogPostHowToReadABalanceSheet} />
         <Route path="/what-is-a-chart-of-accounts" component={BlogPostWhatIsAChartOfAccounts} />
         <Route path="/difference-between-bookkeeping-and-accounting" component={BlogPostDifferenceBetweenBookkeepingAndAccounting} />
+        <Route path="/logbook-method-ato" component={BlogPostLogbookMethodAto} />
         <Route path="/tax-write-off-for-donations" component={BlogPostTaxWriteOffForDonations} />
         <Route path="/what-is-a-profit-and-loss-statement" component={BlogPostWhatIsAProfitAndLossStatement} />
         <Route path="/what-is-payrolling" component={BlogPostWhatIsPayrolling} />
@@ -232,7 +233,6 @@ function Router() {
         <Route path="/what-is-cloud-accounting" component={BlogPostDraftWhatIsCloudAccounting} />
         <Route path="/how-to-calculate-payroll-taxes" component={BlogPostDraftHowToCalculatePayrollTaxes} />
         <Route path="/how-to-use-xero-software" component={BlogPostDraftHowToUseXeroSoftware} />
-        <Route path="/logbook-method-ato" component={BlogPostDraftLogbookMethodAto} />
         <Route path="/non-commercial-losses-rules" component={BlogPostDraftNonCommercialLossesRules} />
         <Route path="/reportable-superannuation-contributions" component={BlogPostDraftReportableSuperannuationContributions} />
         <Route path="/what-is-discretionary-trust" component={BlogPostDraftWhatIsDiscretionaryTrust} />

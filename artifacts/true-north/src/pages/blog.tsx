@@ -21,6 +21,15 @@ type Post = {
 const posts: Post[] = [
   // ── 2026 ──
   {
+    href: '/logbook-method-ato',
+    image: '/blog/logbook-method-ato.webp',
+    category: 'Tax',
+    title: 'The ATO Logbook Method: A Guide for Australian Business',
+    excerpt: 'Twelve weeks of records set your car deduction for five years. How the method works, which vehicles it covers, why the commute is not a business trip, and where claims fall over.',
+    date: '4 September 2026',
+    internal: true,
+  },
+  {
     href: '/difference-between-bookkeeping-and-accounting',
     image: '/blog/difference-between-bookkeeping-and-accounting.webp',
     category: 'Bookkeeping',
